@@ -61,7 +61,7 @@ Done when: a docs-only PR runs only the gate jobs and `ci-ok` is green. The user
 
 Status: in-progress
 Branch: ccr-3d9b833b-bc5ofy
-PR: —
+PR: #1
 
 ### T01 · App scaffold
 Lane: 0 · Approval: none · Size: M
