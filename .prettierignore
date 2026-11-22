@@ -1,0 +1,9 @@
+dist
+dev-dist
+coverage
+playwright-report
+test-results
+pnpm-lock.yaml
+public/audio
+# Markdown is hand-formatted (docs/TASKS.md layout is conflict-sensitive)
+*.md
