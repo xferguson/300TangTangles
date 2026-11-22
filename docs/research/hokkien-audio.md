@@ -123,3 +123,19 @@ This session's network allowed web search but not direct page fetches. So the fa
 - Taigi AI Labs TTS: https://learn-language.tokyo/zh-TW/taiwanese-taigi-tts-launch · https://ai-taiwan.com.tw/2026/vendor/660
 - ATEN AI Voice: https://www.aivoice.com.tw/
 - NUTN-KWS Whisper-Taiwanese: https://huggingface.co/NUTN-KWS/Whisper-Taiwanese-model-v0.5
+
+## Addendum (2026-11-22): both reading layers
+
+The user decided that Hokkien should offer **both modern reading layers**, with a setting to choose:
+
+- **文讀 literary** (`nan-lit`): how Tang poems are recited in Taiwan today, e.g. 月 goa̍t, 光 kong.
+- **白讀 everyday** (`nan-col`): the colloquial layer, e.g. 月 gue̍h, 光 kng, 頭 thâu.
+
+Reconstructed Middle Chinese (the actual Tang-era sound) is noted in PLAN §8 as a future idea and is not part of T43.
+
+What changes for T43:
+
+1. Content (T10) carries Tâi-lô for both layers. Where a char has no separate everyday form, the 白讀 equals the 文讀. Check both against the MOE dictionary's `[文]`/`[白]` marks.
+2. The bake-off scores **both layers**, with the same pass bar of all syllables correct and MOS ≥ 3.5. Tâi-lô input is still required for 文讀. For 白讀, an engine that reads Han characters may pass on its default readings, which may let BreezyVoice-Taigi qualify for that layer even without Tâi-lô input.
+3. An engine may pass for one layer only. In that case, ship that layer and show "coming soon" for the other.
+4. Audio goes to `public/audio/nan-lit/<poem>/` and `public/audio/nan-col/<poem>/`. That doubles the Hokkien clip count, which matters for the human-recording fallback's cost.

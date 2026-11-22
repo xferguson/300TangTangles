@@ -5,7 +5,7 @@
 # PART 1 — Product design
 
 ## 0. Context
-The goal is a beautiful, Tang-dynasty-styled, Wordle-inspired app that takes a learner from "never seen this poem" to "can recite it from memory" through a ladder of levels. We prototype with one poem, Li Bai's 《靜夜思》, but the data model and level engine are generic so every catalog poem plugs in. Audio comes in Mandarin, then Cantonese, then Taiwanese Hokkien, each as its own task.
+The goal is a beautiful, Tang-dynasty-styled, Wordle-inspired app that takes a learner from "never seen this poem" to "can recite it from memory" through a ladder of levels. We prototype with one poem, Li Bai's 《靜夜思》, but the data model and level engine are generic so every catalog poem plugs in. Audio comes in Mandarin, then Cantonese, then Taiwanese Hokkien, each as its own task. All three use **modern** pronunciations; Hokkien offers both its literary (文讀) and everyday (白讀) layers.
 
 **Decisions made:** mobile-first web app (PWA), Traditional script by default with a Simplified toggle, cloud TTS audio generated at build time, browser speech recognition with a self-grade fallback, 4-color Tangle feedback in Tang pigments, limited attempts where failure sends the line back to review, romanization that matches the audio language (Mandarin defaults to **bopomofo**, with a pinyin setting), and progress stored on-device only with export/import.
 
@@ -16,7 +16,7 @@ The goal is a beautiful, Tang-dynasty-styled, Wordle-inspired app that takes a l
 床前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。
 
 Each poem is a JSON file (`content/poems/jingyesi.json`) containing:
-- `lines[]`: chars (Traditional + Simplified), per-char readings (zhuyin, pinyin, Jyutping, Tâi-lô **文讀 literary reading**), line gloss, literal and poetic translation.
+- `lines[]`: chars (Traditional + Simplified), per-char readings (zhuyin, pinyin, Jyutping, and Tâi-lô in two layers: **文讀 literary** and **白讀 everyday**; the 白讀 equals the 文讀 where a char has no separate everyday form), line gloss, literal and poetic translation.
 - `units[]`: learnable vocabulary. The **base unit is the character**; **compounds** sit on top (明月, 地上, 舉頭, 低頭, 故鄉). Both are tracked separately.
 - `notes[]`: "Scholar's notes", such as the 床 debate (bed / well-railing 井欄 / folding stool 胡床), the Song-era variant 床前**看**月光…舉頭望**山**月 and how the Ming text became canonical, the 光/霜/鄉 rhyme, and the 平仄 pattern.
 - `meta`: poet, form, char count, curriculum flags, familiarity score, scene/theme id.
@@ -88,7 +88,8 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 `scripts/gen-audio.ts` reads the poem JSON and writes `public/audio/{lang}/{poem}/{full|line-n|char-x}.{normal|slow}.mp3`. It runs offline with an API key and the output is committed as static files.
 1. **Mandarin** (zh-TW or zh-CN neural voice; SSML phoneme hints force readings).
 2. **Cantonese** (zh-HK neural voice; literary readings checked against Jyutping).
-3. **Hokkien**: a research task first. Evaluate Taiwan academic or open TTS, MOE dictionary syllable audio, and human recording, all with 文讀 readings. It is dismissed only after that evaluation. Until then the UI shows "coming soon."
+3. **Hokkien**: a research task first (T42, done: see [`research/hokkien-audio.md`](research/hokkien-audio.md)). Clips are made for **both reading layers**, 文讀 (`nan-lit`, how poems are recited in Taiwan today) and 白讀 (`nan-col`, everyday speech), and a setting picks which one the learner hears and sees. Until clips exist the UI shows "coming soon."
+- **Future idea, not yet a task:** a fourth, *historical* reading, reconstructed Middle Chinese (roughly Tang-era pronunciation), so a learner could memorize a poem in the old sound and then in a modern language. There's no off-the-shelf TTS for it, so it would start with a research task like T42.
 - Vendor choice (Azure has zh-CN, zh-TW, and zh-HK) is confirmed when we start the task. The user supplies the key at that point.
 
 ## 9. Speech recognition
@@ -157,7 +158,7 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - **T02 Core contracts:** Zod poem schema + inferred types; types for `UnitId`, `UnitStatus`, `LexiconEntry`, `Exercise` (discriminated union), `ExerciseResult`, `LineMastery {recognition, production, meaning, recitation}`, `EngineState`, `Settings`; the `nextExercise(state) → Exercise` signature; fixture poem for tests.
 
 **Lane A: Content**
-- T10 靜夜思 content JSON: Trad/Simp text, zhuyin/pinyin/Jyutping/Tâi-lô (文讀), glosses, literal + poetic translations, notes, distractor seeds. Expert review. *(dep T02)*
+- T10 靜夜思 content JSON: Trad/Simp text, zhuyin/pinyin/Jyutping/Tâi-lô (文讀 + 白讀), glosses, literal + poetic translations, notes, distractor seeds. Expert review. *(dep T02)*
 - T11 Catalog scoring script + curriculum/frequency source data, and 3–5 stub catalog entries. *(dep T02)*
 
 **Lane B: Design & UI kit**
@@ -186,7 +187,7 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - T54 TangleRow board + bank coloring + share grid. *(dep T21, T31)*
 - T55 **Session flow:** Continue button, engine-driven sequence, fading scroll, rank/seal moments. *(dep T34, T51, T52, T53, T54)*
 - T56 Recite exercise (line + full poem). *(dep T32, T44, T52)*
-- T57 Settings (script, zhuyin/pinyin, audio language, theme) + backup screen. *(dep T21, T30)*
+- T57 Settings (script, zhuyin/pinyin, audio language, Hokkien reading layer 文讀/白讀, theme) + backup screen. *(dep T21, T30)*
 - T58 Audio player integration + PWA offline caching of audio. *(dep T40, T21)*
 - T60 **E2E playthrough** 童生→狀元 via Continue only, plus visual polish pass. *(dep T55, T56, T58)*
 

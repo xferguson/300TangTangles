@@ -30,7 +30,7 @@ Read [`docs/PLAN.md`](docs/PLAN.md) for the product design and architecture. Rea
 - TypeScript `strict`; no `any` without a comment explaining why. ESLint + Prettier must pass.
 - **Domain logic is pure:** `src/core`, `src/lexicon`, `src/engine`, `src/tangle`, `src/speech/grade` must not import React or touch the DOM. UI talks to domain code only through the types in `src/core/types.ts`.
 - `src/core/types.ts` and the poem Zod schema are **contracts**. Change them only in a dedicated small PR, and note which tasks it affects.
-- Poem content lives in `content/poems/*.json` and must validate against the schema. Readings for classical poems use **literary readings (文讀)**.
+- Poem content lives in `content/poems/*.json` and must validate against the schema. Readings are **modern** pronunciations. Hokkien Tâi-lô is stored in both layers: **文讀 literary** and **白讀 everyday**.
 - Tests sit next to the code (`*.test.ts(x)`); e2e tests go in `e2e/`. Run Playwright with `--trace off` unless debugging.
 - Secrets (TTS API keys) come only from local env. Never commit them, and never use them in CI. Generated audio is committed under `public/audio/`.
 
