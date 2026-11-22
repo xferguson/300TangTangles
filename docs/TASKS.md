@@ -71,9 +71,9 @@ Unblocks: T02, T21
 Goal: Vite + React 19 + TS strict app, using pnpm (`packageManager` field set), ESLint + Prettier, Vitest + Testing Library, Playwright (phone viewport), and a `vite-plugin-pwa` stub. Folder skeleton from PLAN §E1. **GitHub Pages:** Vite `base: '/300TangTangles/'`, PWA `scope`/`start_url` under that base, and hash-based or base-aware routing so deep links work.
 Done when: these package scripts exist and pass in CI: `lint`, `typecheck`, `test`, `validate:content` (may be a no-op until T02), `build`, `e2e`. There is one red→green component test and one Playwright smoke test of the app shell (run against `vite preview` with the Pages base path). After merge, the Pages deploy serves the app shell.
 
-Status: in-progress
+Status: done
 Branch: ccr-ec62b64b-9ixhoz
-PR: —
+PR: #3
 
 ### T02 · Core contracts
 Lane: 0 · Approval: none · Size: M
