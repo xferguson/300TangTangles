@@ -127,6 +127,7 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - Docs-only PRs run **nothing except** the cheap `ci-ok` gate (seconds).
 - `approval-gate`: fails if PR has `needs-approval` label.
 - `ci-ok`: single aggregator job (`if: always()`) that passes when all needed jobs succeeded or were skipped. **This is the only required status check**, which avoids the "skipped required check blocks merge" problem with `paths-ignore`.
+- **Deploy:** `.github/workflows/pages.yml` builds and publishes to GitHub Pages on every merge to `main` that isn't docs-only. It doesn't run on PRs, so it isn't a required check. Vite `base` is `/300TangTangles/`.
 - User one-time GitHub settings (listed in T00): protect `main` (require PR + `ci-ok`), enable auto-merge, enable squash merge, auto-delete branches.
 
 ## E4. Task-tracking document design (`docs/TASKS.md`)
