@@ -1,0 +1,101 @@
+name: CI
+
+# Single workflow with one required check: `ci-ok`.
+# Docs-only changes (*.md, docs/**) run only `changes`, `approval-gate` and `ci-ok`, which take seconds.
+# Code jobs also stay skipped until package.json exists (added by task T01).
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, labeled, unlabeled]
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      code: ${{ steps.filter.outputs.code }}
+      e2e: ${{ steps.filter.outputs.e2e }}
+      has_pkg: ${{ steps.pkg.outputs.has_pkg }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: pkg
+        run: echo "has_pkg=$([ -f package.json ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          predicate-quantifier: every
+          filters: |
+            code:
+              - '**'
+              - '!**/*.md'
+              - '!docs/**'
+            e2e:
+              - '{src,content,e2e,public}/**'
+              - '!public/audio/**'
+              - '!**/*.md'
+
+  approval-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Block merge while `needs-approval` label is present
+        if: contains(github.event.pull_request.labels.*.name, 'needs-approval')
+        run: |
+          echo "::error::This PR is labeled needs-approval. A human must review it and remove the label."
+          exit 1
+      - run: echo "No approval required."
+        if: "!contains(github.event.pull_request.labels.*.name, 'needs-approval')"
+
+  verify:
+    needs: changes
+    if: needs.changes.outputs.code == 'true' && needs.changes.outputs.has_pkg == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - run: pnpm test
+      - run: pnpm validate:content
+      - run: pnpm build
+
+  e2e:
+    needs: changes
+    if: needs.changes.outputs.e2e == 'true' && needs.changes.outputs.has_pkg == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm e2e
+
+  ci-ok:
+    if: always()
+    needs: [changes, approval-gate, verify, e2e]
+    runs-on: ubuntu-latest
+    steps:
+      - name: All required jobs passed or were skipped
+        run: |
+          echo '${{ toJSON(needs) }}'
+          if ${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}; then
+            echo "::error::One or more jobs failed."
+            exit 1
+          fi
