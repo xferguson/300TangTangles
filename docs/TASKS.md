@@ -60,7 +60,7 @@ Goal: `main` branch exists. CLAUDE.md, docs/PLAN.md, docs/TASKS.md, PR template,
 Also: `.github/workflows/pages.yml` deploys to GitHub Pages on every non-docs merge to `main` (placeholder page until T01).
 Done when: a docs-only PR runs only the gate jobs and `ci-ok` is green. The user has turned on the GitHub settings: Pages source = GitHub Actions, protect `main` (require PR + `ci-ok` check), allow auto-merge, squash merge, auto-delete head branches, and create the `needs-approval` label.
 
-Status: in-progress
+Status: done
 Branch: ccr-3d9b833b-bc5ofy
 PR: #1
 
