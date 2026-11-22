@@ -119,8 +119,8 @@ Unblocks: T21
 Goal: Tang visual design. Pigment tokens for light (宣紙) and dark (lacquer + gold) themes; fonts (LXGW WenKai / Noto Serif TC); bopomofo-right and pinyin-top ruby; CharTile states (new / learning 1–4 / known); Tangle tiles with glyphs (〇△◇✕); seal; the fading-scroll states; phone mock-ups of Library, Reading, Session (Continue), Tangle, and Result. Publish as an artifact or static HTML in `design/`.
 Done when: a human approves. The PR carries the `needs-approval` label.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: ccr-aa2835ff-f0gpn2
 PR: —
 
 ### T21 · Theme tokens & UI primitives
