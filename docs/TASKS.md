@@ -222,9 +222,9 @@ Unblocks: T43
 Goal: written report in `docs/research/hokkien-audio.md` evaluating Taiwanese TTS options (academic/open models, MOE dictionary syllable audio, human recording) for quality, 文讀 support, licensing, cost, and automation. Also covers Hokkien ASR feasibility.
 Done when: the report recommends a path or a reasoned deferral.
 
-Status: in-progress
+Status: done
 Branch: ccr-b3144b9f-uks39n
-PR: —
+PR: #2
 
 ### T43 · Audio: Hokkien implementation
 Lane: D · Approval: none · Size: M
