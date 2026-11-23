@@ -95,9 +95,9 @@ Unblocks: T50, T51
 Goal: `content/poems/jingyesi.json`: standard school text (Trad + Simp), per-char zhuyin, pinyin, Jyutping, and Tâi-lô in both layers (文讀 and 白讀, checked against the MOE dictionary's [文]/[白] marks); compounds 明月 地上 舉頭 低頭 故鄉; per-char and per-line glosses; literal and poetic translations; a "what the poet feels" meaning prompt for each line; scholar's notes (床 debate, Song variant, rhyme, 平仄); distractor seeds (看, 山, 雪, 卿…).
 Done when: `validate:content` passes. Readings are cross-checked against a dictionary and the sources are listed in the PR.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T10-jingyesi
+PR: #16
 
 ### T11 · Catalog scoring
 Lane: A · Approval: none · Size: M
@@ -106,9 +106,9 @@ Unblocks: —
 Goal: `scripts/score-poems.ts` computes familiarity from curriculum exposure, char frequency (mean + 25th percentile), and length, then assigns tiers and 1–5 ink drops. Source data files with their provenance. 3–5 stub catalog entries (metadata only), shown as "coming soon".
 Done when: unit tests (red/green) cover the scoring formula and tier assignment, and the catalog index is generated.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T11-catalog-scoring
+PR: #15
 
 ## Lane B · Design & UI kit
 
@@ -143,9 +143,9 @@ Unblocks: T34, T50, T51, T57
 Goal: global lexicon of unit statuses (new / learning 1–4 / known / ignored). `ts-fsrs` scheduling with mapping from review results to learning level; manual override; IndexedDB persistence (`idb-keyval`); versioned export/import JSON.
 Done when: tests cover status transitions, cross-poem sharing, persistence round-trip (fake-indexeddb), and import validation.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T30-lexicon-store
+PR: #13
 
 ### T31 · Tangle feedback algorithm
 Lane: C · Approval: none · Size: S
@@ -154,9 +154,9 @@ Unblocks: T54
 Goal: count-aware 4-state feedback (correct / in-line / other-line / absent) for a row guess against the poem; bank-tile color aggregation; attempt budget (6 per line), with an exhausted budget returning the line to review; share-grid string.
 Done when: unit tests cover duplicates (明月×2, 頭×2), other-line, distractors, and budget exhaustion.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T31-tangle-feedback
+PR: #10
 
 ### T32 · Recitation grader
 Lane: C · Approval: none · Size: S
@@ -165,9 +165,9 @@ Unblocks: T56
 Goal: align an ASR transcript to the target by reading (homophone tolerant) with Levenshtein; return a per-char diff and accuracy. Works for line and whole-poem input; ignores punctuation.
 Done when: unit tests cover exact match, homophone substitution, missing/extra chars, and per-language readings.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T32-recitation-grader
+PR: #12
 
 ### T33 · Distractor generator
 Lane: C · Approval: none · Size: S
@@ -176,9 +176,9 @@ Unblocks: T53
 Goal: pick look-alike, sound-alike, and meaning-alike distractors from content seeds plus other poems' chars, deterministic given a seed. Never returns a char that is valid in that position.
 Done when: unit tests cover determinism, exclusion rules, and difficulty levels.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T33-distractors
+PR: #11
 
 ### T34 · Session engine
 Lane: C · Approval: none · Size: L
@@ -200,9 +200,9 @@ Unblocks: T41, T43, T58
 Goal: no key, no generation step. `src/audio/` `AudioProvider` interface (`speak(text, lang, rate)`, `stop`, capability + voice listing) with a `BrowserSpeechProvider` on `speechSynthesis`, plus a mock provider for tests. Mandarin voice picked from the device's `zh-TW` / `zh-CN` voices. Playback of whole poem, one line, or one char, at normal and slow rate, with line-by-line sequencing and highlight callbacks. A clear "no voice installed" state.
 Done when: unit tests (red/green) use a fake `speechSynthesis` and cover voice selection and fallback, rate mapping, sequencing/cancel, and the no-voice state. Manual check on desktop Chrome plus one phone, noting which voices were found.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T40-audio-engine
+PR: #14
 
 ### T41 · Audio: Cantonese (browser voices)
 Lane: D · Approval: none · Size: S
@@ -244,9 +244,9 @@ Unblocks: T56
 Goal: `src/speech/` `SpeechInput` interface with a Web Speech API adapter (cmn zh-TW / zh-CN, yue zh-HK), a capability check, a record → playback → self-grade fallback, and a mock adapter for tests.
 Done when: tests cover capability detection, language mapping, and fallback selection using the mock.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T44-speech-input
+PR: #9
 
 ### T45 · Audio quality review & optional pre-generated clips
 Lane: D · Approval: none · Size: M

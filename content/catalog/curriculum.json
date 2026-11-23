@@ -1,0 +1,15 @@
+{
+  "provenance": {
+    "status": "seed",
+    "source": "Recollection of the PRC primary-school recommended poem lists. NOT checked against an official syllabus or textbook table of contents. Taiwan and Hong Kong lists are not yet entered, so every poem's exposure is currently capped at 1/3.",
+    "retrieved": "2026-11-23",
+    "licence": "Facts about which poems appear on public curricula; no text copied.",
+    "notes": "Grades may be wrong by a year or two. Poems with no entry are simply unknown, not 'absent from the curriculum'. To upgrade: add the Taiwan (MOE) and Hong Kong (EDB recommended passages) lists and verify the PRC grades, then set status to verified. Entry shape: poem id -> [{region: prc|tw|hk, grade: 1-12}]."
+  },
+  "entries": {
+    "jingyesi": [{ "region": "prc", "grade": 1 }],
+    "chunxiao": [{ "region": "prc", "grade": 1 }],
+    "denguanqueloujiu": [{ "region": "prc", "grade": 2 }],
+    "xiangsi": [{ "region": "prc", "grade": 2 }]
+  }
+}
