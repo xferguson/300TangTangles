@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "id": "qingming",
+  "title": {
+    "trad": "清明",
+    "simp": "清明"
+  },
+  "poet": {
+    "trad": "杜牧",
+    "simp": "杜牧",
+    "pinyin": "Dù Mù"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "清",
+          "simp": "清",
+          "readings": {
+            "zhuyin": "ㄑㄧㄥ",
+            "pinyin": "qīng",
+            "jyutping": "cing1",
+            "tailo": {
+              "lit": "tshing",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "明",
+          "simp": "明",
+          "readings": {
+            "zhuyin": "ㄇㄧㄥˊ",
+            "pinyin": "míng",
+            "jyutping": "ming4",
+            "tailo": {
+              "lit": "bîng",
+              "col": "bîn"
+            }
+          }
+        },
+        {
+          "trad": "時",
+          "simp": "时",
+          "readings": {
+            "zhuyin": "ㄕˊ",
+            "pinyin": "shí",
+            "jyutping": "si4",
+            "tailo": {
+              "lit": "sî",
+              "col": "sî"
+            }
+          }
+        },
+        {
+          "trad": "節",
+          "simp": "节",
+          "readings": {
+            "zhuyin": "ㄐㄧㄝˊ",
+            "pinyin": "jié",
+            "jyutping": "zit3",
+            "tailo": {
+              "lit": "tsiat",
+              "col": "tseh"
+            }
+          }
+        },
+        {
+          "trad": "雨",
+          "simp": "雨",
+          "readings": {
+            "zhuyin": "ㄩˇ",
+            "pinyin": "yǔ",
+            "jyutping": "jyu5",
+            "tailo": {
+              "lit": "ú",
+              "col": "hōo"
+            }
+          }
+        },
+        {
+          "trad": "紛",
+          "simp": "纷",
+          "readings": {
+            "zhuyin": "ㄈㄣ",
+            "pinyin": "fēn",
+            "jyutping": "fan1",
+            "tailo": {
+              "lit": "hun",
+              "col": "hun"
+            }
+          }
+        },
+        {
+          "trad": "紛",
+          "simp": "纷",
+          "readings": {
+            "zhuyin": "ㄈㄣ",
+            "pinyin": "fēn",
+            "jyutping": "fan1",
+            "tailo": {
+              "lit": "hun",
+              "col": "hun"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "At Qingming time the rain falls thick and fast",
+      "literal": "At the Qingming season the rain falls in a fine drizzle;",
+      "poetic": "It is Qingming, and the rain keeps falling and falling;",
+      "meaning": {
+        "feeling": "A hushed melancholy of the season",
+        "wrongFeelings": ["Delight in a holiday picnic", "Anger at the forecast"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "路",
+          "simp": "路",
+          "readings": {
+            "zhuyin": "ㄌㄨˋ",
+            "pinyin": "lù",
+            "jyutping": "lou6",
+            "tailo": {
+              "lit": "lōo",
+              "col": "lōo"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "行",
+          "simp": "行",
+          "readings": {
+            "zhuyin": "ㄒㄧㄥˊ",
+            "pinyin": "xíng",
+            "jyutping": "hong6",
+            "tailo": {
+              "lit": "hîng",
+              "col": "kiânn"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "欲",
+          "simp": "欲",
+          "readings": {
+            "zhuyin": "ㄩˋ",
+            "pinyin": "yù",
+            "jyutping": "juk6",
+            "tailo": {
+              "lit": "io̍k",
+              "col": "io̍k"
+            }
+          }
+        },
+        {
+          "trad": "斷",
+          "simp": "断",
+          "readings": {
+            "zhuyin": "ㄉㄨㄢˋ",
+            "pinyin": "duàn",
+            "jyutping": "dyun3",
+            "tailo": {
+              "lit": "tuān",
+              "col": "tn̄g"
+            }
+          }
+        },
+        {
+          "trad": "魂",
+          "simp": "魂",
+          "readings": {
+            "zhuyin": "ㄏㄨㄣˊ",
+            "pinyin": "hún",
+            "jyutping": "wan4",
+            "tailo": {
+              "lit": "hûn",
+              "col": "hûn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Travellers on the road feel their hearts break",
+      "literal": "travellers on the road are ready to lose their souls.",
+      "poetic": "travellers on the road feel their hearts break.",
+      "meaning": {
+        "feeling": "The deep desolation of a traveller",
+        "wrongFeelings": ["Excitement at reaching a destination", "Hunger for a feast"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "借",
+          "simp": "借",
+          "readings": {
+            "zhuyin": "ㄐㄧㄝˋ",
+            "pinyin": "jiè",
+            "jyutping": "ze3",
+            "tailo": {
+              "lit": "tsià",
+              "col": "tsio̍h"
+            }
+          }
+        },
+        {
+          "trad": "問",
+          "simp": "问",
+          "readings": {
+            "zhuyin": "ㄨㄣˋ",
+            "pinyin": "wèn",
+            "jyutping": "man6",
+            "tailo": {
+              "lit": "būn",
+              "col": "mn̄g"
+            }
+          }
+        },
+        {
+          "trad": "酒",
+          "simp": "酒",
+          "readings": {
+            "zhuyin": "ㄐㄧㄡˇ",
+            "pinyin": "jiǔ",
+            "jyutping": "zau2",
+            "tailo": {
+              "lit": "tsiú",
+              "col": "tsiú"
+            }
+          }
+        },
+        {
+          "trad": "家",
+          "simp": "家",
+          "readings": {
+            "zhuyin": "ㄐㄧㄚ",
+            "pinyin": "jiā",
+            "jyutping": "gaa1",
+            "tailo": {
+              "lit": "ka",
+              "col": "ke"
+            }
+          }
+        },
+        {
+          "trad": "何",
+          "simp": "何",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "ho4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        },
+        {
+          "trad": "有",
+          "simp": "有",
+          "readings": {
+            "zhuyin": "ㄧㄡˇ",
+            "pinyin": "yǒu",
+            "jyutping": "jau5",
+            "tailo": {
+              "lit": "iú",
+              "col": "ū"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "May I ask where there is a tavern?",
+      "literal": "May I ask where there is a tavern?",
+      "poetic": "\"Is there an inn anywhere near?\" I ask;",
+      "meaning": {
+        "feeling": "Weary hope for warmth and comfort",
+        "wrongFeelings": ["Intent to start a quarrel", "Eagerness to go to market"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "牧",
+          "simp": "牧",
+          "readings": {
+            "zhuyin": "ㄇㄨˋ",
+            "pinyin": "mù",
+            "jyutping": "muk6",
+            "tailo": {
+              "lit": "bo̍k",
+              "col": "bo̍k"
+            }
+          }
+        },
+        {
+          "trad": "童",
+          "simp": "童",
+          "readings": {
+            "zhuyin": "ㄊㄨㄥˊ",
+            "pinyin": "tóng",
+            "jyutping": "tung4",
+            "tailo": {
+              "lit": "tông",
+              "col": "tông"
+            }
+          }
+        },
+        {
+          "trad": "遙",
+          "simp": "遥",
+          "readings": {
+            "zhuyin": "ㄧㄠˊ",
+            "pinyin": "yáo",
+            "jyutping": "jiu4",
+            "tailo": {
+              "lit": "iâu",
+              "col": "iâu"
+            }
+          }
+        },
+        {
+          "trad": "指",
+          "simp": "指",
+          "readings": {
+            "zhuyin": "ㄓˇ",
+            "pinyin": "zhǐ",
+            "jyutping": "zi2",
+            "tailo": {
+              "lit": "tsí",
+              "col": "tsí"
+            }
+          }
+        },
+        {
+          "trad": "杏",
+          "simp": "杏",
+          "readings": {
+            "zhuyin": "ㄒㄧㄥˋ",
+            "pinyin": "xìng",
+            "jyutping": "hang6",
+            "tailo": {
+              "lit": "hīng",
+              "col": "hīnn"
+            }
+          }
+        },
+        {
+          "trad": "花",
+          "simp": "花",
+          "readings": {
+            "zhuyin": "ㄏㄨㄚ",
+            "pinyin": "huā",
+            "jyutping": "faa1",
+            "tailo": {
+              "lit": "hua",
+              "col": "hue"
+            }
+          }
+        },
+        {
+          "trad": "村",
+          "simp": "村",
+          "readings": {
+            "zhuyin": "ㄘㄨㄣ",
+            "pinyin": "cūn",
+            "jyutping": "cyun1",
+            "tailo": {
+              "lit": "tshun",
+              "col": "tshun"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "A herd boy points far off to Apricot Blossom Village",
+      "literal": "A cowherd boy points far off toward Apricot Blossom Village.",
+      "poetic": "a cowherd points far away to Apricot Blossom Village.",
+      "meaning": {
+        "feeling": "Relief and renewed warmth",
+        "wrongFeelings": ["Fear of strangers", "Boredom with a tiresome boy"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "清",
+      "simp": "清",
+      "kind": "char",
+      "gloss": "clear, pure",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "明",
+      "simp": "明",
+      "kind": "char",
+      "gloss": "bright",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "時",
+      "simp": "时",
+      "kind": "char",
+      "gloss": "time, season",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "節",
+      "simp": "节",
+      "kind": "char",
+      "gloss": "festival, season",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "雨",
+      "simp": "雨",
+      "kind": "char",
+      "gloss": "rain",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "紛",
+      "simp": "纷",
+      "kind": "char",
+      "gloss": "profuse, in a flurry",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        },
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "路",
+      "simp": "路",
+      "kind": "char",
+      "gloss": "road",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "行",
+      "simp": "行",
+      "kind": "char",
+      "gloss": "to walk, to travel",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "欲",
+      "simp": "欲",
+      "kind": "char",
+      "gloss": "to want to, to be about to",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "斷",
+      "simp": "断",
+      "kind": "char",
+      "gloss": "to break, to sever",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "魂",
+      "simp": "魂",
+      "kind": "char",
+      "gloss": "soul, spirit",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "借",
+      "simp": "借",
+      "kind": "char",
+      "gloss": "to borrow, to ask politely",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "問",
+      "simp": "问",
+      "kind": "char",
+      "gloss": "to ask",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "酒",
+      "simp": "酒",
+      "kind": "char",
+      "gloss": "wine, liquor",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "家",
+      "simp": "家",
+      "kind": "char",
+      "gloss": "home, house",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "何",
+      "simp": "何",
+      "kind": "char",
+      "gloss": "what, where",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "處",
+      "simp": "处",
+      "kind": "char",
+      "gloss": "place",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "有",
+      "simp": "有",
+      "kind": "char",
+      "gloss": "to have, there is",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "牧",
+      "simp": "牧",
+      "kind": "char",
+      "gloss": "to herd",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "童",
+      "simp": "童",
+      "kind": "char",
+      "gloss": "child, boy",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "遙",
+      "simp": "遥",
+      "kind": "char",
+      "gloss": "far away",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "指",
+      "simp": "指",
+      "kind": "char",
+      "gloss": "to point at",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "杏",
+      "simp": "杏",
+      "kind": "char",
+      "gloss": "apricot",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "花",
+      "simp": "花",
+      "kind": "char",
+      "gloss": "flower, blossom",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "村",
+      "simp": "村",
+      "kind": "char",
+      "gloss": "village",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "清明",
+      "simp": "清明",
+      "kind": "compound",
+      "gloss": "Qingming (festival)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "時節",
+      "simp": "时节",
+      "kind": "compound",
+      "gloss": "season, time",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "紛紛",
+      "simp": "纷纷",
+      "kind": "compound",
+      "gloss": "in profusion, falling thick",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "行人",
+      "simp": "行人",
+      "kind": "compound",
+      "gloss": "travellers",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "斷魂",
+      "simp": "断魂",
+      "kind": "compound",
+      "gloss": "heartbroken",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "借問",
+      "simp": "借问",
+      "kind": "compound",
+      "gloss": "to ask politely",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "酒家",
+      "simp": "酒家",
+      "kind": "compound",
+      "gloss": "tavern",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "牧童",
+      "simp": "牧童",
+      "kind": "compound",
+      "gloss": "herd boy",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "杏花",
+      "simp": "杏花",
+      "kind": "compound",
+      "gloss": "apricot blossom",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "At the Qingming season the rain falls in a fine drizzle; travellers on the road are ready to lose their souls. May I ask where there is a tavern? A cowherd boy points far off toward Apricot Blossom Village.",
+    "poetic": "It is Qingming, and the rain keeps falling; the travellers on the road feel their hearts break. \"Is there an inn anywhere near?\" I ask, and a cowherd points far away to Apricot Blossom Village."
+  },
+  "notes": [
+    {
+      "id": "festival",
+      "kind": "history",
+      "title": "Qingming",
+      "body": "清明 falls in early April and is the day families sweep the graves of their ancestors. A traveller away from home on that day has a double reason for sorrow: 斷魂 means grief that \"cuts off the soul\", not a literal death."
+    },
+    {
+      "id": "author",
+      "kind": "history",
+      "title": "Is it really Du Mu's?",
+      "body": "The poem is traditionally credited to Du Mu (803–852), but it is not found in his own collected works. It appears first in a Song-era anthology, 千家詩, so some scholars doubt the attribution. It remains one of the most loved short poems in the language. Several places, in Anhui and Shanxi, claim to be the real 杏花村."
+    },
+    {
+      "id": "shape",
+      "kind": "interpretation",
+      "title": "A poem that is all question and answer",
+      "body": "The first two lines set the mood and the last two are a tiny story with a question and a reply. We never hear the reply, only see a pointing finger. The poem ends on a patch of apricot blossom, the first hint of colour and warmth against the grey rain."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 紛 · 魂 · 村",
+      "body": "Lines one, two and four end in 紛 (fēn), 魂 (hún) and 村 (cūn). They rhyme in modern speech (-n). In the old rhyme books 紛 belongs to a neighbouring group, and a jueju may use neighbouring rhymes."
+    }
+  ],
+  "distractorSeeds": {
+    "清": {
+      "look": ["青"],
+      "sound": ["輕", "情"],
+      "meaning": ["淨"]
+    },
+    "明": {
+      "look": ["朋"],
+      "sound": ["鳴"],
+      "meaning": ["亮"]
+    },
+    "時": {
+      "look": ["待"],
+      "sound": ["是", "似"],
+      "meaning": ["候"]
+    },
+    "節": {
+      "look": ["即"],
+      "sound": ["皆"],
+      "meaning": ["季"]
+    },
+    "雨": {
+      "look": ["兩"],
+      "sound": ["漁", "玉"],
+      "meaning": ["雲"]
+    },
+    "紛": {
+      "look": ["粉"],
+      "meaning": ["亂"]
+    },
+    "路": {
+      "look": ["跡"],
+      "sound": ["爐", "鷺"],
+      "meaning": ["道"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    },
+    "行": {
+      "look": ["術"],
+      "meaning": ["走"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "欲": {
+      "look": ["慾"],
+      "sound": ["漁", "玉"],
+      "meaning": ["想"]
+    },
+    "斷": {
+      "look": ["繼"],
+      "meaning": ["絕"]
+    },
+    "魂": {
+      "look": ["魄"],
+      "meaning": ["靈"]
+    },
+    "借": {
+      "look": ["惜"],
+      "sound": ["皆"],
+      "meaning": ["賒"]
+    },
+    "問": {
+      "look": ["間"],
+      "sound": ["聞"],
+      "meaning": ["詢"]
+    },
+    "酒": {
+      "look": ["洒"],
+      "sound": ["九"],
+      "meaning": []
+    },
+    "家": {
+      "look": ["象"],
+      "sound": ["佳"],
+      "meaning": ["店"]
+    },
+    "何": {
+      "look": ["河"],
+      "sound": ["禾", "鶴"],
+      "meaning": ["誰"]
+    },
+    "處": {
+      "look": ["虎"],
+      "sound": ["出", "鋤"],
+      "meaning": ["地"]
+    },
+    "有": {
+      "look": ["肯"],
+      "meaning": ["存"]
+    },
+    "牧": {
+      "look": ["收"],
+      "sound": ["目"],
+      "meaning": ["放"]
+    },
+    "童": {
+      "look": ["重"],
+      "meaning": ["孩"]
+    },
+    "遙": {
+      "look": ["搖"],
+      "sound": ["藥"],
+      "meaning": ["遠"]
+    },
+    "指": {
+      "look": ["旨"],
+      "sound": ["知", "枝"],
+      "meaning": ["點"]
+    },
+    "杏": {
+      "look": ["呆"],
+      "meaning": ["桃"]
+    },
+    "花": {
+      "look": ["化"],
+      "meaning": ["朵"]
+    },
+    "村": {
+      "look": ["材"],
+      "meaning": ["莊"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "rainy-road"
+  }
+}
