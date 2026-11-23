@@ -95,8 +95,8 @@ Unblocks: T50, T51
 Goal: `content/poems/jingyesi.json`: standard school text (Trad + Simp), per-char zhuyin, pinyin, Jyutping, and Tâi-lô in both layers (文讀 and 白讀, checked against the MOE dictionary's [文]/[白] marks); compounds 明月 地上 舉頭 低頭 故鄉; per-char and per-line glosses; literal and poetic translations; a "what the poet feels" meaning prompt for each line; scholar's notes (床 debate, Song variant, rhyme, 平仄); distractor seeds (看, 山, 雪, 卿…).
 Done when: `validate:content` passes. Readings are cross-checked against a dictionary and the sources are listed in the PR.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T10-jingyesi
 PR: —
 
 ### T11 · Catalog scoring
