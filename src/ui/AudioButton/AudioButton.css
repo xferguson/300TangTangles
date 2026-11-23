@@ -1,0 +1,66 @@
+.audio-button {
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 50%;
+  background: var(--paper-3);
+  color: var(--ink-soft);
+  cursor: pointer;
+  flex: none;
+}
+.audio-button:hover:not(:disabled) {
+  border-color: var(--ink-soft);
+  color: var(--ink);
+}
+.audio-icon {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+.audio-button[data-state='playing'] {
+  border-color: var(--cinnabar);
+  background: var(--cinnabar);
+  color: var(--on-pigment);
+}
+.audio-button[data-state='loading'] {
+  cursor: progress;
+}
+.audio-spinner {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-dasharray: 20 12;
+  transform-origin: center;
+  animation: audio-spin 900ms linear infinite;
+}
+.audio-button[data-state='unavailable'] {
+  opacity: 0.45;
+  cursor: not-allowed;
+  border-style: dashed;
+}
+.audio-slow {
+  position: absolute;
+  right: -4px;
+  bottom: -4px;
+  padding: 0 2px;
+  border-radius: 3px;
+  background: var(--ochre);
+  color: var(--on-pigment);
+  font-family: var(--f-poem);
+  font-size: 10px;
+  line-height: 1.3;
+}
+@keyframes audio-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .audio-spinner {
+    animation: none;
+  }
+}
