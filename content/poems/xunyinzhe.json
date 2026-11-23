@@ -1,0 +1,760 @@
+{
+  "schemaVersion": 1,
+  "id": "xunyinzhe",
+  "title": {
+    "trad": "尋隱者不遇",
+    "simp": "寻隐者不遇"
+  },
+  "poet": {
+    "trad": "賈島",
+    "simp": "贾岛",
+    "pinyin": "Jiǎ Dǎo"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "松",
+          "simp": "松",
+          "readings": {
+            "zhuyin": "ㄙㄨㄥ",
+            "pinyin": "sōng",
+            "jyutping": "cung4",
+            "tailo": {
+              "lit": "siông",
+              "col": "tshîng"
+            }
+          }
+        },
+        {
+          "trad": "下",
+          "simp": "下",
+          "readings": {
+            "zhuyin": "ㄒㄧㄚˋ",
+            "pinyin": "xià",
+            "jyutping": "haa6",
+            "tailo": {
+              "lit": "hā",
+              "col": "ē"
+            }
+          }
+        },
+        {
+          "trad": "問",
+          "simp": "问",
+          "readings": {
+            "zhuyin": "ㄨㄣˋ",
+            "pinyin": "wèn",
+            "jyutping": "man6",
+            "tailo": {
+              "lit": "būn",
+              "col": "mn̄g"
+            }
+          }
+        },
+        {
+          "trad": "童",
+          "simp": "童",
+          "readings": {
+            "zhuyin": "ㄊㄨㄥˊ",
+            "pinyin": "tóng",
+            "jyutping": "tung4",
+            "tailo": {
+              "lit": "tông",
+              "col": "tông"
+            }
+          }
+        },
+        {
+          "trad": "子",
+          "simp": "子",
+          "readings": {
+            "zhuyin": "ㄗˇ",
+            "pinyin": "zǐ",
+            "jyutping": "zi2",
+            "tailo": {
+              "lit": "tsú",
+              "col": "tsí"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Under the pine I ask the boy",
+      "literal": "Beneath a pine I ask the young boy;",
+      "poetic": "Under a pine tree I question the boy,",
+      "meaning": {
+        "feeling": "Eager hope of finding the hermit",
+        "wrongFeelings": ["Anger at a rude servant", "Boredom while waiting"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "言",
+          "simp": "言",
+          "readings": {
+            "zhuyin": "ㄧㄢˊ",
+            "pinyin": "yán",
+            "jyutping": "jin4",
+            "tailo": {
+              "lit": "giân",
+              "col": "giân"
+            }
+          }
+        },
+        {
+          "trad": "師",
+          "simp": "师",
+          "readings": {
+            "zhuyin": "ㄕ",
+            "pinyin": "shī",
+            "jyutping": "si1",
+            "tailo": {
+              "lit": "su",
+              "col": "su"
+            }
+          }
+        },
+        {
+          "trad": "採",
+          "simp": "采",
+          "readings": {
+            "zhuyin": "ㄘㄞˇ",
+            "pinyin": "cǎi",
+            "jyutping": "coi2",
+            "tailo": {
+              "lit": "tshái",
+              "col": "tshái"
+            }
+          }
+        },
+        {
+          "trad": "藥",
+          "simp": "药",
+          "readings": {
+            "zhuyin": "ㄧㄠˋ",
+            "pinyin": "yào",
+            "jyutping": "joek6",
+            "tailo": {
+              "lit": "io̍k",
+              "col": "io̍h"
+            }
+          }
+        },
+        {
+          "trad": "去",
+          "simp": "去",
+          "readings": {
+            "zhuyin": "ㄑㄩˋ",
+            "pinyin": "qù",
+            "jyutping": "heoi3",
+            "tailo": {
+              "lit": "khù",
+              "col": "khì"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "He says his master has gone to gather herbs",
+      "literal": "he says his master has gone to gather herbs.",
+      "poetic": "\"My master has gone to gather herbs,\" he says.",
+      "meaning": {
+        "feeling": "Mild disappointment mixed with wonder",
+        "wrongFeelings": ["Suspicion that the boy is lying", "Triumph at a successful visit"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "只",
+          "simp": "只",
+          "readings": {
+            "zhuyin": "ㄓˇ",
+            "pinyin": "zhǐ",
+            "jyutping": "zi2",
+            "tailo": {
+              "lit": "tsí",
+              "col": "tsí"
+            }
+          }
+        },
+        {
+          "trad": "在",
+          "simp": "在",
+          "readings": {
+            "zhuyin": "ㄗㄞˋ",
+            "pinyin": "zài",
+            "jyutping": "zoi6",
+            "tailo": {
+              "lit": "tsāi",
+              "col": "tī"
+            }
+          }
+        },
+        {
+          "trad": "此",
+          "simp": "此",
+          "readings": {
+            "zhuyin": "ㄘˇ",
+            "pinyin": "cǐ",
+            "jyutping": "ci2",
+            "tailo": {
+              "lit": "tshú",
+              "col": "tshú"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        },
+        {
+          "trad": "中",
+          "simp": "中",
+          "readings": {
+            "zhuyin": "ㄓㄨㄥ",
+            "pinyin": "zhōng",
+            "jyutping": "zung1",
+            "tailo": {
+              "lit": "tiong",
+              "col": "tiong"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "\"He is only somewhere on this mountain\"",
+      "literal": "\"He is only somewhere in this mountain,",
+      "poetic": "\"He's on this mountain, that is all I know,",
+      "meaning": {
+        "feeling": "Hopeful expectancy",
+        "wrongFeelings": ["Resentment at wasted time", "Indifference"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "雲",
+          "simp": "云",
+          "readings": {
+            "zhuyin": "ㄩㄣˊ",
+            "pinyin": "yún",
+            "jyutping": "wan4",
+            "tailo": {
+              "lit": "hûn",
+              "col": "hûn"
+            }
+          }
+        },
+        {
+          "trad": "深",
+          "simp": "深",
+          "readings": {
+            "zhuyin": "ㄕㄣ",
+            "pinyin": "shēn",
+            "jyutping": "sam1",
+            "tailo": {
+              "lit": "sim",
+              "col": "tshim"
+            }
+          }
+        },
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "知",
+          "simp": "知",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "ti",
+              "col": "tsai"
+            }
+          }
+        },
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "\"The clouds are deep, and I do not know where\"",
+      "literal": "the clouds are deep; I do not know where.\"",
+      "poetic": "but the clouds are thick, and where, I cannot say.\"",
+      "meaning": {
+        "feeling": "Wistful acceptance of the hermit's elusiveness",
+        "wrongFeelings": ["Rage at being turned away", "Fear of a coming storm"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "松",
+      "simp": "松",
+      "kind": "char",
+      "gloss": "pine",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "下",
+      "simp": "下",
+      "kind": "char",
+      "gloss": "below, to go down",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "問",
+      "simp": "问",
+      "kind": "char",
+      "gloss": "to ask",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "童",
+      "simp": "童",
+      "kind": "char",
+      "gloss": "child, boy",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "子",
+      "simp": "子",
+      "kind": "char",
+      "gloss": "child, son",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "言",
+      "simp": "言",
+      "kind": "char",
+      "gloss": "to say",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "師",
+      "simp": "师",
+      "kind": "char",
+      "gloss": "teacher, master",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "採",
+      "simp": "采",
+      "kind": "char",
+      "gloss": "to pick, to gather",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "藥",
+      "simp": "药",
+      "kind": "char",
+      "gloss": "medicine, herbs",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "去",
+      "simp": "去",
+      "kind": "char",
+      "gloss": "to go",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "只",
+      "simp": "只",
+      "kind": "char",
+      "gloss": "only",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "在",
+      "simp": "在",
+      "kind": "char",
+      "gloss": "to be at, in",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "此",
+      "simp": "此",
+      "kind": "char",
+      "gloss": "this",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "中",
+      "simp": "中",
+      "kind": "char",
+      "gloss": "middle, within",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "雲",
+      "simp": "云",
+      "kind": "char",
+      "gloss": "cloud",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "深",
+      "simp": "深",
+      "kind": "char",
+      "gloss": "deep, thick",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "知",
+      "simp": "知",
+      "kind": "char",
+      "gloss": "to know",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "處",
+      "simp": "处",
+      "kind": "char",
+      "gloss": "place",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "松下",
+      "simp": "松下",
+      "kind": "compound",
+      "gloss": "beneath the pine",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "童子",
+      "simp": "童子",
+      "kind": "compound",
+      "gloss": "young boy",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "採藥",
+      "simp": "采药",
+      "kind": "compound",
+      "gloss": "to gather herbs",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "山中",
+      "simp": "山中",
+      "kind": "compound",
+      "gloss": "in the mountains",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "雲深",
+      "simp": "云深",
+      "kind": "compound",
+      "gloss": "deep clouds",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Beneath a pine I ask the young boy; he says his master has gone to gather herbs. \"He is only somewhere in this mountain, the clouds are deep, and I do not know where.\"",
+    "poetic": "Under a pine I question the boy. \"My master has gone to gather herbs,\" he says. \"He is on this mountain, that is all I know, but the clouds are thick, and where, I cannot say.\""
+  },
+  "notes": [
+    {
+      "id": "dialogue",
+      "kind": "interpretation",
+      "title": "A conversation with the question removed",
+      "body": "Only the visitor's first act is described (問). Lines two to four are the boy's reply, given without quotation marks. The poem never says what the visitor asked, how he feels, or whether he goes away. The poem lets the clouds do the speaking: the hermit is close and out of reach, which is how a hermit should be."
+    },
+    {
+      "id": "author",
+      "kind": "history",
+      "title": "Who wrote it?",
+      "body": "The poem is usually credited to Jia Dao (779–843), a monk-turned-poet known for polishing each line. Some old sources credit it to Sun Ge under the title 訪羊尊師, so the attribution is not entirely settled."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 去 · 處",
+      "body": "Lines two and four end in 去 (qù) and 處 (chù), which rhyme in -u. Both were in the departing tone (去聲) in Tang speech. Here 處 is \"place\", chù, not chǔ (\"to deal with\")."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "只 is read zhǐ (\"only\"). Some printings write 祇 for the same word. 處 is read chù in 知處 (\"know where\"). 藥 is yào."
+    }
+  ],
+  "distractorSeeds": {
+    "松": {
+      "look": ["公"],
+      "sound": ["送"],
+      "meaning": ["柏"]
+    },
+    "下": {
+      "look": ["不"],
+      "meaning": ["底"]
+    },
+    "問": {
+      "look": ["間"],
+      "sound": ["聞"],
+      "meaning": ["詢"]
+    },
+    "童": {
+      "look": ["重"],
+      "meaning": ["兒"]
+    },
+    "子": {
+      "look": ["字"],
+      "sound": ["紫"],
+      "meaning": ["孩"]
+    },
+    "言": {
+      "look": ["信"],
+      "sound": ["煙"],
+      "meaning": ["說"]
+    },
+    "師": {
+      "look": ["帥"],
+      "sound": ["是", "似"],
+      "meaning": ["傅"]
+    },
+    "採": {
+      "look": ["彩"],
+      "sound": ["裁"],
+      "meaning": ["摘"]
+    },
+    "藥": {
+      "look": ["樂"],
+      "sound": ["遙"],
+      "meaning": ["草"]
+    },
+    "去": {
+      "look": ["云"],
+      "meaning": ["往"]
+    },
+    "只": {
+      "look": ["兄"],
+      "sound": ["枝", "指"],
+      "meaning": ["僅"]
+    },
+    "在": {
+      "look": ["存"],
+      "meaning": ["於"]
+    },
+    "此": {
+      "look": ["些"],
+      "sound": ["辭"],
+      "meaning": ["這"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    },
+    "中": {
+      "look": ["申"],
+      "sound": ["重", "鐘"],
+      "meaning": ["內"]
+    },
+    "雲": {
+      "look": ["雪"],
+      "meaning": ["霧"]
+    },
+    "深": {
+      "look": ["探"],
+      "meaning": ["濃"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "知": {
+      "look": ["如"],
+      "sound": ["枝", "指"],
+      "meaning": ["曉"]
+    },
+    "處": {
+      "look": ["虎"],
+      "sound": ["出", "鋤"],
+      "meaning": ["地"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "pine-and-clouds"
+  }
+}

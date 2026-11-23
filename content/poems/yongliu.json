@@ -1,0 +1,1020 @@
+{
+  "schemaVersion": 1,
+  "id": "yongliu",
+  "title": {
+    "trad": "詠柳",
+    "simp": "咏柳"
+  },
+  "poet": {
+    "trad": "賀知章",
+    "simp": "贺知章",
+    "pinyin": "Hè Zhīzhāng"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "碧",
+          "simp": "碧",
+          "readings": {
+            "zhuyin": "ㄅㄧˋ",
+            "pinyin": "bì",
+            "jyutping": "bik1",
+            "tailo": {
+              "lit": "phik",
+              "col": "phik"
+            }
+          }
+        },
+        {
+          "trad": "玉",
+          "simp": "玉",
+          "readings": {
+            "zhuyin": "ㄩˋ",
+            "pinyin": "yù",
+            "jyutping": "juk6",
+            "tailo": {
+              "lit": "gio̍k",
+              "col": "gio̍k"
+            }
+          }
+        },
+        {
+          "trad": "妝",
+          "simp": "妆",
+          "readings": {
+            "zhuyin": "ㄓㄨㄤ",
+            "pinyin": "zhuāng",
+            "jyutping": "zong1",
+            "tailo": {
+              "lit": "tsong",
+              "col": "tsng"
+            }
+          }
+        },
+        {
+          "trad": "成",
+          "simp": "成",
+          "readings": {
+            "zhuyin": "ㄔㄥˊ",
+            "pinyin": "chéng",
+            "jyutping": "sing4",
+            "tailo": {
+              "lit": "sîng",
+              "col": "tsiânn"
+            }
+          }
+        },
+        {
+          "trad": "一",
+          "simp": "一",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "jat1",
+            "tailo": {
+              "lit": "it",
+              "col": "tsi̍t"
+            }
+          }
+        },
+        {
+          "trad": "樹",
+          "simp": "树",
+          "readings": {
+            "zhuyin": "ㄕㄨˋ",
+            "pinyin": "shù",
+            "jyutping": "syu6",
+            "tailo": {
+              "lit": "sū",
+              "col": "tshiū"
+            }
+          }
+        },
+        {
+          "trad": "高",
+          "simp": "高",
+          "readings": {
+            "zhuyin": "ㄍㄠ",
+            "pinyin": "gāo",
+            "jyutping": "gou1",
+            "tailo": {
+              "lit": "ko",
+              "col": "kuân"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Dressed in jade-green, a tall tree",
+      "literal": "A tall tree dressed up in jade-green;",
+      "poetic": "Dressed all in jade, the willow stands tall,",
+      "meaning": {
+        "feeling": "Fresh delight in spring beauty",
+        "wrongFeelings": ["Gloom at the end of autumn", "Worry that the tree will fall"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "萬",
+          "simp": "万",
+          "readings": {
+            "zhuyin": "ㄨㄢˋ",
+            "pinyin": "wàn",
+            "jyutping": "maan6",
+            "tailo": {
+              "lit": "bān",
+              "col": "bān"
+            }
+          }
+        },
+        {
+          "trad": "條",
+          "simp": "条",
+          "readings": {
+            "zhuyin": "ㄊㄧㄠˊ",
+            "pinyin": "tiáo",
+            "jyutping": "tiu4",
+            "tailo": {
+              "lit": "tiâu",
+              "col": "liâu"
+            }
+          }
+        },
+        {
+          "trad": "垂",
+          "simp": "垂",
+          "readings": {
+            "zhuyin": "ㄔㄨㄟˊ",
+            "pinyin": "chuí",
+            "jyutping": "seoi4",
+            "tailo": {
+              "lit": "suî",
+              "col": "suî"
+            }
+          }
+        },
+        {
+          "trad": "下",
+          "simp": "下",
+          "readings": {
+            "zhuyin": "ㄒㄧㄚˋ",
+            "pinyin": "xià",
+            "jyutping": "haa6",
+            "tailo": {
+              "lit": "hā",
+              "col": "ē"
+            }
+          }
+        },
+        {
+          "trad": "綠",
+          "simp": "绿",
+          "readings": {
+            "zhuyin": "ㄌㄩˋ",
+            "pinyin": "lǜ",
+            "jyutping": "luk6",
+            "tailo": {
+              "lit": "lio̍k",
+              "col": "li̍k"
+            }
+          }
+        },
+        {
+          "trad": "絲",
+          "simp": "丝",
+          "readings": {
+            "zhuyin": "ㄙ",
+            "pinyin": "sī",
+            "jyutping": "si1",
+            "tailo": {
+              "lit": "si",
+              "col": "si"
+            }
+          }
+        },
+        {
+          "trad": "絛",
+          "simp": "绦",
+          "readings": {
+            "zhuyin": "ㄊㄠ",
+            "pinyin": "tāo",
+            "jyutping": "tou1",
+            "tailo": {
+              "lit": "tho",
+              "col": "tho"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Ten thousand branches hang like green silk ribbons",
+      "literal": "ten thousand twigs hang down like green silk ribbons.",
+      "poetic": "its countless twigs hang like green silk ribbons.",
+      "meaning": {
+        "feeling": "Admiration for graceful hanging branches",
+        "wrongFeelings": ["Annoyance at a messy tree", "Fear of the dark"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "知",
+          "simp": "知",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "ti",
+              "col": "tsai"
+            }
+          }
+        },
+        {
+          "trad": "細",
+          "simp": "细",
+          "readings": {
+            "zhuyin": "ㄒㄧˋ",
+            "pinyin": "xì",
+            "jyutping": "sai3",
+            "tailo": {
+              "lit": "sè",
+              "col": "sè"
+            }
+          }
+        },
+        {
+          "trad": "葉",
+          "simp": "叶",
+          "readings": {
+            "zhuyin": "ㄧㄝˋ",
+            "pinyin": "yè",
+            "jyutping": "jip6",
+            "tailo": {
+              "lit": "ia̍p",
+              "col": "hio̍h"
+            }
+          }
+        },
+        {
+          "trad": "誰",
+          "simp": "谁",
+          "readings": {
+            "zhuyin": "ㄕㄨㄟˊ",
+            "pinyin": "shuí",
+            "jyutping": "seoi4",
+            "tailo": {
+              "lit": "suî",
+              "col": "siâng"
+            }
+          }
+        },
+        {
+          "trad": "裁",
+          "simp": "裁",
+          "readings": {
+            "zhuyin": "ㄘㄞˊ",
+            "pinyin": "cái",
+            "jyutping": "coi4",
+            "tailo": {
+              "lit": "tsâi",
+              "col": "tsâi"
+            }
+          }
+        },
+        {
+          "trad": "出",
+          "simp": "出",
+          "readings": {
+            "zhuyin": "ㄔㄨ",
+            "pinyin": "chū",
+            "jyutping": "ceot1",
+            "tailo": {
+              "lit": "tshut",
+              "col": "tshut"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Who cut out these thin leaves, I wonder?",
+      "literal": "I do not know who has cut out these slender leaves;",
+      "poetic": "Who cut out these slender leaves, I wonder?",
+      "meaning": {
+        "feeling": "Playful wonder at nature's craft",
+        "wrongFeelings": ["Irritation at a thief", "Puzzlement over a tailor's bill"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "二",
+          "simp": "二",
+          "readings": {
+            "zhuyin": "ㄦˋ",
+            "pinyin": "èr",
+            "jyutping": "ji6",
+            "tailo": {
+              "lit": "jī",
+              "col": "n̄ng"
+            }
+          }
+        },
+        {
+          "trad": "月",
+          "simp": "月",
+          "readings": {
+            "zhuyin": "ㄩㄝˋ",
+            "pinyin": "yuè",
+            "jyutping": "jyut6",
+            "tailo": {
+              "lit": "gua̍t",
+              "col": "gue̍h"
+            }
+          }
+        },
+        {
+          "trad": "春",
+          "simp": "春",
+          "readings": {
+            "zhuyin": "ㄔㄨㄣ",
+            "pinyin": "chūn",
+            "jyutping": "ceon1",
+            "tailo": {
+              "lit": "tshun",
+              "col": "tshun"
+            }
+          }
+        },
+        {
+          "trad": "風",
+          "simp": "风",
+          "readings": {
+            "zhuyin": "ㄈㄥ",
+            "pinyin": "fēng",
+            "jyutping": "fung1",
+            "tailo": {
+              "lit": "hong",
+              "col": "hong"
+            }
+          }
+        },
+        {
+          "trad": "似",
+          "simp": "似",
+          "readings": {
+            "zhuyin": "ㄕˋ",
+            "pinyin": "shì",
+            "jyutping": "ci5",
+            "tailo": {
+              "lit": "sū",
+              "col": "sū"
+            }
+          }
+        },
+        {
+          "trad": "剪",
+          "simp": "剪",
+          "readings": {
+            "zhuyin": "ㄐㄧㄢˇ",
+            "pinyin": "jiǎn",
+            "jyutping": "zin2",
+            "tailo": {
+              "lit": "tsián",
+              "col": "tsián"
+            }
+          }
+        },
+        {
+          "trad": "刀",
+          "simp": "刀",
+          "readings": {
+            "zhuyin": "ㄉㄠ",
+            "pinyin": "dāo",
+            "jyutping": "dou1",
+            "tailo": {
+              "lit": "to",
+              "col": "to"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "The February spring wind is like scissors",
+      "literal": "the spring wind of the second month is like a pair of scissors.",
+      "poetic": "It was the spring wind of February, like a pair of shears.",
+      "meaning": {
+        "feeling": "Joyful admiration for the wind's craftsmanship",
+        "wrongFeelings": ["Dread of a sharp wind", "Disappointment at a cold spring"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "碧",
+      "simp": "碧",
+      "kind": "char",
+      "gloss": "jade green",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "玉",
+      "simp": "玉",
+      "kind": "char",
+      "gloss": "jade",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "妝",
+      "simp": "妆",
+      "kind": "char",
+      "gloss": "to dress up, make-up",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "成",
+      "simp": "成",
+      "kind": "char",
+      "gloss": "to complete, to become",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "一",
+      "simp": "一",
+      "kind": "char",
+      "gloss": "one",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "樹",
+      "simp": "树",
+      "kind": "char",
+      "gloss": "tree",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "高",
+      "simp": "高",
+      "kind": "char",
+      "gloss": "tall",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "萬",
+      "simp": "万",
+      "kind": "char",
+      "gloss": "ten thousand",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "條",
+      "simp": "条",
+      "kind": "char",
+      "gloss": "branch, twig",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "垂",
+      "simp": "垂",
+      "kind": "char",
+      "gloss": "to hang down",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "下",
+      "simp": "下",
+      "kind": "char",
+      "gloss": "down, below",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "綠",
+      "simp": "绿",
+      "kind": "char",
+      "gloss": "green",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "絲",
+      "simp": "丝",
+      "kind": "char",
+      "gloss": "silk thread",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "絛",
+      "simp": "绦",
+      "kind": "char",
+      "gloss": "silk ribbon, cord",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "知",
+      "simp": "知",
+      "kind": "char",
+      "gloss": "to know",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "細",
+      "simp": "细",
+      "kind": "char",
+      "gloss": "thin, slender",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "葉",
+      "simp": "叶",
+      "kind": "char",
+      "gloss": "leaf",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "誰",
+      "simp": "谁",
+      "kind": "char",
+      "gloss": "who",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "裁",
+      "simp": "裁",
+      "kind": "char",
+      "gloss": "to cut out, to tailor",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "出",
+      "simp": "出",
+      "kind": "char",
+      "gloss": "out, to come out",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "二",
+      "simp": "二",
+      "kind": "char",
+      "gloss": "two",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "月",
+      "simp": "月",
+      "kind": "char",
+      "gloss": "moon, month",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "春",
+      "simp": "春",
+      "kind": "char",
+      "gloss": "spring",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "風",
+      "simp": "风",
+      "kind": "char",
+      "gloss": "wind",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "似",
+      "simp": "似",
+      "kind": "char",
+      "gloss": "to resemble",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "剪",
+      "simp": "剪",
+      "kind": "char",
+      "gloss": "to cut with scissors",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "刀",
+      "simp": "刀",
+      "kind": "char",
+      "gloss": "knife, blade",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "碧玉",
+      "simp": "碧玉",
+      "kind": "compound",
+      "gloss": "jade",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "一樹",
+      "simp": "一树",
+      "kind": "compound",
+      "gloss": "a tree",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "萬條",
+      "simp": "万条",
+      "kind": "compound",
+      "gloss": "ten thousand twigs",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "絲絛",
+      "simp": "丝绦",
+      "kind": "compound",
+      "gloss": "silk ribbons",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "細葉",
+      "simp": "细叶",
+      "kind": "compound",
+      "gloss": "slender leaves",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "春風",
+      "simp": "春风",
+      "kind": "compound",
+      "gloss": "spring wind",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "剪刀",
+      "simp": "剪刀",
+      "kind": "compound",
+      "gloss": "scissors",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "A tall tree dressed up in jade-green; ten thousand twigs hang down like green silk ribbons. I do not know who has cut out these slender leaves; the spring wind of the second month is like a pair of scissors.",
+    "poetic": "Dressed all in jade, the willow stands tall, its countless twigs hanging like green silk ribbons. Who cut out these slender leaves? It was the spring wind of February, like a pair of shears."
+  },
+  "notes": [
+    {
+      "id": "metaphors",
+      "kind": "interpretation",
+      "title": "Three metaphors and a question",
+      "body": "The willow is first a beautiful woman dressed in jade (妝), then its branches become silk ribbons. Then comes a question, \"who cut these leaves?\", and the answer is a surprise: the wind itself is a pair of scissors. A cold wind that cuts becomes a warm, creative one."
+    },
+    {
+      "id": "month",
+      "kind": "other",
+      "title": "Which February?",
+      "body": "二月 means the second month of the lunar calendar, which falls roughly between late February and early April, the time willows come into leaf. It is early spring, not midwinter."
+    },
+    {
+      "id": "poet",
+      "kind": "history",
+      "title": "He Zhizhang",
+      "body": "He Zhizhang (659–744) was a poet, calligrapher and one of the \"Eight Immortals of the Wine Cup\" in Du Fu's poem. He also wrote 回鄉偶書. This poem is usually the first one children learn from him."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 高 · 絛 · 刀",
+      "body": "Lines one, two and four end in 高 (gāo), 絛 (tāo) and 刀 (dāo), in the 豪 rhyme (-ao). Line three ends in 出 and does not rhyme."
+    }
+  ],
+  "distractorSeeds": {
+    "碧": {
+      "look": ["壁"],
+      "meaning": ["綠"]
+    },
+    "玉": {
+      "look": ["王"],
+      "sound": ["雨", "欲"],
+      "meaning": ["珠"]
+    },
+    "妝": {
+      "look": ["壯"],
+      "meaning": ["裝"]
+    },
+    "成": {
+      "look": ["城"],
+      "sound": ["乘"],
+      "meaning": ["就"]
+    },
+    "一": {
+      "look": ["二"],
+      "sound": ["已", "依"],
+      "meaning": ["單"]
+    },
+    "樹": {
+      "look": ["對"],
+      "meaning": ["木"]
+    },
+    "高": {
+      "look": ["亮"],
+      "meaning": ["崇"]
+    },
+    "萬": {
+      "look": ["方"],
+      "meaning": ["千"]
+    },
+    "條": {
+      "look": ["修"],
+      "meaning": ["枝"]
+    },
+    "垂": {
+      "look": ["睡"],
+      "meaning": ["掛"]
+    },
+    "下": {
+      "look": ["不"],
+      "meaning": ["落"]
+    },
+    "綠": {
+      "look": ["錄"],
+      "meaning": ["青"]
+    },
+    "絲": {
+      "look": ["系"],
+      "sound": ["思", "寺"],
+      "meaning": ["線"]
+    },
+    "絛": {
+      "look": ["滔"],
+      "sound": ["桃", "萄"],
+      "meaning": ["帶"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "知": {
+      "look": ["如"],
+      "sound": ["枝", "只"],
+      "meaning": ["曉"]
+    },
+    "細": {
+      "look": ["紐"],
+      "sound": ["西"],
+      "meaning": ["小"]
+    },
+    "葉": {
+      "look": ["業"],
+      "sound": ["夜"],
+      "meaning": ["片"]
+    },
+    "誰": {
+      "look": ["推"],
+      "sound": ["水"],
+      "meaning": ["何"]
+    },
+    "裁": {
+      "look": ["栽"],
+      "sound": ["採", "彩"],
+      "meaning": ["剪"]
+    },
+    "出": {
+      "look": ["山"],
+      "sound": ["處", "鋤"],
+      "meaning": ["現"]
+    },
+    "二": {
+      "look": ["三"],
+      "sound": ["兒"],
+      "meaning": ["雙"]
+    },
+    "月": {
+      "look": ["目"],
+      "meaning": ["日"]
+    },
+    "春": {
+      "look": ["奉"],
+      "meaning": ["夏"]
+    },
+    "風": {
+      "look": ["凡"],
+      "sound": ["楓", "逢"],
+      "meaning": ["颱"]
+    },
+    "似": {
+      "look": ["以"],
+      "sound": ["是", "使"],
+      "meaning": ["像"]
+    },
+    "剪": {
+      "look": ["前"],
+      "sound": ["間", "見"],
+      "meaning": ["裁"]
+    },
+    "刀": {
+      "look": ["力"],
+      "sound": ["到"],
+      "meaning": ["剪"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "willow-in-spring"
+  }
+}

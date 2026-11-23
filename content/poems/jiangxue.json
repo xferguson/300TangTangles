@@ -1,0 +1,768 @@
+{
+  "schemaVersion": 1,
+  "id": "jiangxue",
+  "title": {
+    "trad": "江雪",
+    "simp": "江雪"
+  },
+  "poet": {
+    "trad": "柳宗元",
+    "simp": "柳宗元",
+    "pinyin": "Liǔ Zōngyuán"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        },
+        {
+          "trad": "鳥",
+          "simp": "鸟",
+          "readings": {
+            "zhuyin": "ㄋㄧㄠˇ",
+            "pinyin": "niǎo",
+            "jyutping": "niu5",
+            "tailo": {
+              "lit": "niáu",
+              "col": "tsiáu"
+            }
+          }
+        },
+        {
+          "trad": "飛",
+          "simp": "飞",
+          "readings": {
+            "zhuyin": "ㄈㄟ",
+            "pinyin": "fēi",
+            "jyutping": "fei1",
+            "tailo": {
+              "lit": "hui",
+              "col": "pue"
+            }
+          }
+        },
+        {
+          "trad": "絕",
+          "simp": "绝",
+          "readings": {
+            "zhuyin": "ㄐㄩㄝˊ",
+            "pinyin": "jué",
+            "jyutping": "zyut6",
+            "tailo": {
+              "lit": "tsua̍t",
+              "col": "tsua̍t"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "On a thousand mountains, no birds fly",
+      "literal": "On a thousand mountains the flying birds have vanished;",
+      "poetic": "Over the thousand hills no bird is flying,",
+      "meaning": {
+        "feeling": "Utter stillness and isolation",
+        "wrongFeelings": ["Eager anticipation of spring", "Alarm at a hunter"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "萬",
+          "simp": "万",
+          "readings": {
+            "zhuyin": "ㄨㄢˋ",
+            "pinyin": "wàn",
+            "jyutping": "maan6",
+            "tailo": {
+              "lit": "bān",
+              "col": "bān"
+            }
+          }
+        },
+        {
+          "trad": "徑",
+          "simp": "径",
+          "readings": {
+            "zhuyin": "ㄐㄧㄥˋ",
+            "pinyin": "jìng",
+            "jyutping": "ging3",
+            "tailo": {
+              "lit": "kìng",
+              "col": "kìng"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "蹤",
+          "simp": "踪",
+          "readings": {
+            "zhuyin": "ㄗㄨㄥ",
+            "pinyin": "zōng",
+            "jyutping": "zung1",
+            "tailo": {
+              "lit": "tsong",
+              "col": "tsong"
+            }
+          }
+        },
+        {
+          "trad": "滅",
+          "simp": "灭",
+          "readings": {
+            "zhuyin": "ㄇㄧㄝˋ",
+            "pinyin": "miè",
+            "jyutping": "mit6",
+            "tailo": {
+              "lit": "bia̍t",
+              "col": "bia̍t"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "On ten thousand paths, no human trace",
+      "literal": "on ten thousand paths not a human footprint remains.",
+      "poetic": "and on the countless paths there is no footprint.",
+      "meaning": {
+        "feeling": "Profound emptiness, a world gone silent",
+        "wrongFeelings": ["The excitement of a crowd", "Curiosity about passing travellers"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "孤",
+          "simp": "孤",
+          "readings": {
+            "zhuyin": "ㄍㄨ",
+            "pinyin": "gū",
+            "jyutping": "gu1",
+            "tailo": {
+              "lit": "koo",
+              "col": "koo"
+            }
+          }
+        },
+        {
+          "trad": "舟",
+          "simp": "舟",
+          "readings": {
+            "zhuyin": "ㄓㄡ",
+            "pinyin": "zhōu",
+            "jyutping": "zau1",
+            "tailo": {
+              "lit": "tsiu",
+              "col": "tsiu"
+            }
+          }
+        },
+        {
+          "trad": "蓑",
+          "simp": "蓑",
+          "readings": {
+            "zhuyin": "ㄙㄨㄛ",
+            "pinyin": "suō",
+            "jyutping": "so1",
+            "tailo": {
+              "lit": "so",
+              "col": "sui"
+            }
+          }
+        },
+        {
+          "trad": "笠",
+          "simp": "笠",
+          "readings": {
+            "zhuyin": "ㄌㄧˋ",
+            "pinyin": "lì",
+            "jyutping": "lap1",
+            "tailo": {
+              "lit": "li̍p",
+              "col": "li̍p"
+            }
+          }
+        },
+        {
+          "trad": "翁",
+          "simp": "翁",
+          "readings": {
+            "zhuyin": "ㄨㄥ",
+            "pinyin": "wēng",
+            "jyutping": "jung1",
+            "tailo": {
+              "lit": "ong",
+              "col": "ang"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "A lone boat, an old man in straw cape and hat",
+      "literal": "A lone boat, an old man in a straw cape and bamboo hat,",
+      "poetic": "A lone boat, and an old man in cape and hat,",
+      "meaning": {
+        "feeling": "Quiet resolve and dignified solitude",
+        "wrongFeelings": ["Desperate loneliness crying for help", "Cheerful pride in a catch"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "獨",
+          "simp": "独",
+          "readings": {
+            "zhuyin": "ㄉㄨˊ",
+            "pinyin": "dú",
+            "jyutping": "duk6",
+            "tailo": {
+              "lit": "to̍k",
+              "col": "to̍k"
+            }
+          }
+        },
+        {
+          "trad": "釣",
+          "simp": "钓",
+          "readings": {
+            "zhuyin": "ㄉㄧㄠˋ",
+            "pinyin": "diào",
+            "jyutping": "diu3",
+            "tailo": {
+              "lit": "tiàu",
+              "col": "tiò"
+            }
+          }
+        },
+        {
+          "trad": "寒",
+          "simp": "寒",
+          "readings": {
+            "zhuyin": "ㄏㄢˊ",
+            "pinyin": "hán",
+            "jyutping": "hon4",
+            "tailo": {
+              "lit": "hân",
+              "col": "kuânn"
+            }
+          }
+        },
+        {
+          "trad": "江",
+          "simp": "江",
+          "readings": {
+            "zhuyin": "ㄐㄧㄤ",
+            "pinyin": "jiāng",
+            "jyutping": "gong1",
+            "tailo": {
+              "lit": "kang",
+              "col": "kang"
+            }
+          }
+        },
+        {
+          "trad": "雪",
+          "simp": "雪",
+          "readings": {
+            "zhuyin": "ㄒㄩㄝˇ",
+            "pinyin": "xuě",
+            "jyutping": "syut3",
+            "tailo": {
+              "lit": "suat",
+              "col": "seh"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Fishing alone in the snow on the cold river",
+      "literal": "fishing alone in the snow of the cold river.",
+      "poetic": "fishes alone in the snow on the cold river.",
+      "meaning": {
+        "feeling": "Stubborn calm in the face of cold and isolation",
+        "wrongFeelings": ["Impatience to catch a fish and go home", "Regret about a bad decision"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "鳥",
+      "simp": "鸟",
+      "kind": "char",
+      "gloss": "bird",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "飛",
+      "simp": "飞",
+      "kind": "char",
+      "gloss": "to fly",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "絕",
+      "simp": "绝",
+      "kind": "char",
+      "gloss": "to be cut off, to vanish",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "萬",
+      "simp": "万",
+      "kind": "char",
+      "gloss": "ten thousand",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "徑",
+      "simp": "径",
+      "kind": "char",
+      "gloss": "path, track",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "蹤",
+      "simp": "踪",
+      "kind": "char",
+      "gloss": "trace, footprint",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "滅",
+      "simp": "灭",
+      "kind": "char",
+      "gloss": "to vanish, to disappear",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "孤",
+      "simp": "孤",
+      "kind": "char",
+      "gloss": "lone, solitary",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "舟",
+      "simp": "舟",
+      "kind": "char",
+      "gloss": "boat",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "蓑",
+      "simp": "蓑",
+      "kind": "char",
+      "gloss": "straw raincoat",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "笠",
+      "simp": "笠",
+      "kind": "char",
+      "gloss": "bamboo hat",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "翁",
+      "simp": "翁",
+      "kind": "char",
+      "gloss": "old man",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "獨",
+      "simp": "独",
+      "kind": "char",
+      "gloss": "alone",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "釣",
+      "simp": "钓",
+      "kind": "char",
+      "gloss": "to fish with a line",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "寒",
+      "simp": "寒",
+      "kind": "char",
+      "gloss": "cold",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "江",
+      "simp": "江",
+      "kind": "char",
+      "gloss": "river (the Yangtze)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "雪",
+      "simp": "雪",
+      "kind": "char",
+      "gloss": "snow",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "千山",
+      "simp": "千山",
+      "kind": "compound",
+      "gloss": "a thousand mountains",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "萬徑",
+      "simp": "万径",
+      "kind": "compound",
+      "gloss": "ten thousand paths",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "人蹤",
+      "simp": "人踪",
+      "kind": "compound",
+      "gloss": "human footprints",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "孤舟",
+      "simp": "孤舟",
+      "kind": "compound",
+      "gloss": "a lone boat",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "蓑笠",
+      "simp": "蓑笠",
+      "kind": "compound",
+      "gloss": "straw cape and bamboo hat",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "寒江",
+      "simp": "寒江",
+      "kind": "compound",
+      "gloss": "cold river",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "On a thousand mountains the flying birds have vanished; on ten thousand paths there is no human footprint. A lone boat, an old man in a straw cape and bamboo hat, fishing alone in the snow of the cold river.",
+    "poetic": "Over a thousand hills, no bird flies; on ten thousand paths, no footprint is left. In a lone boat sits an old man in cape and hat, fishing alone in the snow on the cold river."
+  },
+  "notes": [
+    {
+      "id": "first-characters",
+      "kind": "interpretation",
+      "title": "A hidden message: 千萬孤獨",
+      "body": "The first characters of the four lines, 千 · 萬 · 孤 · 獨, can be read together as \"a thousand, ten thousand, lonely, alone\". Whether the poet planned it or not, the poem opens with huge numbers and shrinks to one fisherman. The first two lines widen to an empty landscape and the last two zoom in on one small figure."
+    },
+    {
+      "id": "exile",
+      "kind": "history",
+      "title": "Written in exile",
+      "body": "Liu Zongyuan (773–819) was banished to Yongzhou (in modern Hunan) after the failure of the 805 reform movement. Readers see the lone fisherman, who stays in the freezing river while the world has gone indoors, as a portrait of the poet's own stubborn integrity."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 絕 · 滅 · 雪",
+      "body": "Lines one, two and four end in 絕 (jué), 滅 (miè) and 雪 (xuě). All three were entering-tone (入聲) syllables with a short, clipped ending. The ending is still audible in Cantonese: 絕 zyut6, 滅 mit6, 雪 syut3. The abrupt stop suits the poem's cold, hard mood."
+    },
+    {
+      "id": "tones",
+      "kind": "tone",
+      "title": "Entering tones",
+      "body": "Mandarin lost the entering tone, but the three rhyme words and 一 · 獨 · 笠 · 釣 all kept it in Tang speech. Reciting the poem in Cantonese or Hokkien lets you hear a final consonant that Mandarin dropped."
+    }
+  ],
+  "distractorSeeds": {
+    "千": {
+      "look": ["干"],
+      "sound": ["前"],
+      "meaning": ["萬"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    },
+    "鳥": {
+      "look": ["烏"],
+      "meaning": ["禽"]
+    },
+    "飛": {
+      "look": ["升"],
+      "meaning": ["翔"]
+    },
+    "絕": {
+      "look": ["紀"],
+      "sound": ["覺"],
+      "meaning": ["斷"]
+    },
+    "萬": {
+      "look": ["方"],
+      "meaning": ["千"]
+    },
+    "徑": {
+      "look": ["經"],
+      "sound": ["景"],
+      "meaning": ["路"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "蹤": {
+      "look": ["縱"],
+      "meaning": ["跡"]
+    },
+    "滅": {
+      "look": ["威"],
+      "meaning": ["失"]
+    },
+    "孤": {
+      "look": ["弧"],
+      "sound": ["故", "古"],
+      "meaning": ["單"]
+    },
+    "舟": {
+      "look": ["丹"],
+      "sound": ["州"],
+      "meaning": ["船"]
+    },
+    "蓑": {
+      "look": ["衰"],
+      "meaning": ["衣"]
+    },
+    "笠": {
+      "look": ["粒"],
+      "sound": ["里", "李"],
+      "meaning": ["帽"]
+    },
+    "翁": {
+      "look": ["公"],
+      "meaning": ["叟"]
+    },
+    "獨": {
+      "look": ["濁"],
+      "sound": ["度"],
+      "meaning": ["單"]
+    },
+    "釣": {
+      "look": ["約"],
+      "meaning": ["漁"]
+    },
+    "寒": {
+      "look": ["塞"],
+      "sound": ["含", "汗"],
+      "meaning": ["冷"]
+    },
+    "江": {
+      "look": ["紅"],
+      "sound": ["將"],
+      "meaning": ["河"]
+    },
+    "雪": {
+      "look": ["雲"],
+      "meaning": ["霜"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "snowy-river"
+  }
+}

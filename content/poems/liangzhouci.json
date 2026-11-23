@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "id": "liangzhouci",
+  "title": {
+    "trad": "涼州詞",
+    "simp": "凉州词"
+  },
+  "poet": {
+    "trad": "王翰",
+    "simp": "王翰",
+    "pinyin": "Wáng Hàn"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "葡",
+          "simp": "葡",
+          "readings": {
+            "zhuyin": "ㄆㄨˊ",
+            "pinyin": "pú",
+            "jyutping": "pou4",
+            "tailo": {
+              "lit": "phôo",
+              "col": "phôo"
+            }
+          }
+        },
+        {
+          "trad": "萄",
+          "simp": "萄",
+          "readings": {
+            "zhuyin": "ㄊㄠˊ",
+            "pinyin": "táo",
+            "jyutping": "tou4",
+            "tailo": {
+              "lit": "tô",
+              "col": "tô"
+            }
+          }
+        },
+        {
+          "trad": "美",
+          "simp": "美",
+          "readings": {
+            "zhuyin": "ㄇㄟˇ",
+            "pinyin": "měi",
+            "jyutping": "mei5",
+            "tailo": {
+              "lit": "bí",
+              "col": "bí"
+            }
+          }
+        },
+        {
+          "trad": "酒",
+          "simp": "酒",
+          "readings": {
+            "zhuyin": "ㄐㄧㄡˇ",
+            "pinyin": "jiǔ",
+            "jyutping": "zau2",
+            "tailo": {
+              "lit": "tsiú",
+              "col": "tsiú"
+            }
+          }
+        },
+        {
+          "trad": "夜",
+          "simp": "夜",
+          "readings": {
+            "zhuyin": "ㄧㄝˋ",
+            "pinyin": "yè",
+            "jyutping": "je6",
+            "tailo": {
+              "lit": "iā",
+              "col": "iā"
+            }
+          }
+        },
+        {
+          "trad": "光",
+          "simp": "光",
+          "readings": {
+            "zhuyin": "ㄍㄨㄤ",
+            "pinyin": "guāng",
+            "jyutping": "gwong1",
+            "tailo": {
+              "lit": "kong",
+              "col": "kng"
+            }
+          }
+        },
+        {
+          "trad": "杯",
+          "simp": "杯",
+          "readings": {
+            "zhuyin": "ㄅㄟ",
+            "pinyin": "bēi",
+            "jyutping": "bui1",
+            "tailo": {
+              "lit": "pue",
+              "col": "pue"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Fine grape wine in night-glowing cups",
+      "literal": "Fine grape wine in cups that glow at night;",
+      "poetic": "Grape wine in a cup of glowing jade,",
+      "meaning": {
+        "feeling": "Festive excitement",
+        "wrongFeelings": ["Sorrow at a funeral", "Disgust at a feast"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "欲",
+          "simp": "欲",
+          "readings": {
+            "zhuyin": "ㄩˋ",
+            "pinyin": "yù",
+            "jyutping": "juk6",
+            "tailo": {
+              "lit": "io̍k",
+              "col": "io̍k"
+            }
+          }
+        },
+        {
+          "trad": "飲",
+          "simp": "饮",
+          "readings": {
+            "zhuyin": "ㄧㄣˇ",
+            "pinyin": "yǐn",
+            "jyutping": "jam2",
+            "tailo": {
+              "lit": "ím",
+              "col": "lím"
+            }
+          }
+        },
+        {
+          "trad": "琵",
+          "simp": "琵",
+          "readings": {
+            "zhuyin": "ㄆㄧˊ",
+            "pinyin": "pí",
+            "jyutping": "pei4",
+            "tailo": {
+              "lit": "pî",
+              "col": "pî"
+            }
+          }
+        },
+        {
+          "trad": "琶",
+          "simp": "琶",
+          "readings": {
+            "zhuyin": "ㄆㄚˊ",
+            "pinyin": "pá",
+            "jyutping": "paa4",
+            "tailo": {
+              "lit": "pâ",
+              "col": "pâ"
+            }
+          }
+        },
+        {
+          "trad": "馬",
+          "simp": "马",
+          "readings": {
+            "zhuyin": "ㄇㄚˇ",
+            "pinyin": "mǎ",
+            "jyutping": "maa5",
+            "tailo": {
+              "lit": "má",
+              "col": "bé"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "催",
+          "simp": "催",
+          "readings": {
+            "zhuyin": "ㄘㄨㄟ",
+            "pinyin": "cuī",
+            "jyutping": "ceoi1",
+            "tailo": {
+              "lit": "tshui",
+              "col": "tshui"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "About to drink, the pipa urges from horseback",
+      "literal": "I am about to drink when the pipa urges us on from horseback.",
+      "poetic": "I raise it to drink, and the pipa urges us on from horseback.",
+      "meaning": {
+        "feeling": "Reckless festive urgency",
+        "wrongFeelings": ["Calm monastic reflection", "Boredom with the music"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "醉",
+          "simp": "醉",
+          "readings": {
+            "zhuyin": "ㄗㄨㄟˋ",
+            "pinyin": "zuì",
+            "jyutping": "zeoi3",
+            "tailo": {
+              "lit": "tsuì",
+              "col": "tsuì"
+            }
+          }
+        },
+        {
+          "trad": "臥",
+          "simp": "卧",
+          "readings": {
+            "zhuyin": "ㄨㄛˋ",
+            "pinyin": "wò",
+            "jyutping": "ngo6",
+            "tailo": {
+              "lit": "ngōo",
+              "col": "ngōo"
+            }
+          }
+        },
+        {
+          "trad": "沙",
+          "simp": "沙",
+          "readings": {
+            "zhuyin": "ㄕㄚ",
+            "pinyin": "shā",
+            "jyutping": "saa1",
+            "tailo": {
+              "lit": "sa",
+              "col": "sua"
+            }
+          }
+        },
+        {
+          "trad": "場",
+          "simp": "场",
+          "readings": {
+            "zhuyin": "ㄔㄤˇ",
+            "pinyin": "chǎng",
+            "jyutping": "coeng4",
+            "tailo": {
+              "lit": "tiông",
+              "col": "tiûnn"
+            }
+          }
+        },
+        {
+          "trad": "君",
+          "simp": "君",
+          "readings": {
+            "zhuyin": "ㄐㄩㄣ",
+            "pinyin": "jūn",
+            "jyutping": "gwan1",
+            "tailo": {
+              "lit": "kun",
+              "col": "kun"
+            }
+          }
+        },
+        {
+          "trad": "莫",
+          "simp": "莫",
+          "readings": {
+            "zhuyin": "ㄇㄛˋ",
+            "pinyin": "mò",
+            "jyutping": "mok6",
+            "tailo": {
+              "lit": "bo̍k",
+              "col": "bo̍h"
+            }
+          }
+        },
+        {
+          "trad": "笑",
+          "simp": "笑",
+          "readings": {
+            "zhuyin": "ㄒㄧㄠˋ",
+            "pinyin": "xiào",
+            "jyutping": "siu3",
+            "tailo": {
+              "lit": "siàu",
+              "col": "tshiò"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Do not laugh if I lie drunk on the battlefield",
+      "literal": "Do not laugh if I lie drunk on the sandy field, my lord;",
+      "poetic": "Do not laugh if I lie drunk on the sand,",
+      "meaning": {
+        "feeling": "Bravado with a shadow of fatalism",
+        "wrongFeelings": ["Shame about drunkenness", "Pride in a victory"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "古",
+          "simp": "古",
+          "readings": {
+            "zhuyin": "ㄍㄨˇ",
+            "pinyin": "gǔ",
+            "jyutping": "gu2",
+            "tailo": {
+              "lit": "kóo",
+              "col": "kóo"
+            }
+          }
+        },
+        {
+          "trad": "來",
+          "simp": "来",
+          "readings": {
+            "zhuyin": "ㄌㄞˊ",
+            "pinyin": "lái",
+            "jyutping": "loi4",
+            "tailo": {
+              "lit": "lâi",
+              "col": "lâi"
+            }
+          }
+        },
+        {
+          "trad": "征",
+          "simp": "征",
+          "readings": {
+            "zhuyin": "ㄓㄥ",
+            "pinyin": "zhēng",
+            "jyutping": "zing1",
+            "tailo": {
+              "lit": "tsing",
+              "col": "tsing"
+            }
+          }
+        },
+        {
+          "trad": "戰",
+          "simp": "战",
+          "readings": {
+            "zhuyin": "ㄓㄢˋ",
+            "pinyin": "zhàn",
+            "jyutping": "zin3",
+            "tailo": {
+              "lit": "tsiàn",
+              "col": "tsiàn"
+            }
+          }
+        },
+        {
+          "trad": "幾",
+          "simp": "几",
+          "readings": {
+            "zhuyin": "ㄐㄧˇ",
+            "pinyin": "jǐ",
+            "jyutping": "gei2",
+            "tailo": {
+              "lit": "kí",
+              "col": "kuí"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "回",
+          "simp": "回",
+          "readings": {
+            "zhuyin": "ㄏㄨㄟˊ",
+            "pinyin": "huí",
+            "jyutping": "wui4",
+            "tailo": {
+              "lit": "huê",
+              "col": "huê"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Since ancient times how many have returned from war?",
+      "literal": "since ancient times, how many men have come back from campaigns?",
+      "poetic": "for how many have come back from war since time began?",
+      "meaning": {
+        "feeling": "Bitter fatalism behind the bravado",
+        "wrongFeelings": ["Confident hope of a safe return", "Contentment with peace"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "葡",
+      "simp": "葡",
+      "kind": "char",
+      "gloss": "grape (in 葡萄)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "萄",
+      "simp": "萄",
+      "kind": "char",
+      "gloss": "grape (in 葡萄)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "美",
+      "simp": "美",
+      "kind": "char",
+      "gloss": "fine, beautiful",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "酒",
+      "simp": "酒",
+      "kind": "char",
+      "gloss": "wine",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "夜",
+      "simp": "夜",
+      "kind": "char",
+      "gloss": "night",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "光",
+      "simp": "光",
+      "kind": "char",
+      "gloss": "light, glowing",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "杯",
+      "simp": "杯",
+      "kind": "char",
+      "gloss": "cup",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "欲",
+      "simp": "欲",
+      "kind": "char",
+      "gloss": "to be about to, to want to",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "飲",
+      "simp": "饮",
+      "kind": "char",
+      "gloss": "to drink",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "琵",
+      "simp": "琵",
+      "kind": "char",
+      "gloss": "pipa (a lute)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "琶",
+      "simp": "琶",
+      "kind": "char",
+      "gloss": "pipa (a lute)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "馬",
+      "simp": "马",
+      "kind": "char",
+      "gloss": "horse",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "催",
+      "simp": "催",
+      "kind": "char",
+      "gloss": "to urge on",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "醉",
+      "simp": "醉",
+      "kind": "char",
+      "gloss": "drunk",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "臥",
+      "simp": "卧",
+      "kind": "char",
+      "gloss": "to lie down",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "沙",
+      "simp": "沙",
+      "kind": "char",
+      "gloss": "sand",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "場",
+      "simp": "场",
+      "kind": "char",
+      "gloss": "field, ground",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "君",
+      "simp": "君",
+      "kind": "char",
+      "gloss": "you (respectful), sir",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "莫",
+      "simp": "莫",
+      "kind": "char",
+      "gloss": "do not",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "笑",
+      "simp": "笑",
+      "kind": "char",
+      "gloss": "to laugh",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "古",
+      "simp": "古",
+      "kind": "char",
+      "gloss": "ancient",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "來",
+      "simp": "来",
+      "kind": "char",
+      "gloss": "to come, since",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "征",
+      "simp": "征",
+      "kind": "char",
+      "gloss": "to march on a campaign",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "戰",
+      "simp": "战",
+      "kind": "char",
+      "gloss": "war, battle",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "幾",
+      "simp": "几",
+      "kind": "char",
+      "gloss": "how many",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "回",
+      "simp": "回",
+      "kind": "char",
+      "gloss": "to return",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "葡萄",
+      "simp": "葡萄",
+      "kind": "compound",
+      "gloss": "grape",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "美酒",
+      "simp": "美酒",
+      "kind": "compound",
+      "gloss": "fine wine",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "夜光杯",
+      "simp": "夜光杯",
+      "kind": "compound",
+      "gloss": "night-glowing cup",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "琵琶",
+      "simp": "琵琶",
+      "kind": "compound",
+      "gloss": "pipa (a lute)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "馬上",
+      "simp": "马上",
+      "kind": "compound",
+      "gloss": "on horseback",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "沙場",
+      "simp": "沙场",
+      "kind": "compound",
+      "gloss": "battlefield",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "古來",
+      "simp": "古来",
+      "kind": "compound",
+      "gloss": "since ancient times",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "征戰",
+      "simp": "征战",
+      "kind": "compound",
+      "gloss": "campaigns, war",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "幾人",
+      "simp": "几人",
+      "kind": "compound",
+      "gloss": "how many people",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Fine grape wine in cups that glow at night; I am about to drink when the pipa urges us on from horseback. Do not laugh if I lie drunk on the sandy field, my lord: since ancient times, how many men have come back from campaigns?",
+    "poetic": "Grape wine in a cup of glowing jade; I raise it to drink and the pipa urges us on from horseback. Do not laugh if I lie drunk on the sand, for how many have come back from war since time began?"
+  },
+  "notes": [
+    {
+      "id": "title",
+      "kind": "history",
+      "title": "A song title",
+      "body": "涼州詞 is not a poem title but a song tune, named after Liangzhou (modern Wuwei, Gansu), a frontier garrison town on the Silk Road. Many Tang poets wrote words for this tune. Wang Han (c. 687–726) wrote the best known."
+    },
+    {
+      "id": "mood",
+      "kind": "interpretation",
+      "title": "Bold or bitter?",
+      "body": "Readers disagree about this poem's mood. One view is that it is a reckless drinking song of men who accept death. Another is that it is a bitter protest against endless war. The last line allows both: the soldiers drink, joke and laugh at death because they know how few come home."
+    },
+    {
+      "id": "cup",
+      "kind": "other",
+      "title": "The luminous night cup",
+      "body": "夜光杯 are cups carved from a pale green jade-like stone from the Qilian Mountains, said in legend to glow in the moonlight. 琵琶 (pipa) came to China from Central Asia, so the whole opening has a foreign, frontier feel."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 杯 · 催 · 回",
+      "body": "Lines one, two and four end in 杯 (bēi), 催 (cuī) and 回 (huí), all in the 灰 rhyme. Line three ends in 笑 and does not rhyme."
+    }
+  ],
+  "distractorSeeds": {
+    "葡": {
+      "look": ["蒲"],
+      "sound": ["瀑"],
+      "meaning": ["果"]
+    },
+    "萄": {
+      "look": ["陶"],
+      "sound": ["桃", "絛"],
+      "meaning": ["果"]
+    },
+    "美": {
+      "look": ["羊"],
+      "sound": ["每"],
+      "meaning": ["好"]
+    },
+    "酒": {
+      "look": ["洒"],
+      "sound": ["九"],
+      "meaning": ["醴"]
+    },
+    "夜": {
+      "look": ["液"],
+      "sound": ["葉"],
+      "meaning": ["晚"]
+    },
+    "光": {
+      "look": ["先"],
+      "meaning": ["輝"]
+    },
+    "杯": {
+      "look": ["不"],
+      "sound": ["倍"],
+      "meaning": ["盞"]
+    },
+    "欲": {
+      "look": ["慾"],
+      "sound": ["雨", "漁"],
+      "meaning": ["想"]
+    },
+    "飲": {
+      "look": ["飯"],
+      "sound": ["銀", "陰"],
+      "meaning": ["喝"]
+    },
+    "琵": {
+      "look": ["毗"],
+      "meaning": ["樂"]
+    },
+    "琶": {
+      "look": ["把"],
+      "meaning": ["樂"]
+    },
+    "馬": {
+      "look": ["鳥"],
+      "meaning": ["駒"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    },
+    "催": {
+      "look": ["摧"],
+      "sound": ["翠"],
+      "meaning": ["趕"]
+    },
+    "醉": {
+      "look": ["碎"],
+      "sound": ["最"],
+      "meaning": ["酣"]
+    },
+    "臥": {
+      "look": ["取"],
+      "sound": ["我"],
+      "meaning": ["躺"]
+    },
+    "沙": {
+      "look": ["少"],
+      "meaning": ["塵"]
+    },
+    "場": {
+      "look": ["楊"],
+      "meaning": ["地"]
+    },
+    "君": {
+      "look": ["居"],
+      "meaning": ["你"]
+    },
+    "莫": {
+      "look": ["暮"],
+      "meaning": ["勿"]
+    },
+    "笑": {
+      "look": ["哭"],
+      "sound": ["曉", "小"],
+      "meaning": ["喜"]
+    },
+    "古": {
+      "look": ["苦"],
+      "sound": ["故", "姑"],
+      "meaning": ["昔"]
+    },
+    "來": {
+      "look": ["未"],
+      "meaning": ["至"]
+    },
+    "征": {
+      "look": ["正"],
+      "meaning": ["戰"]
+    },
+    "戰": {
+      "look": ["單"],
+      "meaning": ["鬥"]
+    },
+    "幾": {
+      "look": ["機"],
+      "sound": ["及", "際"],
+      "meaning": ["多", "少"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "回": {
+      "look": ["同"],
+      "meaning": ["歸"]
+    }
+  },
+  "meta": {
+    "curriculum": [],
+    "scene": "frontier-feast"
+  }
+}

@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": 1,
+  "id": "huixiangoushu",
+  "title": {
+    "trad": "回鄉偶書",
+    "simp": "回乡偶书"
+  },
+  "poet": {
+    "trad": "賀知章",
+    "simp": "贺知章",
+    "pinyin": "Hè Zhīzhāng"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "少",
+          "simp": "少",
+          "readings": {
+            "zhuyin": "ㄕㄠˋ",
+            "pinyin": "shào",
+            "jyutping": "siu3",
+            "tailo": {
+              "lit": "siàu",
+              "col": "siàu"
+            }
+          }
+        },
+        {
+          "trad": "小",
+          "simp": "小",
+          "readings": {
+            "zhuyin": "ㄒㄧㄠˇ",
+            "pinyin": "xiǎo",
+            "jyutping": "siu2",
+            "tailo": {
+              "lit": "siáu",
+              "col": "sió"
+            }
+          }
+        },
+        {
+          "trad": "離",
+          "simp": "离",
+          "readings": {
+            "zhuyin": "ㄌㄧˊ",
+            "pinyin": "lí",
+            "jyutping": "lei4",
+            "tailo": {
+              "lit": "lî",
+              "col": "lî"
+            }
+          }
+        },
+        {
+          "trad": "家",
+          "simp": "家",
+          "readings": {
+            "zhuyin": "ㄐㄧㄚ",
+            "pinyin": "jiā",
+            "jyutping": "gaa1",
+            "tailo": {
+              "lit": "ka",
+              "col": "ke"
+            }
+          }
+        },
+        {
+          "trad": "老",
+          "simp": "老",
+          "readings": {
+            "zhuyin": "ㄌㄠˇ",
+            "pinyin": "lǎo",
+            "jyutping": "lou5",
+            "tailo": {
+              "lit": "ló",
+              "col": "lāu"
+            }
+          }
+        },
+        {
+          "trad": "大",
+          "simp": "大",
+          "readings": {
+            "zhuyin": "ㄉㄚˋ",
+            "pinyin": "dà",
+            "jyutping": "daai6",
+            "tailo": {
+              "lit": "tāi",
+              "col": "tuā"
+            }
+          }
+        },
+        {
+          "trad": "回",
+          "simp": "回",
+          "readings": {
+            "zhuyin": "ㄏㄨㄟˊ",
+            "pinyin": "huí",
+            "jyutping": "wui4",
+            "tailo": {
+              "lit": "huê",
+              "col": "huê"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Left home young, return when old",
+      "literal": "I left home when I was young and I return when I am old;",
+      "poetic": "I left home a boy, and I come back an old man;",
+      "meaning": {
+        "feeling": "Bittersweet wonder at the passing of time",
+        "wrongFeelings": ["Pride in a successful career", "Rage at being unwelcome"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "鄉",
+          "simp": "乡",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "hoeng1",
+            "tailo": {
+              "lit": "hiong",
+              "col": "hiunn"
+            }
+          }
+        },
+        {
+          "trad": "音",
+          "simp": "音",
+          "readings": {
+            "zhuyin": "ㄧㄣ",
+            "pinyin": "yīn",
+            "jyutping": "jam1",
+            "tailo": {
+              "lit": "im",
+              "col": "im"
+            }
+          }
+        },
+        {
+          "trad": "無",
+          "simp": "无",
+          "readings": {
+            "zhuyin": "ㄨˊ",
+            "pinyin": "wú",
+            "jyutping": "mou4",
+            "tailo": {
+              "lit": "bû",
+              "col": "bô"
+            }
+          }
+        },
+        {
+          "trad": "改",
+          "simp": "改",
+          "readings": {
+            "zhuyin": "ㄍㄞˇ",
+            "pinyin": "gǎi",
+            "jyutping": "goi2",
+            "tailo": {
+              "lit": "kái",
+              "col": "kái"
+            }
+          }
+        },
+        {
+          "trad": "鬢",
+          "simp": "鬓",
+          "readings": {
+            "zhuyin": "ㄅㄧㄣˋ",
+            "pinyin": "bìn",
+            "jyutping": "ban3",
+            "tailo": {
+              "lit": "pìn",
+              "col": "pìn"
+            }
+          }
+        },
+        {
+          "trad": "毛",
+          "simp": "毛",
+          "readings": {
+            "zhuyin": "ㄇㄠˊ",
+            "pinyin": "máo",
+            "jyutping": "mou4",
+            "tailo": {
+              "lit": "môo",
+              "col": "mn̂g"
+            }
+          }
+        },
+        {
+          "trad": "衰",
+          "simp": "衰",
+          "readings": {
+            "zhuyin": "ㄘㄨㄟ",
+            "pinyin": "cuī",
+            "jyutping": "seoi1",
+            "tailo": {
+              "lit": "sui",
+              "col": "sue"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "My accent is unchanged, my temples have thinned",
+      "literal": "my country accent is unchanged, but the hair at my temples has thinned.",
+      "poetic": "my accent is still the same, though the hair at my temples is thin.",
+      "meaning": {
+        "feeling": "Gentle sadness at ageing while the voice stays the same",
+        "wrongFeelings": ["Embarrassment at a foreign accent", "Elation at feeling young again"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "兒",
+          "simp": "儿",
+          "readings": {
+            "zhuyin": "ㄦˊ",
+            "pinyin": "ér",
+            "jyutping": "ji4",
+            "tailo": {
+              "lit": "jî",
+              "col": "jî"
+            }
+          }
+        },
+        {
+          "trad": "童",
+          "simp": "童",
+          "readings": {
+            "zhuyin": "ㄊㄨㄥˊ",
+            "pinyin": "tóng",
+            "jyutping": "tung4",
+            "tailo": {
+              "lit": "tông",
+              "col": "tông"
+            }
+          }
+        },
+        {
+          "trad": "相",
+          "simp": "相",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "soeng1",
+            "tailo": {
+              "lit": "siong",
+              "col": "sio"
+            }
+          }
+        },
+        {
+          "trad": "見",
+          "simp": "见",
+          "readings": {
+            "zhuyin": "ㄐㄧㄢˋ",
+            "pinyin": "jiàn",
+            "jyutping": "gin3",
+            "tailo": {
+              "lit": "kiàn",
+              "col": "kìnn"
+            }
+          }
+        },
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "相",
+          "simp": "相",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "soeng1",
+            "tailo": {
+              "lit": "siong",
+              "col": "sio"
+            }
+          }
+        },
+        {
+          "trad": "識",
+          "simp": "识",
+          "readings": {
+            "zhuyin": "ㄕˊ",
+            "pinyin": "shí",
+            "jyutping": "sik1",
+            "tailo": {
+              "lit": "sik",
+              "col": "bat"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "The children I meet do not know me",
+      "literal": "The children I meet do not know who I am;",
+      "poetic": "The children I meet look at me as a stranger,",
+      "meaning": {
+        "feeling": "The poignant feeling of being a stranger at home",
+        "wrongFeelings": ["Anger at rude children", "Amusement at a game"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "笑",
+          "simp": "笑",
+          "readings": {
+            "zhuyin": "ㄒㄧㄠˋ",
+            "pinyin": "xiào",
+            "jyutping": "siu3",
+            "tailo": {
+              "lit": "siàu",
+              "col": "tshiò"
+            }
+          }
+        },
+        {
+          "trad": "問",
+          "simp": "问",
+          "readings": {
+            "zhuyin": "ㄨㄣˋ",
+            "pinyin": "wèn",
+            "jyutping": "man6",
+            "tailo": {
+              "lit": "būn",
+              "col": "mn̄g"
+            }
+          }
+        },
+        {
+          "trad": "客",
+          "simp": "客",
+          "readings": {
+            "zhuyin": "ㄎㄜˋ",
+            "pinyin": "kè",
+            "jyutping": "haak3",
+            "tailo": {
+              "lit": "khik",
+              "col": "kheh"
+            }
+          }
+        },
+        {
+          "trad": "從",
+          "simp": "从",
+          "readings": {
+            "zhuyin": "ㄘㄨㄥˊ",
+            "pinyin": "cóng",
+            "jyutping": "cung4",
+            "tailo": {
+              "lit": "tsiông",
+              "col": "tsông"
+            }
+          }
+        },
+        {
+          "trad": "何",
+          "simp": "何",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "ho4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        },
+        {
+          "trad": "來",
+          "simp": "来",
+          "readings": {
+            "zhuyin": "ㄌㄞˊ",
+            "pinyin": "lái",
+            "jyutping": "loi4",
+            "tailo": {
+              "lit": "lâi",
+              "col": "lâi"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Smiling they ask: where does the guest come from?",
+      "literal": "they smile and ask, \"Where have you come from, visitor?\"",
+      "poetic": "and ask with a smile where the visitor has come from.",
+      "meaning": {
+        "feeling": "The ache of homecoming turned to wry melancholy",
+        "wrongFeelings": ["Joy at a hero's welcome", "Suspicion of the children's trick"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "少",
+      "simp": "少",
+      "kind": "char",
+      "gloss": "young",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "小",
+      "simp": "小",
+      "kind": "char",
+      "gloss": "small, young",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "離",
+      "simp": "离",
+      "kind": "char",
+      "gloss": "to leave",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "家",
+      "simp": "家",
+      "kind": "char",
+      "gloss": "home",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "老",
+      "simp": "老",
+      "kind": "char",
+      "gloss": "old",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "大",
+      "simp": "大",
+      "kind": "char",
+      "gloss": "big, grown",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "回",
+      "simp": "回",
+      "kind": "char",
+      "gloss": "to return",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "鄉",
+      "simp": "乡",
+      "kind": "char",
+      "gloss": "native place",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "音",
+      "simp": "音",
+      "kind": "char",
+      "gloss": "sound, accent",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "無",
+      "simp": "无",
+      "kind": "char",
+      "gloss": "not, none",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "改",
+      "simp": "改",
+      "kind": "char",
+      "gloss": "to change",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "鬢",
+      "simp": "鬓",
+      "kind": "char",
+      "gloss": "hair at the temples",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "毛",
+      "simp": "毛",
+      "kind": "char",
+      "gloss": "hair, fur",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "衰",
+      "simp": "衰",
+      "kind": "char",
+      "gloss": "to decline, to thin out",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "兒",
+      "simp": "儿",
+      "kind": "char",
+      "gloss": "child",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "童",
+      "simp": "童",
+      "kind": "char",
+      "gloss": "child, boy",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "相",
+      "simp": "相",
+      "kind": "char",
+      "gloss": "each other",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        },
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "見",
+      "simp": "见",
+      "kind": "char",
+      "gloss": "to see, to meet",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "識",
+      "simp": "识",
+      "kind": "char",
+      "gloss": "to recognise",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "笑",
+      "simp": "笑",
+      "kind": "char",
+      "gloss": "to laugh, to smile",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "問",
+      "simp": "问",
+      "kind": "char",
+      "gloss": "to ask",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "客",
+      "simp": "客",
+      "kind": "char",
+      "gloss": "guest, visitor",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "從",
+      "simp": "从",
+      "kind": "char",
+      "gloss": "from",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "何",
+      "simp": "何",
+      "kind": "char",
+      "gloss": "what, where",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "處",
+      "simp": "处",
+      "kind": "char",
+      "gloss": "place",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "來",
+      "simp": "来",
+      "kind": "char",
+      "gloss": "to come",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "少小",
+      "simp": "少小",
+      "kind": "compound",
+      "gloss": "young, in youth",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "離家",
+      "simp": "离家",
+      "kind": "compound",
+      "gloss": "to leave home",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "老大",
+      "simp": "老大",
+      "kind": "compound",
+      "gloss": "old, grown old",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "鄉音",
+      "simp": "乡音",
+      "kind": "compound",
+      "gloss": "local accent",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "鬢毛",
+      "simp": "鬓毛",
+      "kind": "compound",
+      "gloss": "hair at the temples",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "兒童",
+      "simp": "儿童",
+      "kind": "compound",
+      "gloss": "children",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "相識",
+      "simp": "相识",
+      "kind": "compound",
+      "gloss": "to know each other",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "I left home when I was young and I return when I am old; my country accent is unchanged, but the hair at my temples has thinned. The children I meet do not know who I am; they smile and ask, \"Where have you come from, visitor?\"",
+    "poetic": "I left home a boy and I come back an old man. My accent is the same, though the hair at my temples is thin. The children I meet look at me as a stranger, and ask with a smile where the visitor has come from."
+  },
+  "notes": [
+    {
+      "id": "poet",
+      "kind": "history",
+      "title": "A return after fifty years",
+      "body": "He Zhizhang (659–744) left his home in Yongxing (near modern Hangzhou) to serve at court and came back when he retired, in his eighties. This is the first of two poems he wrote called 回鄉偶書 (\"written by chance on returning home\")."
+    },
+    {
+      "id": "contrast",
+      "kind": "interpretation",
+      "title": "What changed and what did not",
+      "body": "The poem is built on contrasts. The first line is about time, the second line is about the poet (voice the same, hair thin), the third is about the children (they do not know him) and the fourth is the children's smiling question. That last question is both polite and heartbreaking: in his own village, a man who still speaks like a local is asked where he is from."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 回 · 衰 · 來",
+      "body": "Lines one, two and four end in 回 (huí), 衰 (cuī) and 來 (lái), in the 灰 rhyme. 衰 is normally shuāi, but is read cuī here to keep the rhyme, as taught in PRC schools."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "少 is read shào in 少小 (\"young\"), not shǎo. 處 in 何處 is read chù. 衰 is cuī, not shuāi, in this poem."
+    }
+  ],
+  "distractorSeeds": {
+    "少": {
+      "look": ["沙"],
+      "meaning": ["幼"]
+    },
+    "小": {
+      "look": ["少"],
+      "sound": ["曉"],
+      "meaning": ["細"]
+    },
+    "離": {
+      "look": ["籬"],
+      "sound": ["里", "李"],
+      "meaning": ["別"]
+    },
+    "家": {
+      "look": ["象"],
+      "sound": ["佳"],
+      "meaning": ["宅"]
+    },
+    "老": {
+      "look": ["考"],
+      "meaning": ["舊"]
+    },
+    "大": {
+      "look": ["太"],
+      "meaning": ["巨"]
+    },
+    "回": {
+      "look": ["同"],
+      "meaning": ["歸"]
+    },
+    "鄉": {
+      "look": ["卿"],
+      "sound": ["響", "香"],
+      "meaning": ["村"]
+    },
+    "音": {
+      "look": ["意"],
+      "sound": ["銀", "陰"],
+      "meaning": ["聲"]
+    },
+    "無": {
+      "look": ["舞"],
+      "sound": ["物", "午"],
+      "meaning": ["沒"]
+    },
+    "改": {
+      "look": ["收"],
+      "meaning": ["變"]
+    },
+    "鬢": {
+      "look": ["鬚"],
+      "meaning": ["髮"]
+    },
+    "毛": {
+      "look": ["手"],
+      "meaning": ["髮"]
+    },
+    "衰": {
+      "look": ["哀"],
+      "sound": ["催", "翠"],
+      "meaning": ["老"]
+    },
+    "兒": {
+      "look": ["見"],
+      "sound": ["二"],
+      "meaning": ["子"]
+    },
+    "童": {
+      "look": ["重"],
+      "meaning": ["孩"]
+    },
+    "相": {
+      "look": ["想"],
+      "sound": ["響", "香"],
+      "meaning": ["互"]
+    },
+    "見": {
+      "look": ["貝"],
+      "sound": ["間", "剪"],
+      "meaning": ["看"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "識": {
+      "look": ["織"],
+      "sound": ["是", "似"],
+      "meaning": ["認"]
+    },
+    "笑": {
+      "look": ["哭"],
+      "sound": ["曉"],
+      "meaning": ["喜"]
+    },
+    "問": {
+      "look": ["間"],
+      "sound": ["聞"],
+      "meaning": ["詢"]
+    },
+    "客": {
+      "look": ["容"],
+      "meaning": ["賓"]
+    },
+    "從": {
+      "look": ["徙"],
+      "meaning": ["自"]
+    },
+    "何": {
+      "look": ["河"],
+      "sound": ["禾", "鶴"],
+      "meaning": ["誰"]
+    },
+    "處": {
+      "look": ["虎"],
+      "sound": ["出", "鋤"],
+      "meaning": ["地"]
+    },
+    "來": {
+      "look": ["未"],
+      "meaning": ["至"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "village-return"
+  }
+}
