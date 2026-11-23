@@ -74,3 +74,68 @@ describe('gradeRecitation: alignment', () => {
     expect(r.accuracy).toBeCloseTo(15 / 20);
   });
 });
+
+describe('gradeRecitation: reading-based matching', () => {
+  // Pretend ASR heard 名 (a homophone of 明) which the poem itself does not contain.
+  const readingsOf = (system: 'zhuyin' | 'pinyin' | 'jyutping') => (c: string) => {
+    const table: Record<string, Record<string, string>> = {
+      名: { zhuyin: 'ㄇㄧㄥˊ', pinyin: 'míng', jyutping: 'ming4' },
+      命: { zhuyin: 'ㄇㄧㄥˋ', pinyin: 'mìng', jyutping: 'ming6' },
+    };
+    const r = table[c]?.[system];
+    return r ? [r] : [];
+  };
+
+  it('accepts a homophone substitution in each language', () => {
+    for (const system of ['zhuyin', 'pinyin', 'jyutping'] as const) {
+      const r = gradeRecitation({
+        target: line0,
+        transcript: '床前名月光',
+        system,
+        readingsOf: readingsOf(system),
+      });
+      expect(r.accuracy, system).toBe(1);
+      expect(r.diff[2]!.status).toBe('correct');
+    }
+  });
+
+  it('rejects a char with a different tone', () => {
+    const r = gradeRecitation({
+      target: line0,
+      transcript: '床前命月光',
+      system: 'pinyin',
+      readingsOf: readingsOf('pinyin'),
+    });
+    expect(r.diff[2]).toMatchObject({ status: 'wrong', heard: '命' });
+  });
+
+  it('without a lookup a homophone is wrong', () => {
+    const r = gradeRecitation({ target: line0, transcript: '床前名月光', system: 'pinyin' });
+    expect(r.accuracy).toBeCloseTo(4 / 5);
+  });
+
+  it('uses the chosen Hokkien layer for tailo', () => {
+    const target = line0.map((c) => ({
+      ...c,
+      readings: { ...c.readings, tailo: { lit: `${c.trad}-lit`, col: `${c.trad}-col` } },
+    }));
+    const lookup = (c: string) => (c === '名' ? ['明-col'] : []);
+    const run = (hokkienLayer: 'lit' | 'col') =>
+      gradeRecitation({
+        target,
+        transcript: '床前名月光',
+        system: 'tailo',
+        hokkienLayer,
+        readingsOf: lookup,
+      });
+    expect(run('col').accuracy).toBe(1);
+    expect(run('lit').accuracy).toBeCloseTo(4 / 5);
+  });
+
+  it('treats a poem char with the same reading as a homophone, no lookup needed', () => {
+    // Both 月 and a hypothetical same-reading poem char: here 明 (míng) is in the poem at lines 0
+    // and 2, so hearing it where it is expected is trivially right; hearing 光 (guāng) is wrong.
+    const r = gradeRecitation({ target: line0, transcript: '床前光月光', system: 'pinyin' });
+    expect(r.diff[2]!.status).toBe('wrong');
+  });
+});
