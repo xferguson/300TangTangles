@@ -31,6 +31,7 @@ import {
   type Flow,
 } from './flow';
 import './SessionScreen.css';
+import { AppNav } from '../../ui/AppNav/AppNav';
 
 export interface SessionScreenProps {
   poem: Poem;
@@ -228,6 +229,7 @@ export function SessionScreen({
 
   return (
     <main className="session">
+      <AppNav />
       <header className="ss-header">
         <div>
           <h1>{poem.title[settings.script]}</h1>

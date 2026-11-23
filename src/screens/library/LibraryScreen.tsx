@@ -2,6 +2,7 @@ import type { Lexicon, Settings } from '../../core';
 import type { Poem } from '../../core/poem';
 import { buildLibrary, type Catalog, type LibraryCard } from './library';
 import './LibraryScreen.css';
+import { AppNav } from '../../ui/AppNav/AppNav';
 
 export interface LibraryScreenProps {
   catalog: Catalog;
@@ -69,6 +70,7 @@ export function LibraryScreen({ catalog, poems, lexicon, settings }: LibraryScre
   const openCount = all.filter((c) => c.status === 'available').length;
   return (
     <main className="lib">
+      <AppNav />
       <header className="lib-head">
         <h1 lang="zh-Hant">詩庫</h1>
         <p>
