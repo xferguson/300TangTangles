@@ -3,6 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import type { LineBuilderExercise } from '../../core';
 import { AudioButton } from '../../ui/AudioButton/AudioButton';
 import { Button } from '../../ui/Button/Button';
+import { toScript } from '../display';
 import type { ExerciseProps } from '../types';
 import './LineBuilder.css';
 
@@ -21,6 +22,7 @@ type Feedback = 'none' | 'wrong' | 'right';
 export function LineBuilder({
   exercise,
   poem,
+  settings,
   playAudio,
   onComplete,
 }: ExerciseProps<LineBuilderExercise>) {
@@ -42,6 +44,7 @@ export function LineBuilder({
   const done = feedback === 'right';
   const full = placed.length === answer.length;
   const isCorrect = full && placed.every((b, i) => bank[b] === answer[i]);
+  const show = (c: string) => toScript(c, poem, settings);
   const translation = poem.lines[exercise.line]?.literal;
 
   const edit = useCallback((next: number[]) => {
@@ -138,7 +141,7 @@ export function LineBuilder({
           if (bankIndex === undefined) {
             return <span key={pos} className="lb-slot" data-empty aria-hidden="true" />;
           }
-          const char = bank[bankIndex]!;
+          const char = show(bank[bankIndex]!);
           const isLocked = pos < locked;
           return (
             <button
@@ -171,7 +174,7 @@ export function LineBuilder({
             disabled={placed.includes(i) || done}
             onClick={() => addTile(i)}
           >
-            {char}
+            {show(char)}
           </button>
         ))}
       </div>
