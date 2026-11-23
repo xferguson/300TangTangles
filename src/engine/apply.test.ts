@@ -102,21 +102,21 @@ describe('line builder scaffolding', () => {
 });
 
 describe('meaning, recitation, Tangle', () => {
-  it('meaning rises 0.5 per correct answer and falls 0.5 per wrong one, within 0-1', () => {
+  it('meaning rises by a third per correct answer and falls by a third per wrong one, within 0-1', () => {
     let s = state0();
     const ex = buildMeaningCheck(ctx(s.lexicon), 0, 0);
+    const wrong = { correct: false };
     s = applyResult(s, resultFor(ex));
-    expect(m0(s).meaning).toBe(0.5);
+    expect(m0(s).meaning).toBeCloseTo(1 / 3);
+    s = applyResult(s, resultFor(ex));
+    expect(m0(s).meaning).toBeCloseTo(2 / 3);
     s = applyResult(s, resultFor(ex));
     expect(m0(s).meaning).toBe(1);
     s = applyResult(s, resultFor(ex));
     expect(m0(s).meaning).toBe(1);
-    s = applyResult(s, resultFor(ex, { correct: false }));
-    expect(m0(s).meaning).toBe(0.5);
-    s = applyResult(
-      applyResult(s, resultFor(ex, { correct: false })),
-      resultFor(ex, { correct: false }),
-    );
+    s = applyResult(s, resultFor(ex, wrong));
+    expect(m0(s).meaning).toBeCloseTo(2 / 3);
+    for (let i = 0; i < 4; i++) s = applyResult(s, resultFor(ex, wrong));
     expect(m0(s).meaning).toBe(0);
   });
 
