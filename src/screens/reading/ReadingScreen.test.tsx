@@ -52,6 +52,18 @@ function setup(props: Omit<Parameters<typeof Harness>[0], 'onChange'> = {}) {
   return { sink, user };
 }
 
+describe('ReadingScreen nav', () => {
+  it('has an app nav with Home and Settings links', () => {
+    setup();
+    const nav = screen.getByRole('navigation', { name: 'App' });
+    expect(within(nav).getByRole('link', { name: /settings/i })).toHaveAttribute(
+      'href',
+      '#/settings',
+    );
+    expect(within(nav).getByRole('link', { name: /home/i })).toHaveAttribute('href', '#/');
+  });
+});
+
 describe('ReadingScreen highlights', () => {
   it('colours each character by its lexicon status', () => {
     const lexicon = setStatus({}, '霜', { status: 'learning', level: 3 }, NOW);
