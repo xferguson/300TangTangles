@@ -1,0 +1,15 @@
+.audio-check {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px 16px 64px;
+  color: var(--ink);
+}
+.audio-check h1 {
+  font-family: var(--f-poem);
+  color: var(--heading);
+}
+.audio-check-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
