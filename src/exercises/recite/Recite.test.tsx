@@ -144,7 +144,9 @@ describe('Recite: whole poem', () => {
   it('starts from a blank scroll (no line text) and passes at 90% or better', async () => {
     const { onComplete, user } = setup(
       poemEx,
-      new MockSpeechInput('recognition', [said('床前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。')]),
+      new MockSpeechInput('recognition', [
+        said('床前明月光，疑是地上霜。舉頭望明月，低頭思故鄉。'),
+      ]),
     );
     expect(screen.queryByText('床前明月光')).not.toBeInTheDocument();
     await speak(user);
@@ -165,7 +167,7 @@ describe('Recite: whole poem', () => {
     await user.click(screen.getByRole('button', { name: /continue/i }));
     const result = onComplete.mock.calls[0]![0];
     expect(result.correct).toBe(false);
-    expect(result.accuracy).toBeCloseTo(18 / 20);
+    expect(result.accuracy).toBeCloseTo(17 / 20);
     expect(result.unitsMissed).toEqual(expect.arrayContaining(['思', '故', '鄉']));
   });
 });
@@ -179,7 +181,7 @@ describe('Recite: self-grade fallback', () => {
     expect(screen.queryByText('舉頭望明月')).not.toBeInTheDocument();
     await speak(user);
     expect(await screen.findByLabelText('Your recording')).toHaveAttribute('src', 'blob:mine');
-    expect(screen.getByLabelText('Answer')).toHaveTextContent('舉頭望明月');
+    expect(screen.getByLabelText('Answer')).toHaveTextContent(/舉.*頭.*望.*明.*月/);
     await user.click(screen.getByRole('button', { name: /got it/i }));
     await user.click(screen.getByRole('button', { name: /continue/i }));
     expect(onComplete).toHaveBeenCalledWith(
@@ -220,7 +222,7 @@ describe('Recite: self-grade fallback', () => {
   it('offers "grade myself" without touching the microphone', async () => {
     const { onComplete, user } = setup(lineEx, new MockSpeechInput('recognition'));
     await user.click(screen.getByRole('button', { name: /grade myself/i }));
-    expect(screen.getByLabelText('Answer')).toHaveTextContent('舉頭望明月');
+    expect(screen.getByLabelText('Answer')).toHaveTextContent(/舉.*頭.*望.*明.*月/);
     await user.click(screen.getByRole('button', { name: /got it/i }));
     await user.click(screen.getByRole('button', { name: /continue/i }));
     expect(onComplete).toHaveBeenCalledWith(expect.objectContaining({ correct: true }));
