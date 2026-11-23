@@ -1,0 +1,1010 @@
+{
+  "schemaVersion": 1,
+  "id": "zengwanglun",
+  "title": {
+    "trad": "贈汪倫",
+    "simp": "赠汪伦"
+  },
+  "poet": {
+    "trad": "李白",
+    "simp": "李白",
+    "pinyin": "Lǐ Bái"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "李",
+          "simp": "李",
+          "readings": {
+            "zhuyin": "ㄌㄧˇ",
+            "pinyin": "lǐ",
+            "jyutping": "lei5",
+            "tailo": {
+              "lit": "lí",
+              "col": "lí"
+            }
+          }
+        },
+        {
+          "trad": "白",
+          "simp": "白",
+          "readings": {
+            "zhuyin": "ㄅㄞˊ",
+            "pinyin": "bái",
+            "jyutping": "baak6",
+            "tailo": {
+              "lit": "pi̍k",
+              "col": "pe̍h"
+            }
+          }
+        },
+        {
+          "trad": "乘",
+          "simp": "乘",
+          "readings": {
+            "zhuyin": "ㄔㄥˊ",
+            "pinyin": "chéng",
+            "jyutping": "sing4",
+            "tailo": {
+              "lit": "sîng",
+              "col": "sîng"
+            }
+          }
+        },
+        {
+          "trad": "舟",
+          "simp": "舟",
+          "readings": {
+            "zhuyin": "ㄓㄡ",
+            "pinyin": "zhōu",
+            "jyutping": "zau1",
+            "tailo": {
+              "lit": "tsiu",
+              "col": "tsiu"
+            }
+          }
+        },
+        {
+          "trad": "將",
+          "simp": "将",
+          "readings": {
+            "zhuyin": "ㄐㄧㄤ",
+            "pinyin": "jiāng",
+            "jyutping": "zoeng1",
+            "tailo": {
+              "lit": "tsiong",
+              "col": "tsiong"
+            }
+          }
+        },
+        {
+          "trad": "欲",
+          "simp": "欲",
+          "readings": {
+            "zhuyin": "ㄩˋ",
+            "pinyin": "yù",
+            "jyutping": "juk6",
+            "tailo": {
+              "lit": "io̍k",
+              "col": "io̍k"
+            }
+          }
+        },
+        {
+          "trad": "行",
+          "simp": "行",
+          "readings": {
+            "zhuyin": "ㄒㄧㄥˊ",
+            "pinyin": "xíng",
+            "jyutping": "hang4",
+            "tailo": {
+              "lit": "hîng",
+              "col": "kiânn"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Li Bai boards a boat, about to leave",
+      "literal": "Li Bai boards his boat, about to set out,",
+      "poetic": "Li Bai is on his boat, just pushing off,",
+      "meaning": {
+        "feeling": "Anticipation of departure",
+        "wrongFeelings": ["Anger at being thrown out", "Seasickness"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "忽",
+          "simp": "忽",
+          "readings": {
+            "zhuyin": "ㄏㄨ",
+            "pinyin": "hū",
+            "jyutping": "fat1",
+            "tailo": {
+              "lit": "hut",
+              "col": "hut"
+            }
+          }
+        },
+        {
+          "trad": "聞",
+          "simp": "闻",
+          "readings": {
+            "zhuyin": "ㄨㄣˊ",
+            "pinyin": "wén",
+            "jyutping": "man4",
+            "tailo": {
+              "lit": "bûn",
+              "col": "bûn"
+            }
+          }
+        },
+        {
+          "trad": "岸",
+          "simp": "岸",
+          "readings": {
+            "zhuyin": "ㄢˋ",
+            "pinyin": "àn",
+            "jyutping": "ngon6",
+            "tailo": {
+              "lit": "gān",
+              "col": "huānn"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "踏",
+          "simp": "踏",
+          "readings": {
+            "zhuyin": "ㄊㄚˋ",
+            "pinyin": "tà",
+            "jyutping": "daap6",
+            "tailo": {
+              "lit": "ta̍p",
+              "col": "ta̍h"
+            }
+          }
+        },
+        {
+          "trad": "歌",
+          "simp": "歌",
+          "readings": {
+            "zhuyin": "ㄍㄜ",
+            "pinyin": "gē",
+            "jyutping": "go1",
+            "tailo": {
+              "lit": "ko",
+              "col": "kua"
+            }
+          }
+        },
+        {
+          "trad": "聲",
+          "simp": "声",
+          "readings": {
+            "zhuyin": "ㄕㄥ",
+            "pinyin": "shēng",
+            "jyutping": "sing1",
+            "tailo": {
+              "lit": "sing",
+              "col": "siann"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Suddenly, from the bank, the sound of stamping songs",
+      "literal": "when suddenly from the bank comes the sound of stamping and singing.",
+      "poetic": "when a song, keeping time with stamping feet, rings out from the bank.",
+      "meaning": {
+        "feeling": "Surprise and warm delight",
+        "wrongFeelings": ["Fright at an ambush", "Annoyance at the noise"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "桃",
+          "simp": "桃",
+          "readings": {
+            "zhuyin": "ㄊㄠˊ",
+            "pinyin": "táo",
+            "jyutping": "tou4",
+            "tailo": {
+              "lit": "thô",
+              "col": "thô"
+            }
+          }
+        },
+        {
+          "trad": "花",
+          "simp": "花",
+          "readings": {
+            "zhuyin": "ㄏㄨㄚ",
+            "pinyin": "huā",
+            "jyutping": "faa1",
+            "tailo": {
+              "lit": "hua",
+              "col": "hue"
+            }
+          }
+        },
+        {
+          "trad": "潭",
+          "simp": "潭",
+          "readings": {
+            "zhuyin": "ㄊㄢˊ",
+            "pinyin": "tán",
+            "jyutping": "taam4",
+            "tailo": {
+              "lit": "thâm",
+              "col": "thâm"
+            }
+          }
+        },
+        {
+          "trad": "水",
+          "simp": "水",
+          "readings": {
+            "zhuyin": "ㄕㄨㄟˇ",
+            "pinyin": "shuǐ",
+            "jyutping": "seoi2",
+            "tailo": {
+              "lit": "suí",
+              "col": "tsuí"
+            }
+          }
+        },
+        {
+          "trad": "深",
+          "simp": "深",
+          "readings": {
+            "zhuyin": "ㄕㄣ",
+            "pinyin": "shēn",
+            "jyutping": "sam1",
+            "tailo": {
+              "lit": "sim",
+              "col": "tshim"
+            }
+          }
+        },
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "尺",
+          "simp": "尺",
+          "readings": {
+            "zhuyin": "ㄔˇ",
+            "pinyin": "chǐ",
+            "jyutping": "cek3",
+            "tailo": {
+              "lit": "tshik",
+              "col": "tshioh"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Peach Blossom Pool is a thousand feet deep",
+      "literal": "The water of Peach Blossom Pool is a thousand feet deep,",
+      "poetic": "Peach Blossom Pool is a thousand feet deep,",
+      "meaning": {
+        "feeling": "Admiration for the pool, preparing the comparison",
+        "wrongFeelings": ["Fear of drowning", "Worry about the cost of the trip"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "及",
+          "simp": "及",
+          "readings": {
+            "zhuyin": "ㄐㄧˊ",
+            "pinyin": "jí",
+            "jyutping": "kap6",
+            "tailo": {
+              "lit": "ki̍p",
+              "col": "ki̍p"
+            }
+          }
+        },
+        {
+          "trad": "汪",
+          "simp": "汪",
+          "readings": {
+            "zhuyin": "ㄨㄤ",
+            "pinyin": "wāng",
+            "jyutping": "wong1",
+            "tailo": {
+              "lit": "ong",
+              "col": "ong"
+            }
+          }
+        },
+        {
+          "trad": "倫",
+          "simp": "伦",
+          "readings": {
+            "zhuyin": "ㄌㄨㄣˊ",
+            "pinyin": "lún",
+            "jyutping": "leon4",
+            "tailo": {
+              "lit": "lûn",
+              "col": "lûn"
+            }
+          }
+        },
+        {
+          "trad": "送",
+          "simp": "送",
+          "readings": {
+            "zhuyin": "ㄙㄨㄥˋ",
+            "pinyin": "sòng",
+            "jyutping": "sung3",
+            "tailo": {
+              "lit": "sàng",
+              "col": "sàng"
+            }
+          }
+        },
+        {
+          "trad": "我",
+          "simp": "我",
+          "readings": {
+            "zhuyin": "ㄨㄛˇ",
+            "pinyin": "wǒ",
+            "jyutping": "ngo5",
+            "tailo": {
+              "lit": "ngó",
+              "col": "guá"
+            }
+          }
+        },
+        {
+          "trad": "情",
+          "simp": "情",
+          "readings": {
+            "zhuyin": "ㄑㄧㄥˊ",
+            "pinyin": "qíng",
+            "jyutping": "cing4",
+            "tailo": {
+              "lit": "tsîng",
+              "col": "tsîng"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Not as deep as Wang Lun's affection in seeing me off",
+      "literal": "but it does not equal the affection with which Wang Lun sees me off.",
+      "poetic": "yet it is shallower than the love Wang Lun shows me now.",
+      "meaning": {
+        "feeling": "Moved gratitude for a friend's affection",
+        "wrongFeelings": ["Pride at being famous", "Embarrassment at a rude send-off"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "李",
+      "simp": "李",
+      "kind": "char",
+      "gloss": "Li (surname); plum",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "白",
+      "simp": "白",
+      "kind": "char",
+      "gloss": "white",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "乘",
+      "simp": "乘",
+      "kind": "char",
+      "gloss": "to ride, to board",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "舟",
+      "simp": "舟",
+      "kind": "char",
+      "gloss": "boat",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "將",
+      "simp": "将",
+      "kind": "char",
+      "gloss": "about to",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "欲",
+      "simp": "欲",
+      "kind": "char",
+      "gloss": "to want to, to be about to",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "行",
+      "simp": "行",
+      "kind": "char",
+      "gloss": "to depart, to walk",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "忽",
+      "simp": "忽",
+      "kind": "char",
+      "gloss": "suddenly",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "聞",
+      "simp": "闻",
+      "kind": "char",
+      "gloss": "to hear",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "岸",
+      "simp": "岸",
+      "kind": "char",
+      "gloss": "bank, shore",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "踏",
+      "simp": "踏",
+      "kind": "char",
+      "gloss": "to stamp, to tread",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "歌",
+      "simp": "歌",
+      "kind": "char",
+      "gloss": "song",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "聲",
+      "simp": "声",
+      "kind": "char",
+      "gloss": "sound",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "桃",
+      "simp": "桃",
+      "kind": "char",
+      "gloss": "peach",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "花",
+      "simp": "花",
+      "kind": "char",
+      "gloss": "flower, blossom",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "潭",
+      "simp": "潭",
+      "kind": "char",
+      "gloss": "pool, deep pond",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "水",
+      "simp": "水",
+      "kind": "char",
+      "gloss": "water",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "深",
+      "simp": "深",
+      "kind": "char",
+      "gloss": "deep",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "尺",
+      "simp": "尺",
+      "kind": "char",
+      "gloss": "foot (a unit of length)",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "及",
+      "simp": "及",
+      "kind": "char",
+      "gloss": "to reach, to equal",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "汪",
+      "simp": "汪",
+      "kind": "char",
+      "gloss": "Wang (surname)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "倫",
+      "simp": "伦",
+      "kind": "char",
+      "gloss": "Lun (personal name)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "送",
+      "simp": "送",
+      "kind": "char",
+      "gloss": "to see off",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "我",
+      "simp": "我",
+      "kind": "char",
+      "gloss": "I, me",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "情",
+      "simp": "情",
+      "kind": "char",
+      "gloss": "feeling, affection",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "李白",
+      "simp": "李白",
+      "kind": "compound",
+      "gloss": "Li Bai",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "乘舟",
+      "simp": "乘舟",
+      "kind": "compound",
+      "gloss": "to board a boat",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "踏歌",
+      "simp": "踏歌",
+      "kind": "compound",
+      "gloss": "stamping song (a folk dance song)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "桃花",
+      "simp": "桃花",
+      "kind": "compound",
+      "gloss": "peach blossom",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "汪倫",
+      "simp": "汪伦",
+      "kind": "compound",
+      "gloss": "Wang Lun",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "不及",
+      "simp": "不及",
+      "kind": "compound",
+      "gloss": "not to equal",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Li Bai boards his boat, about to set out, when suddenly from the bank comes the sound of stamping and singing. The water of Peach Blossom Pool is a thousand feet deep, but it does not equal the affection with which Wang Lun sees me off.",
+    "poetic": "Li Bai is on his boat, just pushing off, when a song with stamping feet rings out from the bank. Peach Blossom Pool is a thousand feet deep, yet shallower than the love Wang Lun shows me now."
+  },
+  "notes": [
+    {
+      "id": "story",
+      "kind": "history",
+      "title": "Li Bai and Wang Lun",
+      "body": "Wang Lun was a villager in Jing County (modern Anhui) who admired Li Bai and welcomed him with wine. The poem was written as a thank-you when Li Bai left, around the 750s. A well-known story, probably a later legend, says Wang Lun lured Li Bai there with a letter promising \"ten li of peach blossom and ten thousand taverns\". The place turned out to be a pool named Peach Blossom and a tavern run by someone named Wan."
+    },
+    {
+      "id": "stamping",
+      "kind": "interpretation",
+      "title": "踏歌, the farewell song",
+      "body": "踏歌 is a folk custom: people link arms, stamp their feet in time and sing. Wang Lun and his neighbours did not announce themselves: Li Bai only hears the sound, and the surprise is what makes the poem. The last line compares the pool's depth with the depth of feeling, and says feeling is deeper."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 行 · 聲 · 情",
+      "body": "Lines one, two and four end in 行 (xíng), 聲 (shēng) and 情 (qíng), all in the -ing / -eng rhyme. Line three ends in 尺 and does not rhyme."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "將 is read jiāng (as in 將欲, about to), and 行 is read xíng (to go, to set out). 乘 is read chéng (to ride)."
+    }
+  ],
+  "distractorSeeds": {
+    "李": {
+      "look": ["季"],
+      "sound": ["里", "笠"],
+      "meaning": ["桃"]
+    },
+    "白": {
+      "look": ["百"],
+      "meaning": ["素"]
+    },
+    "乘": {
+      "look": ["秉"],
+      "sound": ["城", "成"],
+      "meaning": ["坐"]
+    },
+    "舟": {
+      "look": ["丹"],
+      "sound": ["州"],
+      "meaning": ["船"]
+    },
+    "將": {
+      "look": ["醬"],
+      "sound": ["江"],
+      "meaning": ["要"]
+    },
+    "欲": {
+      "look": ["慾"],
+      "sound": ["雨", "漁"],
+      "meaning": ["想"]
+    },
+    "行": {
+      "look": ["術"],
+      "sound": ["杏"],
+      "meaning": ["走"]
+    },
+    "忽": {
+      "look": ["勿"],
+      "sound": ["胡"],
+      "meaning": ["突"]
+    },
+    "聞": {
+      "look": ["間"],
+      "sound": ["問"],
+      "meaning": ["聽"]
+    },
+    "岸": {
+      "look": ["崖"],
+      "meaning": ["堤"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    },
+    "踏": {
+      "look": ["塔"],
+      "meaning": ["踩"]
+    },
+    "歌": {
+      "look": ["哥"],
+      "sound": ["個"],
+      "meaning": ["曲"]
+    },
+    "聲": {
+      "look": ["殸"],
+      "sound": ["生"],
+      "meaning": ["音"]
+    },
+    "桃": {
+      "look": ["挑"],
+      "sound": ["絛", "萄"],
+      "meaning": ["李"]
+    },
+    "花": {
+      "look": ["化"],
+      "meaning": ["朵"]
+    },
+    "潭": {
+      "look": ["譚"],
+      "meaning": ["池"]
+    },
+    "水": {
+      "look": ["永"],
+      "sound": ["誰"],
+      "meaning": ["河"]
+    },
+    "深": {
+      "look": ["探"],
+      "meaning": ["淺"]
+    },
+    "千": {
+      "look": ["干"],
+      "sound": ["前"],
+      "meaning": ["萬"]
+    },
+    "尺": {
+      "look": ["尸"],
+      "meaning": ["寸"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "及": {
+      "look": ["反"],
+      "sound": ["幾", "際"],
+      "meaning": ["到"]
+    },
+    "汪": {
+      "look": ["江"],
+      "sound": ["望"],
+      "meaning": ["王"]
+    },
+    "倫": {
+      "look": ["輪"],
+      "meaning": ["論"]
+    },
+    "送": {
+      "look": ["迷"],
+      "sound": ["松"],
+      "meaning": ["別"]
+    },
+    "我": {
+      "look": ["找"],
+      "sound": ["臥"],
+      "meaning": ["吾"]
+    },
+    "情": {
+      "look": ["清"],
+      "sound": ["輕", "青"],
+      "meaning": ["意"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "peach-blossom-pool"
+  }
+}
