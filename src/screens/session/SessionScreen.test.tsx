@@ -66,10 +66,15 @@ describe('SessionScreen', () => {
     );
   });
 
-  it('marks the recite exercise as a placeholder whose Continue completes it', async () => {
+  it('runs the real Recite exercise; a self-graded pass completes the poem', async () => {
     const { onPersist } = setup({ lexicon: allKnown(), progress: almostThere() });
-    expect(screen.getByRole('region', { name: 'Recite (placeholder)' })).toBeInTheDocument();
-    await userEvent.click(screen.getByRole('button', { name: /continue/i }));
+    expect(screen.getByRole('region', { name: 'Recite' })).toBeInTheDocument();
+    expect(screen.queryByText(/placeholder/i)).toBeNull();
+    // Nothing is persisted until the learner actually recites (or grades themselves).
+    await userEvent.click(screen.getByRole('button', { name: /grade myself|自評/i }));
+    await userEvent.click(screen.getByRole('button', { name: /got it|對/i }));
+    expect(onPersist).not.toHaveBeenCalled();
+    await userEvent.click(screen.getByRole('button', { name: /continue|繼續/i }));
     expect(onPersist).toHaveBeenCalledTimes(1);
     const [, progress] = onPersist.mock.calls[0]!;
     expect(progress.seals).toContain('zhuangyuan');
@@ -77,7 +82,9 @@ describe('SessionScreen', () => {
 
   it('stamps the rank-up seal, then shows the session summary', async () => {
     setup({ lexicon: allKnown(), progress: almostThere() });
-    await userEvent.click(screen.getByRole('button', { name: /continue/i }));
+    await userEvent.click(screen.getByRole('button', { name: /grade myself|自評/i }));
+    await userEvent.click(screen.getByRole('button', { name: /got it|對/i }));
+    await userEvent.click(screen.getByRole('button', { name: /continue|繼續/i }));
     expect(screen.getByRole('region', { name: 'Rank up' })).toBeInTheDocument();
     expect(screen.getAllByText('狀元').length).toBeGreaterThan(0);
     await userEvent.click(screen.getByRole('button', { name: /continue/i }));

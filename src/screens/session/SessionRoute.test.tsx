@@ -5,6 +5,7 @@ import { render, screen } from '@testing-library/react';
 import { clear } from 'idb-keyval';
 
 import { routeRegistry } from '../../app/registry';
+import { resetSettings, setSettings } from '../../settings/settings';
 import { SessionRoute } from './SessionRoute';
 
 afterEach(async () => {
@@ -28,5 +29,16 @@ describe('play route', () => {
     window.location.hash = '#/play/nope';
     render(<SessionRoute />);
     expect(await screen.findByText(/No poem called "nope"/)).toBeInTheDocument();
+  });
+});
+
+describe('play route settings', () => {
+  afterEach(() => resetSettings());
+
+  it('follows the persisted script setting', async () => {
+    setSettings({ script: 'simp' });
+    window.location.hash = '#/play/jingyesi';
+    render(<SessionRoute />);
+    expect(await screen.findByRole('heading', { level: 1, name: '静夜思' })).toBeInTheDocument();
   });
 });
