@@ -118,8 +118,17 @@
   gap: 3px;
 }
 .tr-hrow .tr-tile {
-  --s: 28px;
+  --s: 34px;
   border-radius: 4px;
+  font-size: 1.1rem;
+}
+.tr-hrow .tr-glyph {
+  top: 1px;
+  right: 2px;
+  font-size: 8px;
+}
+.tr-hrow .tr-face {
+  transform: translate(-1px, 2px);
 }
 
 .tr-actions {
