@@ -1,6 +1,10 @@
 // Catalog scoring (T11): familiarity, tiers and ink drops. See docs/PLAN.md section 2.
 // Pure functions are exported for tests; the CLI at the bottom generates content/catalog/index.json.
 
+import { readFileSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath, pathToFileURL } from 'node:url';
+
 export type Region = 'prc' | 'tw' | 'hk';
 
 export interface FrequencyData {
@@ -109,4 +113,125 @@ export function scoreFamiliarity(
     shortness,
     familiarity,
   };
+}
+
+// ───────────────────────────── Tiers, ink drops, catalog ─────────────────────────────
+
+export type CatalogForm = 'wujue' | 'qijue' | 'wulu' | 'qilu' | 'gufeng' | 'yuefu';
+export type Tier = 'wujue' | 'qijue' | 'wulu' | 'qilu' | 'ancient';
+
+/** Display order of tiers: 五絕 (20), 七絕 (28), 五律 (40), 七律 (56), then 古體/樂府. */
+export const TIER_ORDER: readonly Tier[] = ['wujue', 'qijue', 'wulu', 'qilu', 'ancient'];
+
+const FIXED_CHAR_COUNT: Partial<Record<CatalogForm, number>> = {
+  wujue: 20,
+  qijue: 28,
+  wulu: 40,
+  qilu: 56,
+};
+
+export function assignTier(form: CatalogForm): Tier {
+  return form === 'gufeng' || form === 'yuefu' ? 'ancient' : form;
+}
+
+/** 1 (most familiar) to 5 (hardest) ink drops, in fifths of unfamiliarity. */
+export function inkDrops(familiarity: number): 1 | 2 | 3 | 4 | 5 {
+  const raw = 1 + Math.floor((1 - clamp01(familiarity)) * 5 + 1e-9);
+  return Math.min(5, raw) as 1 | 2 | 3 | 4 | 5;
+}
+
+export interface CatalogEntry {
+  id: string;
+  title: { trad: string; simp: string };
+  poet: { trad: string; simp: string };
+  form: CatalogForm;
+  /** `available` poems have content in content/poems; `coming-soon` are metadata-only stubs. */
+  status: 'available' | 'coming-soon';
+  /** All characters of the poem (Traditional), without punctuation. */
+  text: string;
+}
+
+export interface CatalogSource {
+  entries: CatalogEntry[];
+}
+
+export interface CatalogPoem {
+  id: string;
+  title: CatalogEntry['title'];
+  poet: CatalogEntry['poet'];
+  form: CatalogForm;
+  status: CatalogEntry['status'];
+  charCount: number;
+  /** 0 to 1, rounded to 4 places. */
+  familiarity: number;
+  inkDrops: 1 | 2 | 3 | 4 | 5;
+}
+
+export interface CatalogIndex {
+  tiers: { tier: Tier; poems: CatalogPoem[] }[];
+}
+
+const round4 = (n: number) => Math.round(n * 1e4) / 1e4;
+
+export function buildCatalog(
+  source: CatalogSource,
+  freq: FrequencyData,
+  curriculum: CurriculumData,
+): CatalogIndex {
+  const seen = new Set<string>();
+  const byTier = new Map<Tier, CatalogPoem[]>();
+
+  for (const e of source.entries) {
+    if (seen.has(e.id)) throw new Error(`duplicate catalog id ${e.id}`);
+    seen.add(e.id);
+    const chars = [...e.text];
+    const expected = FIXED_CHAR_COUNT[e.form];
+    if (expected !== undefined && chars.length !== expected) {
+      throw new Error(`${e.id}: form ${e.form} needs ${expected} characters, got ${chars.length}`);
+    }
+    const f = round4(scoreFamiliarity(e, freq, curriculum).familiarity);
+    const tier = assignTier(e.form);
+    const poem: CatalogPoem = {
+      id: e.id,
+      title: e.title,
+      poet: e.poet,
+      form: e.form,
+      status: e.status,
+      charCount: chars.length,
+      familiarity: f,
+      inkDrops: inkDrops(f),
+    };
+    byTier.set(tier, [...(byTier.get(tier) ?? []), poem]);
+  }
+
+  return {
+    tiers: TIER_ORDER.filter((t) => byTier.has(t)).map((tier) => ({
+      tier,
+      poems: byTier
+        .get(tier)!
+        .sort((a, b) => b.familiarity - a.familiarity || a.id.localeCompare(b.id)),
+    })),
+  };
+}
+
+function readJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, 'utf8')) as T;
+}
+
+/** Reads entries.json, char-frequency.json and curriculum.json from `dir` and builds the index. */
+export function generateCatalog(dir: string): CatalogIndex {
+  return buildCatalog(
+    readJson<CatalogSource>(join(dir, 'entries.json')),
+    readJson<FrequencyData>(join(dir, 'char-frequency.json')),
+    readJson<CurriculumData>(join(dir, 'curriculum.json')),
+  );
+}
+
+const isMain =
+  process.argv[1] !== undefined && import.meta.url === pathToFileURL(process.argv[1]).href;
+if (isMain) {
+  const dir = fileURLToPath(new URL('../content/catalog/', import.meta.url));
+  const index = generateCatalog(dir);
+  writeFileSync(join(dir, 'index.json'), JSON.stringify(index, null, 2) + '\n');
+  console.log(`score-poems: wrote ${index.tiers.flatMap((t) => t.poems).length} catalog entries`);
 }

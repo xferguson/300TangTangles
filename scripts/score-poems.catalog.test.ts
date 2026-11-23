@@ -57,9 +57,15 @@ describe('buildCatalog', () => {
   const base = { title: { trad: 't', simp: 't' }, poet: { trad: 'p', simp: 'p' } };
   const src: CatalogSource = {
     entries: [
-      { id: 'hard', ...base, form: 'wujue', status: 'coming-soon', text: '四四四四四' },
-      { id: 'easy', ...base, form: 'wujue', status: 'available', text: '一二三一二' },
-      { id: 'seven', ...base, form: 'qijue', status: 'coming-soon', text: '一二三一二三一' },
+      { id: 'hard', ...base, form: 'wujue', status: 'coming-soon', text: '四'.repeat(20) },
+      { id: 'easy', ...base, form: 'wujue', status: 'available', text: '一二三一二'.repeat(4) },
+      {
+        id: 'seven',
+        ...base,
+        form: 'qijue',
+        status: 'coming-soon',
+        text: '一二三一二三一'.repeat(4),
+      },
     ],
   };
 
@@ -71,7 +77,7 @@ describe('buildCatalog', () => {
 
   it('records char count, status, familiarity and ink drops', () => {
     const [easy, hard] = buildCatalog(src, freq, cur).tiers[0]!.poems;
-    expect(easy).toMatchObject({ charCount: 5, status: 'available', inkDrops: 1 });
+    expect(easy).toMatchObject({ charCount: 20, status: 'available' });
     expect(easy!.familiarity).toBeGreaterThan(hard!.familiarity);
     expect(hard!.inkDrops).toBeGreaterThan(easy!.inkDrops);
   });

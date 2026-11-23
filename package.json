@@ -17,6 +17,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:content": "tsx scripts/validate-content.ts",
+    "score:poems": "tsx scripts/score-poems.ts",
     "e2e": "playwright test --trace off"
   },
   "dependencies": {
