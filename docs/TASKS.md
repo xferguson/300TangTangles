@@ -143,9 +143,9 @@ Unblocks: T34, T50, T51, T57
 Goal: global lexicon of unit statuses (new / learning 1–4 / known / ignored). `ts-fsrs` scheduling with mapping from review results to learning level; manual override; IndexedDB persistence (`idb-keyval`); versioned export/import JSON.
 Done when: tests cover status transitions, cross-poem sharing, persistence round-trip (fake-indexeddb), and import validation.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T30-lexicon-store
+PR: #13
 
 ### T31 · Tangle feedback algorithm
 Lane: C · Approval: none · Size: S
