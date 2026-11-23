@@ -3,7 +3,7 @@ import { describe, expect, it } from 'vitest';
 
 /** Pulls the `font-size` declared on a selector's rule, or undefined. */
 function fontSize(file: string, selector: string): string | undefined {
-  const css = readFileSync(new URL(file, import.meta.url), 'utf8');
+  const css = readFileSync(new URL(file, import.meta.url), 'utf8').replace(/\/\*[\s\S]*?\*\//g, '');
   const rule = css.split('}').find((r) => r.split('{')[0]?.trim() === selector);
   return rule?.match(/font-size:\s*([^;]+);/)?.[1]?.trim();
 }

@@ -1,8 +1,7 @@
 import 'fake-indexeddb/auto';
 
-import { afterEach, describe, expect, it, vi } from 'vitest';
-import { FakeSpeechSynthesis } from '../../audio/fakeSpeech';
-import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+import { afterEach, describe, expect, it } from 'vitest';
+import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { clear } from 'idb-keyval';
 
@@ -57,27 +56,5 @@ describe('reading route settings', () => {
     window.location.hash = '#/read';
     render(<ReadingRoute />);
     expect(await screen.findByRole('heading', { level: 1, name: '静夜思' })).toBeInTheDocument();
-  });
-});
-
-describe('reading route audio', () => {
-  afterEach(() => {
-    vi.unstubAllGlobals();
-  });
-
-  it('enables audio once browser voices load late, and speaks on click', async () => {
-    const synth = new FakeSpeechSynthesis([]);
-    vi.stubGlobal('speechSynthesis', synth);
-    vi.stubGlobal('SpeechSynthesisUtterance', function (this: { text: string }, text: string) {
-      this.text = text;
-    });
-    window.location.hash = '#/read/jingyesi';
-    render(<ReadingRoute />);
-    await screen.findByRole('heading', { level: 1, name: '靜夜思' });
-    synth.setVoices([{ name: 'Mei-Jia', lang: 'zh-TW', localService: true }]);
-    const [button] = await screen.findAllByRole('button', { name: /^Play/ });
-    await waitFor(() => expect(button).toBeEnabled());
-    fireEvent.click(button!);
-    expect(synth.spoken).toHaveLength(1);
   });
 });

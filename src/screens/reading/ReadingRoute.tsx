@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import { useHashRoute } from '../../app/useHashRoute';
-import { BrowserSpeechProvider } from '../../audio';
+import { usePlayAudio } from '../../audio/player/serviceContext';
 import { parsePoem, type Lexicon, type Poem } from '../../core';
 import { loadLexicon, saveLexicon } from '../../lexicon';
 import { useSettings } from '../../settings/useSettings';
@@ -43,14 +43,8 @@ export function ReadingRoute() {
     };
   }, []);
 
-  const provider = useMemo(() => new BrowserSpeechProvider(), []);
-  const playAudio = useCallback(
-    (text: string, opts?: { slow?: boolean }) => {
-      void provider.speak(text, settings.audioLanguage, opts?.slow ? 'slow' : 'normal');
-    },
-    [provider, settings.audioLanguage],
-  );
-  const canSpeak = provider.capability(settings.audioLanguage).status === 'ready';
+  // Shared service: re-renders when browser voices finish loading, so audio is not stuck off.
+  const playAudio = usePlayAudio(settings);
 
   const onLexiconChange = useCallback((next: Lexicon) => {
     setLexicon(next);
@@ -78,7 +72,7 @@ export function ReadingRoute() {
       settings={settings}
       lexicon={lexicon}
       onLexiconChange={onLexiconChange}
-      playAudio={canSpeak ? playAudio : undefined}
+      playAudio={playAudio}
     />
   );
 }
