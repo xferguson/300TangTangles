@@ -425,3 +425,25 @@ Done when: a test covers the sticky styles.
 Status: done
 Branch: task/T65-sticky-nav
 PR: #33
+
+### T66 · App icon design
+Lane: E · Approval: required · Size: S
+Depends on: T65
+Unblocks: T67
+Goal: the app has no icon. Mock up several options (`design/app-icons.html`) for the user to pick from, then produce the chosen icon as SVG source plus 192/512 PNG, a maskable 512 PNG, and an apple-touch-icon.
+Done when: the user has picked an option and the final icon files are committed under `public/`.
+
+Status: in-progress
+Branch: ccr-e1474bc7-8geezf
+PR: —
+
+### T67 · Fix Android install
+Lane: E · Approval: none · Size: S
+Depends on: T66
+Unblocks: —
+Goal: Chrome on Android says "this app cannot be installed" because the manifest has `icons: []` (installability needs 192px and 512px PNG icons, one maskable). Wire the T66 icons into the manifest and `index.html`, and add a test asserting the built manifest meets the installability criteria.
+Done when: a test covers the manifest icons (192, 512, maskable) and the app installs on Android.
+
+Status: todo
+Branch: —
+PR: —
