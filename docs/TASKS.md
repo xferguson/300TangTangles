@@ -106,8 +106,8 @@ Unblocks: —
 Goal: `scripts/score-poems.ts` computes familiarity from curriculum exposure, char frequency (mean + 25th percentile), and length, then assigns tiers and 1–5 ink drops. Source data files with their provenance. 3–5 stub catalog entries (metadata only), shown as "coming soon".
 Done when: unit tests (red/green) cover the scoring formula and tier assignment, and the catalog index is generated.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T11-catalog-scoring
 PR: —
 
 ## Lane B · Design & UI kit
