@@ -36,7 +36,9 @@ describe('unit readiness', () => {
     const lex = setStatus({}, '月', { status: 'learning', level: 1 }, now);
     expect(isUnitReady(lex, '月')).toBe(false);
     expect(isUnitReady(lex, '光')).toBe(false);
-    expect(isUnitReady(setStatus(lex, '月', { status: 'learning', level: 2 }, now), '月')).toBe(true);
+    expect(isUnitReady(setStatus(lex, '月', { status: 'learning', level: 2 }, now), '月')).toBe(
+      true,
+    );
     expect(isUnitReady(setStatus(lex, '月', { status: 'ignored' }, now), '月')).toBe(true);
   });
 });
@@ -44,7 +46,15 @@ describe('unit readiness', () => {
 describe('line units and recognition', () => {
   it('lists the chars and compounds occurring in a line, in reading order', () => {
     expect(lineUnits(poem, 0).map((u) => u.id)).toEqual(['床', '前', '明', '月', '光', '明月']);
-    expect(lineUnits(poem, 2).map((u) => u.id)).toEqual(['舉', '頭', '望', '明', '月', '舉頭', '明月']);
+    expect(lineUnits(poem, 2).map((u) => u.id)).toEqual([
+      '舉',
+      '頭',
+      '望',
+      '明',
+      '月',
+      '舉頭',
+      '明月',
+    ]);
   });
 
   it('a line is ready only when every unit is ready', () => {
@@ -126,7 +136,11 @@ describe('seals', () => {
 
 describe('fade levels', () => {
   it('is 0 for a fresh poem, 1 everywhere when fully mastered, and per char', () => {
-    expect(fadeLevels(poem, {}, freshProgress()).flat().every((f) => f === 0)).toBe(true);
+    expect(
+      fadeLevels(poem, {}, freshProgress())
+        .flat()
+        .every((f) => f === 0),
+    ).toBe(true);
     const done = progressOf(poem.lines.map(() => mastered({ tangleCleared: true })));
     const f = fadeLevels(poem, allKnown(), done);
     expect(f).toHaveLength(n);
@@ -144,7 +158,11 @@ describe('fade levels', () => {
   });
   it('a char that is not recognised stays visible even on a mastered line', () => {
     const lex = setStatus(allKnown(), '光', { status: 'learning', level: 1 }, now);
-    const f = fadeLevels(poem, lex, progressOf(poem.lines.map(() => mastered({ tangleCleared: true }))));
+    const f = fadeLevels(
+      poem,
+      lex,
+      progressOf(poem.lines.map(() => mastered({ tangleCleared: true }))),
+    );
     expect(f[0]![4]).toBeLessThan(1);
     expect(f[0]![0]).toBe(1);
   });
