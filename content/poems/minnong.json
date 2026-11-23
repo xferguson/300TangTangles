@@ -1,0 +1,733 @@
+{
+  "schemaVersion": 1,
+  "id": "minnong",
+  "title": {
+    "trad": "憫農",
+    "simp": "悯农"
+  },
+  "poet": {
+    "trad": "李紳",
+    "simp": "李绅",
+    "pinyin": "Lǐ Shēn"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "鋤",
+          "simp": "锄",
+          "readings": {
+            "zhuyin": "ㄔㄨˊ",
+            "pinyin": "chú",
+            "jyutping": "co4",
+            "tailo": {
+              "lit": "tsôo",
+              "col": "tî"
+            }
+          }
+        },
+        {
+          "trad": "禾",
+          "simp": "禾",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "wo4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "日",
+          "simp": "日",
+          "readings": {
+            "zhuyin": "ㄖˋ",
+            "pinyin": "rì",
+            "jyutping": "jat6",
+            "tailo": {
+              "lit": "ji̍t",
+              "col": "li̍t"
+            }
+          }
+        },
+        {
+          "trad": "當",
+          "simp": "当",
+          "readings": {
+            "zhuyin": "ㄉㄤ",
+            "pinyin": "dāng",
+            "jyutping": "dong1",
+            "tailo": {
+              "lit": "tong",
+              "col": "tng"
+            }
+          }
+        },
+        {
+          "trad": "午",
+          "simp": "午",
+          "readings": {
+            "zhuyin": "ㄨˇ",
+            "pinyin": "wǔ",
+            "jyutping": "ng5",
+            "tailo": {
+              "lit": "ngóo",
+              "col": "ngóo"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Hoeing the crops at high noon",
+      "literal": "Hoeing the grain as the sun stands at noon,",
+      "poetic": "Under the noonday sun he hoes the grain,",
+      "meaning": {
+        "feeling": "Respect for the farmer's toil",
+        "wrongFeelings": ["Envy of a leisurely life", "Annoyance at the heat"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "汗",
+          "simp": "汗",
+          "readings": {
+            "zhuyin": "ㄏㄢˋ",
+            "pinyin": "hàn",
+            "jyutping": "hon6",
+            "tailo": {
+              "lit": "hān",
+              "col": "kuānn"
+            }
+          }
+        },
+        {
+          "trad": "滴",
+          "simp": "滴",
+          "readings": {
+            "zhuyin": "ㄉㄧ",
+            "pinyin": "dī",
+            "jyutping": "dik6",
+            "tailo": {
+              "lit": "ti̍k",
+              "col": "tih"
+            }
+          }
+        },
+        {
+          "trad": "禾",
+          "simp": "禾",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "wo4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "下",
+          "simp": "下",
+          "readings": {
+            "zhuyin": "ㄒㄧㄚˋ",
+            "pinyin": "xià",
+            "jyutping": "haa6",
+            "tailo": {
+              "lit": "hā",
+              "col": "ē"
+            }
+          }
+        },
+        {
+          "trad": "土",
+          "simp": "土",
+          "readings": {
+            "zhuyin": "ㄊㄨˇ",
+            "pinyin": "tǔ",
+            "jyutping": "tou2",
+            "tailo": {
+              "lit": "thóo",
+              "col": "thóo"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Sweat drips onto the soil beneath the plants",
+      "literal": "sweat drips onto the earth below the plants.",
+      "poetic": "and his sweat drips down onto the soil.",
+      "meaning": {
+        "feeling": "Compassion for exhausting labour",
+        "wrongFeelings": ["Disgust at dirty work", "Amusement at a clumsy farmer"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "誰",
+          "simp": "谁",
+          "readings": {
+            "zhuyin": "ㄕㄨㄟˊ",
+            "pinyin": "shuí",
+            "jyutping": "seoi4",
+            "tailo": {
+              "lit": "suî",
+              "col": "siâng"
+            }
+          }
+        },
+        {
+          "trad": "知",
+          "simp": "知",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "ti",
+              "col": "tsai"
+            }
+          }
+        },
+        {
+          "trad": "盤",
+          "simp": "盘",
+          "readings": {
+            "zhuyin": "ㄆㄢˊ",
+            "pinyin": "pán",
+            "jyutping": "pun4",
+            "tailo": {
+              "lit": "puân",
+              "col": "puânn"
+            }
+          }
+        },
+        {
+          "trad": "中",
+          "simp": "中",
+          "readings": {
+            "zhuyin": "ㄓㄨㄥ",
+            "pinyin": "zhōng",
+            "jyutping": "zung1",
+            "tailo": {
+              "lit": "tiong",
+              "col": "tiong"
+            }
+          }
+        },
+        {
+          "trad": "餐",
+          "simp": "餐",
+          "readings": {
+            "zhuyin": "ㄘㄢ",
+            "pinyin": "cān",
+            "jyutping": "caan1",
+            "tailo": {
+              "lit": "tshan",
+              "col": "tshan"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Who knows that the meal in the bowl",
+      "literal": "Who knows that the food in the bowl,",
+      "poetic": "Who stops to think, as they eat, that the food in the bowl,",
+      "meaning": {
+        "feeling": "Gentle reproach, a call for gratitude",
+        "wrongFeelings": ["Hunger for a bigger meal", "Pride in a rich banquet"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "粒",
+          "simp": "粒",
+          "readings": {
+            "zhuyin": "ㄌㄧˋ",
+            "pinyin": "lì",
+            "jyutping": "lap1",
+            "tailo": {
+              "lit": "lia̍p",
+              "col": "lia̍p"
+            }
+          }
+        },
+        {
+          "trad": "粒",
+          "simp": "粒",
+          "readings": {
+            "zhuyin": "ㄌㄧˋ",
+            "pinyin": "lì",
+            "jyutping": "lap1",
+            "tailo": {
+              "lit": "lia̍p",
+              "col": "lia̍p"
+            }
+          }
+        },
+        {
+          "trad": "皆",
+          "simp": "皆",
+          "readings": {
+            "zhuyin": "ㄐㄧㄝ",
+            "pinyin": "jiē",
+            "jyutping": "gaai1",
+            "tailo": {
+              "lit": "kai",
+              "col": "kai"
+            }
+          }
+        },
+        {
+          "trad": "辛",
+          "simp": "辛",
+          "readings": {
+            "zhuyin": "ㄒㄧㄣ",
+            "pinyin": "xīn",
+            "jyutping": "san1",
+            "tailo": {
+              "lit": "sin",
+              "col": "sin"
+            }
+          }
+        },
+        {
+          "trad": "苦",
+          "simp": "苦",
+          "readings": {
+            "zhuyin": "ㄎㄨˇ",
+            "pinyin": "kǔ",
+            "jyutping": "fu2",
+            "tailo": {
+              "lit": "khóo",
+              "col": "khóo"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Every single grain comes from hard toil",
+      "literal": "every single grain, comes from bitter toil?",
+      "poetic": "is made of grain after grain of hard labour?",
+      "meaning": {
+        "feeling": "Gratitude and a lesson not to waste food",
+        "wrongFeelings": ["Boredom with farming facts", "Delight in a bountiful harvest"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "鋤",
+      "simp": "锄",
+      "kind": "char",
+      "gloss": "hoe, to hoe",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "禾",
+      "simp": "禾",
+      "kind": "char",
+      "gloss": "cereal plant, seedling",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        },
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "日",
+      "simp": "日",
+      "kind": "char",
+      "gloss": "sun, day",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "當",
+      "simp": "当",
+      "kind": "char",
+      "gloss": "to be just at",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "午",
+      "simp": "午",
+      "kind": "char",
+      "gloss": "noon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "汗",
+      "simp": "汗",
+      "kind": "char",
+      "gloss": "sweat",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "滴",
+      "simp": "滴",
+      "kind": "char",
+      "gloss": "drop, to drip",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "下",
+      "simp": "下",
+      "kind": "char",
+      "gloss": "below, to go down",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "土",
+      "simp": "土",
+      "kind": "char",
+      "gloss": "soil, earth",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "誰",
+      "simp": "谁",
+      "kind": "char",
+      "gloss": "who",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "知",
+      "simp": "知",
+      "kind": "char",
+      "gloss": "to know",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "盤",
+      "simp": "盘",
+      "kind": "char",
+      "gloss": "plate, dish",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "中",
+      "simp": "中",
+      "kind": "char",
+      "gloss": "inside, in the middle",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "餐",
+      "simp": "餐",
+      "kind": "char",
+      "gloss": "meal, food",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "粒",
+      "simp": "粒",
+      "kind": "char",
+      "gloss": "grain, kernel",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        },
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "皆",
+      "simp": "皆",
+      "kind": "char",
+      "gloss": "all, every",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "辛",
+      "simp": "辛",
+      "kind": "char",
+      "gloss": "bitter, hard",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "苦",
+      "simp": "苦",
+      "kind": "char",
+      "gloss": "bitter, toilsome",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "鋤禾",
+      "simp": "锄禾",
+      "kind": "compound",
+      "gloss": "to hoe the crops",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "日當午",
+      "simp": "日当午",
+      "kind": "compound",
+      "gloss": "the sun is at noon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "汗滴",
+      "simp": "汗滴",
+      "kind": "compound",
+      "gloss": "sweat dripping",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "粒粒",
+      "simp": "粒粒",
+      "kind": "compound",
+      "gloss": "grain after grain",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "辛苦",
+      "simp": "辛苦",
+      "kind": "compound",
+      "gloss": "toilsome, hard",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Hoeing the grain as the sun stands at noon, sweat drips onto the earth below the plants. Who knows that the food in the bowl, every single grain, comes from bitter toil?",
+    "poetic": "Under the noonday sun the farmer hoes his grain, and his sweat falls on the soil below. Who stops to think, as they eat, that every grain in the bowl was made by hard labour?"
+  },
+  "notes": [
+    {
+      "id": "poem",
+      "kind": "history",
+      "title": "One of two poems",
+      "body": "Li Shen (772–846) wrote two poems called 憫農 (\"Pity the Farmers\"). This is the second and far more famous. The first begins 春種一粒粟 (\"in spring one seed is planted\"). Children in China have recited it for generations as a reminder not to waste food."
+    },
+    {
+      "id": "variant",
+      "kind": "text-variant",
+      "title": "餐 or 飧",
+      "body": "Today's school text reads 誰知盤中餐 (who knows that the meal in the bowl). Older collections give 誰知盤中飧, where 飧 (sūn) is a plain cooked meal, the evening meal. The meaning is the same."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 午 · 土 · 苦",
+      "body": "Lines one, two and four end in 午 (wǔ), 土 (tǔ) and 苦 (kǔ), all in the same -u rhyme and all in the rising tone. Line three ends in 餐 and does not rhyme."
+    },
+    {
+      "id": "question",
+      "kind": "interpretation",
+      "title": "A question for the reader",
+      "body": "The first two lines show a picture and the last two are a question. The poem does not scold. It asks the reader to join the picture of the farmer to the food on the table in front of them."
+    }
+  ],
+  "distractorSeeds": {
+    "鋤": {
+      "look": ["助"],
+      "sound": ["處", "出"],
+      "meaning": ["耕"]
+    },
+    "禾": {
+      "look": ["未"],
+      "sound": ["河", "何"],
+      "meaning": ["穀"]
+    },
+    "日": {
+      "look": ["目"],
+      "meaning": ["陽"]
+    },
+    "當": {
+      "look": ["嘗"],
+      "meaning": ["正"]
+    },
+    "午": {
+      "look": ["牛"],
+      "sound": ["物", "吳"],
+      "meaning": ["晝"]
+    },
+    "汗": {
+      "look": ["汙"],
+      "sound": ["含", "寒"],
+      "meaning": ["淚"]
+    },
+    "滴": {
+      "look": ["摘"],
+      "sound": ["地", "低"],
+      "meaning": ["落"]
+    },
+    "下": {
+      "look": ["不"],
+      "meaning": ["底"]
+    },
+    "土": {
+      "look": ["士"],
+      "meaning": ["地"]
+    },
+    "誰": {
+      "look": ["推"],
+      "sound": ["水"],
+      "meaning": ["何"]
+    },
+    "知": {
+      "look": ["如"],
+      "sound": ["枝", "只"],
+      "meaning": ["曉"]
+    },
+    "盤": {
+      "look": ["般"],
+      "meaning": ["碗"]
+    },
+    "中": {
+      "look": ["申"],
+      "sound": ["重", "鐘"],
+      "meaning": ["內"]
+    },
+    "餐": {
+      "look": ["殘"],
+      "meaning": ["食"]
+    },
+    "粒": {
+      "look": ["拉"],
+      "sound": ["里", "李"],
+      "meaning": ["顆"]
+    },
+    "皆": {
+      "look": ["階"],
+      "sound": ["借", "節"],
+      "meaning": ["都"]
+    },
+    "辛": {
+      "look": ["幸"],
+      "meaning": ["苦"]
+    },
+    "苦": {
+      "look": ["古"],
+      "meaning": ["勞"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "noon-field"
+  }
+}
