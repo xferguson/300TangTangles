@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { render } from '@testing-library/react';
-import { RubyChar, parseZhuyin } from './RubyChar';
+import { RubyChar } from './RubyChar';
+import { parseZhuyin } from './zhuyin';
 
 describe('parseZhuyin', () => {
   it('splits symbols from a 2nd/3rd/4th tone mark', () => {
