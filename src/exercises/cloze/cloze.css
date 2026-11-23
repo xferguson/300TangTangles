@@ -1,0 +1,27 @@
+.ex-cloze .ex-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.15rem;
+  padding: 1rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 0.5rem;
+  background: var(--paper-3);
+  font-family: var(--f-poem);
+  font-size: 2.2rem;
+}
+.ex-cloze .ex-slot {
+  display: inline-flex;
+  border-radius: 0.2em;
+}
+.ex-cloze .ex-slot[data-active] {
+  outline: 2px solid var(--cinnabar);
+  outline-offset: 1px;
+}
+.ex-cloze .ex-gloss {
+  margin: 0;
+  text-align: center;
+  font-family: var(--f-latin);
+  font-style: italic;
+  color: var(--ink-soft);
+}

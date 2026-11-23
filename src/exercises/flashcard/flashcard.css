@@ -1,0 +1,7 @@
+.ex-flashcard .ex-stage {
+  min-height: 7rem;
+}
+.ex-flashcard .ex-gloss {
+  font-family: var(--f-latin);
+  font-size: 1.6rem;
+}

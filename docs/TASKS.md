@@ -290,9 +290,9 @@ Unblocks: T55, T56
 Goal: exercise components that take an `Exercise` and emit an `ExerciseResult`, covering char→meaning, audio→char, meaning→char, cloze, and line↔translation / feeling prompts.
 Done when: component tests show the correct `ExerciseResult` for right and wrong answers.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T52-basic-exercises
+PR: #22
 
 ### T53 · Exercise: LineBuilder
 Lane: E · Approval: none · Size: M
