@@ -63,7 +63,24 @@ export function gradeRecitation(input: GradeInput): GradeResult {
   const n = target.length;
   const m = heard.length;
 
-  const matches = (t: PoemChar, h: string): boolean => h === t.trad || h === t.simp;
+  const readingOf = (c: PoemChar): string =>
+    (input.system === 'tailo'
+      ? c.readings.tailo[input.hokkienLayer ?? 'lit']
+      : c.readings[input.system]
+    ).normalize('NFC');
+
+  // Readings of every poem character, so a known char heard in the wrong slot still has one.
+  const known = new Map<string, string[]>();
+  for (const c of target) {
+    for (const ch of [c.trad, c.simp]) known.set(ch, [...(known.get(ch) ?? []), readingOf(c)]);
+  }
+  const heardReadings = (h: string): readonly string[] => [
+    ...(known.get(h) ?? []),
+    ...(input.readingsOf?.(h) ?? []).map((r) => r.normalize('NFC')),
+  ];
+
+  const matches = (t: PoemChar, h: string): boolean =>
+    h === t.trad || h === t.simp || heardReadings(h).includes(readingOf(t));
 
   // dp[i][j] = edit distance between target[0..i) and heard[0..j)
   const dp: number[][] = Array.from({ length: n + 1 }, () => new Array<number>(m + 1).fill(0));
