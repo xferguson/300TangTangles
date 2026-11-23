@@ -4,22 +4,28 @@ import userEvent from '@testing-library/user-event';
 import { CharTile } from './CharTile';
 
 describe('CharTile lexicon states', () => {
-  it.each(['new', 'known', 'ignored'] as const)('%s: marks the status and shows no level pips', (status) => {
-    const { container } = render(<CharTile char="霜" status={status} />);
-    const tile = container.firstElementChild;
-    expect(tile).toHaveAttribute('data-status', status);
-    expect(tile).not.toHaveAttribute('data-level');
-    expect(container.querySelectorAll('.ct-pip')).toHaveLength(0);
-  });
+  it.each(['new', 'known', 'ignored'] as const)(
+    '%s: marks the status and shows no level pips',
+    (status) => {
+      const { container } = render(<CharTile char="霜" status={status} />);
+      const tile = container.firstElementChild;
+      expect(tile).toHaveAttribute('data-status', status);
+      expect(tile).not.toHaveAttribute('data-level');
+      expect(container.querySelectorAll('.ct-pip')).toHaveLength(0);
+    },
+  );
 
-  it.each([1, 2, 3, 4] as const)('learning %i: sets the level and fills that many of 4 pips', (level) => {
-    const { container } = render(<CharTile char="霜" status="learning" level={level} />);
-    const tile = container.firstElementChild;
-    expect(tile).toHaveAttribute('data-status', 'learning');
-    expect(tile).toHaveAttribute('data-level', String(level));
-    expect(container.querySelectorAll('.ct-pip')).toHaveLength(4);
-    expect(container.querySelectorAll('.ct-pip[data-on]')).toHaveLength(level);
-  });
+  it.each([1, 2, 3, 4] as const)(
+    'learning %i: sets the level and fills that many of 4 pips',
+    (level) => {
+      const { container } = render(<CharTile char="霜" status="learning" level={level} />);
+      const tile = container.firstElementChild;
+      expect(tile).toHaveAttribute('data-status', 'learning');
+      expect(tile).toHaveAttribute('data-level', String(level));
+      expect(container.querySelectorAll('.ct-pip')).toHaveLength(4);
+      expect(container.querySelectorAll('.ct-pip[data-on]')).toHaveLength(level);
+    },
+  );
 
   it('learning without a level defaults to level 1', () => {
     const { container } = render(<CharTile char="霜" status="learning" />);
