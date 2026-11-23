@@ -219,6 +219,59 @@ describe('Recite: self-grade fallback', () => {
     expect(onComplete).toHaveBeenCalledTimes(1);
   });
 
+  it('never strands the learner when recognition hangs: grade myself while listening', async () => {
+    // A recognizer that never produces a result nor ends (e.g. no microphone, offline).
+    const hung: SpeechInput = {
+      mode: 'recognition',
+      listen: () => new Promise<SpeechResult>(() => {}),
+      stop: async () => {},
+    };
+    const { onComplete, user } = setup(lineEx, hung);
+    await speak(user);
+    await user.click(await screen.findByRole('button', { name: /grade myself/i }));
+    expect(screen.getByLabelText('Answer')).toHaveTextContent(/舉.*頭.*望.*明.*月/);
+    await user.click(screen.getByRole('button', { name: /got it/i }));
+    await user.click(screen.getByRole('button', { name: /continue/i }));
+    expect(onComplete).toHaveBeenCalledWith(expect.objectContaining({ correct: true }));
+  });
+
+  it('falls back to self-grade if Stop gets no answer from the recognizer', async () => {
+    vi.useFakeTimers({ shouldAdvanceTime: true });
+    try {
+      const hung: SpeechInput = {
+        mode: 'recognition',
+        listen: () => new Promise<SpeechResult>(() => {}),
+        stop: async () => {},
+      };
+      const { user } = setup(lineEx, hung);
+      await speak(user);
+      await user.click(await screen.findByRole('button', { name: /stop/i }));
+      await vi.advanceTimersByTimeAsync(5000);
+      expect(await screen.findByLabelText('Answer')).toBeInTheDocument();
+      expect(screen.getByRole('button', { name: /got it/i })).toBeEnabled();
+    } finally {
+      vi.useRealTimers();
+    }
+  });
+
+  it('ignores a late result after the learner chose to grade themselves', async () => {
+    let resolve: (r: SpeechResult) => void = () => {};
+    const late: SpeechInput = {
+      mode: 'recognition',
+      listen: () => new Promise<SpeechResult>((r) => (resolve = r)),
+      stop: async () => {},
+    };
+    const { onComplete, user } = setup(lineEx, late);
+    await speak(user);
+    await user.click(await screen.findByRole('button', { name: /grade myself/i }));
+    resolve(said('舉頭望明日'));
+    await user.click(screen.getByRole('button', { name: /not yet/i }));
+    await user.click(screen.getByRole('button', { name: /continue/i }));
+    expect(onComplete).toHaveBeenCalledWith(
+      expect.objectContaining({ correct: false, accuracy: 0, attempts: 1 }),
+    );
+  });
+
   it('offers "grade myself" without touching the microphone', async () => {
     const { onComplete, user } = setup(lineEx, new MockSpeechInput('recognition'));
     await user.click(screen.getByRole('button', { name: /grade myself/i }));
