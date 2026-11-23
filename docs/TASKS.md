@@ -279,9 +279,9 @@ Unblocks: T55
 Goal: poem colored by the lexicon; char popover (readings for the current language, meaning, audio, set status); translation toggles (whole / line / word); scholar's notes drawer; "mark rest known"; Traditional/Simplified toggle.
 Done when: component tests cover status changes reaching the lexicon and the toggles.
 
-Status: in-progress
+Status: done
 Branch: task/T51-reading-mode
-PR: —
+PR: #20
 
 ### T52 · Exercises: Flashcard, Cloze, MeaningCheck
 Lane: E · Approval: none · Size: M
