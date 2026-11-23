@@ -292,7 +292,7 @@ Done when: component tests show the correct `ExerciseResult` for right and wrong
 
 Status: done
 Branch: task/T52-basic-exercises
-PR: —
+PR: #22
 
 ### T53 · Exercise: LineBuilder
 Lane: E · Approval: none · Size: M
