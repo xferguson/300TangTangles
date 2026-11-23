@@ -16,30 +16,39 @@ function Harness({
   initial = {},
   settings = DEFAULT_SETTINGS,
   playAudio,
-  sink,
+  onChange,
 }: {
   initial?: Lexicon;
   settings?: Settings;
   playAudio?: (text: string, opts?: { slow?: boolean }) => void;
-  sink: { lexicon: Lexicon };
+  onChange: (lexicon: Lexicon) => void;
 }) {
   const [lexicon, setLexicon] = useState(initial);
-  sink.lexicon = lexicon;
   return (
     <ReadingScreen
       poem={poem}
       settings={settings}
       lexicon={lexicon}
-      onLexiconChange={setLexicon}
+      onLexiconChange={(next) => {
+        setLexicon(next);
+        onChange(next);
+      }}
       playAudio={playAudio}
     />
   );
 }
 
-function setup(props: Omit<Parameters<typeof Harness>[0], 'sink'> = {}) {
+function setup(props: Omit<Parameters<typeof Harness>[0], 'onChange'> = {}) {
   const sink = { lexicon: {} as Lexicon };
   const user = userEvent.setup();
-  render(<Harness {...props} sink={sink} />);
+  render(
+    <Harness
+      {...props}
+      onChange={(next) => {
+        sink.lexicon = next;
+      }}
+    />,
+  );
   return { sink, user };
 }
 
