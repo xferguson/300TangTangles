@@ -3,12 +3,13 @@ import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { DEFAULT_SETTINGS } from '../../core/types';
+import type { Settings } from '../../core/types';
 import { MockAudioProvider } from '../mock';
 import { AudioServiceProvider } from './context';
 import { ConnectedAudioButton } from './ConnectedAudioButton';
 import { createAudioService } from './service';
 
-function setup(provider: MockAudioProvider, settings = DEFAULT_SETTINGS) {
+function setup(provider: MockAudioProvider, settings: Settings = DEFAULT_SETTINGS) {
   const service = createAudioService({ provider });
   render(
     <AudioServiceProvider service={service}>
