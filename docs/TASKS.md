@@ -433,9 +433,9 @@ Unblocks: T67
 Goal: the app has no icon. Mock up several options (`design/app-icons.html`) for the user to pick from, then produce the chosen icon as SVG source plus 192/512 PNG, a maskable 512 PNG, and an apple-touch-icon.
 Done when: the user has picked an option and the final icon files are committed under `public/`.
 
-Status: in-progress
+Status: in-review
 Branch: ccr-e1474bc7-8geezf
-PR: —
+PR: #34
 
 ### T67 · Fix Android install
 Lane: E · Approval: none · Size: S
