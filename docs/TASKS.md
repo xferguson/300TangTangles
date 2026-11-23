@@ -143,9 +143,9 @@ Unblocks: T34, T50, T51, T57
 Goal: global lexicon of unit statuses (new / learning 1–4 / known / ignored). `ts-fsrs` scheduling with mapping from review results to learning level; manual override; IndexedDB persistence (`idb-keyval`); versioned export/import JSON.
 Done when: tests cover status transitions, cross-poem sharing, persistence round-trip (fake-indexeddb), and import validation.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T30-lexicon-store
+PR: #13
 
 ### T31 · Tangle feedback algorithm
 Lane: C · Approval: none · Size: S
@@ -154,9 +154,9 @@ Unblocks: T54
 Goal: count-aware 4-state feedback (correct / in-line / other-line / absent) for a row guess against the poem; bank-tile color aggregation; attempt budget (6 per line), with an exhausted budget returning the line to review; share-grid string.
 Done when: unit tests cover duplicates (明月×2, 頭×2), other-line, distractors, and budget exhaustion.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T31-tangle-feedback
+PR: #10
 
 ### T32 · Recitation grader
 Lane: C · Approval: none · Size: S
@@ -176,9 +176,9 @@ Unblocks: T53
 Goal: pick look-alike, sound-alike, and meaning-alike distractors from content seeds plus other poems' chars, deterministic given a seed. Never returns a char that is valid in that position.
 Done when: unit tests cover determinism, exclusion rules, and difficulty levels.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T33-distractors
+PR: #11
 
 ### T34 · Session engine
 Lane: C · Approval: none · Size: L
@@ -244,9 +244,9 @@ Unblocks: T56
 Goal: `src/speech/` `SpeechInput` interface with a Web Speech API adapter (cmn zh-TW / zh-CN, yue zh-HK), a capability check, a record → playback → self-grade fallback, and a mock adapter for tests.
 Done when: tests cover capability detection, language mapping, and fallback selection using the mock.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T44-speech-input
+PR: #9
 
 ### T45 · Audio quality review & optional pre-generated clips
 Lane: D · Approval: none · Size: M
