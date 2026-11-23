@@ -422,6 +422,6 @@ Unblocks: —
 Goal: turn the four "coming soon" catalog poems (春曉, 登鸛雀樓, 相思, 早發白帝城) into full playable poems, then add the next 15 most familiar short poems to the catalog as "coming soon" and fill each one in turn: 鹿柴, 江雪, 憫農, 尋隱者不遇, 贈汪倫, 望廬山瀑布, 楓橋夜泊, 黃鶴樓送孟浩然之廣陵, 九月九日憶山東兄弟, 回鄉偶書, 詠柳, 清明, 涼州詞, 出塞, 絕句. Each file follows the 靜夜思 shape: per-character readings (zhuyin, pinyin, jyutping, Tâi-lô literary and everyday), units and compounds, translations, feelings, notes, and distractor seeds.
 Done when: `validate:content` passes for every poem, the catalog marks all 20 poems available, and the readings are listed in the PR as unreviewed by a native speaker (Mandarin and Cantonese readings were generated with pypinyin and pycantonese then spot-checked; Tâi-lô was written by hand).
 
-Status: in-progress
+Status: done
 Branch: ccr-2743f8dd-8ifpfq
-PR: —
+PR: #35

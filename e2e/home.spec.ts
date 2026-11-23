@@ -23,7 +23,11 @@ for (const scheme of ['light', 'dark'] as const) {
 
 test('the library Play button opens the session', async ({ page }) => {
   await page.goto('./#/library');
-  await page.getByRole('link', { name: 'Play' }).click();
+  await page
+    .getByRole('listitem')
+    .filter({ hasText: '靜夜思' })
+    .getByRole('link', { name: 'Play' })
+    .click();
   await expect(page).toHaveURL(/#\/play\/jingyesi$/);
   await expect(page.getByRole('region', { name: 'Flashcard' })).toBeVisible();
 });
