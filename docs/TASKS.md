@@ -323,9 +323,9 @@ Unblocks: T60
 Goal: a single Continue button drives the engine. Persistent scroll with per-char fade; exercises rendered in sequence; rank-up seal moments; session summary; progress persisted.
 Done when: an integration test with the engine and a fake learner passes, and a Playwright run completes a few steps.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T55-session-flow
+PR: #27
 
 ### T56 · Exercise: Recite
 Lane: E · Approval: none · Size: M
