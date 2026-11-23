@@ -268,8 +268,8 @@ Unblocks: —
 Goal: poems grouped by length tier and sorted by familiarity, with ink-drop difficulty, a personal "known x/y" count, and "coming soon" cards.
 Done when: component tests and Playwright navigation to the poem pass.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T50-library
 PR: —
 
 ### T51 · Reading / triage mode
