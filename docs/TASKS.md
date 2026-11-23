@@ -187,8 +187,8 @@ Unblocks: T55
 Goal: one continuous journey. Per-line mastery model {recognition, production, meaning, recitation}; `nextExercise()` interleaves new-char cards, line-builder scaffold steps (cloze → ordered → distractors → translation-only → first-char), meaning checks, line recitation, Tangle rows, and the final recitation; per-char fade level for the scroll; rank computation (童生→狀元); demotion on mistakes; FSRS-driven long-term review after 狀元.
 Done when: simulated-learner tests show (a) a perfect learner reaches 狀元, (b) wrong meaning answers block mastery, (c) a failed Tangle row sends the line back to practice, (d) known chars are skipped.
 
-Status: in-progress
-Branch: task/T34-session-engine
+Status: todo
+Branch: —
 PR: —
 
 ## Lane D · Audio & speech I/O
@@ -268,8 +268,8 @@ Unblocks: —
 Goal: poems grouped by length tier and sorted by familiarity, with ink-drop difficulty, a personal "known x/y" count, and "coming soon" cards.
 Done when: component tests and Playwright navigation to the poem pass.
 
-Status: in-progress
-Branch: task/T50-library
+Status: todo
+Branch: —
 PR: —
 
 ### T51 · Reading / triage mode
