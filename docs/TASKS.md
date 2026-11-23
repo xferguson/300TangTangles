@@ -82,7 +82,7 @@ Unblocks: T10, T11, T30, T31, T32, T33, T40, T44, T52
 Goal: Zod poem schema (lines, chars Trad/Simp, readings zhuyin/pinyin/jyutping/tailo (tailo has two layers: `lit` 文讀 and `col` 白讀), units incl. compounds, translations, notes, meta) with inferred types. `src/core/types.ts`: UnitId, UnitStatus, LexiconEntry, Exercise (discriminated union), ExerciseResult, LineMastery {recognition, production, meaning, recitation}, EngineState, Rank, Settings. Signature `nextExercise(state): Exercise`. A test fixture poem. `validate:content` validates `content/poems/*.json`.
 Done when: schema tests pass (valid fixture accepted, malformed fixtures rejected). Types are exported and documented.
 
-Status: in-progress
+Status: done
 Branch: task/T02-core-contracts
 PR: —
 

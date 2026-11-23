@@ -16,7 +16,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "validate:content": "node scripts/validate-content.mjs",
+    "validate:content": "tsx scripts/validate-content.ts",
     "e2e": "playwright test --trace off"
   },
   "dependencies": {
