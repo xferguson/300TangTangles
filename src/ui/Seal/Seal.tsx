@@ -1,4 +1,5 @@
-import { useEffect, useRef, type CSSProperties } from 'react';
+import { useRef, type CSSProperties } from 'react';
+import { useAnimationEnd } from '../useAnimationEnd';
 import './Seal.css';
 
 export type SealState = 'earned' | 'locked' | 'overdue';
@@ -40,13 +41,7 @@ export function Seal({
   const ref = useRef<HTMLSpanElement>(null);
   const chars = [...text];
 
-  // Native listener: React maps onAnimationEnd to a vendor-prefixed event in some environments.
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || !stamping || !onStamped) return;
-    el.addEventListener('animationend', onStamped);
-    return () => el.removeEventListener('animationend', onStamped);
-  }, [stamping, onStamped]);
+  useAnimationEnd(ref, stamping, onStamped);
   const style = { '--seal-size': `${size}px` } as CSSProperties;
   return (
     <span
