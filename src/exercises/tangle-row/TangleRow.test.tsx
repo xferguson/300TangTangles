@@ -26,7 +26,12 @@ function setup(over: Partial<TangleRowExercise> = {}) {
   };
   const user = userEvent.setup();
   render(
-    <TangleRow exercise={exercise} poem={poem} settings={DEFAULT_SETTINGS} onComplete={onComplete} />,
+    <TangleRow
+      exercise={exercise}
+      poem={poem}
+      settings={DEFAULT_SETTINGS}
+      onComplete={onComplete}
+    />,
   );
   return { user, onComplete };
 }
@@ -54,7 +59,9 @@ describe('TangleRow board', () => {
     const { user } = setup();
     const submit = screen.getByRole('button', { name: /submit/i });
     expect(submit).toBeDisabled();
-    await user.click(within(screen.getByTestId('bank')).getAllByRole('button', { name: /^疑/ })[0]!);
+    await user.click(
+      within(screen.getByTestId('bank')).getAllByRole('button', { name: /^疑/ })[0]!,
+    );
     await user.click(screen.getByRole('button', { name: /delete|backspace/i }));
     expect(within(screen.getAllByTestId('board-row')[1]!).queryByText('疑')).toBeNull();
   });
