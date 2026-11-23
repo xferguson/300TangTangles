@@ -403,3 +403,14 @@ Done when: tests cover the poem font size and late-loading voices in the routes.
 Status: done
 Branch: task/T63-intro-size-and-audio
 PR: #31
+
+### T64 · Settings & Home navigation
+Lane: E · Approval: none · Size: S
+Depends on: T57, T62
+Unblocks: —
+Goal: Play, Reading, Library and Settings screens have no link to Settings or back home, so the only route to Settings is the home page. Add a shared app nav (Home, Settings) to every screen.
+Done when: component and per-screen tests cover the nav links.
+
+Status: done
+Branch: task/T64-settings-access
+PR: #32

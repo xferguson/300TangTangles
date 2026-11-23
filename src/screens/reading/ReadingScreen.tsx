@@ -12,7 +12,7 @@ import {
   type UnitStatus,
 } from '../../core';
 import { markKnown, setStatus, statusOf } from '../../lexicon';
-import { AudioButton, Button, CharTile, ScrollFrame } from '../../ui';
+import { AppNav, AudioButton, Button, CharTile, ScrollFrame } from '../../ui';
 import './ReadingScreen.css';
 
 export interface ReadingScreenProps {
@@ -154,6 +154,7 @@ export function ReadingScreen({
 
   return (
     <main className="reading">
+      <AppNav />
       <header className="rd-header">
         <h1>{poem.title[script]}</h1>
         <p className="rd-byline">

@@ -14,3 +14,4 @@ export { Seal } from './Seal/Seal';
 export type { SealProps, SealState, SealTone } from './Seal/Seal';
 export { applyTheme, readStoredTheme, useThemePreference } from './theme/theme';
 export type { ThemePreference } from './theme/theme';
+export { AppNav } from './AppNav/AppNav';

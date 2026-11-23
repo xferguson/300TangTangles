@@ -71,3 +71,10 @@ describe('SettingsScreen', () => {
     expect(await loadLexicon()).toEqual({});
   });
 });
+
+describe('SettingsScreen nav', () => {
+  it('has a way back home', () => {
+    render(<SettingsScreen />);
+    expect(screen.getByRole('link', { name: /home/i })).toHaveAttribute('href', '#/');
+  });
+});

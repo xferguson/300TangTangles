@@ -8,6 +8,7 @@ import { replaceSettings } from '../../settings/settings';
 import { useSettings } from '../../settings/useSettings';
 import { Button } from '../../ui';
 import './SettingsScreen.css';
+import { AppNav } from '../../ui/AppNav/AppNav';
 
 interface Option<V extends string> {
   value: V;
@@ -134,6 +135,7 @@ export function SettingsScreen({ voices }: SettingsScreenProps) {
 
   return (
     <main className="set">
+      <AppNav />
       <header className="set-head">
         <h1>設定</h1>
         <p>Settings</p>

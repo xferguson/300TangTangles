@@ -1,0 +1,19 @@
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+  font-family: var(--f-ui);
+}
+.app-nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 4px;
+  color: var(--ochre);
+  text-decoration: none;
+}
+.app-nav-link:hover,
+.app-nav-link:focus-visible {
+  text-decoration: underline;
+}

@@ -56,6 +56,18 @@ describe('LibraryScreen', () => {
     expect(screen.getByRole('heading', { name: /七絕/ })).toBeInTheDocument();
   });
 
+  it('has an app nav with Home and Settings links', () => {
+    render(
+      <LibraryScreen catalog={catalog} poems={[poem]} lexicon={{}} settings={DEFAULT_SETTINGS} />,
+    );
+    const nav = screen.getByRole('navigation', { name: 'App' });
+    expect(within(nav).getByRole('link', { name: /settings/i })).toHaveAttribute(
+      'href',
+      '#/settings',
+    );
+    expect(within(nav).getByRole('link', { name: /home/i })).toHaveAttribute('href', '#/');
+  });
+
   it('links a playable poem card to the reading screen', () => {
     render(
       <LibraryScreen catalog={catalog} poems={[poem]} lexicon={{}} settings={DEFAULT_SETTINGS} />,

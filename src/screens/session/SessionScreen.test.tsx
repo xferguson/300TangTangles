@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest';
-import { render, screen } from '@testing-library/react';
+import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 import { DEFAULT_SETTINGS, parsePoem, type PoemProgress } from '../../core';
@@ -52,6 +52,16 @@ function setup(over: { lexicon?: ReturnType<typeof allKnown>; progress?: PoemPro
 }
 
 describe('SessionScreen', () => {
+  it('has an app nav with Home and Settings links', () => {
+    setup();
+    const nav = screen.getByRole('navigation', { name: 'App' });
+    expect(within(nav).getByRole('link', { name: /settings/i })).toHaveAttribute(
+      'href',
+      '#/settings',
+    );
+    expect(within(nav).getByRole('link', { name: /home/i })).toHaveAttribute('href', '#/');
+  });
+
   it('shows the poem scroll, the current rank and the first exercise', () => {
     setup();
     expect(screen.getByRole('region', { name: '靜夜思' })).toBeInTheDocument();
