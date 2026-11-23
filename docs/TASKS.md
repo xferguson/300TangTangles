@@ -345,9 +345,9 @@ Unblocks: —
 Goal: settings for script (Trad/Simp), Mandarin romanization (bopomofo default / pinyin), audio language (cmn / yue / nan when available), Hokkien reading layer (文讀 / 白讀), theme, and romanization visibility; export/import backup UI.
 Done when: component tests cover settings persistence and import errors.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T57-settings
+PR: #26
 
 ### T58 · Audio player & buttons
 Lane: E · Approval: none · Size: S
