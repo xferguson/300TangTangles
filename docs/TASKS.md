@@ -130,8 +130,8 @@ Unblocks: T50, T51, T52, T53, T54, T57, T58
 Goal: CSS variable tokens from the approved T20 design; theme switching. Components `RubyChar` (zhuyin/pinyin/jyutping/tailo, off), `CharTile`, `ScrollFrame`, `Seal`, `Button`, `AudioButton` shell.
 Done when: component tests cover every visual state and romanization mode. Playwright screenshots in both themes are attached to the PR.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: ccr-aa2835ff-f0gpn2
 PR: —
 
 ## Lane C · Domain logic (pure TS)
