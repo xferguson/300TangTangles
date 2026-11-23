@@ -132,7 +132,7 @@ Done when: component tests cover every visual state and romanization mode. Playw
 
 Status: in-progress
 Branch: ccr-aa2835ff-f0gpn2
-PR: —
+PR: #6
 
 ## Lane C · Domain logic (pure TS)
 
