@@ -1,0 +1,108 @@
+.session {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 20px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 16px;
+  color: var(--ink);
+  font-family: var(--f-ui);
+}
+.ss-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+.ss-header h1 {
+  margin: 0;
+  font-family: var(--f-poem);
+  color: var(--heading);
+  font-size: 1.6rem;
+}
+.ss-byline {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+}
+.ss-rank-label {
+  display: inline-block;
+  padding: 2px 10px;
+  border: 1px solid var(--ochre);
+  border-radius: 4px;
+  color: var(--ochre);
+  font-family: var(--f-poem);
+  font-size: 1.1rem;
+}
+.ss-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.ss-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+}
+.ss-card {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  text-align: center;
+  padding: 20px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--paper-3);
+}
+.ss-card p {
+  margin: 0;
+}
+.ss-card .tt-button {
+  min-height: 44px;
+}
+.ss-kicker {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.ss-gloss {
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.ss-big {
+  font-family: var(--f-poem);
+  font-size: 1.6rem;
+}
+.ss-rank-name {
+  margin: 0;
+  font-family: var(--f-poem);
+  font-size: 1.8rem;
+  color: var(--cinnabar);
+}
+.ss-seals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+.ss-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 16px;
+}
+.ss-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-inline: 12px;
+  color: var(--ochre);
+}
+.ss-footer {
+  display: flex;
+  justify-content: center;
+}

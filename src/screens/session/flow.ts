@@ -4,13 +4,7 @@
  * No React, no storage; the screen just renders this and persists `engine` after each step.
  */
 import type { EngineState, Exercise, ExerciseResult, Rank } from '../../core';
-import {
-  applyResult,
-  computeRank,
-  isReviewKey,
-  nextExercise,
-  unitScore,
-} from '../../engine';
+import { applyResult, computeRank, isReviewKey, nextExercise, unitScore } from '../../engine';
 
 export interface Flow {
   /** The engine state the current exercise was issued from; results are applied to it. */
