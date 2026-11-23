@@ -1,0 +1,11 @@
+.ex-meaning .ex-stage {
+  font-size: 2rem;
+}
+.ex-meaning .ex-choice {
+  font-size: 1rem;
+  font-family: var(--f-latin);
+}
+.ex-meaning[data-prompt='translation-to-line'] .ex-choice {
+  font-family: var(--f-poem);
+  font-size: 1.5rem;
+}
