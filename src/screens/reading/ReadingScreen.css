@@ -1,0 +1,174 @@
+.reading {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-block: 20px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 16px;
+  color: var(--ink);
+  font-family: var(--f-ui);
+}
+.rd-header h1 {
+  margin: 0;
+  font-family: var(--f-poem);
+  color: var(--heading);
+  font-size: 1.8rem;
+}
+.rd-byline {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+}
+.rd-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+.rd-seg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.rd-seg .tt-button,
+.rd-status .tt-button {
+  min-height: 44px;
+  min-width: 44px;
+  padding-inline: 0.8rem;
+}
+.rd-seg .tt-button[aria-pressed='true'],
+.rd-status .tt-button[aria-pressed='true'] {
+  border-color: var(--ochre);
+  background: color-mix(in srgb, var(--ochre) 18%, var(--paper-3));
+  font-weight: 600;
+}
+.rd-lines {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 14px;
+}
+.rd-line-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.rd-chars {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+}
+.rd-punct {
+  font-family: var(--f-poem);
+  font-size: 1.4rem;
+  color: var(--ink-soft);
+}
+.rd-gloss,
+.rd-literal {
+  margin: 4px 0 0;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+.rd-words {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  color: var(--ink-soft);
+}
+.rd-word {
+  font-family: var(--f-poem);
+  color: var(--ink);
+}
+.rd-whole {
+  padding: 12px 16px;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--paper-3);
+}
+.rd-whole p {
+  margin: 0 0 6px;
+}
+.rd-popover {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border: 1px solid var(--frame);
+  border-radius: 10px;
+  background: var(--paper-3);
+  box-shadow: var(--shadow);
+}
+.rd-pop-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.rd-pop-head .tt-button {
+  margin-left: auto;
+}
+.rd-pop-char {
+  font-family: var(--f-poem);
+  font-size: 2.4rem;
+  line-height: 1;
+}
+.rd-readings {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+  margin: 0;
+}
+.rd-readings dt {
+  color: var(--ink-soft);
+}
+.rd-readings dt[data-active] {
+  color: var(--ochre);
+  font-weight: 600;
+}
+.rd-readings dd {
+  margin: 0;
+  font-size: 1.15rem;
+}
+.rd-meaning {
+  margin: 0;
+  font-size: 1.05rem;
+}
+.rd-status {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.rd-compound {
+  display: grid;
+  gap: 6px;
+  padding-top: 8px;
+  border-top: 1px solid var(--rule);
+}
+.rd-compound p {
+  margin: 0;
+}
+.rd-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rd-notes {
+  display: grid;
+  gap: 12px;
+  padding: 12px 16px;
+  border-left: 3px solid var(--ochre);
+  background: var(--paper-2);
+}
+.rd-note h2 {
+  margin: 0 0 4px;
+  font-size: 1.05rem;
+  color: var(--ochre);
+}
+.rd-note p {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

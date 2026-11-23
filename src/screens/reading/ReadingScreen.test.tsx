@@ -113,7 +113,7 @@ describe('ReadingScreen popover', () => {
     const { user } = setup({ playAudio });
     await user.click(screen.getByRole('button', { name: '床 · new' }));
     await user.click(within(screen.getByRole('dialog')).getByRole('button', { name: /Play 床/ }));
-    expect(playAudio).toHaveBeenCalledWith('床', undefined);
+    expect(playAudio).toHaveBeenCalledWith('床');
   });
 
   it('closes with the close button', async () => {
