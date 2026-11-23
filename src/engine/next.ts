@@ -53,7 +53,6 @@ export const nextExercise: NextExercise = (state) => {
 
   const last = state.history.at(-1);
   const lastParsed = last ? parseExerciseId(last.exerciseId) : null;
-  const lastLine = lastParsed?.line ?? null;
 
   const lastKindFor = (line: number) => {
     for (let i = state.history.length - 1; i >= 0; i--) {
@@ -98,7 +97,12 @@ export const nextExercise: NextExercise = (state) => {
   }
 
   if (candidates.length > 0) {
-    const chosen = candidates.find((c) => c.line !== lastLine) ?? candidates[0]!;
+    // Interleave: work on the line touched least recently (never touched first), so no line starves.
+    const touched = (line: number) =>
+      state.history.findLastIndex((r) => parseExerciseId(r.exerciseId).line === line);
+    const chosen = candidates.reduce((best, c) =>
+      touched(c.line) < touched(best.line) ? c : best,
+    );
     return buildLineTask(ctx, chosen.line, chosen.task, m(chosen.line).scaffoldStep, state);
   }
 

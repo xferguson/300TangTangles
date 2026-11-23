@@ -5,7 +5,7 @@
  * Model per line (all 0-1, see `LineMastery`):
  * - recognition: how ready the line's units are in the lexicon (derived, refreshed after each result);
  * - production: scaffold steps passed / 5 (1 = passed even at the first-character step);
- * - meaning: +0.5 per correct meaning check, -0.5 per wrong one (1 = two net correct);
+ * - meaning: +1/3 per correct meaning check, -1/3 per wrong one (1 = three net correct, so every prompt type);
  * - recitation: 1 once the line was recited correctly.
  * A line is *mastered* only when all four are full: it can be produced and its meaning stated.
  */

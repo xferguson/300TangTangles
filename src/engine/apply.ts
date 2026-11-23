@@ -23,6 +23,10 @@ export const FINAL_ACCURACY = 0.9;
 
 const clamp01 = (n: number) => Math.min(1, Math.max(0, n));
 
+/** Meaning moves in sixths (±1/3 per answer), so three net-correct checks, one per prompt type, give exactly 1. */
+const stepMeaning = (meaning: number, correct: boolean) =>
+  clamp01(Math.round((meaning + (correct ? 1 : -1) / 3) * 6) / 6);
+
 /** Passed cleanly: correct on the first try. A retry counts as a mistake (it costs a scaffold step). */
 const clean = (r: ExerciseResult) => r.correct && r.attempts <= 1;
 
@@ -53,7 +57,7 @@ function applyToMastery(m: LineMastery, r: ExerciseResult, passed: boolean): Lin
       return { ...m, scaffoldStep: down, production: Math.min(m.production, (down - 1) / 5) };
     }
     case 'meaning-check':
-      return { ...m, meaning: clamp01(m.meaning + (clean(r) ? 0.5 : -0.5)) };
+      return { ...m, meaning: stepMeaning(m.meaning, clean(r)) };
     case 'recite':
       return passed
         ? { ...m, recitation: 1 }
