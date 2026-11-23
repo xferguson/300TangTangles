@@ -154,8 +154,8 @@ Unblocks: T54
 Goal: count-aware 4-state feedback (correct / in-line / other-line / absent) for a row guess against the poem; bank-tile color aggregation; attempt budget (6 per line), with an exhausted budget returning the line to review; share-grid string.
 Done when: unit tests cover duplicates (明月×2, 頭×2), other-line, distractors, and budget exhaustion.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T31-tangle-feedback
 PR: —
 
 ### T32 · Recitation grader
