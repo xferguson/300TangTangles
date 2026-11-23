@@ -244,9 +244,9 @@ Unblocks: T56
 Goal: `src/speech/` `SpeechInput` interface with a Web Speech API adapter (cmn zh-TW / zh-CN, yue zh-HK), a capability check, a record → playback → self-grade fallback, and a mock adapter for tests.
 Done when: tests cover capability detection, language mapping, and fallback selection using the mock.
 
-Status: in-progress
+Status: done
 Branch: task/T44-speech-input
-PR: —
+PR: #9
 
 ### T45 · Audio quality review & optional pre-generated clips
 Lane: D · Approval: none · Size: M
