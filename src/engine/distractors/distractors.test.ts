@@ -1,33 +1,19 @@
 import { describe, expect, it } from 'vitest';
 
 import { fixturePoemData } from '../../core/fixtures/poem.fixture';
-import { parsePoem } from '../../core/poem';
+import { parsePoem, type Poem } from '../../core/poem';
 import { generateDistractors } from './distractors';
 
 const poem = parsePoem(fixturePoemData);
 const OTHER_CHARS = ['春', '眠', '不', '覺', '曉'];
-const other = parsePoem({
-  ...structuredClone(fixturePoemData),
+const other: Poem = {
+  ...poem,
   id: 'other-poem',
-  lines: poem.lines.map((l, i) =>
-    i === 0
-      ? {
-          ...l,
-          chars: OTHER_CHARS.map((t) => ({ ...l.chars[0]!, trad: t, simp: t })),
-        }
-      : l,
-  ),
-  units: [
-    {
-      id: '春',
-      simp: '春',
-      kind: 'char',
-      gloss: 'spring',
-      occurrences: [{ line: 0, start: 0 }],
-    },
-  ],
   distractorSeeds: {},
-});
+  lines: poem.lines.map((l, i) =>
+    i === 0 ? { ...l, chars: OTHER_CHARS.map((t) => ({ ...l.chars[0]!, trad: t, simp: t })) } : l,
+  ),
+};
 
 const lineChars = (n: number) => poem.lines[n]!.chars.map((c) => c.trad);
 
