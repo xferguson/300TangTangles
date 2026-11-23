@@ -1,0 +1,94 @@
+{
+  "tiers": [
+    {
+      "tier": "wujue",
+      "poems": [
+        {
+          "id": "chunxiao",
+          "title": {
+            "trad": "春曉",
+            "simp": "春晓"
+          },
+          "poet": {
+            "trad": "孟浩然",
+            "simp": "孟浩然"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.4202,
+          "inkDrops": 3
+        },
+        {
+          "id": "jingyesi",
+          "title": {
+            "trad": "靜夜思",
+            "simp": "静夜思"
+          },
+          "poet": {
+            "trad": "李白",
+            "simp": "李白"
+          },
+          "form": "wujue",
+          "status": "available",
+          "charCount": 20,
+          "familiarity": 0.4187,
+          "inkDrops": 3
+        },
+        {
+          "id": "xiangsi",
+          "title": {
+            "trad": "相思",
+            "simp": "相思"
+          },
+          "poet": {
+            "trad": "王維",
+            "simp": "王维"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.4137,
+          "inkDrops": 3
+        },
+        {
+          "id": "denguanqueloujiu",
+          "title": {
+            "trad": "登鸛雀樓",
+            "simp": "登鹳雀楼"
+          },
+          "poet": {
+            "trad": "王之渙",
+            "simp": "王之涣"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.4114,
+          "inkDrops": 3
+        }
+      ]
+    },
+    {
+      "tier": "qijue",
+      "poems": [
+        {
+          "id": "zaofabaidicheng",
+          "title": {
+            "trad": "早發白帝城",
+            "simp": "早发白帝城"
+          },
+          "poet": {
+            "trad": "李白",
+            "simp": "李白"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.2311,
+          "inkDrops": 4
+        }
+      ]
+    }
+  ]
+}
