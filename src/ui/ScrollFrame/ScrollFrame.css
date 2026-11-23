@@ -1,0 +1,36 @@
+.scroll-frame {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+}
+.scroll-rod {
+  display: block;
+  height: 6px;
+  margin: 0 -5px;
+  border-radius: 3px;
+  background: var(--frame);
+}
+.scroll-paper {
+  padding: 14px 10px;
+  background: var(--paper-3);
+  box-shadow: var(--shadow);
+  font-family: var(--f-poem);
+}
+.scroll-frame[data-orientation='vertical'] .scroll-paper {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-inline: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.scroll-frame[data-unrolling] {
+  animation: scroll-unroll var(--dur-unroll) cubic-bezier(0.3, 0.7, 0.2, 1) both;
+}
+@keyframes scroll-unroll {
+  from {
+    clip-path: inset(0 50% 0 50%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
