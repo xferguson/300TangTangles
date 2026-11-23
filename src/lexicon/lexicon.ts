@@ -50,7 +50,9 @@ function toCard(f: FsrsCard): Card {
     due,
     stability: f.stability,
     difficulty: f.difficulty,
-    scheduled_days: last ? Math.max(0, Math.round((due.getTime() - last.getTime()) / MS_PER_DAY)) : 0,
+    scheduled_days: last
+      ? Math.max(0, Math.round((due.getTime() - last.getTime()) / MS_PER_DAY))
+      : 0,
     learning_steps: 0,
     reps: f.reps,
     lapses: f.lapses,

@@ -66,7 +66,11 @@ describe('export / import', () => {
   });
 
   it('rejects malformed entries and reports which one', () => {
-    const bad = { version: EXPORT_VERSION, exportedAt: T0.toISOString(), entries: [{ unit: '月' }] };
+    const bad = {
+      version: EXPORT_VERSION,
+      exportedAt: T0.toISOString(),
+      entries: [{ unit: '月' }],
+    };
     const r = importLexicon(JSON.stringify(bad));
     expect(r.ok).toBe(false);
     if (!r.ok) expect(r.error).toMatch(/entries/);
