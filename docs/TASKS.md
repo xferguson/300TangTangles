@@ -165,9 +165,9 @@ Unblocks: T56
 Goal: align an ASR transcript to the target by reading (homophone tolerant) with Levenshtein; return a per-char diff and accuracy. Works for line and whole-poem input; ignores punctuation.
 Done when: unit tests cover exact match, homophone substitution, missing/extra chars, and per-language readings.
 
-Status: in-progress
+Status: done
 Branch: task/T32-recitation-grader
-PR: —
+PR: #12
 
 ### T33 · Distractor generator
 Lane: C · Approval: none · Size: S
