@@ -79,7 +79,7 @@ PR: #3
 Lane: 0 · Approval: none · Size: M
 Depends on: T01
 Unblocks: T10, T11, T30, T31, T32, T33, T44, T52
-Goal: Zod poem schema (lines, chars Trad/Simp, readings zhuyin/pinyin/jyutping/tailo, units incl. compounds, translations, notes, meta) with inferred types. `src/core/types.ts`: UnitId, UnitStatus, LexiconEntry, Exercise (discriminated union), ExerciseResult, LineMastery {recognition, production, meaning, recitation}, EngineState, Rank, Settings. Signature `nextExercise(state): Exercise`. A test fixture poem. `validate:content` validates `content/poems/*.json`.
+Goal: Zod poem schema (lines, chars Trad/Simp, readings zhuyin/pinyin/jyutping/tailo (tailo has two layers: `lit` 文讀 and `col` 白讀), units incl. compounds, translations, notes, meta) with inferred types. `src/core/types.ts`: UnitId, UnitStatus, LexiconEntry, Exercise (discriminated union), ExerciseResult, LineMastery {recognition, production, meaning, recitation}, EngineState, Rank, Settings. Signature `nextExercise(state): Exercise`. A test fixture poem. `validate:content` validates `content/poems/*.json`.
 Done when: schema tests pass (valid fixture accepted, malformed fixtures rejected). Types are exported and documented.
 
 Status: todo
@@ -92,7 +92,7 @@ PR: —
 Lane: A · Approval: none · Size: M
 Depends on: T02
 Unblocks: T40, T50, T51
-Goal: `content/poems/jingyesi.json`: standard school text (Trad + Simp), per-char zhuyin, pinyin, Jyutping, and Tâi-lô (文讀); compounds 明月 地上 舉頭 低頭 故鄉; per-char and per-line glosses; literal and poetic translations; a "what the poet feels" meaning prompt for each line; scholar's notes (床 debate, Song variant, rhyme, 平仄); distractor seeds (看, 山, 雪, 卿…).
+Goal: `content/poems/jingyesi.json`: standard school text (Trad + Simp), per-char zhuyin, pinyin, Jyutping, and Tâi-lô in both layers (文讀 and 白讀, checked against the MOE dictionary's [文]/[白] marks); compounds 明月 地上 舉頭 低頭 故鄉; per-char and per-line glosses; literal and poetic translations; a "what the poet feels" meaning prompt for each line; scholar's notes (床 debate, Song variant, rhyme, 平仄); distractor seeds (看, 山, 雪, 卿…).
 Done when: `validate:content` passes. Readings are cross-checked against a dictionary and the sources are listed in the PR.
 
 Status: todo
@@ -230,7 +230,7 @@ PR: #2
 Lane: D · Approval: none · Size: M
 Depends on: T42, T40
 Unblocks: —
-Goal: implement the path T42 recommended as a `gen-audio` adapter, writing to `public/audio/nan/<poem>/`. If T42 recommends deferral, record that decision and keep the UI "coming soon" state.
+Goal: implement the path T42 recommended as a `gen-audio` adapter, generating both reading layers into `public/audio/nan-lit/<poem>/` (文讀) and `public/audio/nan-col/<poem>/` (白讀). If T42 recommends deferral, record that decision and keep the UI "coming soon" state.
 Done when: clips are committed or the deferral is documented.
 
 Status: todo
@@ -331,7 +331,7 @@ PR: —
 Lane: E · Approval: none · Size: S
 Depends on: T21, T30
 Unblocks: —
-Goal: settings for script (Trad/Simp), Mandarin romanization (bopomofo default / pinyin), audio language (cmn / yue / nan when available), theme, and romanization visibility; export/import backup UI.
+Goal: settings for script (Trad/Simp), Mandarin romanization (bopomofo default / pinyin), audio language (cmn / yue / nan when available), Hokkien reading layer (文讀 / 白讀), theme, and romanization visibility; export/import backup UI.
 Done when: component tests cover settings persistence and import errors.
 
 Status: todo
