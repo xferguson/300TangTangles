@@ -400,6 +400,6 @@ Unblocks: —
 Goal: the poem is too small on first introduction (session scroll and reading screen), and the first "which character did you hear" quiz plays nothing because the routes check for a voice once and never notice voices that load late.
 Done when: tests cover the poem font size and late-loading voices in the routes.
 
-Status: in-progress
+Status: done
 Branch: task/T63-intro-size-and-audio
-PR: 
+PR: #31
