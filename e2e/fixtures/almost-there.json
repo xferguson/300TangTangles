@@ -1,0 +1,198 @@
+{
+  "progress": {
+    "poemId": "jingyesi",
+    "lines": [
+      {
+        "recognition": 1,
+        "production": 1,
+        "meaning": 1,
+        "recitation": 1,
+        "scaffoldStep": 5,
+        "tangleCleared": true
+      },
+      {
+        "recognition": 1,
+        "production": 1,
+        "meaning": 1,
+        "recitation": 1,
+        "scaffoldStep": 5,
+        "tangleCleared": true
+      },
+      {
+        "recognition": 1,
+        "production": 1,
+        "meaning": 1,
+        "recitation": 1,
+        "scaffoldStep": 5,
+        "tangleCleared": true
+      },
+      {
+        "recognition": 1,
+        "production": 1,
+        "meaning": 1,
+        "recitation": 1,
+        "scaffoldStep": 5,
+        "tangleCleared": true
+      }
+    ],
+    "seals": ["xiucai", "juren", "jinshi", "tanhua"],
+    "startedAt": "2026-03-01T08:00:00.000Z",
+    "updatedAt": "2026-03-01T08:00:00.000Z"
+  },
+  "lexicon": {
+    "床": {
+      "unit": "床",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "前": {
+      "unit": "前",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "明": {
+      "unit": "明",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "月": {
+      "unit": "月",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "光": {
+      "unit": "光",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "疑": {
+      "unit": "疑",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "是": {
+      "unit": "是",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "地": {
+      "unit": "地",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "上": {
+      "unit": "上",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "霜": {
+      "unit": "霜",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "舉": {
+      "unit": "舉",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "頭": {
+      "unit": "頭",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "望": {
+      "unit": "望",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "低": {
+      "unit": "低",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "思": {
+      "unit": "思",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "故": {
+      "unit": "故",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "鄉": {
+      "unit": "鄉",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "明月": {
+      "unit": "明月",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "地上": {
+      "unit": "地上",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "舉頭": {
+      "unit": "舉頭",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "低頭": {
+      "unit": "低頭",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    },
+    "故鄉": {
+      "unit": "故鄉",
+      "status": "known",
+      "level": null,
+      "fsrs": null,
+      "updatedAt": "2026-03-01T08:00:00.000Z"
+    }
+  }
+}

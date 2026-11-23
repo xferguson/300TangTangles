@@ -7,6 +7,7 @@ import { clear } from 'idb-keyval';
 
 import { loadLexicon } from '../../lexicon';
 import { routeRegistry } from '../../app/registry';
+import { resetSettings, setSettings } from '../../settings/settings';
 import { ReadingRoute } from './ReadingRoute';
 
 afterEach(async () => {
@@ -44,5 +45,16 @@ describe('reading route', () => {
     await user.click(await screen.findByRole('button', { name: '霜 · new' }));
     await user.click(within(screen.getByRole('dialog')).getByRole('button', { name: 'Known' }));
     await waitFor(async () => expect((await loadLexicon())['霜']?.status).toBe('known'));
+  });
+});
+
+describe('reading route settings', () => {
+  afterEach(() => resetSettings());
+
+  it('follows the persisted script setting', async () => {
+    setSettings({ script: 'simp' });
+    window.location.hash = '#/read';
+    render(<ReadingRoute />);
+    expect(await screen.findByRole('heading', { level: 1, name: '静夜思' })).toBeInTheDocument();
   });
 });

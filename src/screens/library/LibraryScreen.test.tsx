@@ -63,6 +63,15 @@ describe('LibraryScreen', () => {
     expect(screen.getByRole('link', { name: /靜夜思/ })).toHaveAttribute('href', '#/read/jingyesi');
   });
 
+  it('offers a Play link to the session for a playable poem only', () => {
+    render(
+      <LibraryScreen catalog={catalog} poems={[poem]} lexicon={{}} settings={DEFAULT_SETTINGS} />,
+    );
+    const links = screen.getAllByRole('link', { name: 'Play' });
+    expect(links).toHaveLength(1);
+    expect(links[0]).toHaveAttribute('href', '#/play/jingyesi');
+  });
+
   it('shows the personal known count and a meter', () => {
     const lex: Lexicon = { 月: known('月'), 明: known('明') };
     render(

@@ -81,9 +81,9 @@
 }
 .ex-choice[data-state='wrong'] {
   border-color: var(--inkgrey);
-  color: var(--inkgrey);
+  /* --inkgrey is a fill colour; as text it fails AA in the dark theme. */
+  color: var(--ink-soft);
   text-decoration: line-through;
-  opacity: 0.7;
 }
 .ex-choice:disabled {
   cursor: default;

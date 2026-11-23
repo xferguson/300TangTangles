@@ -91,7 +91,7 @@ button.lb-tile:disabled {
   color: var(--malachite);
 }
 .lb-status[data-feedback='wrong'] {
-  color: var(--purple);
+  color: var(--ink-soft);
 }
 .lb-actions {
   display: flex;

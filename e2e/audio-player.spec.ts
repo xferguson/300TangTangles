@@ -38,42 +38,26 @@ const stub = (withVoice: boolean) => {
   Object.defineProperty(window, 'speechSynthesis', { value: synth, configurable: true });
 };
 
-test('buttons speak the poem and a slow line through the stubbed speechSynthesis', async ({
+test('a line button on the reading screen speaks through the stubbed speechSynthesis', async ({
   page,
 }) => {
   await page.addInitScript(stub, true);
-  await page.goto('./#/audio-check');
-  await expect(page.getByTestId('audio-status')).toContainText('Stub Mei-Jia');
-
-  await page.getByRole('button', { name: 'Play poem' }).click();
+  await page.goto('./#/read/jingyesi');
+  await page.getByRole('button', { name: 'Play line 1' }).click();
   await expect
     .poll(() => page.evaluate(() => (window as never as { __spoken: unknown[] }).__spoken.length))
-    .toBe(4);
-  await expect(page.getByRole('button', { name: 'Play poem' })).toHaveAttribute(
-    'data-state',
-    'idle',
-  );
-
-  await page.getByRole('button', { name: 'Play line 1 slowly' }).click();
-  await expect
-    .poll(() => page.evaluate(() => (window as never as { __spoken: unknown[] }).__spoken.length))
-    .toBe(5);
+    .toBe(1);
   const spoken = await page.evaluate(
-    () => (window as never as { __spoken: { text: string; rate: number }[] }).__spoken,
+    () =>
+      (window as never as { __spoken: { text: string; lang: string; voice: string | null }[] })
+        .__spoken,
   );
-  expect(spoken.slice(0, 4).map((s) => s.text)).toEqual([
-    '床前明月光',
-    '疑是地上霜',
-    '舉頭望明月',
-    '低頭思故鄉',
-  ]);
-  expect(spoken[0]!.rate).toBe(1);
-  expect(spoken[4]).toMatchObject({ text: '床前明月光', rate: 0.6 });
+  expect(spoken[0]).toMatchObject({ text: '床前明月光', voice: 'Stub Mei-Jia' });
 });
 
-test('with no voice installed the buttons are disabled and say so', async ({ page }) => {
+test('with no voice installed the reading screen marks audio unavailable', async ({ page }) => {
   await page.addInitScript(stub, false);
-  await page.goto('./#/audio-check');
-  await expect(page.getByTestId('audio-status')).toContainText('No Mandarin voice');
-  await expect(page.getByRole('button', { name: /Play poem/ })).toBeDisabled();
+  await page.goto('./#/read/jingyesi');
+  await expect(page.getByRole('heading', { level: 1, name: '靜夜思' })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Play line 1 (coming soon)' })).toBeVisible();
 });

@@ -11,16 +11,15 @@ import {
   type Poem,
   type PoemProgress,
   type Rank,
-  type ReciteExercise,
   type Settings,
 } from '../../core';
 import { computeRank, fadeLevels } from '../../engine';
 import { Cloze } from '../../exercises/cloze/Cloze';
 import { Flashcard } from '../../exercises/flashcard/Flashcard';
+import { Recite } from '../../exercises/recite/Recite';
 import { LineBuilder } from '../../exercises/line-builder/LineBuilder';
 import { MeaningCheck } from '../../exercises/meaning-check/MeaningCheck';
 import { TangleRow } from '../../exercises/tangle-row/TangleRow';
-import type { ExerciseProps } from '../../exercises/types';
 import { Button, CharTile, ScrollFrame, Seal, type CharFade } from '../../ui';
 import {
   completeExercise,
@@ -115,47 +114,6 @@ function SessionScroll({
   );
 }
 
-/**
- * Stand-in for the Recite exercise until T56 lands (T62 wires the real one). Its Continue reports
- * a perfect recitation so the journey can reach 狀元; it must not ship as the real thing.
- */
-function RecitePlaceholder({ exercise, poem, onComplete }: ExerciseProps<ReciteExercise>) {
-  const [startedAt] = useState(() => Date.now());
-  const what =
-    exercise.line === null ? 'the whole poem from a blank scroll' : `line ${exercise.line + 1}`;
-  const gloss = exercise.line === null ? null : poem.lines[exercise.line]?.gloss;
-  return (
-    <section className="ss-card" aria-label="Recite (placeholder)">
-      <p className="ss-kicker">背 Recite · placeholder</p>
-      <p>
-        Speech recitation is not wired in yet. In the finished game you would recite {what} aloud.
-      </p>
-      {gloss && <p className="ss-gloss">{gloss}</p>}
-      <Button
-        variant="primary"
-        size="lg"
-        block
-        onClick={() =>
-          onComplete({
-            exerciseId: exercise.id,
-            poemId: exercise.poemId,
-            kind: 'recite',
-            line: exercise.line,
-            correct: true,
-            attempts: 1,
-            durationMs: Date.now() - startedAt,
-            hintsUsed: 0,
-            accuracy: 1,
-            unitsMissed: [],
-          })
-        }
-      >
-        Continue
-      </Button>
-    </section>
-  );
-}
-
 function ExerciseView({
   exercise,
   poem,
@@ -182,7 +140,7 @@ function ExerciseView({
     case 'tangle-row':
       return <TangleRow key={exercise.id} exercise={exercise} {...common} />;
     case 'recite':
-      return <RecitePlaceholder key={exercise.id} exercise={exercise} {...common} />;
+      return <Recite key={exercise.id} exercise={exercise} {...common} />;
   }
 }
 

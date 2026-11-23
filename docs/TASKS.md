@@ -381,3 +381,14 @@ Done when: unit tests cover exact match, prefix match, unknown-hash fallback and
 Status: done
 Branch: task/T61-routes-and-props
 PR: #17
+
+### T62 · Integration & cleanup
+Lane: E · Approval: none · Size: M
+Depends on: T55, T56, T57
+Unblocks: T60
+Goal: wire the settings store and the real Recite exercise into the screens, add a home screen at `#/`, remove the dev preview routes (line-builder, audio-check, recite), fix dark-theme contrast of wrong-answer text, and point "Play" at `#/play/jingyesi`.
+Done when: unit and e2e tests pass, WCAG AA holds for exercise wrong-answer text in the dark theme, and light/dark phone screenshots are attached to the PR.
+
+Status: done
+Branch: task/T62-integration-cleanup
+PR: #29
