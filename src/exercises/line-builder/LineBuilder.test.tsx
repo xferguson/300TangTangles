@@ -304,4 +304,21 @@ describe('LineBuilder step 5: first-character prompt', () => {
     await user.click(hint());
     expect(placed('頭', 2)).toBeVisible();
   });
+
+  it('shows the bank and the placed tiles in Simplified when the script is simp', async () => {
+    const user = userEvent.setup();
+    render(
+      <LineBuilder
+        exercise={make()}
+        poem={poem}
+        settings={{ ...DEFAULT_SETTINGS, script: 'simp' }}
+        onComplete={vi.fn()}
+      />,
+    );
+    const bank = screen.getByRole('group', { name: /bank/i });
+    expect(within(bank).getByRole('button', { name: '举' })).toBeVisible();
+    expect(within(bank).queryByRole('button', { name: '舉' })).toBeNull();
+    await user.click(within(bank).getByRole('button', { name: '举' }));
+    expect(screen.getByRole('button', { name: 'Remove 举, position 1' })).toBeVisible();
+  });
 });
