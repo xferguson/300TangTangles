@@ -176,8 +176,8 @@ Unblocks: T53
 Goal: pick look-alike, sound-alike, and meaning-alike distractors from content seeds plus other poems' chars, deterministic given a seed. Never returns a char that is valid in that position.
 Done when: unit tests cover determinism, exclusion rules, and difficulty levels.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T33-distractors
 PR: —
 
 ### T34 · Session engine
