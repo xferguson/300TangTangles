@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "id": "denguanqueloujiu",
+  "title": {
+    "trad": "登鸛雀樓",
+    "simp": "登鹳雀楼"
+  },
+  "poet": {
+    "trad": "王之渙",
+    "simp": "王之涣",
+    "pinyin": "Wáng Zhīhuàn"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "白",
+          "simp": "白",
+          "readings": {
+            "zhuyin": "ㄅㄞˊ",
+            "pinyin": "bái",
+            "jyutping": "baak6",
+            "tailo": {
+              "lit": "pi̍k",
+              "col": "pe̍h"
+            }
+          }
+        },
+        {
+          "trad": "日",
+          "simp": "日",
+          "readings": {
+            "zhuyin": "ㄖˋ",
+            "pinyin": "rì",
+            "jyutping": "jat6",
+            "tailo": {
+              "lit": "ji̍t",
+              "col": "li̍t"
+            }
+          }
+        },
+        {
+          "trad": "依",
+          "simp": "依",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "ji1",
+            "tailo": {
+              "lit": "i",
+              "col": "i"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        },
+        {
+          "trad": "盡",
+          "simp": "尽",
+          "readings": {
+            "zhuyin": "ㄐㄧㄣˋ",
+            "pinyin": "jìn",
+            "jyutping": "zeon6",
+            "tailo": {
+              "lit": "tsīn",
+              "col": "tsīn"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "The white sun sets behind the mountains",
+      "literal": "The bright sun leans on the mountains and is gone.",
+      "poetic": "The sun slips behind the hills and fades.",
+      "meaning": {
+        "feeling": "Awe at the vast, closing day",
+        "wrongFeelings": ["Impatience for the day to end", "Worry about being lost"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "黃",
+          "simp": "黄",
+          "readings": {
+            "zhuyin": "ㄏㄨㄤˊ",
+            "pinyin": "huáng",
+            "jyutping": "wong4",
+            "tailo": {
+              "lit": "hông",
+              "col": "n̂g"
+            }
+          }
+        },
+        {
+          "trad": "河",
+          "simp": "河",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "ho4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "入",
+          "simp": "入",
+          "readings": {
+            "zhuyin": "ㄖㄨˋ",
+            "pinyin": "rù",
+            "jyutping": "jap6",
+            "tailo": {
+              "lit": "ji̍p",
+              "col": "ji̍p"
+            }
+          }
+        },
+        {
+          "trad": "海",
+          "simp": "海",
+          "readings": {
+            "zhuyin": "ㄏㄞˇ",
+            "pinyin": "hǎi",
+            "jyutping": "hoi2",
+            "tailo": {
+              "lit": "hái",
+              "col": "hái"
+            }
+          }
+        },
+        {
+          "trad": "流",
+          "simp": "流",
+          "readings": {
+            "zhuyin": "ㄌㄧㄡˊ",
+            "pinyin": "liú",
+            "jyutping": "lau4",
+            "tailo": {
+              "lit": "liû",
+              "col": "liû"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "The Yellow River flows into the sea",
+      "literal": "The Yellow River pours into the sea.",
+      "poetic": "The great river rushes on toward the sea.",
+      "meaning": {
+        "feeling": "Wonder at the grand sweep of nature",
+        "wrongFeelings": ["Dread of a coming flood", "Disappointment in a muddy river"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "欲",
+          "simp": "欲",
+          "readings": {
+            "zhuyin": "ㄩˋ",
+            "pinyin": "yù",
+            "jyutping": "juk6",
+            "tailo": {
+              "lit": "io̍k",
+              "col": "io̍k"
+            }
+          }
+        },
+        {
+          "trad": "窮",
+          "simp": "穷",
+          "readings": {
+            "zhuyin": "ㄑㄩㄥˊ",
+            "pinyin": "qióng",
+            "jyutping": "kung4",
+            "tailo": {
+              "lit": "kiông",
+              "col": "kîng"
+            }
+          }
+        },
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "里",
+          "simp": "里",
+          "readings": {
+            "zhuyin": "ㄌㄧˇ",
+            "pinyin": "lǐ",
+            "jyutping": "lei5",
+            "tailo": {
+              "lit": "lí",
+              "col": "lí"
+            }
+          }
+        },
+        {
+          "trad": "目",
+          "simp": "目",
+          "readings": {
+            "zhuyin": "ㄇㄨˋ",
+            "pinyin": "mù",
+            "jyutping": "muk6",
+            "tailo": {
+              "lit": "bo̍k",
+              "col": "ba̍k"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "To see a thousand li to the end",
+      "literal": "Wishing to take in a thousand li of view,",
+      "poetic": "To drink in a thousand miles of view,",
+      "meaning": {
+        "feeling": "Ambition and a longing to see further",
+        "wrongFeelings": ["Satisfaction with what is already seen", "Exhaustion from the climb"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "更",
+          "simp": "更",
+          "readings": {
+            "zhuyin": "ㄍㄥˋ",
+            "pinyin": "gèng",
+            "jyutping": "gang3",
+            "tailo": {
+              "lit": "kìng",
+              "col": "koh"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "一",
+          "simp": "一",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "jat1",
+            "tailo": {
+              "lit": "it",
+              "col": "tsi̍t"
+            }
+          }
+        },
+        {
+          "trad": "層",
+          "simp": "层",
+          "readings": {
+            "zhuyin": "ㄘㄥˊ",
+            "pinyin": "céng",
+            "jyutping": "cang4",
+            "tailo": {
+              "lit": "tsîng",
+              "col": "tsân"
+            }
+          }
+        },
+        {
+          "trad": "樓",
+          "simp": "楼",
+          "readings": {
+            "zhuyin": "ㄌㄡˊ",
+            "pinyin": "lóu",
+            "jyutping": "lau4",
+            "tailo": {
+              "lit": "lôo",
+              "col": "lâu"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Climb one more storey",
+      "literal": "go up one more storey of the tower.",
+      "poetic": "climb one storey higher.",
+      "meaning": {
+        "feeling": "Determined, hopeful striving",
+        "wrongFeelings": ["Resignation to staying where he is", "Fear of heights"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "白",
+      "simp": "白",
+      "kind": "char",
+      "gloss": "white",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "日",
+      "simp": "日",
+      "kind": "char",
+      "gloss": "sun, day",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "依",
+      "simp": "依",
+      "kind": "char",
+      "gloss": "to lean on, to follow along",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "盡",
+      "simp": "尽",
+      "kind": "char",
+      "gloss": "to end, to be gone",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "黃",
+      "simp": "黄",
+      "kind": "char",
+      "gloss": "yellow",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "河",
+      "simp": "河",
+      "kind": "char",
+      "gloss": "river (the Yellow River)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "入",
+      "simp": "入",
+      "kind": "char",
+      "gloss": "to enter",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "海",
+      "simp": "海",
+      "kind": "char",
+      "gloss": "sea",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "流",
+      "simp": "流",
+      "kind": "char",
+      "gloss": "to flow",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "欲",
+      "simp": "欲",
+      "kind": "char",
+      "gloss": "to want, to be about to",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "窮",
+      "simp": "穷",
+      "kind": "char",
+      "gloss": "to exhaust, to reach the end of",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "里",
+      "simp": "里",
+      "kind": "char",
+      "gloss": "li (about half a kilometre); village",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "目",
+      "simp": "目",
+      "kind": "char",
+      "gloss": "eye, view",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "更",
+      "simp": "更",
+      "kind": "char",
+      "gloss": "even further, still more",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "一",
+      "simp": "一",
+      "kind": "char",
+      "gloss": "one",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "層",
+      "simp": "层",
+      "kind": "char",
+      "gloss": "storey, layer",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "樓",
+      "simp": "楼",
+      "kind": "char",
+      "gloss": "tower, upper storey",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "白日",
+      "simp": "白日",
+      "kind": "compound",
+      "gloss": "the sun",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "黃河",
+      "simp": "黄河",
+      "kind": "compound",
+      "gloss": "the Yellow River",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "入海",
+      "simp": "入海",
+      "kind": "compound",
+      "gloss": "to flow into the sea",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "千里",
+      "simp": "千里",
+      "kind": "compound",
+      "gloss": "a thousand li",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "一層",
+      "simp": "一层",
+      "kind": "compound",
+      "gloss": "one storey",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "The bright sun leans on the mountains and is gone; the Yellow River pours into the sea. Wishing to take in a thousand li of view, I climb one more storey of the tower.",
+    "poetic": "The sun sinks behind the hills; the Yellow River rushes toward the sea. To see a thousand miles farther, climb one storey higher."
+  },
+  "notes": [
+    {
+      "id": "tower",
+      "kind": "history",
+      "title": "The Stork Tower",
+      "body": "鸛雀樓 stood beside the Yellow River in the old city of Puzhou (in present-day Shanxi) and was named after the storks said to nest there. It was destroyed in the wars of the thirteenth century and rebuilt in 2002. Wang Zhihuan (688–742) is remembered for only a handful of surviving poems, and this is the most famous."
+    },
+    {
+      "id": "parallel",
+      "kind": "interpretation",
+      "title": "Parallel lines and a proverb",
+      "body": "Lines one and two are a matched pair (對仗): 白日 / 黃河, 依山 / 入海, 盡 / 流. Lines three and four have become a proverb. The wish to see further and the advice to climb higher are the poem's point: a wider view takes effort."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 流 · 樓",
+      "body": "Lines two and four end in 流 (liú) and 樓 (lóu), which share the 尤 rhyme of the standard Tang rhyme book. Line one ends in 盡 and line three in 目, and neither rhymes, which is normal for a jueju."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "更 is read gèng (\"even more\") here, not gēng (night watch). 盡 is read jìn, and 層 is read céng."
+    }
+  ],
+  "distractorSeeds": {
+    "白": {
+      "look": ["百", "自"],
+      "meaning": ["素"]
+    },
+    "日": {
+      "look": ["目", "曰"],
+      "meaning": ["陽"]
+    },
+    "依": {
+      "look": ["衣"],
+      "sound": ["已", "疑"],
+      "meaning": ["靠"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    },
+    "盡": {
+      "look": ["畫"],
+      "meaning": ["完"]
+    },
+    "黃": {
+      "look": ["廣"],
+      "meaning": ["金"]
+    },
+    "河": {
+      "look": ["何"],
+      "sound": ["禾", "鶴"],
+      "meaning": ["江"]
+    },
+    "入": {
+      "look": ["人", "八"],
+      "meaning": ["進"]
+    },
+    "海": {
+      "look": ["每"],
+      "sound": ["還"],
+      "meaning": ["洋"]
+    },
+    "流": {
+      "look": ["琉"],
+      "sound": ["柳"],
+      "meaning": ["淌"]
+    },
+    "欲": {
+      "look": ["慾"],
+      "sound": ["雨", "漁"],
+      "meaning": ["想"]
+    },
+    "窮": {
+      "look": ["空"],
+      "meaning": ["盡"]
+    },
+    "千": {
+      "look": ["于"],
+      "sound": ["前"],
+      "meaning": ["百", "萬"]
+    },
+    "里": {
+      "look": ["理"],
+      "sound": ["李", "笠"],
+      "meaning": ["哩"]
+    },
+    "目": {
+      "look": ["日", "自"],
+      "sound": ["牧"],
+      "meaning": ["眼"]
+    },
+    "更": {
+      "look": ["便"],
+      "meaning": ["再"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    },
+    "一": {
+      "look": ["二"],
+      "sound": ["已", "疑"],
+      "meaning": ["單"]
+    },
+    "層": {
+      "look": ["曾"],
+      "meaning": ["重"]
+    },
+    "樓": {
+      "look": ["數"],
+      "meaning": ["閣"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "river-and-tower"
+  }
+}

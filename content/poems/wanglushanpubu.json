@@ -1,0 +1,1019 @@
+{
+  "schemaVersion": 1,
+  "id": "wanglushanpubu",
+  "title": {
+    "trad": "望廬山瀑布",
+    "simp": "望庐山瀑布"
+  },
+  "poet": {
+    "trad": "李白",
+    "simp": "李白",
+    "pinyin": "Lǐ Bái"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "日",
+          "simp": "日",
+          "readings": {
+            "zhuyin": "ㄖˋ",
+            "pinyin": "rì",
+            "jyutping": "jat6",
+            "tailo": {
+              "lit": "ji̍t",
+              "col": "li̍t"
+            }
+          }
+        },
+        {
+          "trad": "照",
+          "simp": "照",
+          "readings": {
+            "zhuyin": "ㄓㄠˋ",
+            "pinyin": "zhào",
+            "jyutping": "ziu3",
+            "tailo": {
+              "lit": "tsiàu",
+              "col": "tsiò"
+            }
+          }
+        },
+        {
+          "trad": "香",
+          "simp": "香",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "hoeng1",
+            "tailo": {
+              "lit": "hiong",
+              "col": "phang"
+            }
+          }
+        },
+        {
+          "trad": "爐",
+          "simp": "炉",
+          "readings": {
+            "zhuyin": "ㄌㄨˊ",
+            "pinyin": "lú",
+            "jyutping": "lou4",
+            "tailo": {
+              "lit": "lôo",
+              "col": "lôo"
+            }
+          }
+        },
+        {
+          "trad": "生",
+          "simp": "生",
+          "readings": {
+            "zhuyin": "ㄕㄥ",
+            "pinyin": "shēng",
+            "jyutping": "sang1",
+            "tailo": {
+              "lit": "sing",
+              "col": "senn"
+            }
+          }
+        },
+        {
+          "trad": "紫",
+          "simp": "紫",
+          "readings": {
+            "zhuyin": "ㄗˇ",
+            "pinyin": "zǐ",
+            "jyutping": "zi2",
+            "tailo": {
+              "lit": "tsú",
+              "col": "tsí"
+            }
+          }
+        },
+        {
+          "trad": "煙",
+          "simp": "烟",
+          "readings": {
+            "zhuyin": "ㄧㄢ",
+            "pinyin": "yān",
+            "jyutping": "jin1",
+            "tailo": {
+              "lit": "ian",
+              "col": "ian"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Sun on Incense Burner Peak makes purple mist",
+      "literal": "The sun shines on Incense Burner Peak and purple mist rises;",
+      "poetic": "Sunlight strikes Incense Burner Peak and violet mist curls up;",
+      "meaning": {
+        "feeling": "Awe at a radiant mountain scene",
+        "wrongFeelings": ["Annoyance at hot weather", "Worry about a fire"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "遙",
+          "simp": "遥",
+          "readings": {
+            "zhuyin": "ㄧㄠˊ",
+            "pinyin": "yáo",
+            "jyutping": "jiu4",
+            "tailo": {
+              "lit": "iâu",
+              "col": "iâu"
+            }
+          }
+        },
+        {
+          "trad": "看",
+          "simp": "看",
+          "readings": {
+            "zhuyin": "ㄎㄢˋ",
+            "pinyin": "kàn",
+            "jyutping": "hon3",
+            "tailo": {
+              "lit": "khàn",
+              "col": "khuànn"
+            }
+          }
+        },
+        {
+          "trad": "瀑",
+          "simp": "瀑",
+          "readings": {
+            "zhuyin": "ㄆㄨˋ",
+            "pinyin": "pù",
+            "jyutping": "buk6",
+            "tailo": {
+              "lit": "pho̍k",
+              "col": "pho̍k"
+            }
+          }
+        },
+        {
+          "trad": "布",
+          "simp": "布",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bou3",
+            "tailo": {
+              "lit": "pòo",
+              "col": "pòo"
+            }
+          }
+        },
+        {
+          "trad": "掛",
+          "simp": "挂",
+          "readings": {
+            "zhuyin": "ㄍㄨㄚˋ",
+            "pinyin": "guà",
+            "jyutping": "gwaa3",
+            "tailo": {
+              "lit": "kuà",
+              "col": "kuà"
+            }
+          }
+        },
+        {
+          "trad": "前",
+          "simp": "前",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢˊ",
+            "pinyin": "qián",
+            "jyutping": "cin4",
+            "tailo": {
+              "lit": "tsiân",
+              "col": "tsîng"
+            }
+          }
+        },
+        {
+          "trad": "川",
+          "simp": "川",
+          "readings": {
+            "zhuyin": "ㄔㄨㄢ",
+            "pinyin": "chuān",
+            "jyutping": "cyun1",
+            "tailo": {
+              "lit": "tshuan",
+              "col": "tshuan"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "From afar I see the waterfall hanging before the river",
+      "literal": "from afar I see the waterfall hung like a curtain before the stream.",
+      "poetic": "far off, the falls hang like a curtain over the river below.",
+      "meaning": {
+        "feeling": "Delight and wonder at a distant sight",
+        "wrongFeelings": ["Fear of a flood", "Boredom with scenery"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "飛",
+          "simp": "飞",
+          "readings": {
+            "zhuyin": "ㄈㄟ",
+            "pinyin": "fēi",
+            "jyutping": "fei1",
+            "tailo": {
+              "lit": "hui",
+              "col": "pue"
+            }
+          }
+        },
+        {
+          "trad": "流",
+          "simp": "流",
+          "readings": {
+            "zhuyin": "ㄌㄧㄡˊ",
+            "pinyin": "liú",
+            "jyutping": "lau4",
+            "tailo": {
+              "lit": "liû",
+              "col": "liû"
+            }
+          }
+        },
+        {
+          "trad": "直",
+          "simp": "直",
+          "readings": {
+            "zhuyin": "ㄓˊ",
+            "pinyin": "zhí",
+            "jyutping": "zik6",
+            "tailo": {
+              "lit": "ti̍t",
+              "col": "ti̍t"
+            }
+          }
+        },
+        {
+          "trad": "下",
+          "simp": "下",
+          "readings": {
+            "zhuyin": "ㄒㄧㄚˋ",
+            "pinyin": "xià",
+            "jyutping": "haa6",
+            "tailo": {
+              "lit": "hā",
+              "col": "ē"
+            }
+          }
+        },
+        {
+          "trad": "三",
+          "simp": "三",
+          "readings": {
+            "zhuyin": "ㄙㄢ",
+            "pinyin": "sān",
+            "jyutping": "saam1",
+            "tailo": {
+              "lit": "sam",
+              "col": "sann"
+            }
+          }
+        },
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "尺",
+          "simp": "尺",
+          "readings": {
+            "zhuyin": "ㄔˇ",
+            "pinyin": "chǐ",
+            "jyutping": "cek3",
+            "tailo": {
+              "lit": "tshik",
+              "col": "tshioh"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Flying torrent straight down three thousand feet",
+      "literal": "The flying torrent plunges straight down three thousand feet;",
+      "poetic": "The torrent flies straight down three thousand feet,",
+      "meaning": {
+        "feeling": "Thrilling astonishment at nature's power",
+        "wrongFeelings": ["Calm indifference", "Grief for a lost friend"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "疑",
+          "simp": "疑",
+          "readings": {
+            "zhuyin": "ㄧˊ",
+            "pinyin": "yí",
+            "jyutping": "ji4",
+            "tailo": {
+              "lit": "gî",
+              "col": "gî"
+            }
+          }
+        },
+        {
+          "trad": "是",
+          "simp": "是",
+          "readings": {
+            "zhuyin": "ㄕˋ",
+            "pinyin": "shì",
+            "jyutping": "si6",
+            "tailo": {
+              "lit": "sī",
+              "col": "sī"
+            }
+          }
+        },
+        {
+          "trad": "銀",
+          "simp": "银",
+          "readings": {
+            "zhuyin": "ㄧㄣˊ",
+            "pinyin": "yín",
+            "jyutping": "ngan4",
+            "tailo": {
+              "lit": "gîn",
+              "col": "gûn"
+            }
+          }
+        },
+        {
+          "trad": "河",
+          "simp": "河",
+          "readings": {
+            "zhuyin": "ㄏㄜˊ",
+            "pinyin": "hé",
+            "jyutping": "ho4",
+            "tailo": {
+              "lit": "hô",
+              "col": "hô"
+            }
+          }
+        },
+        {
+          "trad": "落",
+          "simp": "落",
+          "readings": {
+            "zhuyin": "ㄌㄨㄛˋ",
+            "pinyin": "luò",
+            "jyutping": "lok6",
+            "tailo": {
+              "lit": "lo̍k",
+              "col": "lo̍h"
+            }
+          }
+        },
+        {
+          "trad": "九",
+          "simp": "九",
+          "readings": {
+            "zhuyin": "ㄐㄧㄡˇ",
+            "pinyin": "jiǔ",
+            "jyutping": "gau2",
+            "tailo": {
+              "lit": "kiú",
+              "col": "káu"
+            }
+          }
+        },
+        {
+          "trad": "天",
+          "simp": "天",
+          "readings": {
+            "zhuyin": "ㄊㄧㄢ",
+            "pinyin": "tiān",
+            "jyutping": "tin1",
+            "tailo": {
+              "lit": "thian",
+              "col": "thinn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "I wonder: is it the Milky Way falling from the ninth heaven?",
+      "literal": "I suspect it is the Silver River falling from the ninth heaven.",
+      "poetic": "is it the Milky Way itself pouring down from heaven?",
+      "meaning": {
+        "feeling": "Exuberant imagination and a sense of the sublime",
+        "wrongFeelings": ["Confusion about directions", "Worry that the sky is falling"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "日",
+      "simp": "日",
+      "kind": "char",
+      "gloss": "sun",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "照",
+      "simp": "照",
+      "kind": "char",
+      "gloss": "to shine on",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "香",
+      "simp": "香",
+      "kind": "char",
+      "gloss": "fragrant, incense",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "爐",
+      "simp": "炉",
+      "kind": "char",
+      "gloss": "incense burner",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "生",
+      "simp": "生",
+      "kind": "char",
+      "gloss": "to produce, to rise",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "紫",
+      "simp": "紫",
+      "kind": "char",
+      "gloss": "purple",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "煙",
+      "simp": "烟",
+      "kind": "char",
+      "gloss": "smoke, mist",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "遙",
+      "simp": "遥",
+      "kind": "char",
+      "gloss": "far away",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "看",
+      "simp": "看",
+      "kind": "char",
+      "gloss": "to look at",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "瀑",
+      "simp": "瀑",
+      "kind": "char",
+      "gloss": "waterfall",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "布",
+      "simp": "布",
+      "kind": "char",
+      "gloss": "cloth",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "掛",
+      "simp": "挂",
+      "kind": "char",
+      "gloss": "to hang",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "前",
+      "simp": "前",
+      "kind": "char",
+      "gloss": "in front of",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "川",
+      "simp": "川",
+      "kind": "char",
+      "gloss": "river, stream",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "飛",
+      "simp": "飞",
+      "kind": "char",
+      "gloss": "to fly",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "流",
+      "simp": "流",
+      "kind": "char",
+      "gloss": "to flow",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "直",
+      "simp": "直",
+      "kind": "char",
+      "gloss": "straight",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "下",
+      "simp": "下",
+      "kind": "char",
+      "gloss": "below, to go down",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "三",
+      "simp": "三",
+      "kind": "char",
+      "gloss": "three",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "尺",
+      "simp": "尺",
+      "kind": "char",
+      "gloss": "foot (a unit of length)",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "疑",
+      "simp": "疑",
+      "kind": "char",
+      "gloss": "to suspect, to wonder",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "是",
+      "simp": "是",
+      "kind": "char",
+      "gloss": "to be",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "銀",
+      "simp": "银",
+      "kind": "char",
+      "gloss": "silver",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "河",
+      "simp": "河",
+      "kind": "char",
+      "gloss": "river",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "落",
+      "simp": "落",
+      "kind": "char",
+      "gloss": "to fall",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "九",
+      "simp": "九",
+      "kind": "char",
+      "gloss": "nine",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "天",
+      "simp": "天",
+      "kind": "char",
+      "gloss": "sky, heaven",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "香爐",
+      "simp": "香炉",
+      "kind": "compound",
+      "gloss": "Incense Burner (Peak)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "紫煙",
+      "simp": "紫烟",
+      "kind": "compound",
+      "gloss": "purple mist",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "瀑布",
+      "simp": "瀑布",
+      "kind": "compound",
+      "gloss": "waterfall",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "飛流",
+      "simp": "飞流",
+      "kind": "compound",
+      "gloss": "flying torrent",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "直下",
+      "simp": "直下",
+      "kind": "compound",
+      "gloss": "straight down",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "銀河",
+      "simp": "银河",
+      "kind": "compound",
+      "gloss": "the Milky Way",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "九天",
+      "simp": "九天",
+      "kind": "compound",
+      "gloss": "the ninth heaven (highest sky)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "The sun shines on Incense Burner Peak and purple mist rises; from afar I see the waterfall hung like a curtain before the stream. The flying torrent plunges straight down three thousand feet. I suspect it is the Silver River falling from the ninth heaven.",
+    "poetic": "Sunlight strikes Incense Burner Peak and violet mist curls up. Far off, the waterfall hangs like a curtain over the river. The torrent flies straight down three thousand feet. Is it the Milky Way itself, pouring down from the highest heaven?"
+  },
+  "notes": [
+    {
+      "id": "place",
+      "kind": "history",
+      "title": "Mount Lu and the Incense Burner",
+      "body": "Mount Lu (廬山) is in Jiangxi, beside the Yangtze. 香爐 is the name of its Incense Burner Peak, named because the mist that often rises from it looks like incense smoke. Li Bai wrote two poems on the falls; this is the second, a jueju, and the better known."
+    },
+    {
+      "id": "hyperbole",
+      "kind": "interpretation",
+      "title": "Exaggeration and metaphor",
+      "body": "三千尺 (about 900 metres by Tang measure) is poetic exaggeration, as the real waterfall is far lower. The final line is the poem's surprise: after three lines of direct description, the poet sees the Milky Way (銀河) pouring out of the highest of the nine heavens (九天). 疑 is \"I wonder\" or \"I suspect\", so it is a guess, not a claim."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 煙 · 川 · 天",
+      "body": "Lines one, two and four end in 煙 (yān), 川 (chuān) and 天 (tiān), in the 先 rhyme. Line three ends in 尺 and does not rhyme."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "爐 is read lú. 落 is read luò here (\"to fall\"). 看 is read kàn (to look at) in modern speech. The old poem was probably scanned with the level-tone reading, kān, which fits the metre of 遙看."
+    }
+  ],
+  "distractorSeeds": {
+    "日": {
+      "look": ["目"],
+      "meaning": ["陽"]
+    },
+    "照": {
+      "look": ["昭"],
+      "meaning": ["映"]
+    },
+    "香": {
+      "look": ["杳"],
+      "sound": ["相", "鄉"],
+      "meaning": ["芳"]
+    },
+    "爐": {
+      "look": ["盧"],
+      "sound": ["路", "鷺"],
+      "meaning": ["鼎"]
+    },
+    "生": {
+      "look": ["主"],
+      "sound": ["聲"],
+      "meaning": ["起"]
+    },
+    "紫": {
+      "look": ["些"],
+      "sound": ["子"],
+      "meaning": ["紅"]
+    },
+    "煙": {
+      "look": ["姻"],
+      "sound": ["言"],
+      "meaning": ["霧"]
+    },
+    "遙": {
+      "look": ["搖"],
+      "sound": ["藥"],
+      "meaning": ["遠"]
+    },
+    "看": {
+      "look": ["著"],
+      "meaning": ["望"]
+    },
+    "瀑": {
+      "look": ["爆"],
+      "sound": ["葡"],
+      "meaning": ["泉"]
+    },
+    "布": {
+      "look": ["希"],
+      "sound": ["不"],
+      "meaning": ["幕"]
+    },
+    "掛": {
+      "look": ["桂"],
+      "meaning": ["懸"]
+    },
+    "前": {
+      "look": ["剪"],
+      "meaning": ["後"]
+    },
+    "川": {
+      "look": ["州"],
+      "sound": ["船"],
+      "meaning": ["河"]
+    },
+    "飛": {
+      "look": ["升"],
+      "meaning": ["翔"]
+    },
+    "流": {
+      "look": ["琉"],
+      "sound": ["柳"],
+      "meaning": ["淌"]
+    },
+    "直": {
+      "look": ["置"],
+      "sound": ["知", "枝"],
+      "meaning": ["正"]
+    },
+    "下": {
+      "look": ["不"],
+      "meaning": ["落"]
+    },
+    "三": {
+      "look": ["二"],
+      "meaning": ["四"]
+    },
+    "千": {
+      "look": ["干"],
+      "meaning": ["萬"]
+    },
+    "尺": {
+      "look": ["尸"],
+      "meaning": ["寸"]
+    },
+    "疑": {
+      "look": ["凝"],
+      "sound": ["一", "已"],
+      "meaning": ["惑"]
+    },
+    "是": {
+      "look": ["足"],
+      "sound": ["似", "使"],
+      "meaning": ["乃"]
+    },
+    "銀": {
+      "look": ["根"],
+      "sound": ["陰", "音"],
+      "meaning": ["金"]
+    },
+    "河": {
+      "look": ["何"],
+      "sound": ["禾", "鶴"],
+      "meaning": ["江"]
+    },
+    "落": {
+      "look": ["洛"],
+      "meaning": ["墜"]
+    },
+    "九": {
+      "look": ["丸"],
+      "sound": ["酒"],
+      "meaning": ["八"]
+    },
+    "天": {
+      "look": ["夫"],
+      "meaning": ["空"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "waterfall"
+  }
+}

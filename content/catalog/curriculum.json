@@ -7,9 +7,101 @@
     "notes": "Grades may be wrong by a year or two. Poems with no entry are simply unknown, not 'absent from the curriculum'. To upgrade: add the Taiwan (MOE) and Hong Kong (EDB recommended passages) lists and verify the PRC grades, then set status to verified. Entry shape: poem id -> [{region: prc|tw|hk, grade: 1-12}]."
   },
   "entries": {
-    "jingyesi": [{ "region": "prc", "grade": 1 }],
-    "chunxiao": [{ "region": "prc", "grade": 1 }],
-    "denguanqueloujiu": [{ "region": "prc", "grade": 2 }],
-    "xiangsi": [{ "region": "prc", "grade": 2 }]
+    "jingyesi": [
+      {
+        "region": "prc",
+        "grade": 1
+      }
+    ],
+    "chunxiao": [
+      {
+        "region": "prc",
+        "grade": 1
+      }
+    ],
+    "denguanqueloujiu": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "xiangsi": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "minnong": [
+      {
+        "region": "prc",
+        "grade": 1
+      }
+    ],
+    "xunyinzhe": [
+      {
+        "region": "prc",
+        "grade": 1
+      }
+    ],
+    "jiangxue": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "wanglushanpubu": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "huixiangoushu": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "yongliu": [
+      {
+        "region": "prc",
+        "grade": 2
+      }
+    ],
+    "zengwanglun": [
+      {
+        "region": "prc",
+        "grade": 3
+      }
+    ],
+    "huanghelousong": [
+      {
+        "region": "prc",
+        "grade": 3
+      }
+    ],
+    "jiuyuejiuri": [
+      {
+        "region": "prc",
+        "grade": 3
+      }
+    ],
+    "qingming": [
+      {
+        "region": "prc",
+        "grade": 3
+      }
+    ],
+    "jueju": [
+      {
+        "region": "prc",
+        "grade": 3
+      }
+    ],
+    "fengqiaoyebo": [
+      {
+        "region": "prc",
+        "grade": 4
+      }
+    ]
   }
 }

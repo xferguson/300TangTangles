@@ -3,7 +3,7 @@ import { expect, test } from '@playwright/test';
 test('library lists poems and a card navigates to the reading hash', async ({ page }) => {
   await page.goto('./#/library');
   await expect(page.getByRole('heading', { level: 1, name: '詩庫' })).toBeVisible();
-  await expect(page.getByText(/1 of 5 open/)).toBeVisible();
+  await expect(page.getByText(/20 of 20 open/)).toBeVisible();
   await page.getByRole('link', { name: /靜夜思/ }).click();
   await expect(page).toHaveURL(/#\/read\/jingyesi$/);
 });

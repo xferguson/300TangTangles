@@ -1,7 +1,7 @@
 {
   "provenance": {
     "status": "seed",
-    "source": "Poem texts are standard public-domain Tang poems (Traditional script) as commonly printed in school anthologies; metadata written by the project. Only jingyesi has playable content (content/poems); the rest are 'coming-soon' stubs with no readings, units or translations.",
+    "source": "Poem texts are standard public-domain Tang poems (Traditional script) as commonly printed in school anthologies; metadata written by the project. Only jingyesi has playable content (content/poems); other entries are 'coming-soon' stubs (metadata only) until their content is added.",
     "retrieved": "2026-11-23",
     "licence": "Public-domain texts (Tang dynasty); metadata original.",
     "notes": "Text variants exist for some of these poems; the school-anthology form is used. Stub entries are metadata only and are not validated against the poem schema."
@@ -9,43 +9,283 @@
   "entries": [
     {
       "id": "jingyesi",
-      "title": { "trad": "靜夜思", "simp": "静夜思" },
-      "poet": { "trad": "李白", "simp": "李白" },
+      "title": {
+        "trad": "靜夜思",
+        "simp": "静夜思"
+      },
+      "poet": {
+        "trad": "李白",
+        "simp": "李白"
+      },
       "form": "wujue",
       "status": "available",
       "text": "床前明月光疑是地上霜舉頭望明月低頭思故鄉"
     },
     {
       "id": "chunxiao",
-      "title": { "trad": "春曉", "simp": "春晓" },
-      "poet": { "trad": "孟浩然", "simp": "孟浩然" },
+      "title": {
+        "trad": "春曉",
+        "simp": "春晓"
+      },
+      "poet": {
+        "trad": "孟浩然",
+        "simp": "孟浩然"
+      },
       "form": "wujue",
-      "status": "coming-soon",
+      "status": "available",
       "text": "春眠不覺曉處處聞啼鳥夜來風雨聲花落知多少"
     },
     {
       "id": "denguanqueloujiu",
-      "title": { "trad": "登鸛雀樓", "simp": "登鹳雀楼" },
-      "poet": { "trad": "王之渙", "simp": "王之涣" },
+      "title": {
+        "trad": "登鸛雀樓",
+        "simp": "登鹳雀楼"
+      },
+      "poet": {
+        "trad": "王之渙",
+        "simp": "王之涣"
+      },
       "form": "wujue",
-      "status": "coming-soon",
+      "status": "available",
       "text": "白日依山盡黃河入海流欲窮千里目更上一層樓"
     },
     {
       "id": "xiangsi",
-      "title": { "trad": "相思", "simp": "相思" },
-      "poet": { "trad": "王維", "simp": "王维" },
+      "title": {
+        "trad": "相思",
+        "simp": "相思"
+      },
+      "poet": {
+        "trad": "王維",
+        "simp": "王维"
+      },
       "form": "wujue",
-      "status": "coming-soon",
+      "status": "available",
       "text": "紅豆生南國春來發幾枝願君多採擷此物最相思"
     },
     {
       "id": "zaofabaidicheng",
-      "title": { "trad": "早發白帝城", "simp": "早发白帝城" },
-      "poet": { "trad": "李白", "simp": "李白" },
+      "title": {
+        "trad": "早發白帝城",
+        "simp": "早发白帝城"
+      },
+      "poet": {
+        "trad": "李白",
+        "simp": "李白"
+      },
       "form": "qijue",
-      "status": "coming-soon",
+      "status": "available",
       "text": "朝辭白帝彩雲間千里江陵一日還兩岸猿聲啼不住輕舟已過萬重山"
+    },
+    {
+      "id": "luzhai",
+      "title": {
+        "trad": "鹿柴",
+        "simp": "鹿柴"
+      },
+      "poet": {
+        "trad": "王維",
+        "simp": "王维"
+      },
+      "form": "wujue",
+      "status": "available",
+      "text": "空山不見人但聞人語響返景入深林復照青苔上"
+    },
+    {
+      "id": "jiangxue",
+      "title": {
+        "trad": "江雪",
+        "simp": "江雪"
+      },
+      "poet": {
+        "trad": "柳宗元",
+        "simp": "柳宗元"
+      },
+      "form": "wujue",
+      "status": "available",
+      "text": "千山鳥飛絕萬徑人蹤滅孤舟蓑笠翁獨釣寒江雪"
+    },
+    {
+      "id": "minnong",
+      "title": {
+        "trad": "憫農",
+        "simp": "悯农"
+      },
+      "poet": {
+        "trad": "李紳",
+        "simp": "李绅"
+      },
+      "form": "wujue",
+      "status": "available",
+      "text": "鋤禾日當午汗滴禾下土誰知盤中餐粒粒皆辛苦"
+    },
+    {
+      "id": "xunyinzhe",
+      "title": {
+        "trad": "尋隱者不遇",
+        "simp": "寻隐者不遇"
+      },
+      "poet": {
+        "trad": "賈島",
+        "simp": "贾岛"
+      },
+      "form": "wujue",
+      "status": "available",
+      "text": "松下問童子言師採藥去只在此山中雲深不知處"
+    },
+    {
+      "id": "zengwanglun",
+      "title": {
+        "trad": "贈汪倫",
+        "simp": "赠汪伦"
+      },
+      "poet": {
+        "trad": "李白",
+        "simp": "李白"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "李白乘舟將欲行忽聞岸上踏歌聲桃花潭水深千尺不及汪倫送我情"
+    },
+    {
+      "id": "wanglushanpubu",
+      "title": {
+        "trad": "望廬山瀑布",
+        "simp": "望庐山瀑布"
+      },
+      "poet": {
+        "trad": "李白",
+        "simp": "李白"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "日照香爐生紫煙遙看瀑布掛前川飛流直下三千尺疑是銀河落九天"
+    },
+    {
+      "id": "fengqiaoyebo",
+      "title": {
+        "trad": "楓橋夜泊",
+        "simp": "枫桥夜泊"
+      },
+      "poet": {
+        "trad": "張繼",
+        "simp": "张继"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "月落烏啼霜滿天江楓漁火對愁眠姑蘇城外寒山寺夜半鐘聲到客船"
+    },
+    {
+      "id": "huanghelousong",
+      "title": {
+        "trad": "黃鶴樓送孟浩然之廣陵",
+        "simp": "黄鹤楼送孟浩然之广陵"
+      },
+      "poet": {
+        "trad": "李白",
+        "simp": "李白"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "故人西辭黃鶴樓煙花三月下揚州孤帆遠影碧空盡唯見長江天際流"
+    },
+    {
+      "id": "jiuyuejiuri",
+      "title": {
+        "trad": "九月九日憶山東兄弟",
+        "simp": "九月九日忆山东兄弟"
+      },
+      "poet": {
+        "trad": "王維",
+        "simp": "王维"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "獨在異鄉為異客每逢佳節倍思親遙知兄弟登高處遍插茱萸少一人"
+    },
+    {
+      "id": "huixiangoushu",
+      "title": {
+        "trad": "回鄉偶書",
+        "simp": "回乡偶书"
+      },
+      "poet": {
+        "trad": "賀知章",
+        "simp": "贺知章"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "少小離家老大回鄉音無改鬢毛衰兒童相見不相識笑問客從何處來"
+    },
+    {
+      "id": "yongliu",
+      "title": {
+        "trad": "詠柳",
+        "simp": "咏柳"
+      },
+      "poet": {
+        "trad": "賀知章",
+        "simp": "贺知章"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "碧玉妝成一樹高萬條垂下綠絲絛不知細葉誰裁出二月春風似剪刀"
+    },
+    {
+      "id": "qingming",
+      "title": {
+        "trad": "清明",
+        "simp": "清明"
+      },
+      "poet": {
+        "trad": "杜牧",
+        "simp": "杜牧"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "清明時節雨紛紛路上行人欲斷魂借問酒家何處有牧童遙指杏花村"
+    },
+    {
+      "id": "liangzhouci",
+      "title": {
+        "trad": "涼州詞",
+        "simp": "凉州词"
+      },
+      "poet": {
+        "trad": "王翰",
+        "simp": "王翰"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "葡萄美酒夜光杯欲飲琵琶馬上催醉臥沙場君莫笑古來征戰幾人回"
+    },
+    {
+      "id": "chusai",
+      "title": {
+        "trad": "出塞",
+        "simp": "出塞"
+      },
+      "poet": {
+        "trad": "王昌齡",
+        "simp": "王昌龄"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "秦時明月漢時關萬里長征人未還但使龍城飛將在不教胡馬度陰山"
+    },
+    {
+      "id": "jueju",
+      "title": {
+        "trad": "絕句",
+        "simp": "绝句"
+      },
+      "poet": {
+        "trad": "杜甫",
+        "simp": "杜甫"
+      },
+      "form": "qijue",
+      "status": "available",
+      "text": "兩個黃鸝鳴翠柳一行白鷺上青天窗含西嶺千秋雪門泊東吳萬里船"
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { describe, expect, it } from 'vitest';
@@ -94,12 +94,16 @@ describe('committed catalog data', () => {
   const dir = join(process.cwd(), 'content/catalog') + '/';
   const index = generateCatalog(dir);
 
-  it('has the playable poem plus 3-5 coming-soon stubs', () => {
+  it('marks a poem available exactly when its content file exists', () => {
+    const files = new Set(
+      readdirSync(join(process.cwd(), 'content/poems'))
+        .filter((f) => f.endsWith('.json'))
+        .map((f) => f.replace(/\.json$/, '')),
+    );
     const all = index.tiers.flatMap((t) => t.poems);
-    expect(all.filter((p) => p.status === 'available').map((p) => p.id)).toEqual(['jingyesi']);
-    const soon = all.filter((p) => p.status === 'coming-soon').length;
-    expect(soon).toBeGreaterThanOrEqual(3);
-    expect(soon).toBeLessThanOrEqual(5);
+    expect(all.some((p) => p.id === 'jingyesi' && p.status === 'available')).toBe(true);
+    for (const p of all) expect(files.has(p.id), p.id).toBe(p.status === 'available');
+    expect(all.length).toBeGreaterThanOrEqual(files.size);
   });
 
   it('keeps content/catalog/index.json in sync with the generator', () => {

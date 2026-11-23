@@ -1,0 +1,756 @@
+{
+  "schemaVersion": 1,
+  "id": "chunxiao",
+  "title": {
+    "trad": "春曉",
+    "simp": "春晓"
+  },
+  "poet": {
+    "trad": "孟浩然",
+    "simp": "孟浩然",
+    "pinyin": "Mèng Hàorán"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "春",
+          "simp": "春",
+          "readings": {
+            "zhuyin": "ㄔㄨㄣ",
+            "pinyin": "chūn",
+            "jyutping": "ceon1",
+            "tailo": {
+              "lit": "tshun",
+              "col": "tshun"
+            }
+          }
+        },
+        {
+          "trad": "眠",
+          "simp": "眠",
+          "readings": {
+            "zhuyin": "ㄇㄧㄢˊ",
+            "pinyin": "mián",
+            "jyutping": "min4",
+            "tailo": {
+              "lit": "biân",
+              "col": "bîn"
+            }
+          }
+        },
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "覺",
+          "simp": "觉",
+          "readings": {
+            "zhuyin": "ㄐㄩㄝˊ",
+            "pinyin": "jué",
+            "jyutping": "gok3",
+            "tailo": {
+              "lit": "kak",
+              "col": "kak"
+            }
+          }
+        },
+        {
+          "trad": "曉",
+          "simp": "晓",
+          "readings": {
+            "zhuyin": "ㄒㄧㄠˇ",
+            "pinyin": "xiǎo",
+            "jyutping": "hiu2",
+            "tailo": {
+              "lit": "hiáu",
+              "col": "hiáu"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "In spring I sleep, unaware of the dawn",
+      "literal": "Sleeping in spring, I do not notice the dawn.",
+      "poetic": "Spring sleep is so deep that the dawn slips by unnoticed.",
+      "meaning": {
+        "feeling": "Contented, drowsy ease",
+        "wrongFeelings": ["Anxiety about being late for work", "Restless sleeplessness"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        },
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        },
+        {
+          "trad": "聞",
+          "simp": "闻",
+          "readings": {
+            "zhuyin": "ㄨㄣˊ",
+            "pinyin": "wén",
+            "jyutping": "man4",
+            "tailo": {
+              "lit": "bûn",
+              "col": "bûn"
+            }
+          }
+        },
+        {
+          "trad": "啼",
+          "simp": "啼",
+          "readings": {
+            "zhuyin": "ㄊㄧˊ",
+            "pinyin": "tí",
+            "jyutping": "tai4",
+            "tailo": {
+              "lit": "thê",
+              "col": "thî"
+            }
+          }
+        },
+        {
+          "trad": "鳥",
+          "simp": "鸟",
+          "readings": {
+            "zhuyin": "ㄋㄧㄠˇ",
+            "pinyin": "niǎo",
+            "jyutping": "niu5",
+            "tailo": {
+              "lit": "niáu",
+              "col": "tsiáu"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Everywhere I hear birds singing",
+      "literal": "Everywhere I hear the calling of birds.",
+      "poetic": "Birdsong greets me from every side.",
+      "meaning": {
+        "feeling": "Delight in the lively morning",
+        "wrongFeelings": ["Irritation at the noise", "Fear of something lurking in the garden"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "夜",
+          "simp": "夜",
+          "readings": {
+            "zhuyin": "ㄧㄝˋ",
+            "pinyin": "yè",
+            "jyutping": "je6",
+            "tailo": {
+              "lit": "iā",
+              "col": "iā"
+            }
+          }
+        },
+        {
+          "trad": "來",
+          "simp": "来",
+          "readings": {
+            "zhuyin": "ㄌㄞˊ",
+            "pinyin": "lái",
+            "jyutping": "loi4",
+            "tailo": {
+              "lit": "lâi",
+              "col": "lâi"
+            }
+          }
+        },
+        {
+          "trad": "風",
+          "simp": "风",
+          "readings": {
+            "zhuyin": "ㄈㄥ",
+            "pinyin": "fēng",
+            "jyutping": "fung1",
+            "tailo": {
+              "lit": "hong",
+              "col": "hong"
+            }
+          }
+        },
+        {
+          "trad": "雨",
+          "simp": "雨",
+          "readings": {
+            "zhuyin": "ㄩˇ",
+            "pinyin": "yǔ",
+            "jyutping": "jyu5",
+            "tailo": {
+              "lit": "ú",
+              "col": "hōo"
+            }
+          }
+        },
+        {
+          "trad": "聲",
+          "simp": "声",
+          "readings": {
+            "zhuyin": "ㄕㄥ",
+            "pinyin": "shēng",
+            "jyutping": "sing1",
+            "tailo": {
+              "lit": "sing",
+              "col": "siann"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Last night came the sound of wind and rain",
+      "literal": "In the night there came the sound of wind and rain.",
+      "poetic": "All night long the wind and rain were loud.",
+      "meaning": {
+        "feeling": "A flicker of concern as the storm is remembered",
+        "wrongFeelings": ["Pride in having built a strong house", "Boredom with the weather"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "花",
+          "simp": "花",
+          "readings": {
+            "zhuyin": "ㄏㄨㄚ",
+            "pinyin": "huā",
+            "jyutping": "faa1",
+            "tailo": {
+              "lit": "hua",
+              "col": "hue"
+            }
+          }
+        },
+        {
+          "trad": "落",
+          "simp": "落",
+          "readings": {
+            "zhuyin": "ㄌㄨㄛˋ",
+            "pinyin": "luò",
+            "jyutping": "lok6",
+            "tailo": {
+              "lit": "lo̍k",
+              "col": "lo̍h"
+            }
+          }
+        },
+        {
+          "trad": "知",
+          "simp": "知",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "ti",
+              "col": "tsai"
+            }
+          }
+        },
+        {
+          "trad": "多",
+          "simp": "多",
+          "readings": {
+            "zhuyin": "ㄉㄨㄛ",
+            "pinyin": "duō",
+            "jyutping": "do1",
+            "tailo": {
+              "lit": "to",
+              "col": "tsē"
+            }
+          }
+        },
+        {
+          "trad": "少",
+          "simp": "少",
+          "readings": {
+            "zhuyin": "ㄕㄠˇ",
+            "pinyin": "shǎo",
+            "jyutping": "siu2",
+            "tailo": {
+              "lit": "siáu",
+              "col": "tsió"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "How many flowers have fallen, who knows?",
+      "literal": "How many blossoms have fallen, who can tell?",
+      "poetic": "I wonder how many blossoms the storm brought down.",
+      "meaning": {
+        "feeling": "Gentle wistfulness for the fragility of spring",
+        "wrongFeelings": ["Anger at the neighbours", "Joy that spring is over"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "春",
+      "simp": "春",
+      "kind": "char",
+      "gloss": "spring",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "眠",
+      "simp": "眠",
+      "kind": "char",
+      "gloss": "to sleep",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "覺",
+      "simp": "觉",
+      "kind": "char",
+      "gloss": "to be aware of, to notice",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "曉",
+      "simp": "晓",
+      "kind": "char",
+      "gloss": "dawn, daybreak",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "處",
+      "simp": "处",
+      "kind": "char",
+      "gloss": "place",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        },
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "聞",
+      "simp": "闻",
+      "kind": "char",
+      "gloss": "to hear",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "啼",
+      "simp": "啼",
+      "kind": "char",
+      "gloss": "to cry, to call out",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "鳥",
+      "simp": "鸟",
+      "kind": "char",
+      "gloss": "bird",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "夜",
+      "simp": "夜",
+      "kind": "char",
+      "gloss": "night",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "來",
+      "simp": "来",
+      "kind": "char",
+      "gloss": "to come (夜來: during the night)",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "風",
+      "simp": "风",
+      "kind": "char",
+      "gloss": "wind",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "雨",
+      "simp": "雨",
+      "kind": "char",
+      "gloss": "rain",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "聲",
+      "simp": "声",
+      "kind": "char",
+      "gloss": "sound",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "花",
+      "simp": "花",
+      "kind": "char",
+      "gloss": "flower, blossom",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "落",
+      "simp": "落",
+      "kind": "char",
+      "gloss": "to fall",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "知",
+      "simp": "知",
+      "kind": "char",
+      "gloss": "to know",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "多",
+      "simp": "多",
+      "kind": "char",
+      "gloss": "many, much",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "少",
+      "simp": "少",
+      "kind": "char",
+      "gloss": "few, little (多少: how many)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "春眠",
+      "simp": "春眠",
+      "kind": "compound",
+      "gloss": "spring sleep",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "處處",
+      "simp": "处处",
+      "kind": "compound",
+      "gloss": "everywhere",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "啼鳥",
+      "simp": "啼鸟",
+      "kind": "compound",
+      "gloss": "singing birds",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "風雨",
+      "simp": "风雨",
+      "kind": "compound",
+      "gloss": "wind and rain",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "花落",
+      "simp": "花落",
+      "kind": "compound",
+      "gloss": "flowers falling",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "多少",
+      "simp": "多少",
+      "kind": "compound",
+      "gloss": "how many",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "In spring I sleep and do not notice the dawn; everywhere I hear the singing of birds. In the night there came the sound of wind and rain; how many flowers have fallen, who can tell?",
+    "poetic": "Spring sleep is so sweet the dawn slips by. Birdsong greets me from every side. But the wind and rain were loud all night, and I wonder how many blossoms have fallen."
+  },
+  "notes": [
+    {
+      "id": "poet",
+      "kind": "history",
+      "title": "Meng Haoran (689–740)",
+      "body": "Meng Haoran spent much of his life as a recluse near Xiangyang and on Lumen Mountain, and never rose high in government. He belongs to the 山水田園 (landscape and pastoral) school with Wang Wei, and his plain, quiet style suits this poem, which is about nothing more than waking up on a spring morning."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 曉 · 鳥 · 少",
+      "body": "Lines one, two and four end in 曉 (xiǎo), 鳥 (niǎo) and 少 (shǎo), all in the rising (上聲) tone and the same -ao rhyme. Line three ends in 聲 and does not rhyme, as usual for a jueju."
+    },
+    {
+      "id": "time",
+      "kind": "interpretation",
+      "title": "Four moments in time",
+      "body": "The poem moves through time in four steps: sleeping late, waking to birdsong, remembering the night's storm, and a final open question about the flowers outside. The poet never goes to look. The poem ends on a question, leaving the sadness of falling blossoms to the reader."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "覺 is read jué in 不覺 (to notice) but jiào in 睡覺 (to sleep). 處處 is read chùchù, with 處 in the falling tone as a noun meaning place. 少 is read shǎo in 多少 (how many); in 少年 it is shào."
+    }
+  ],
+  "distractorSeeds": {
+    "春": {
+      "look": ["奉", "泰"],
+      "meaning": ["夏", "秋", "冬"]
+    },
+    "眠": {
+      "look": ["眼"],
+      "meaning": ["睡"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "覺": {
+      "look": ["學"],
+      "sound": ["絕"],
+      "meaning": ["知", "曉"]
+    },
+    "曉": {
+      "look": ["燒"],
+      "sound": ["小", "笑"],
+      "meaning": ["晨"]
+    },
+    "處": {
+      "look": ["虎"],
+      "sound": ["出", "鋤"],
+      "meaning": ["地"]
+    },
+    "聞": {
+      "look": ["間", "問"],
+      "meaning": ["聽"]
+    },
+    "啼": {
+      "look": ["蹄"],
+      "meaning": ["哭", "鳴"]
+    },
+    "鳥": {
+      "look": ["烏", "馬"],
+      "meaning": ["禽"]
+    },
+    "夜": {
+      "look": ["液"],
+      "sound": ["葉"],
+      "meaning": ["晚"]
+    },
+    "來": {
+      "look": ["未"],
+      "meaning": ["至"]
+    },
+    "風": {
+      "look": ["凡"],
+      "sound": ["楓", "逢"],
+      "meaning": ["颱"]
+    },
+    "雨": {
+      "look": ["兩"],
+      "sound": ["欲", "漁"],
+      "meaning": ["雲", "雪"]
+    },
+    "聲": {
+      "look": ["殸"],
+      "sound": ["生"],
+      "meaning": ["音"]
+    },
+    "花": {
+      "look": ["化"],
+      "meaning": ["草"]
+    },
+    "落": {
+      "look": ["洛"],
+      "meaning": ["墜"]
+    },
+    "知": {
+      "look": ["如"],
+      "sound": ["枝", "只"],
+      "meaning": ["曉"]
+    },
+    "多": {
+      "look": ["夕"],
+      "meaning": ["眾"]
+    },
+    "少": {
+      "look": ["小"],
+      "meaning": ["寡"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "spring-dawn"
+  }
+}

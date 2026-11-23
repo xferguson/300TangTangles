@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": 1,
+  "id": "huanghelousong",
+  "title": {
+    "trad": "黃鶴樓送孟浩然之廣陵",
+    "simp": "黄鹤楼送孟浩然之广陵"
+  },
+  "poet": {
+    "trad": "李白",
+    "simp": "李白",
+    "pinyin": "Lǐ Bái"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "故",
+          "simp": "故",
+          "readings": {
+            "zhuyin": "ㄍㄨˋ",
+            "pinyin": "gù",
+            "jyutping": "gu3",
+            "tailo": {
+              "lit": "kòo",
+              "col": "kòo"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "西",
+          "simp": "西",
+          "readings": {
+            "zhuyin": "ㄒㄧ",
+            "pinyin": "xī",
+            "jyutping": "sai1",
+            "tailo": {
+              "lit": "se",
+              "col": "sai"
+            }
+          }
+        },
+        {
+          "trad": "辭",
+          "simp": "辞",
+          "readings": {
+            "zhuyin": "ㄘˊ",
+            "pinyin": "cí",
+            "jyutping": "ci4",
+            "tailo": {
+              "lit": "sû",
+              "col": "sû"
+            }
+          }
+        },
+        {
+          "trad": "黃",
+          "simp": "黄",
+          "readings": {
+            "zhuyin": "ㄏㄨㄤˊ",
+            "pinyin": "huáng",
+            "jyutping": "wong4",
+            "tailo": {
+              "lit": "hông",
+              "col": "n̂g"
+            }
+          }
+        },
+        {
+          "trad": "鶴",
+          "simp": "鹤",
+          "readings": {
+            "zhuyin": "ㄏㄜˋ",
+            "pinyin": "hè",
+            "jyutping": "hok6",
+            "tailo": {
+              "lit": "ho̍k",
+              "col": "ho̍k"
+            }
+          }
+        },
+        {
+          "trad": "樓",
+          "simp": "楼",
+          "readings": {
+            "zhuyin": "ㄌㄡˊ",
+            "pinyin": "lóu",
+            "jyutping": "lau4",
+            "tailo": {
+              "lit": "lôo",
+              "col": "lâu"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "My old friend leaves Yellow Crane Tower in the west",
+      "literal": "My old friend takes his leave of Yellow Crane Tower in the west;",
+      "poetic": "My old friend leaves the Yellow Crane Tower in the west,",
+      "meaning": {
+        "feeling": "Fond, wistful farewell",
+        "wrongFeelings": ["Relief at a pest leaving", "Anger after a quarrel"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "煙",
+          "simp": "烟",
+          "readings": {
+            "zhuyin": "ㄧㄢ",
+            "pinyin": "yān",
+            "jyutping": "jin1",
+            "tailo": {
+              "lit": "ian",
+              "col": "ian"
+            }
+          }
+        },
+        {
+          "trad": "花",
+          "simp": "花",
+          "readings": {
+            "zhuyin": "ㄏㄨㄚ",
+            "pinyin": "huā",
+            "jyutping": "faa1",
+            "tailo": {
+              "lit": "hua",
+              "col": "hue"
+            }
+          }
+        },
+        {
+          "trad": "三",
+          "simp": "三",
+          "readings": {
+            "zhuyin": "ㄙㄢ",
+            "pinyin": "sān",
+            "jyutping": "saam1",
+            "tailo": {
+              "lit": "sam",
+              "col": "sann"
+            }
+          }
+        },
+        {
+          "trad": "月",
+          "simp": "月",
+          "readings": {
+            "zhuyin": "ㄩㄝˋ",
+            "pinyin": "yuè",
+            "jyutping": "jyut6",
+            "tailo": {
+              "lit": "gua̍t",
+              "col": "gue̍h"
+            }
+          }
+        },
+        {
+          "trad": "下",
+          "simp": "下",
+          "readings": {
+            "zhuyin": "ㄒㄧㄚˋ",
+            "pinyin": "xià",
+            "jyutping": "haa6",
+            "tailo": {
+              "lit": "hā",
+              "col": "ē"
+            }
+          }
+        },
+        {
+          "trad": "揚",
+          "simp": "扬",
+          "readings": {
+            "zhuyin": "ㄧㄤˊ",
+            "pinyin": "yáng",
+            "jyutping": "joeng4",
+            "tailo": {
+              "lit": "iông",
+              "col": "iông"
+            }
+          }
+        },
+        {
+          "trad": "州",
+          "simp": "州",
+          "readings": {
+            "zhuyin": "ㄓㄡ",
+            "pinyin": "zhōu",
+            "jyutping": "zau1",
+            "tailo": {
+              "lit": "tsiu",
+              "col": "tsiu"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "In misty, flowery March he goes down to Yangzhou",
+      "literal": "in the misty blossom-time of the third month he goes down to Yangzhou.",
+      "poetic": "bound for Yangzhou in the blossoming haze of spring.",
+      "meaning": {
+        "feeling": "Admiring envy for the lovely journey, tinged with parting",
+        "wrongFeelings": ["Fear for his safety", "Contempt for his destination"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "孤",
+          "simp": "孤",
+          "readings": {
+            "zhuyin": "ㄍㄨ",
+            "pinyin": "gū",
+            "jyutping": "gu1",
+            "tailo": {
+              "lit": "koo",
+              "col": "koo"
+            }
+          }
+        },
+        {
+          "trad": "帆",
+          "simp": "帆",
+          "readings": {
+            "zhuyin": "ㄈㄢ",
+            "pinyin": "fān",
+            "jyutping": "faan4",
+            "tailo": {
+              "lit": "huân",
+              "col": "phâng"
+            }
+          }
+        },
+        {
+          "trad": "遠",
+          "simp": "远",
+          "readings": {
+            "zhuyin": "ㄩㄢˇ",
+            "pinyin": "yuǎn",
+            "jyutping": "jyun5",
+            "tailo": {
+              "lit": "uán",
+              "col": "hn̄g"
+            }
+          }
+        },
+        {
+          "trad": "影",
+          "simp": "影",
+          "readings": {
+            "zhuyin": "ㄧㄥˇ",
+            "pinyin": "yǐng",
+            "jyutping": "jing2",
+            "tailo": {
+              "lit": "íng",
+              "col": "iánn"
+            }
+          }
+        },
+        {
+          "trad": "碧",
+          "simp": "碧",
+          "readings": {
+            "zhuyin": "ㄅㄧˋ",
+            "pinyin": "bì",
+            "jyutping": "bik1",
+            "tailo": {
+              "lit": "phik",
+              "col": "phik"
+            }
+          }
+        },
+        {
+          "trad": "空",
+          "simp": "空",
+          "readings": {
+            "zhuyin": "ㄎㄨㄥ",
+            "pinyin": "kōng",
+            "jyutping": "hung1",
+            "tailo": {
+              "lit": "khong",
+              "col": "khang"
+            }
+          }
+        },
+        {
+          "trad": "盡",
+          "simp": "尽",
+          "readings": {
+            "zhuyin": "ㄐㄧㄣˋ",
+            "pinyin": "jìn",
+            "jyutping": "zeon6",
+            "tailo": {
+              "lit": "tsīn",
+              "col": "tsīn"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "The lone sail's distant shadow vanishes in the blue sky",
+      "literal": "The lone sail's far-off shadow disappears into the blue emptiness;",
+      "poetic": "His lone sail dwindles to a speck and is lost in the blue,",
+      "meaning": {
+        "feeling": "The lingering sadness of watching a friend vanish",
+        "wrongFeelings": ["Impatience to leave the shore", "Pleasure at a boat race"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "唯",
+          "simp": "唯",
+          "readings": {
+            "zhuyin": "ㄨㄟˊ",
+            "pinyin": "wéi",
+            "jyutping": "wai4",
+            "tailo": {
+              "lit": "uî",
+              "col": "uî"
+            }
+          }
+        },
+        {
+          "trad": "見",
+          "simp": "见",
+          "readings": {
+            "zhuyin": "ㄐㄧㄢˋ",
+            "pinyin": "jiàn",
+            "jyutping": "gin3",
+            "tailo": {
+              "lit": "kiàn",
+              "col": "kìnn"
+            }
+          }
+        },
+        {
+          "trad": "長",
+          "simp": "长",
+          "readings": {
+            "zhuyin": "ㄔㄤˊ",
+            "pinyin": "cháng",
+            "jyutping": "coeng4",
+            "tailo": {
+              "lit": "tiông",
+              "col": "tn̂g"
+            }
+          }
+        },
+        {
+          "trad": "江",
+          "simp": "江",
+          "readings": {
+            "zhuyin": "ㄐㄧㄤ",
+            "pinyin": "jiāng",
+            "jyutping": "gong1",
+            "tailo": {
+              "lit": "kang",
+              "col": "kang"
+            }
+          }
+        },
+        {
+          "trad": "天",
+          "simp": "天",
+          "readings": {
+            "zhuyin": "ㄊㄧㄢ",
+            "pinyin": "tiān",
+            "jyutping": "tin1",
+            "tailo": {
+              "lit": "thian",
+              "col": "thinn"
+            }
+          }
+        },
+        {
+          "trad": "際",
+          "simp": "际",
+          "readings": {
+            "zhuyin": "ㄐㄧˋ",
+            "pinyin": "jì",
+            "jyutping": "zai3",
+            "tailo": {
+              "lit": "tsè",
+              "col": "tsè"
+            }
+          }
+        },
+        {
+          "trad": "流",
+          "simp": "流",
+          "readings": {
+            "zhuyin": "ㄌㄧㄡˊ",
+            "pinyin": "liú",
+            "jyutping": "lau4",
+            "tailo": {
+              "lit": "liû",
+              "col": "liû"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "I see only the Yangtze flowing to the edge of the sky",
+      "literal": "I see only the Yangtze flowing toward the edge of the sky.",
+      "poetic": "and only the Yangtze is left, flowing to the horizon.",
+      "meaning": {
+        "feeling": "Emptiness and longing as the poet stares after him",
+        "wrongFeelings": ["Fascination with river engineering", "Relief at being alone"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "故",
+      "simp": "故",
+      "kind": "char",
+      "gloss": "old, former",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "西",
+      "simp": "西",
+      "kind": "char",
+      "gloss": "west",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "辭",
+      "simp": "辞",
+      "kind": "char",
+      "gloss": "to take leave of",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "黃",
+      "simp": "黄",
+      "kind": "char",
+      "gloss": "yellow",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "鶴",
+      "simp": "鹤",
+      "kind": "char",
+      "gloss": "crane",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "樓",
+      "simp": "楼",
+      "kind": "char",
+      "gloss": "tower, upper storey",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "煙",
+      "simp": "烟",
+      "kind": "char",
+      "gloss": "mist, smoke",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "花",
+      "simp": "花",
+      "kind": "char",
+      "gloss": "flower, blossom",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "三",
+      "simp": "三",
+      "kind": "char",
+      "gloss": "three",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "月",
+      "simp": "月",
+      "kind": "char",
+      "gloss": "moon, month",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "下",
+      "simp": "下",
+      "kind": "char",
+      "gloss": "to go down (a river)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "揚",
+      "simp": "扬",
+      "kind": "char",
+      "gloss": "Yang (as in Yangzhou)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "州",
+      "simp": "州",
+      "kind": "char",
+      "gloss": "Zhou (prefecture)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "孤",
+      "simp": "孤",
+      "kind": "char",
+      "gloss": "lone, solitary",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "帆",
+      "simp": "帆",
+      "kind": "char",
+      "gloss": "sail",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "遠",
+      "simp": "远",
+      "kind": "char",
+      "gloss": "far",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "影",
+      "simp": "影",
+      "kind": "char",
+      "gloss": "shadow, shape",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "碧",
+      "simp": "碧",
+      "kind": "char",
+      "gloss": "jade green, blue-green",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "空",
+      "simp": "空",
+      "kind": "char",
+      "gloss": "sky, emptiness",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "盡",
+      "simp": "尽",
+      "kind": "char",
+      "gloss": "to end, to be gone",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "唯",
+      "simp": "唯",
+      "kind": "char",
+      "gloss": "only",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "見",
+      "simp": "见",
+      "kind": "char",
+      "gloss": "to see",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "長",
+      "simp": "长",
+      "kind": "char",
+      "gloss": "long",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "江",
+      "simp": "江",
+      "kind": "char",
+      "gloss": "river (the Yangtze)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "天",
+      "simp": "天",
+      "kind": "char",
+      "gloss": "sky, heaven",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "際",
+      "simp": "际",
+      "kind": "char",
+      "gloss": "edge, border",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "流",
+      "simp": "流",
+      "kind": "char",
+      "gloss": "to flow",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "故人",
+      "simp": "故人",
+      "kind": "compound",
+      "gloss": "old friend",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "黃鶴樓",
+      "simp": "黄鹤楼",
+      "kind": "compound",
+      "gloss": "Yellow Crane Tower",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "煙花",
+      "simp": "烟花",
+      "kind": "compound",
+      "gloss": "misty blossoms",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "三月",
+      "simp": "三月",
+      "kind": "compound",
+      "gloss": "the third month",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "揚州",
+      "simp": "扬州",
+      "kind": "compound",
+      "gloss": "Yangzhou",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "孤帆",
+      "simp": "孤帆",
+      "kind": "compound",
+      "gloss": "a lone sail",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "碧空",
+      "simp": "碧空",
+      "kind": "compound",
+      "gloss": "blue sky",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "長江",
+      "simp": "长江",
+      "kind": "compound",
+      "gloss": "the Yangtze",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "天際",
+      "simp": "天际",
+      "kind": "compound",
+      "gloss": "edge of the sky",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "My old friend takes his leave of Yellow Crane Tower in the west; in the misty blossom-time of the third month he goes down to Yangzhou. The lone sail's far-off shadow disappears into the blue emptiness; I see only the Yangtze flowing toward the edge of the sky.",
+    "poetic": "My old friend leaves Yellow Crane Tower in the west, bound for Yangzhou in the blossoming haze of spring. His lone sail dwindles to a speck and is lost in the blue, and only the Yangtze is left, flowing to the horizon."
+  },
+  "notes": [
+    {
+      "id": "journey",
+      "kind": "history",
+      "title": "A friend's journey (about 730)",
+      "body": "Li Bai saw his older friend Meng Haoran off from Yellow Crane Tower, in present-day Wuhan, as Meng sailed east down the Yangtze to Yangzhou. The poem is dated to about 730. Yellow Crane Tower has been destroyed and rebuilt many times; the tower seen today dates from 1985. 西 in the first line refers to where the tower stands: Wuhan is west of Yangzhou."
+    },
+    {
+      "id": "smoke",
+      "kind": "interpretation",
+      "title": "煙花 means mist and blossoms",
+      "body": "煙花 in the second line has nothing to do with fireworks. It means the haze (煙) and flowers (花) of late spring. Li Bai's eyes then follow the sail until it disappears. All that is left is the river, which keeps flowing toward the horizon, so the poem ends on empty space and the friend's absence."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 樓 · 州 · 流",
+      "body": "Lines one, two and four end in 樓 (lóu), 州 (zhōu) and 流 (liú), all in the 尤 rhyme. Line three ends in 盡 and does not rhyme."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "長江 is read Chángjiāng (long river) and 長 is cháng, not zhǎng. 盡 is read jìn, in the falling tone. 下 means \"to go down\", here down a river."
+    }
+  ],
+  "distractorSeeds": {
+    "故": {
+      "look": ["敬"],
+      "sound": ["古", "姑"],
+      "meaning": ["舊"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "西": {
+      "look": ["酉"],
+      "sound": ["細"],
+      "meaning": ["東"]
+    },
+    "辭": {
+      "look": ["辯"],
+      "sound": ["此"],
+      "meaning": ["別"]
+    },
+    "黃": {
+      "look": ["廣"],
+      "meaning": ["金"]
+    },
+    "鶴": {
+      "look": ["鵝"],
+      "sound": ["河", "何"],
+      "meaning": ["鳥"]
+    },
+    "樓": {
+      "look": ["數"],
+      "meaning": ["閣"]
+    },
+    "煙": {
+      "look": ["姻"],
+      "sound": ["言"],
+      "meaning": ["霧"]
+    },
+    "花": {
+      "look": ["化"],
+      "meaning": ["朵"]
+    },
+    "三": {
+      "look": ["二"],
+      "meaning": ["四"]
+    },
+    "月": {
+      "look": ["目"],
+      "meaning": ["日"]
+    },
+    "下": {
+      "look": ["不"],
+      "meaning": ["落"]
+    },
+    "揚": {
+      "look": ["楊"],
+      "meaning": ["飛"]
+    },
+    "州": {
+      "look": ["川"],
+      "sound": ["舟"],
+      "meaning": ["府"]
+    },
+    "孤": {
+      "look": ["弧"],
+      "sound": ["古", "姑"],
+      "meaning": ["單"]
+    },
+    "帆": {
+      "look": ["凡"],
+      "sound": ["返"],
+      "meaning": ["船"]
+    },
+    "遠": {
+      "look": ["園"],
+      "sound": ["願", "猿"],
+      "meaning": ["長"]
+    },
+    "影": {
+      "look": ["景"],
+      "meaning": ["形"]
+    },
+    "碧": {
+      "look": ["壁"],
+      "meaning": ["綠"]
+    },
+    "空": {
+      "look": ["穴"],
+      "meaning": ["天"]
+    },
+    "盡": {
+      "look": ["畫"],
+      "meaning": ["完"]
+    },
+    "唯": {
+      "look": ["推"],
+      "sound": ["未", "為"],
+      "meaning": ["只"]
+    },
+    "見": {
+      "look": ["貝"],
+      "sound": ["間", "剪"],
+      "meaning": ["看"]
+    },
+    "長": {
+      "look": ["張"],
+      "sound": ["場"],
+      "meaning": ["遠"]
+    },
+    "江": {
+      "look": ["紅"],
+      "sound": ["將"],
+      "meaning": ["河"]
+    },
+    "天": {
+      "look": ["夫"],
+      "meaning": ["空"]
+    },
+    "際": {
+      "look": ["祭"],
+      "sound": ["幾", "及"],
+      "meaning": ["邊"]
+    },
+    "流": {
+      "look": ["琉"],
+      "sound": ["柳"],
+      "meaning": ["淌"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "yangtze-sail"
+  }
+}

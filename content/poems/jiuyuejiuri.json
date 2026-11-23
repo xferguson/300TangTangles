@@ -1,0 +1,1009 @@
+{
+  "schemaVersion": 1,
+  "id": "jiuyuejiuri",
+  "title": {
+    "trad": "九月九日憶山東兄弟",
+    "simp": "九月九日忆山东兄弟"
+  },
+  "poet": {
+    "trad": "王維",
+    "simp": "王维",
+    "pinyin": "Wáng Wéi"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "獨",
+          "simp": "独",
+          "readings": {
+            "zhuyin": "ㄉㄨˊ",
+            "pinyin": "dú",
+            "jyutping": "duk6",
+            "tailo": {
+              "lit": "to̍k",
+              "col": "to̍k"
+            }
+          }
+        },
+        {
+          "trad": "在",
+          "simp": "在",
+          "readings": {
+            "zhuyin": "ㄗㄞˋ",
+            "pinyin": "zài",
+            "jyutping": "zoi6",
+            "tailo": {
+              "lit": "tsāi",
+              "col": "tī"
+            }
+          }
+        },
+        {
+          "trad": "異",
+          "simp": "异",
+          "readings": {
+            "zhuyin": "ㄧˋ",
+            "pinyin": "yì",
+            "jyutping": "ji6",
+            "tailo": {
+              "lit": "ī",
+              "col": "ī"
+            }
+          }
+        },
+        {
+          "trad": "鄉",
+          "simp": "乡",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "hoeng1",
+            "tailo": {
+              "lit": "hiong",
+              "col": "hiunn"
+            }
+          }
+        },
+        {
+          "trad": "為",
+          "simp": "为",
+          "readings": {
+            "zhuyin": "ㄨㄟˊ",
+            "pinyin": "wéi",
+            "jyutping": "wai6",
+            "tailo": {
+              "lit": "uî",
+              "col": "uî"
+            }
+          }
+        },
+        {
+          "trad": "異",
+          "simp": "异",
+          "readings": {
+            "zhuyin": "ㄧˋ",
+            "pinyin": "yì",
+            "jyutping": "ji6",
+            "tailo": {
+              "lit": "ī",
+              "col": "ī"
+            }
+          }
+        },
+        {
+          "trad": "客",
+          "simp": "客",
+          "readings": {
+            "zhuyin": "ㄎㄜˋ",
+            "pinyin": "kè",
+            "jyutping": "haak3",
+            "tailo": {
+              "lit": "khik",
+              "col": "kheh"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Alone in a foreign land, a stranger",
+      "literal": "Alone in a foreign land, I am a stranger there;",
+      "poetic": "Alone in a strange land, a stranger among strangers,",
+      "meaning": {
+        "feeling": "Deep loneliness and homesickness",
+        "wrongFeelings": ["Excitement at travelling abroad", "Pride in a new job"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "每",
+          "simp": "每",
+          "readings": {
+            "zhuyin": "ㄇㄟˇ",
+            "pinyin": "měi",
+            "jyutping": "mui5",
+            "tailo": {
+              "lit": "muí",
+              "col": "muí"
+            }
+          }
+        },
+        {
+          "trad": "逢",
+          "simp": "逢",
+          "readings": {
+            "zhuyin": "ㄈㄥˊ",
+            "pinyin": "féng",
+            "jyutping": "fung4",
+            "tailo": {
+              "lit": "hông",
+              "col": "hông"
+            }
+          }
+        },
+        {
+          "trad": "佳",
+          "simp": "佳",
+          "readings": {
+            "zhuyin": "ㄐㄧㄚ",
+            "pinyin": "jiā",
+            "jyutping": "gaai1",
+            "tailo": {
+              "lit": "ka",
+              "col": "ka"
+            }
+          }
+        },
+        {
+          "trad": "節",
+          "simp": "节",
+          "readings": {
+            "zhuyin": "ㄐㄧㄝˊ",
+            "pinyin": "jié",
+            "jyutping": "zit3",
+            "tailo": {
+              "lit": "tsiat",
+              "col": "tseh"
+            }
+          }
+        },
+        {
+          "trad": "倍",
+          "simp": "倍",
+          "readings": {
+            "zhuyin": "ㄅㄟˋ",
+            "pinyin": "bèi",
+            "jyutping": "pui5",
+            "tailo": {
+              "lit": "puī",
+              "col": "puē"
+            }
+          }
+        },
+        {
+          "trad": "思",
+          "simp": "思",
+          "readings": {
+            "zhuyin": "ㄙ",
+            "pinyin": "sī",
+            "jyutping": "si1",
+            "tailo": {
+              "lit": "su",
+              "col": "si"
+            }
+          }
+        },
+        {
+          "trad": "親",
+          "simp": "亲",
+          "readings": {
+            "zhuyin": "ㄑㄧㄣ",
+            "pinyin": "qīn",
+            "jyutping": "can1",
+            "tailo": {
+              "lit": "tshin",
+              "col": "tshin"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "At every festival my longing for family doubles",
+      "literal": "every time a festival comes, I long for my kin twice as much.",
+      "poetic": "and every holiday doubles my longing for home.",
+      "meaning": {
+        "feeling": "Aching homesickness sharpened by the holiday",
+        "wrongFeelings": ["Cheerful festivity", "Irritation with relatives"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "遙",
+          "simp": "遥",
+          "readings": {
+            "zhuyin": "ㄧㄠˊ",
+            "pinyin": "yáo",
+            "jyutping": "jiu4",
+            "tailo": {
+              "lit": "iâu",
+              "col": "iâu"
+            }
+          }
+        },
+        {
+          "trad": "知",
+          "simp": "知",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "ti",
+              "col": "tsai"
+            }
+          }
+        },
+        {
+          "trad": "兄",
+          "simp": "兄",
+          "readings": {
+            "zhuyin": "ㄒㄩㄥ",
+            "pinyin": "xiōng",
+            "jyutping": "hing1",
+            "tailo": {
+              "lit": "hing",
+              "col": "hiann"
+            }
+          }
+        },
+        {
+          "trad": "弟",
+          "simp": "弟",
+          "readings": {
+            "zhuyin": "ㄉㄧˋ",
+            "pinyin": "dì",
+            "jyutping": "dai6",
+            "tailo": {
+              "lit": "tē",
+              "col": "tī"
+            }
+          }
+        },
+        {
+          "trad": "登",
+          "simp": "登",
+          "readings": {
+            "zhuyin": "ㄉㄥ",
+            "pinyin": "dēng",
+            "jyutping": "dang1",
+            "tailo": {
+              "lit": "ting",
+              "col": "ting"
+            }
+          }
+        },
+        {
+          "trad": "高",
+          "simp": "高",
+          "readings": {
+            "zhuyin": "ㄍㄠ",
+            "pinyin": "gāo",
+            "jyutping": "gou1",
+            "tailo": {
+              "lit": "ko",
+              "col": "kuân"
+            }
+          }
+        },
+        {
+          "trad": "處",
+          "simp": "处",
+          "readings": {
+            "zhuyin": "ㄔㄨˋ",
+            "pinyin": "chù",
+            "jyutping": "cyu3",
+            "tailo": {
+              "lit": "tshù",
+              "col": "tshù"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "From afar I know my brothers are climbing the heights",
+      "literal": "From far away I know my brothers are climbing the heights,",
+      "poetic": "I know that far away my brothers climb the hill,",
+      "meaning": {
+        "feeling": "Tender imagining of family together",
+        "wrongFeelings": ["Jealousy of their wealth", "Fear that they will fall"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "遍",
+          "simp": "遍",
+          "readings": {
+            "zhuyin": "ㄅㄧㄢˋ",
+            "pinyin": "biàn",
+            "jyutping": "pin3",
+            "tailo": {
+              "lit": "piàn",
+              "col": "piàn"
+            }
+          }
+        },
+        {
+          "trad": "插",
+          "simp": "插",
+          "readings": {
+            "zhuyin": "ㄔㄚ",
+            "pinyin": "chā",
+            "jyutping": "caap3",
+            "tailo": {
+              "lit": "tshap",
+              "col": "tshah"
+            }
+          }
+        },
+        {
+          "trad": "茱",
+          "simp": "茱",
+          "readings": {
+            "zhuyin": "ㄓㄨ",
+            "pinyin": "zhū",
+            "jyutping": "zyu1",
+            "tailo": {
+              "lit": "tsu",
+              "col": "tsu"
+            }
+          }
+        },
+        {
+          "trad": "萸",
+          "simp": "萸",
+          "readings": {
+            "zhuyin": "ㄩˊ",
+            "pinyin": "yú",
+            "jyutping": "jyu4",
+            "tailo": {
+              "lit": "û",
+              "col": "û"
+            }
+          }
+        },
+        {
+          "trad": "少",
+          "simp": "少",
+          "readings": {
+            "zhuyin": "ㄕㄠˇ",
+            "pinyin": "shǎo",
+            "jyutping": "siu2",
+            "tailo": {
+              "lit": "siáu",
+              "col": "tsió"
+            }
+          }
+        },
+        {
+          "trad": "一",
+          "simp": "一",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "jat1",
+            "tailo": {
+              "lit": "it",
+              "col": "tsi̍t"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "All wear dogwood sprigs, one person fewer",
+      "literal": "everyone wearing sprigs of dogwood, and one person is missing.",
+      "poetic": "each with dogwood in their hair, and one of them missing.",
+      "meaning": {
+        "feeling": "The poignant sense of being left out",
+        "wrongFeelings": ["Amusement at a family joke", "Relief at avoiding a chore"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "獨",
+      "simp": "独",
+      "kind": "char",
+      "gloss": "alone",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "在",
+      "simp": "在",
+      "kind": "char",
+      "gloss": "to be in, at",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "異",
+      "simp": "异",
+      "kind": "char",
+      "gloss": "different, foreign",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        },
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "鄉",
+      "simp": "乡",
+      "kind": "char",
+      "gloss": "native place",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "為",
+      "simp": "为",
+      "kind": "char",
+      "gloss": "to be, to act as",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "客",
+      "simp": "客",
+      "kind": "char",
+      "gloss": "traveller, stranger",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "每",
+      "simp": "每",
+      "kind": "char",
+      "gloss": "every, each",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "逢",
+      "simp": "逢",
+      "kind": "char",
+      "gloss": "to meet, to come upon",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "佳",
+      "simp": "佳",
+      "kind": "char",
+      "gloss": "fine, excellent",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "節",
+      "simp": "节",
+      "kind": "char",
+      "gloss": "festival",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "倍",
+      "simp": "倍",
+      "kind": "char",
+      "gloss": "doubly, twice as much",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "思",
+      "simp": "思",
+      "kind": "char",
+      "gloss": "to think of, to long for",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "親",
+      "simp": "亲",
+      "kind": "char",
+      "gloss": "kin, relatives",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "遙",
+      "simp": "遥",
+      "kind": "char",
+      "gloss": "far away",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "知",
+      "simp": "知",
+      "kind": "char",
+      "gloss": "to know",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "兄",
+      "simp": "兄",
+      "kind": "char",
+      "gloss": "elder brother",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "弟",
+      "simp": "弟",
+      "kind": "char",
+      "gloss": "younger brother",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "登",
+      "simp": "登",
+      "kind": "char",
+      "gloss": "to climb",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "高",
+      "simp": "高",
+      "kind": "char",
+      "gloss": "high, height",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "處",
+      "simp": "处",
+      "kind": "char",
+      "gloss": "place",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "遍",
+      "simp": "遍",
+      "kind": "char",
+      "gloss": "everywhere, all over",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "插",
+      "simp": "插",
+      "kind": "char",
+      "gloss": "to insert, to stick in",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "茱",
+      "simp": "茱",
+      "kind": "char",
+      "gloss": "dogwood (in 茱萸)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "萸",
+      "simp": "萸",
+      "kind": "char",
+      "gloss": "cornel (in 茱萸)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "少",
+      "simp": "少",
+      "kind": "char",
+      "gloss": "to lack, one fewer",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "一",
+      "simp": "一",
+      "kind": "char",
+      "gloss": "one",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "異鄉",
+      "simp": "异乡",
+      "kind": "compound",
+      "gloss": "a foreign land",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "異客",
+      "simp": "异客",
+      "kind": "compound",
+      "gloss": "a stranger, a traveller far from home",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "佳節",
+      "simp": "佳节",
+      "kind": "compound",
+      "gloss": "a festival",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "思親",
+      "simp": "思亲",
+      "kind": "compound",
+      "gloss": "to long for family",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "兄弟",
+      "simp": "兄弟",
+      "kind": "compound",
+      "gloss": "brothers",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "登高",
+      "simp": "登高",
+      "kind": "compound",
+      "gloss": "to climb to a height",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "茱萸",
+      "simp": "茱萸",
+      "kind": "compound",
+      "gloss": "dogwood (cornel)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Alone in a foreign land, I am a stranger there; every time a festival comes, I long for my kin twice as much. From far away I know my brothers are climbing the heights, everyone wearing sprigs of dogwood, and one person is missing.",
+    "poetic": "Alone in a strange land, a stranger among strangers, I find that every holiday doubles my longing for home. I know that far away my brothers climb the hill, each with dogwood in their hair, and one of them missing."
+  },
+  "notes": [
+    {
+      "id": "age",
+      "kind": "history",
+      "title": "Written at seventeen",
+      "body": "Wang Wei is said to have written this when he was about seventeen, alone in the capital Chang'an. His home was in Puzhou, which lay \"east of the mountains\" (山東, east of Mount Hua), so 山東 here does not mean modern Shandong. The poem's clear, plain language and its single sharp feeling made it a favourite of children and adults."
+    },
+    {
+      "id": "festival",
+      "kind": "history",
+      "title": "The Double Ninth",
+      "body": "The ninth day of the ninth lunar month (重陽) was a day for climbing hills, drinking chrysanthemum wine and wearing sprigs of 茱萸, a strong-smelling plant thought to drive away evil. A whole family would go up together."
+    },
+    {
+      "id": "turn",
+      "kind": "interpretation",
+      "title": "The poem turns",
+      "body": "The first two lines say \"I miss them\". The last two reverse the view: the poet imagines his brothers counting heads and finding one missing. The loneliness is in the family's absence of him, not in his absence from them."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 親 · 人",
+      "body": "Lines two and four end in 親 (qīn) and 人 (rén), in the 真 rhyme. Lines one and three do not rhyme."
+    }
+  ],
+  "distractorSeeds": {
+    "獨": {
+      "look": ["濁"],
+      "sound": ["度"],
+      "meaning": ["單"]
+    },
+    "在": {
+      "look": ["存"],
+      "meaning": ["於"]
+    },
+    "異": {
+      "look": ["冀"],
+      "sound": ["已", "依"],
+      "meaning": ["別"]
+    },
+    "鄉": {
+      "look": ["卿"],
+      "sound": ["相", "響"],
+      "meaning": ["家"]
+    },
+    "為": {
+      "look": ["偽"],
+      "sound": ["唯", "未"],
+      "meaning": ["作"]
+    },
+    "客": {
+      "look": ["容"],
+      "meaning": ["旅"]
+    },
+    "每": {
+      "look": ["母"],
+      "sound": ["美"],
+      "meaning": ["各"]
+    },
+    "逢": {
+      "look": ["縫"],
+      "sound": ["風", "楓"],
+      "meaning": ["遇"]
+    },
+    "佳": {
+      "look": ["桂"],
+      "sound": ["家"],
+      "meaning": ["美"]
+    },
+    "節": {
+      "look": ["即"],
+      "sound": ["借", "皆"],
+      "meaning": ["日"]
+    },
+    "倍": {
+      "look": ["培"],
+      "sound": ["杯"],
+      "meaning": ["雙"]
+    },
+    "思": {
+      "look": ["恩"],
+      "sound": ["寺", "絲"],
+      "meaning": ["想"]
+    },
+    "親": {
+      "look": ["新"],
+      "sound": ["秦"],
+      "meaning": ["眷"]
+    },
+    "遙": {
+      "look": ["搖"],
+      "sound": ["藥"],
+      "meaning": ["遠"]
+    },
+    "知": {
+      "look": ["如"],
+      "sound": ["枝", "只"],
+      "meaning": ["曉"]
+    },
+    "兄": {
+      "look": ["況"],
+      "meaning": ["哥"]
+    },
+    "弟": {
+      "look": ["第"],
+      "sound": ["地", "低"],
+      "meaning": ["妹"]
+    },
+    "登": {
+      "look": ["燈"],
+      "meaning": ["攀"]
+    },
+    "高": {
+      "look": ["亮"],
+      "meaning": ["崇"]
+    },
+    "處": {
+      "look": ["虎"],
+      "sound": ["出", "鋤"],
+      "meaning": ["地"]
+    },
+    "遍": {
+      "look": ["偏"],
+      "meaning": ["都"]
+    },
+    "插": {
+      "look": ["擂"],
+      "meaning": ["戴"]
+    },
+    "茱": {
+      "look": ["株"],
+      "sound": ["住"],
+      "meaning": ["花"]
+    },
+    "萸": {
+      "look": ["腴"],
+      "sound": ["雨", "欲"],
+      "meaning": ["草"]
+    },
+    "少": {
+      "look": ["小"],
+      "meaning": ["缺"]
+    },
+    "一": {
+      "look": ["二"],
+      "sound": ["已", "依"],
+      "meaning": ["單"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "double-ninth-hills"
+  }
+}
