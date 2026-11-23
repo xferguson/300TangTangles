@@ -1,9 +1,18 @@
-import { UiGallery } from './UiGallery';
+import type { RouteDef } from './routing';
+import { assertUniquePaths, matchRoute } from './routing';
 import { useHashRoute } from './useHashRoute';
 
+// Each screen task adds its own `src/app/routes/<name>.route.tsx` exporting `route`;
+// nothing here needs editing when a screen is added.
+const modules = import.meta.glob<{ route: RouteDef }>('./routes/*.route.tsx', { eager: true });
+
+export const routeRegistry: RouteDef[] = Object.values(modules).map((m) => m.route);
+assertUniquePaths(routeRegistry);
+
 export function App() {
-  const route = useHashRoute();
-  if (route === '#/ui') return <UiGallery />;
+  const hash = useHashRoute();
+  const match = matchRoute(routeRegistry, hash);
+  if (match) return <match.Component />;
 
   return (
     <div className="app-shell">
