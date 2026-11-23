@@ -4,6 +4,22 @@
       "tier": "wujue",
       "poems": [
         {
+          "id": "xunyinzhe",
+          "title": {
+            "trad": "尋隱者不遇",
+            "simp": "寻隐者不遇"
+          },
+          "poet": {
+            "trad": "賈島",
+            "simp": "贾岛"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.4228,
+          "inkDrops": 3
+        },
+        {
           "id": "chunxiao",
           "title": {
             "trad": "春曉",
@@ -66,12 +82,204 @@
           "charCount": 20,
           "familiarity": 0.4114,
           "inkDrops": 3
+        },
+        {
+          "id": "minnong",
+          "title": {
+            "trad": "憫農",
+            "simp": "悯农"
+          },
+          "poet": {
+            "trad": "李紳",
+            "simp": "李绅"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.3935,
+          "inkDrops": 4
+        },
+        {
+          "id": "jiangxue",
+          "title": {
+            "trad": "江雪",
+            "simp": "江雪"
+          },
+          "poet": {
+            "trad": "柳宗元",
+            "simp": "柳宗元"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.3712,
+          "inkDrops": 4
+        },
+        {
+          "id": "luzhai",
+          "title": {
+            "trad": "鹿柴",
+            "simp": "鹿柴"
+          },
+          "poet": {
+            "trad": "王維",
+            "simp": "王维"
+          },
+          "form": "wujue",
+          "status": "coming-soon",
+          "charCount": 20,
+          "familiarity": 0.2399,
+          "inkDrops": 4
         }
       ]
     },
     {
       "tier": "qijue",
       "poems": [
+        {
+          "id": "huixiangoushu",
+          "title": {
+            "trad": "回鄉偶書",
+            "simp": "回乡偶书"
+          },
+          "poet": {
+            "trad": "賀知章",
+            "simp": "贺知章"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3698,
+          "inkDrops": 4
+        },
+        {
+          "id": "wanglushanpubu",
+          "title": {
+            "trad": "望廬山瀑布",
+            "simp": "望庐山瀑布"
+          },
+          "poet": {
+            "trad": "李白",
+            "simp": "李白"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3678,
+          "inkDrops": 4
+        },
+        {
+          "id": "yongliu",
+          "title": {
+            "trad": "詠柳",
+            "simp": "咏柳"
+          },
+          "poet": {
+            "trad": "賀知章",
+            "simp": "贺知章"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3659,
+          "inkDrops": 4
+        },
+        {
+          "id": "qingming",
+          "title": {
+            "trad": "清明",
+            "simp": "清明"
+          },
+          "poet": {
+            "trad": "杜牧",
+            "simp": "杜牧"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3515,
+          "inkDrops": 4
+        },
+        {
+          "id": "jueju",
+          "title": {
+            "trad": "絕句",
+            "simp": "绝句"
+          },
+          "poet": {
+            "trad": "杜甫",
+            "simp": "杜甫"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.35,
+          "inkDrops": 4
+        },
+        {
+          "id": "jiuyuejiuri",
+          "title": {
+            "trad": "九月九日憶山東兄弟",
+            "simp": "九月九日忆山东兄弟"
+          },
+          "poet": {
+            "trad": "王維",
+            "simp": "王维"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3499,
+          "inkDrops": 4
+        },
+        {
+          "id": "zengwanglun",
+          "title": {
+            "trad": "贈汪倫",
+            "simp": "赠汪伦"
+          },
+          "poet": {
+            "trad": "李白",
+            "simp": "李白"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3488,
+          "inkDrops": 4
+        },
+        {
+          "id": "huanghelousong",
+          "title": {
+            "trad": "黃鶴樓送孟浩然之廣陵",
+            "simp": "黄鹤楼送孟浩然之广陵"
+          },
+          "poet": {
+            "trad": "李白",
+            "simp": "李白"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.3461,
+          "inkDrops": 4
+        },
+        {
+          "id": "fengqiaoyebo",
+          "title": {
+            "trad": "楓橋夜泊",
+            "simp": "枫桥夜泊"
+          },
+          "poet": {
+            "trad": "張繼",
+            "simp": "张继"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.325,
+          "inkDrops": 4
+        },
         {
           "id": "zaofabaidicheng",
           "title": {
@@ -86,6 +294,38 @@
           "status": "coming-soon",
           "charCount": 28,
           "familiarity": 0.2311,
+          "inkDrops": 4
+        },
+        {
+          "id": "chusai",
+          "title": {
+            "trad": "出塞",
+            "simp": "出塞"
+          },
+          "poet": {
+            "trad": "王昌齡",
+            "simp": "王昌龄"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.2186,
+          "inkDrops": 4
+        },
+        {
+          "id": "liangzhouci",
+          "title": {
+            "trad": "涼州詞",
+            "simp": "凉州词"
+          },
+          "poet": {
+            "trad": "王翰",
+            "simp": "王翰"
+          },
+          "form": "qijue",
+          "status": "coming-soon",
+          "charCount": 28,
+          "familiarity": 0.2044,
           "inkDrops": 4
         }
       ]
