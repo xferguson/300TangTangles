@@ -200,8 +200,8 @@ Unblocks: T41, T43, T58
 Goal: no key, no generation step. `src/audio/` `AudioProvider` interface (`speak(text, lang, rate)`, `stop`, capability + voice listing) with a `BrowserSpeechProvider` on `speechSynthesis`, plus a mock provider for tests. Mandarin voice picked from the device's `zh-TW` / `zh-CN` voices. Playback of whole poem, one line, or one char, at normal and slow rate, with line-by-line sequencing and highlight callbacks. A clear "no voice installed" state.
 Done when: unit tests (red/green) use a fake `speechSynthesis` and cover voice selection and fallback, rate mapping, sequencing/cancel, and the no-voice state. Manual check on desktop Chrome plus one phone, noting which voices were found.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T40-audio-engine
 PR: —
 
 ### T41 · Audio: Cantonese (browser voices)
