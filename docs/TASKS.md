@@ -303,7 +303,7 @@ Done when: component tests run each scaffold step and its results.
 
 Status: done
 Branch: task/T53-line-builder
-PR: —
+PR: #23
 
 ### T54 · Exercise: TangleRow
 Lane: E · Approval: none · Size: M
