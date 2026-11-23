@@ -3,13 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { fixturePoemData } from '../core/fixtures/poem.fixture';
 import { parsePoem } from '../core/poem';
 import { scoreRow } from './feedback';
-import {
-  MAX_ATTEMPTS,
-  aggregateBank,
-  lineOutcome,
-  shareGrid,
-  type TileFeedback,
-} from './board';
+import { MAX_ATTEMPTS, aggregateBank, lineOutcome, shareGrid, type TileFeedback } from './board';
 
 const poem = parsePoem(fixturePoemData);
 const row = (line: number, guess: string): TileFeedback[] => scoreRow(poem, line, [...guess]);
