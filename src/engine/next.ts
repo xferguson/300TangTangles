@@ -33,6 +33,7 @@ import {
   refreshRecognition,
   unitScore,
 } from './mastery';
+import { isReviewDue } from './review';
 
 type LineTask =
   | { kind: 'flashcard'; unit: PoemUnit }
@@ -109,7 +110,8 @@ export const nextExercise: NextExercise = (state) => {
   if (nextRow >= 0) return buildTangleRow(ctx, nextRow, cleared);
 
   if (!progress.seals.includes('zhuangyuan')) return buildPoemRecite(ctx);
-  return null; // 狀元 reached: nothing due until long-term review (added with the FSRS cycle)
+  // 狀元 reached: the poem comes back only when its long-term review is due.
+  return isReviewDue(lex, poem.id, state.now) ? buildPoemRecite(ctx) : null;
 };
 
 function buildLineTask(

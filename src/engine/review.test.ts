@@ -28,7 +28,9 @@ describe('long-term poem review', () => {
     const first = new Date(getReviewCard(lex, 'p')!.due);
     lex = recordReview(lex, 'p', 'good', first);
     const second = new Date(getReviewCard(lex, 'p')!.due);
-    expect(second.getTime() - first.getTime()).toBeGreaterThan(first.getTime() - new Date(NOW).getTime());
+    expect(second.getTime() - first.getTime()).toBeGreaterThan(
+      first.getTime() - new Date(NOW).getTime(),
+    );
     lex = recordReview(lex, 'p', 'again', second);
     expect(getReviewCard(lex, 'p')?.lapses).toBe(1);
     const lapsed = new Date(getReviewCard(lex, 'p')!.due);
