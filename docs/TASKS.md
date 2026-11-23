@@ -312,9 +312,9 @@ Unblocks: T55
 Goal: Wordle board for the whole poem with a shared bank, 4-state tiles with glyphs, reveal animation (respecting reduced motion), bank coloring, and the share grid.
 Done when: component tests show feedback rendering and attempt exhaustion.
 
-Status: in-progress
+Status: done
 Branch: task/T54-tangle-row
-PR: —
+PR: #19
 
 ### T55 · Session flow
 Lane: E · Approval: none · Size: L
