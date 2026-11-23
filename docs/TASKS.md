@@ -356,8 +356,8 @@ Unblocks: T60
 Goal: `AudioButton` and a player service on top of `AudioProvider` (full / line / char, normal / slow, language setting). Starts with browser voices; when a clip manifest exists (T43, or T45 if it adds clips) it plays clips first and falls back to browser voices. PWA precache of audio clips applies only when clips exist.
 Done when: unit tests cover provider selection and fallback with the mock provider, and a Playwright check passes with a stubbed `speechSynthesis`.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T58-audio-player
 PR: —
 
 ### T60 · E2E playthrough & polish
