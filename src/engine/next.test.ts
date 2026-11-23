@@ -1,7 +1,12 @@
 import { describe, expect, it } from 'vitest';
 
 import { lineText } from '../core/poem';
-import { emptyLineMastery, type Exercise, type ExerciseResult, type LineMastery } from '../core/types';
+import {
+  emptyLineMastery,
+  type Exercise,
+  type ExerciseResult,
+  type LineMastery,
+} from '../core/types';
 import { setStatus } from '../lexicon/lexicon';
 import { MAX_ATTEMPTS } from '../tangle/board';
 import { parseExerciseId } from './ids';
@@ -52,11 +57,10 @@ describe('new-char cards', () => {
     expect(ex.choices.length).toBeGreaterThanOrEqual(3);
   });
 
-  it('uses a different direction as the unit is learned', () => {
+  it('picks the least-known unit first', () => {
     const lex = setStatus({}, '床', { status: 'learning', level: 1 }, new Date(NOW));
     const ex = next({ lexicon: lex });
     if (ex.kind !== 'flashcard') throw new Error('expected flashcard');
-    // 床 is lowest-score? no: 前 is still new, so the new unit comes first
     expect(ex.unit).toBe('前');
     const lex2 = setStatus(lex, '前', { status: 'learning', level: 2 }, new Date(NOW));
     const ex2 = next({ lexicon: lex2 });
@@ -178,13 +182,16 @@ describe('line unlocking and interleaving', () => {
 });
 
 describe('meaning checks', () => {
-  const prog = lines((i) => (i === 0 ? { production: 1, scaffoldStep: 5 } : {}));
+  // Only line 0 still has work, so the meaning prompts can be followed one after another.
+  const progress = progressOf(
+    poem.lines.map((_, i) => (i === 0 ? mastered({ meaning: 0, recitation: 0 }) : mastered())),
+  );
 
   it('cycles line-to-translation, translation-to-line, feeling with the right answer', () => {
     const kinds: string[] = [];
     let history: ExerciseResult[] = [];
     for (let k = 0; k < 3; k++) {
-      const ex = next({ lexicon: allKnown(), progress: lines(() => ({ production: 1, scaffoldStep: 5 })), history });
+      const ex = next({ lexicon: allKnown(), progress, history });
       if (ex.kind !== 'meaning-check') throw new Error('expected meaning-check');
       kinds.push(ex.prompt);
       expect(ex.line).toBe(0);
@@ -198,13 +205,14 @@ describe('meaning checks', () => {
         expect(answer).toBe(lineText(l, 'trad'));
       } else {
         expect(answer).toBe(l.meaning.feeling);
-        expect(ex.choices.filter((c) => l.meaning.wrongFeelings.includes(c)).length).toBe(ex.choices.length - 1);
+        expect(ex.choices.filter((c) => l.meaning.wrongFeelings.includes(c))).toHaveLength(
+          ex.choices.length - 1,
+        );
       }
       expect(new Set(ex.choices).size).toBe(ex.choices.length);
-      history = [...history, fakeResult(ex), fakeResult({ ...ex, id: `${poem.id}:x:cloze:1`, kind: 'cloze' } as never)];
+      history = [...history, fakeResult(ex, { correct: false })];
     }
     expect(kinds).toEqual(['line-to-translation', 'translation-to-line', 'feeling']);
-    expect(prog.lines).toHaveLength(4);
   });
 });
 
@@ -244,7 +252,9 @@ describe('Tangle and final recitation', () => {
     expect(ex.solvedLines).toEqual([]);
     const all = poem.lines.flatMap((_, i) => lineChars(i));
     for (const c of all) {
-      expect(ex.bank.filter((x) => x === c).length).toBeGreaterThanOrEqual(all.filter((x) => x === c).length);
+      expect(ex.bank.filter((x) => x === c).length).toBeGreaterThanOrEqual(
+        all.filter((x) => x === c).length,
+      );
     }
     expect(ex.bank.length).toBeGreaterThanOrEqual(all.length);
   });
