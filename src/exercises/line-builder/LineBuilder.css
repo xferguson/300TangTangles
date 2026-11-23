@@ -1,0 +1,101 @@
+.lb {
+  display: grid;
+  gap: 0.9rem;
+  justify-items: center;
+  max-width: 100%;
+  padding: 0 0 1rem;
+  color: var(--ink);
+  font-family: var(--f-ui);
+}
+.lb-label {
+  margin: 0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+}
+.lb-translation {
+  margin: 0;
+  max-width: 32ch;
+  text-align: center;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.lb-target,
+.lb-bank {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  max-width: 100%;
+}
+.lb-slot,
+.lb-tile {
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 0.3rem;
+  background: var(--paper-3);
+  color: var(--ink);
+  font-family: var(--f-poem);
+  font-size: 1.7rem;
+  line-height: 1;
+}
+.lb-slot[data-empty] {
+  border-style: dashed;
+  background: transparent;
+}
+button.lb-slot,
+button.lb-tile {
+  cursor: pointer;
+}
+button.lb-slot:disabled,
+button.lb-tile:disabled {
+  cursor: default;
+}
+.lb-tile:disabled:not(.lb-slot) {
+  opacity: 0.35;
+}
+.lb-slot[data-locked] {
+  border-color: var(--gold);
+  background: var(--hl-l3);
+  color: var(--ink);
+}
+.lb-slot:not([data-empty]):not([data-locked]) {
+  border-color: var(--frame);
+}
+.lb-target[data-feedback='wrong'] .lb-slot:not([data-empty]) {
+  border-color: var(--purple);
+}
+.lb-target[data-feedback='right'] .lb-slot {
+  border-color: var(--malachite);
+  background: color-mix(in srgb, var(--malachite) 18%, var(--paper-3));
+  opacity: 1;
+}
+.lb-slot:focus-visible,
+.lb-tile:focus-visible {
+  outline: 2px solid var(--cinnabar);
+  outline-offset: 2px;
+}
+.lb-status {
+  min-height: 1.4em;
+  margin: 0;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.lb-status[data-feedback='right'] {
+  color: var(--malachite);
+}
+.lb-status[data-feedback='wrong'] {
+  color: var(--purple);
+}
+.lb-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
