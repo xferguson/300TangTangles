@@ -10,7 +10,10 @@ describe('audio service', () => {
   it('plays a whole poem line by line in the settings language', async () => {
     const provider = new MockAudioProvider();
     const svc = createAudioService({ provider });
-    const r = await svc.play({ kind: 'poem', lines }, { ...DEFAULT_SETTINGS, audioLanguage: 'yue' });
+    const r = await svc.play(
+      { kind: 'poem', lines },
+      { ...DEFAULT_SETTINGS, audioLanguage: 'yue' },
+    );
     expect(r).toBe('completed');
     expect(provider.calls.map((c) => [c.text, c.lang, c.rate])).toEqual([
       ['床前明月光', 'yue', 'normal'],
