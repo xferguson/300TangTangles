@@ -86,7 +86,10 @@ describe('player', () => {
 
   it('reports no-voice and clears the highlight', async () => {
     const { player, highlights, onHighlight } = setup({ capability: { status: 'no-voice' } });
-    const result = await player.play({ kind: 'poem', lines }, { lang: 'cmn', rate: 'normal', onHighlight });
+    const result = await player.play(
+      { kind: 'poem', lines },
+      { lang: 'cmn', rate: 'normal', onHighlight },
+    );
     expect(result).toBe('no-voice');
     expect(highlights.at(-1)).toBeNull();
   });
@@ -94,7 +97,10 @@ describe('player', () => {
   it('exposes whether it is playing', async () => {
     const { provider, player } = setup({ manual: true });
     expect(player.isPlaying()).toBe(false);
-    const done = player.play({ kind: 'line', text: lines[0]!, line: 0 }, { lang: 'cmn', rate: 'normal' });
+    const done = player.play(
+      { kind: 'line', text: lines[0]!, line: 0 },
+      { lang: 'cmn', rate: 'normal' },
+    );
     expect(player.isPlaying()).toBe(true);
     provider.finishCurrent();
     await done;
