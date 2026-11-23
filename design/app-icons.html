@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>App icon mock-ups · 300 Tang Tangles</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600;900&display=swap"
+    />
+    <style>
+      :root {
+        --paper: #efe6d3;
+        --ink: #221d17;
+        --ink-soft: #5f5547;
+        --rule: #c9b791;
+        --card: #f8f1e2;
+        --cinnabar: #b5372b;
+        --gamboge: #d79e1e;
+        --azurite: #2b5da8;
+        --malachite: #2f7d5c;
+        --gold: #cfa956;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --paper: #15110e;
+          --ink: #ecdfc4;
+          --ink-soft: #a99a80;
+          --rule: #3b3127;
+          --card: #1d1813;
+        }
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: 'Noto Serif TC', serif;
+        padding: 16px;
+      }
+      h1 {
+        font-size: 1.3rem;
+        margin: 8px 0 4px;
+      }
+      p {
+        color: var(--ink-soft);
+        margin: 0 0 16px;
+        font-size: 0.9rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 16px;
+        max-width: 1000px;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--rule);
+        border-radius: 12px;
+        padding: 16px;
+      }
+      .card h2 {
+        font-size: 1rem;
+        margin: 0 0 4px;
+      }
+      .card p {
+        margin: 0 0 12px;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: flex-end;
+      }
+      svg {
+        display: block;
+      }
+      .round {
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      .sq {
+        border-radius: 22%;
+        overflow: hidden;
+      }
+      .lbl {
+        font-size: 0.7rem;
+        color: var(--ink-soft);
+        text-align: center;
+        margin-top: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>App icon mock-ups</h1>
+    <p>
+      Each option shown as a launcher icon (rounded square), an Android adaptive circle crop, and at
+      48px. Pick one (A–E) or ask for tweaks.
+    </p>
+    <div class="grid" id="grid"></div>
+    <script>
+      const F =
+        'font-family="\'Noto Serif TC\',\'WenQuanYi Zen Hei\',serif" font-weight="900" text-anchor="middle"';
+      const icons = {
+        A: [
+          'Cinnabar seal',
+          'A red chop (印章) on rice paper, the way Tang poems are signed. 唐 reversed out in paper colour.',
+          `<rect width="512" height="512" fill="#efe6d3"/>
+   <rect x="96" y="96" width="320" height="320" rx="28" fill="#b5372b"/>
+   <rect x="116" y="116" width="280" height="280" rx="14" fill="none" stroke="#efe6d3" stroke-width="6" opacity=".55"/>
+   <text x="256" y="338" font-size="230" fill="#efe6d3" ${F}>唐</text>`,
+        ],
+        B: [
+          'Tangled threads',
+          'Three looping strands in the pigment colours knotted together: the “tangle”. Ink-dark ground.',
+          `<rect width="512" height="512" fill="#221d17"/>
+   <g fill="none" stroke-width="34" stroke-linecap="round">
+    <ellipse cx="206" cy="232" rx="110" ry="70" transform="rotate(-25 206 232)" stroke="#b5372b"/>
+    <ellipse cx="306" cy="232" rx="110" ry="70" transform="rotate(25 306 232)" stroke="#d79e1e"/>
+    <ellipse cx="256" cy="312" rx="110" ry="70" stroke="#2b5da8"/>
+   </g>`,
+        ],
+        C: [
+          'Four-colour tile',
+          'The four Tangle feedback pigments as a 2×2 tile, with 唐 stamped in the middle.',
+          `<rect width="512" height="512" fill="#efe6d3"/>
+   <rect x="70" y="70" width="180" height="180" rx="22" fill="#2f7d5c"/>
+   <rect x="262" y="70" width="180" height="180" rx="22" fill="#d79e1e"/>
+   <rect x="70" y="262" width="180" height="180" rx="22" fill="#b5372b"/>
+   <rect x="262" y="262" width="180" height="180" rx="22" fill="#57524c"/>
+   <circle cx="256" cy="256" r="112" fill="#221d17"/>
+   <text x="256" y="322" font-size="170" fill="#efe6d3" ${F}>唐</text>`,
+        ],
+        D: [
+          'Gold on ink',
+          'Quiet and classical: a gold 唐 inside a thin gold frame on dark ink, with a cinnabar dot.',
+          `<rect width="512" height="512" fill="#221d17"/>
+   <rect x="84" y="84" width="344" height="344" rx="20" fill="none" stroke="#cfa956" stroke-width="8"/>
+   <text x="256" y="338" font-size="250" fill="#cfa956" ${F}>唐</text>
+   <circle cx="372" cy="152" r="22" fill="#b5372b"/>`,
+        ],
+        E: [
+          'Ink brush circle',
+          'A brushed ink ring (enso) around 詩 on paper, with a cinnabar accent stroke. Calligraphic feel.',
+          `<rect width="512" height="512" fill="#efe6d3"/>
+   <path d="M256 82 a174 174 0 1 1 -122 50" fill="none" stroke="#221d17" stroke-width="38" stroke-linecap="round"/>
+   <text x="256" y="322" font-size="190" fill="#221d17" ${F}>詩</text>
+   <rect x="350" y="338" width="64" height="64" rx="8" fill="#b5372b"/>`,
+        ],
+      };
+      const g = document.getElementById('grid');
+      for (const [k, [name, desc, body]] of Object.entries(icons)) {
+        const s = (px) => `<svg width="${px}" height="${px}" viewBox="0 0 512 512">${body}</svg>`;
+        g.insertAdjacentHTML(
+          'beforeend',
+          `<div class="card"><h2>${k} · ${name}</h2><p>${desc}</p>
+   <div class="row">
+    <div><div class="sq">${s(112)}</div><div class="lbl">launcher</div></div>
+    <div><div class="round">${s(84)}</div><div class="lbl">adaptive circle</div></div>
+    <div><div class="sq">${s(48)}</div><div class="lbl">48px</div></div>
+   </div></div>`,
+        );
+      }
+    </script>
+  </body>
+</html>

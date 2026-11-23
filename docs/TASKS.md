@@ -436,3 +436,25 @@ Done when: `validate:content` passes for every poem, the catalog marks all 20 po
 Status: done
 Branch: ccr-2743f8dd-8ifpfq
 PR: #35
+
+### T67 · App icon design
+Lane: E · Approval: required · Size: S
+Depends on: T65
+Unblocks: T68
+Goal: the app has no icon. Mock up several options (`design/app-icons.html`) for the user to pick from, then produce the chosen icon as SVG source plus 192/512 PNG, a maskable 512 PNG, and an apple-touch-icon.
+Done when: the user has picked an option and the final icon files are committed under `public/`.
+
+Status: in-review
+Branch: ccr-e1474bc7-8geezf
+PR: #34
+
+### T68 · Fix Android install
+Lane: E · Approval: none · Size: S
+Depends on: T67
+Unblocks: —
+Goal: Chrome on Android says "this app cannot be installed" because the manifest has `icons: []` (installability needs 192px and 512px PNG icons, one maskable). Wire the T66 icons into the manifest and `index.html`, and add a test asserting the built manifest meets the installability criteria.
+Done when: a test covers the manifest icons (192, 512, maskable) and the app installs on Android.
+
+Status: todo
+Branch: —
+PR: —
