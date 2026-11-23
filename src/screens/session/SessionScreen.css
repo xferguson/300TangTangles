@@ -106,3 +106,7 @@
   display: flex;
   justify-content: center;
 }
+/* The poem is the point of the screen: big enough to read comfortably on a phone. */
+.ss-scroll {
+  font-size: clamp(1.9rem, 9vw, 2.6rem);
+}

@@ -392,3 +392,14 @@ Done when: unit and e2e tests pass, WCAG AA holds for exercise wrong-answer text
 Status: done
 Branch: task/T62-integration-cleanup
 PR: #29
+
+### T63 · Bigger intro poem & audio quiz fix
+Lane: E · Approval: none · Size: S
+Depends on: T55, T58
+Unblocks: —
+Goal: the poem is too small on first introduction (session scroll and reading screen), and the first "which character did you hear" quiz plays nothing because the routes check for a voice once and never notice voices that load late.
+Done when: tests cover the poem font size and late-loading voices in the routes.
+
+Status: done
+Branch: task/T63-intro-size-and-audio
+PR: #31

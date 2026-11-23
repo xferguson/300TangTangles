@@ -55,6 +55,7 @@
   gap: 8px;
 }
 .rd-chars {
+  font-size: clamp(1.9rem, 9vw, 2.6rem);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
