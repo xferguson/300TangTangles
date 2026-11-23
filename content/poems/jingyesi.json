@@ -1,0 +1,741 @@
+{
+  "schemaVersion": 1,
+  "id": "jingyesi",
+  "title": {
+    "trad": "靜夜思",
+    "simp": "静夜思"
+  },
+  "poet": {
+    "trad": "李白",
+    "simp": "李白",
+    "pinyin": "Lǐ Bái"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "床",
+          "simp": "床",
+          "readings": {
+            "zhuyin": "ㄔㄨㄤˊ",
+            "pinyin": "chuáng",
+            "jyutping": "cong4",
+            "tailo": {
+              "lit": "tshông",
+              "col": "tshn̂g"
+            }
+          }
+        },
+        {
+          "trad": "前",
+          "simp": "前",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢˊ",
+            "pinyin": "qián",
+            "jyutping": "cin4",
+            "tailo": {
+              "lit": "tsiân",
+              "col": "tsîng"
+            }
+          }
+        },
+        {
+          "trad": "明",
+          "simp": "明",
+          "readings": {
+            "zhuyin": "ㄇㄧㄥˊ",
+            "pinyin": "míng",
+            "jyutping": "ming4",
+            "tailo": {
+              "lit": "bîng",
+              "col": "bîn"
+            }
+          }
+        },
+        {
+          "trad": "月",
+          "simp": "月",
+          "readings": {
+            "zhuyin": "ㄩㄝˋ",
+            "pinyin": "yuè",
+            "jyutping": "jyut6",
+            "tailo": {
+              "lit": "gua̍t",
+              "col": "gue̍h"
+            }
+          }
+        },
+        {
+          "trad": "光",
+          "simp": "光",
+          "readings": {
+            "zhuyin": "ㄍㄨㄤ",
+            "pinyin": "guāng",
+            "jyutping": "gwong1",
+            "tailo": {
+              "lit": "kong",
+              "col": "kng"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Before my bed, the bright moonlight",
+      "literal": "Before the bed, the moon shines bright.",
+      "poetic": "Moonlight pools in front of my bed.",
+      "meaning": {
+        "feeling": "Quiet wonder and a hint of loneliness in the still night",
+        "wrongFeelings": ["Cheerful excitement about a festival night", "Anger at being woken up"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "疑",
+          "simp": "疑",
+          "readings": {
+            "zhuyin": "ㄧˊ",
+            "pinyin": "yí",
+            "jyutping": "ji4",
+            "tailo": {
+              "lit": "gî",
+              "col": "gî"
+            }
+          }
+        },
+        {
+          "trad": "是",
+          "simp": "是",
+          "readings": {
+            "zhuyin": "ㄕˋ",
+            "pinyin": "shì",
+            "jyutping": "si6",
+            "tailo": {
+              "lit": "sī",
+              "col": "sī"
+            }
+          }
+        },
+        {
+          "trad": "地",
+          "simp": "地",
+          "readings": {
+            "zhuyin": "ㄉㄧˋ",
+            "pinyin": "dì",
+            "jyutping": "dei6",
+            "tailo": {
+              "lit": "tē",
+              "col": "tè"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "霜",
+          "simp": "霜",
+          "readings": {
+            "zhuyin": "ㄕㄨㄤ",
+            "pinyin": "shuāng",
+            "jyutping": "soeng1",
+            "tailo": {
+              "lit": "song",
+              "col": "sng"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "I take it for frost on the ground",
+      "literal": "I wonder whether it is frost on the ground.",
+      "poetic": "So white I almost mistake it for frost on the floor.",
+      "meaning": {
+        "feeling": "Drowsy confusion and a chill of solitude, mistaking light for frost",
+        "wrongFeelings": ["Triumph at solving a puzzle", "Fear of a coming storm"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "舉",
+          "simp": "举",
+          "readings": {
+            "zhuyin": "ㄐㄩˇ",
+            "pinyin": "jǔ",
+            "jyutping": "geoi2",
+            "tailo": {
+              "lit": "kí",
+              "col": "kí"
+            }
+          }
+        },
+        {
+          "trad": "頭",
+          "simp": "头",
+          "readings": {
+            "zhuyin": "ㄊㄡˊ",
+            "pinyin": "tóu",
+            "jyutping": "tau4",
+            "tailo": {
+              "lit": "thiô",
+              "col": "thâu"
+            }
+          }
+        },
+        {
+          "trad": "望",
+          "simp": "望",
+          "readings": {
+            "zhuyin": "ㄨㄤˋ",
+            "pinyin": "wàng",
+            "jyutping": "mong6",
+            "tailo": {
+              "lit": "bōng",
+              "col": "bāng"
+            }
+          }
+        },
+        {
+          "trad": "明",
+          "simp": "明",
+          "readings": {
+            "zhuyin": "ㄇㄧㄥˊ",
+            "pinyin": "míng",
+            "jyutping": "ming4",
+            "tailo": {
+              "lit": "bîng",
+              "col": "bîn"
+            }
+          }
+        },
+        {
+          "trad": "月",
+          "simp": "月",
+          "readings": {
+            "zhuyin": "ㄩㄝˋ",
+            "pinyin": "yuè",
+            "jyutping": "jyut6",
+            "tailo": {
+              "lit": "gua̍t",
+              "col": "gue̍h"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "I raise my head and gaze at the bright moon",
+      "literal": "Raising my head, I gaze at the bright moon.",
+      "poetic": "I lift my eyes to the moon above.",
+      "meaning": {
+        "feeling": "Yearning, turning to the moon as a silent companion",
+        "wrongFeelings": ["Boredom with the evening", "Pride in a long journey"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "低",
+          "simp": "低",
+          "readings": {
+            "zhuyin": "ㄉㄧ",
+            "pinyin": "dī",
+            "jyutping": "dai1",
+            "tailo": {
+              "lit": "kē",
+              "col": "kē"
+            }
+          }
+        },
+        {
+          "trad": "頭",
+          "simp": "头",
+          "readings": {
+            "zhuyin": "ㄊㄡˊ",
+            "pinyin": "tóu",
+            "jyutping": "tau4",
+            "tailo": {
+              "lit": "thiô",
+              "col": "thâu"
+            }
+          }
+        },
+        {
+          "trad": "思",
+          "simp": "思",
+          "readings": {
+            "zhuyin": "ㄙ",
+            "pinyin": "sī",
+            "jyutping": "si1",
+            "tailo": {
+              "lit": "su",
+              "col": "si"
+            }
+          }
+        },
+        {
+          "trad": "故",
+          "simp": "故",
+          "readings": {
+            "zhuyin": "ㄍㄨˋ",
+            "pinyin": "gù",
+            "jyutping": "gu3",
+            "tailo": {
+              "lit": "kòo",
+              "col": "kòo"
+            }
+          }
+        },
+        {
+          "trad": "鄉",
+          "simp": "乡",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "hoeng1",
+            "tailo": {
+              "lit": "hiong",
+              "col": "hiunn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "I bow my head and think of home",
+      "literal": "Lowering my head, I think of my hometown.",
+      "poetic": "And bowing my head, I am homesick.",
+      "meaning": {
+        "feeling": "Homesickness, the ache of being far from home",
+        "wrongFeelings": ["Delight at arriving somewhere new", "Resentment toward a rival"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "床",
+      "simp": "床",
+      "kind": "char",
+      "gloss": "bed",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "前",
+      "simp": "前",
+      "kind": "char",
+      "gloss": "in front of",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "明",
+      "simp": "明",
+      "kind": "char",
+      "gloss": "bright",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        },
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "月",
+      "simp": "月",
+      "kind": "char",
+      "gloss": "moon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        },
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "光",
+      "simp": "光",
+      "kind": "char",
+      "gloss": "light",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "疑",
+      "simp": "疑",
+      "kind": "char",
+      "gloss": "to suspect",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "是",
+      "simp": "是",
+      "kind": "char",
+      "gloss": "to be",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "地",
+      "simp": "地",
+      "kind": "char",
+      "gloss": "ground",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "霜",
+      "simp": "霜",
+      "kind": "char",
+      "gloss": "frost",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "舉",
+      "simp": "举",
+      "kind": "char",
+      "gloss": "to raise",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "頭",
+      "simp": "头",
+      "kind": "char",
+      "gloss": "head",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        },
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "望",
+      "simp": "望",
+      "kind": "char",
+      "gloss": "to gaze at",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "低",
+      "simp": "低",
+      "kind": "char",
+      "gloss": "to lower",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "思",
+      "simp": "思",
+      "kind": "char",
+      "gloss": "to think of, to long for",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "故",
+      "simp": "故",
+      "kind": "char",
+      "gloss": "old, former",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "鄉",
+      "simp": "乡",
+      "kind": "char",
+      "gloss": "native place",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "明月",
+      "simp": "明月",
+      "kind": "compound",
+      "gloss": "bright moon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        },
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "地上",
+      "simp": "地上",
+      "kind": "compound",
+      "gloss": "on the ground",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "舉頭",
+      "simp": "举头",
+      "kind": "compound",
+      "gloss": "to raise the head",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "低頭",
+      "simp": "低头",
+      "kind": "compound",
+      "gloss": "to bow the head",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "故鄉",
+      "simp": "故乡",
+      "kind": "compound",
+      "gloss": "hometown, native place",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Before my bed, the bright moonlight; I wonder whether it is frost on the ground. Raising my head, I gaze at the bright moon; lowering my head, I think of my hometown.",
+    "poetic": "Moonlight pools before my bed, so white I take it for frost on the floor. I lift my eyes to the bright moon above, then bow my head, and the ache of home comes over me."
+  },
+  "notes": [
+    {
+      "id": "bed",
+      "kind": "interpretation",
+      "title": "What is 床?",
+      "body": "Today 床 means a bed, and the poem is usually read as the poet lying awake indoors. Some scholars argue the word meant something else in Tang usage: the 井欄 (the railing around a well) or a 胡床 (a folding stool brought in from Central Asia), which would put the poet in a courtyard under the moon. The poem does not settle it, and the traditional \"bed\" reading remains the standard one in schools."
+    },
+    {
+      "id": "song-variant",
+      "kind": "text-variant",
+      "title": "The Song-era text: 看月光 and 望山月",
+      "body": "Early Song printings of Li Bai read 牀前看月光 (before the bed I look at the moonlight) and 舉頭望山月 (I raise my head and gaze at the mountain moon). The familiar 明月 text, with 明月光 in line one and 望明月 in line three, appears in later (Ming-era) anthologies and was then fixed in the popular school text by the Qing anthology 《唐詩三百首》. The standard text repeats 明月, which gives the poem its mirror-like symmetry between lines one and three."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 光 · 霜 · 鄉",
+      "body": "Lines one, two and four end in 光 (guāng), 霜 (shuāng) and 鄉 (xiāng), all in the 陽 rhyme category (-ang). Line three ends in 月 and does not rhyme, as is normal for a jueju (絕句), where the third line turns away from the rhyme and the fourth line returns to it."
+    },
+    {
+      "id": "tones",
+      "kind": "tone",
+      "title": "平仄 pattern",
+      "body": "Marking each syllable as level (平) or oblique (仄) in Tang pronunciation gives: 平平平仄平 / 平仄仄仄平 / 仄平仄平仄 / 平平平仄平. This is not a strict regulated pattern: the poem is a 古絕 (old-style jueju) written before the full tonal rules of regulated verse were fixed, so lines such as the third do not follow the later tone-alternation rules. 月 was an entering-tone (入聲) syllable, which counts as oblique. Note that 望 is read in the departing tone (去聲) here, and 思 as a verb in the level tone (平聲)."
+    },
+    {
+      "id": "hokkien-layers",
+      "kind": "other",
+      "title": "Two layers of Taiwanese Hokkien",
+      "body": "Classical poems are recited in Taiwanese Hokkien with the literary layer (文讀), for example 光 kong, 霜 song, 鄉 hiong. The everyday layer (白讀) uses different syllables for many of the same characters, for example 光 kng, 霜 sng, 鄉 hiunn. Where the dictionary records only one reading for a character (疑, 是, 低, 故, 舉), both layers are the same here."
+    }
+  ],
+  "distractorSeeds": {
+    "床": {
+      "look": ["庄", "廂"],
+      "sound": ["長", "創"],
+      "meaning": ["榻"]
+    },
+    "前": {
+      "look": ["剪", "煎"],
+      "sound": ["錢", "潛"],
+      "meaning": ["先"]
+    },
+    "明": {
+      "look": ["朋", "盟"],
+      "sound": ["名", "鳴"],
+      "meaning": ["亮", "朗", "山"]
+    },
+    "月": {
+      "look": ["目", "日"],
+      "sound": ["越", "悅"],
+      "meaning": ["星"]
+    },
+    "光": {
+      "look": ["先", "充"],
+      "sound": ["廣", "關"],
+      "meaning": ["亮", "輝"]
+    },
+    "疑": {
+      "look": ["凝", "擬"],
+      "sound": ["宜", "移"],
+      "meaning": ["惑", "猜"]
+    },
+    "是": {
+      "look": ["足", "匙"],
+      "sound": ["事", "市"],
+      "meaning": ["乃"]
+    },
+    "地": {
+      "look": ["池", "他"],
+      "sound": ["弟", "第"],
+      "meaning": ["土", "陸"]
+    },
+    "上": {
+      "look": ["止", "土"],
+      "sound": ["尚", "賞"],
+      "meaning": ["登"]
+    },
+    "霜": {
+      "look": ["箱", "想"],
+      "sound": ["雙", "爽"],
+      "meaning": ["雪", "露"]
+    },
+    "舉": {
+      "look": ["與", "興"],
+      "sound": ["矩", "居"],
+      "meaning": ["抬", "揚"]
+    },
+    "頭": {
+      "look": ["豆", "頁"],
+      "sound": ["投", "透"],
+      "meaning": ["首"]
+    },
+    "望": {
+      "look": ["朢", "忘"],
+      "sound": ["忘", "旺"],
+      "meaning": ["看", "見"]
+    },
+    "低": {
+      "look": ["抵", "底"],
+      "sound": ["堤", "滴"],
+      "meaning": ["垂"]
+    },
+    "思": {
+      "look": ["恩", "息"],
+      "sound": ["私", "絲"],
+      "meaning": ["想", "念"]
+    },
+    "故": {
+      "look": ["敬", "古"],
+      "sound": ["固", "顧"],
+      "meaning": ["舊", "老"]
+    },
+    "鄉": {
+      "look": ["卿", "響"],
+      "sound": ["香", "相"],
+      "meaning": ["家", "村"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      },
+      {
+        "region": "hk"
+      }
+    ],
+    "scene": "moonlit-floor"
+  }
+}
