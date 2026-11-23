@@ -1,0 +1,738 @@
+{
+  "schemaVersion": 1,
+  "id": "luzhai",
+  "title": {
+    "trad": "鹿柴",
+    "simp": "鹿柴"
+  },
+  "poet": {
+    "trad": "王維",
+    "simp": "王维",
+    "pinyin": "Wáng Wéi"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "空",
+          "simp": "空",
+          "readings": {
+            "zhuyin": "ㄎㄨㄥ",
+            "pinyin": "kōng",
+            "jyutping": "hung1",
+            "tailo": {
+              "lit": "khong",
+              "col": "khang"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        },
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "見",
+          "simp": "见",
+          "readings": {
+            "zhuyin": "ㄐㄧㄢˋ",
+            "pinyin": "jiàn",
+            "jyutping": "gin3",
+            "tailo": {
+              "lit": "kiàn",
+              "col": "kìnn"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "In the empty mountain I see no one",
+      "literal": "In the empty mountain no one is to be seen;",
+      "poetic": "The mountain is empty; there is no one in sight,",
+      "meaning": {
+        "feeling": "Deep stillness and solitude",
+        "wrongFeelings": ["Fear of being lost", "Disappointment at missing a friend"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "但",
+          "simp": "但",
+          "readings": {
+            "zhuyin": "ㄉㄢˋ",
+            "pinyin": "dàn",
+            "jyutping": "daan6",
+            "tailo": {
+              "lit": "tān",
+              "col": "tān"
+            }
+          }
+        },
+        {
+          "trad": "聞",
+          "simp": "闻",
+          "readings": {
+            "zhuyin": "ㄨㄣˊ",
+            "pinyin": "wén",
+            "jyutping": "man4",
+            "tailo": {
+              "lit": "bûn",
+              "col": "bûn"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "語",
+          "simp": "语",
+          "readings": {
+            "zhuyin": "ㄩˇ",
+            "pinyin": "yǔ",
+            "jyutping": "jyu5",
+            "tailo": {
+              "lit": "gú",
+              "col": "gí"
+            }
+          }
+        },
+        {
+          "trad": "響",
+          "simp": "响",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤˇ",
+            "pinyin": "xiǎng",
+            "jyutping": "hoeng2",
+            "tailo": {
+              "lit": "hióng",
+              "col": "hiáng"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Only echoes of voices are heard",
+      "literal": "I only hear the echo of human voices.",
+      "poetic": "yet voices drift to me from somewhere unseen.",
+      "meaning": {
+        "feeling": "Calm curiosity at sounds from the unseen",
+        "wrongFeelings": ["Alarm at an approaching crowd", "Irritation at noisy hikers"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "返",
+          "simp": "返",
+          "readings": {
+            "zhuyin": "ㄈㄢˇ",
+            "pinyin": "fǎn",
+            "jyutping": "faan2",
+            "tailo": {
+              "lit": "huán",
+              "col": "huán"
+            }
+          }
+        },
+        {
+          "trad": "景",
+          "simp": "景",
+          "readings": {
+            "zhuyin": "ㄧㄥˇ",
+            "pinyin": "yǐng",
+            "jyutping": "ging2",
+            "tailo": {
+              "lit": "kíng",
+              "col": "kíng"
+            }
+          }
+        },
+        {
+          "trad": "入",
+          "simp": "入",
+          "readings": {
+            "zhuyin": "ㄖㄨˋ",
+            "pinyin": "rù",
+            "jyutping": "jap6",
+            "tailo": {
+              "lit": "ji̍p",
+              "col": "ji̍p"
+            }
+          }
+        },
+        {
+          "trad": "深",
+          "simp": "深",
+          "readings": {
+            "zhuyin": "ㄕㄣ",
+            "pinyin": "shēn",
+            "jyutping": "sam1",
+            "tailo": {
+              "lit": "sim",
+              "col": "tshim"
+            }
+          }
+        },
+        {
+          "trad": "林",
+          "simp": "林",
+          "readings": {
+            "zhuyin": "ㄌㄧㄣˊ",
+            "pinyin": "lín",
+            "jyutping": "lam4",
+            "tailo": {
+              "lit": "lîm",
+              "col": "nâ"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Returning sunlight enters the deep forest",
+      "literal": "The returning light of the sun enters the deep forest",
+      "poetic": "The slanting evening sun slips into the deep woods",
+      "meaning": {
+        "feeling": "Peaceful wonder at the glowing light",
+        "wrongFeelings": ["Dread of nightfall", "Pride in a long walk"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "復",
+          "simp": "复",
+          "readings": {
+            "zhuyin": "ㄈㄨˋ",
+            "pinyin": "fù",
+            "jyutping": "fuk6",
+            "tailo": {
+              "lit": "ho̍k",
+              "col": "ho̍k"
+            }
+          }
+        },
+        {
+          "trad": "照",
+          "simp": "照",
+          "readings": {
+            "zhuyin": "ㄓㄠˋ",
+            "pinyin": "zhào",
+            "jyutping": "ziu3",
+            "tailo": {
+              "lit": "tsiàu",
+              "col": "tsiò"
+            }
+          }
+        },
+        {
+          "trad": "青",
+          "simp": "青",
+          "readings": {
+            "zhuyin": "ㄑㄧㄥ",
+            "pinyin": "qīng",
+            "jyutping": "cing1",
+            "tailo": {
+              "lit": "tshing",
+              "col": "tshinn"
+            }
+          }
+        },
+        {
+          "trad": "苔",
+          "simp": "苔",
+          "readings": {
+            "zhuyin": "ㄊㄞˊ",
+            "pinyin": "tái",
+            "jyutping": "toi4",
+            "tailo": {
+              "lit": "thâi",
+              "col": "thî"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "and shines again on the green moss",
+      "literal": "and shines once more upon the green moss.",
+      "poetic": "and lights up the green moss once again.",
+      "meaning": {
+        "feeling": "Quiet joy at a small moment of beauty",
+        "wrongFeelings": ["Anger at the lingering shade", "Eagerness to go home"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "空",
+      "simp": "空",
+      "kind": "char",
+      "gloss": "empty",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "見",
+      "simp": "见",
+      "kind": "char",
+      "gloss": "to see",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        },
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "但",
+      "simp": "但",
+      "kind": "char",
+      "gloss": "only, merely",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "聞",
+      "simp": "闻",
+      "kind": "char",
+      "gloss": "to hear",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "語",
+      "simp": "语",
+      "kind": "char",
+      "gloss": "speech, words",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "響",
+      "simp": "响",
+      "kind": "char",
+      "gloss": "echo",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "返",
+      "simp": "返",
+      "kind": "char",
+      "gloss": "to return",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "景",
+      "simp": "景",
+      "kind": "char",
+      "gloss": "sunlight (here 景 = 影, as in 返景: slanting evening light)",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "入",
+      "simp": "入",
+      "kind": "char",
+      "gloss": "to enter",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "深",
+      "simp": "深",
+      "kind": "char",
+      "gloss": "deep",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "林",
+      "simp": "林",
+      "kind": "char",
+      "gloss": "forest",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "復",
+      "simp": "复",
+      "kind": "char",
+      "gloss": "again, once more",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "照",
+      "simp": "照",
+      "kind": "char",
+      "gloss": "to shine on",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "青",
+      "simp": "青",
+      "kind": "char",
+      "gloss": "green-blue, dark green",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "苔",
+      "simp": "苔",
+      "kind": "char",
+      "gloss": "moss",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "on top of",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "空山",
+      "simp": "空山",
+      "kind": "compound",
+      "gloss": "empty mountain",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "人語",
+      "simp": "人语",
+      "kind": "compound",
+      "gloss": "human voices",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "返景",
+      "simp": "返景",
+      "kind": "compound",
+      "gloss": "returning sunlight",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "深林",
+      "simp": "深林",
+      "kind": "compound",
+      "gloss": "deep forest",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "青苔",
+      "simp": "青苔",
+      "kind": "compound",
+      "gloss": "green moss",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "In the empty mountain no one is to be seen; I only hear the echo of human voices. The returning light of the sun enters the deep forest and shines once more upon the green moss.",
+    "poetic": "The mountain is empty and no one is in sight, yet voices drift from somewhere unseen. The slanting evening sun slips into the deep woods and lights the green moss once again."
+  },
+  "notes": [
+    {
+      "id": "place",
+      "kind": "history",
+      "title": "Wang Wei's Wangchuan estate",
+      "body": "鹿柴 is the name of a spot on Wang Wei's country estate at Wangchuan, near Lantian in the Zhongnan Mountains. It is the fifth of twenty poems in his 輞川集, which he exchanged with his friend Pei Di. 柴 is read zhài here, meaning a fence or enclosure (the same word as 寨): a deer park."
+    },
+    {
+      "id": "light",
+      "kind": "interpretation",
+      "title": "Sound, silence and one ray of light",
+      "body": "The poem begins with emptiness and then adds one sound, which only makes the silence deeper. The second pair of lines adds one beam of light, which only makes the shade deeper. The sun, low in the sky, reaches the moss for a moment. Readers often compare the effect with a painting, which suits a poet who was also a painter."
+    },
+    {
+      "id": "ying",
+      "kind": "other",
+      "title": "景 read as 影",
+      "body": "In 返景, 景 is an old form of 影 (shadow, slanting light) and is read yǐng, not jǐng. 返景 is the low, returning sun of late afternoon. 復 here means \"again\" and is read fù."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 響 · 上",
+      "body": "Lines two and four end in 響 (xiǎng) and 上 (shàng), which rhyme in -ang. Lines one and three do not rhyme, as is usual for a jueju."
+    }
+  ],
+  "distractorSeeds": {
+    "空": {
+      "look": ["穴"],
+      "meaning": ["虛"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "見": {
+      "look": ["貝"],
+      "sound": ["間", "剪"],
+      "meaning": ["看"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "但": {
+      "look": ["伯"],
+      "meaning": ["只"]
+    },
+    "聞": {
+      "look": ["間"],
+      "sound": ["問"],
+      "meaning": ["聽"]
+    },
+    "語": {
+      "look": ["話"],
+      "sound": ["雨", "欲"],
+      "meaning": ["言"]
+    },
+    "響": {
+      "look": ["鄉"],
+      "sound": ["相", "香"],
+      "meaning": ["音"]
+    },
+    "返": {
+      "look": ["反"],
+      "sound": ["帆"],
+      "meaning": ["歸"]
+    },
+    "景": {
+      "look": ["影"],
+      "meaning": ["光"]
+    },
+    "入": {
+      "look": ["人"],
+      "meaning": ["進"]
+    },
+    "深": {
+      "look": ["探"],
+      "meaning": ["幽"]
+    },
+    "林": {
+      "look": ["材"],
+      "meaning": ["樹"]
+    },
+    "復": {
+      "look": ["腹"],
+      "meaning": ["再"]
+    },
+    "照": {
+      "look": ["昭"],
+      "meaning": ["映"]
+    },
+    "青": {
+      "look": ["清"],
+      "sound": ["輕", "情"],
+      "meaning": ["綠"]
+    },
+    "苔": {
+      "look": ["台"],
+      "meaning": ["蘚"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    }
+  },
+  "meta": {
+    "curriculum": [],
+    "scene": "mountain-forest"
+  }
+}

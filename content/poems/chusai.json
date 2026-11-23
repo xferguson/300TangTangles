@@ -1,0 +1,1001 @@
+{
+  "schemaVersion": 1,
+  "id": "chusai",
+  "title": {
+    "trad": "出塞",
+    "simp": "出塞"
+  },
+  "poet": {
+    "trad": "王昌齡",
+    "simp": "王昌龄",
+    "pinyin": "Wáng Chānglíng"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "秦",
+          "simp": "秦",
+          "readings": {
+            "zhuyin": "ㄑㄧㄣˊ",
+            "pinyin": "qín",
+            "jyutping": "ceon4",
+            "tailo": {
+              "lit": "tsîn",
+              "col": "tsîn"
+            }
+          }
+        },
+        {
+          "trad": "時",
+          "simp": "时",
+          "readings": {
+            "zhuyin": "ㄕˊ",
+            "pinyin": "shí",
+            "jyutping": "si4",
+            "tailo": {
+              "lit": "sî",
+              "col": "sî"
+            }
+          }
+        },
+        {
+          "trad": "明",
+          "simp": "明",
+          "readings": {
+            "zhuyin": "ㄇㄧㄥˊ",
+            "pinyin": "míng",
+            "jyutping": "ming4",
+            "tailo": {
+              "lit": "bîng",
+              "col": "bîn"
+            }
+          }
+        },
+        {
+          "trad": "月",
+          "simp": "月",
+          "readings": {
+            "zhuyin": "ㄩㄝˋ",
+            "pinyin": "yuè",
+            "jyutping": "jyut6",
+            "tailo": {
+              "lit": "gua̍t",
+              "col": "gue̍h"
+            }
+          }
+        },
+        {
+          "trad": "漢",
+          "simp": "汉",
+          "readings": {
+            "zhuyin": "ㄏㄢˋ",
+            "pinyin": "hàn",
+            "jyutping": "hon3",
+            "tailo": {
+              "lit": "hàn",
+              "col": "hàn"
+            }
+          }
+        },
+        {
+          "trad": "時",
+          "simp": "时",
+          "readings": {
+            "zhuyin": "ㄕˊ",
+            "pinyin": "shí",
+            "jyutping": "si4",
+            "tailo": {
+              "lit": "sî",
+              "col": "sî"
+            }
+          }
+        },
+        {
+          "trad": "關",
+          "simp": "关",
+          "readings": {
+            "zhuyin": "ㄍㄨㄢ",
+            "pinyin": "guān",
+            "jyutping": "gwaan1",
+            "tailo": {
+              "lit": "kuan",
+              "col": "kuainn"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "The moon of Qin, the pass of Han",
+      "literal": "The moon is of the Qin era, the pass is of the Han era;",
+      "poetic": "The same moon shone in Qin times, the same pass in Han,",
+      "meaning": {
+        "feeling": "Awe at the weight of history",
+        "wrongFeelings": ["Pride in a new building", "Boredom with old stories"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "萬",
+          "simp": "万",
+          "readings": {
+            "zhuyin": "ㄨㄢˋ",
+            "pinyin": "wàn",
+            "jyutping": "maan6",
+            "tailo": {
+              "lit": "bān",
+              "col": "bān"
+            }
+          }
+        },
+        {
+          "trad": "里",
+          "simp": "里",
+          "readings": {
+            "zhuyin": "ㄌㄧˇ",
+            "pinyin": "lǐ",
+            "jyutping": "lei5",
+            "tailo": {
+              "lit": "lí",
+              "col": "lí"
+            }
+          }
+        },
+        {
+          "trad": "長",
+          "simp": "长",
+          "readings": {
+            "zhuyin": "ㄔㄤˊ",
+            "pinyin": "cháng",
+            "jyutping": "coeng4",
+            "tailo": {
+              "lit": "tiông",
+              "col": "tn̂g"
+            }
+          }
+        },
+        {
+          "trad": "征",
+          "simp": "征",
+          "readings": {
+            "zhuyin": "ㄓㄥ",
+            "pinyin": "zhēng",
+            "jyutping": "zing1",
+            "tailo": {
+              "lit": "tsing",
+              "col": "tsing"
+            }
+          }
+        },
+        {
+          "trad": "人",
+          "simp": "人",
+          "readings": {
+            "zhuyin": "ㄖㄣˊ",
+            "pinyin": "rén",
+            "jyutping": "jan4",
+            "tailo": {
+              "lit": "jîn",
+              "col": "lâng"
+            }
+          }
+        },
+        {
+          "trad": "未",
+          "simp": "未",
+          "readings": {
+            "zhuyin": "ㄨㄟˋ",
+            "pinyin": "wèi",
+            "jyutping": "mei6",
+            "tailo": {
+              "lit": "bī",
+              "col": "buē"
+            }
+          }
+        },
+        {
+          "trad": "還",
+          "simp": "还",
+          "readings": {
+            "zhuyin": "ㄏㄨㄢˊ",
+            "pinyin": "huán",
+            "jyutping": "waan4",
+            "tailo": {
+              "lit": "huân",
+              "col": "huân"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "Ten thousand li of campaigning, and the men have not returned",
+      "literal": "ten thousand li they march, and the men have not returned.",
+      "poetic": "yet the men who marched ten thousand miles have not come home.",
+      "meaning": {
+        "feeling": "Sorrow for the endless toll on soldiers",
+        "wrongFeelings": ["Satisfaction with a quick victory", "Excitement for a parade"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "但",
+          "simp": "但",
+          "readings": {
+            "zhuyin": "ㄉㄢˋ",
+            "pinyin": "dàn",
+            "jyutping": "daan6",
+            "tailo": {
+              "lit": "tān",
+              "col": "tān"
+            }
+          }
+        },
+        {
+          "trad": "使",
+          "simp": "使",
+          "readings": {
+            "zhuyin": "ㄕˇ",
+            "pinyin": "shǐ",
+            "jyutping": "si2",
+            "tailo": {
+              "lit": "sú",
+              "col": "sái"
+            }
+          }
+        },
+        {
+          "trad": "龍",
+          "simp": "龙",
+          "readings": {
+            "zhuyin": "ㄌㄨㄥˊ",
+            "pinyin": "lóng",
+            "jyutping": "lung4",
+            "tailo": {
+              "lit": "liông",
+              "col": "lîng"
+            }
+          }
+        },
+        {
+          "trad": "城",
+          "simp": "城",
+          "readings": {
+            "zhuyin": "ㄔㄥˊ",
+            "pinyin": "chéng",
+            "jyutping": "sing4",
+            "tailo": {
+              "lit": "sîng",
+              "col": "siânn"
+            }
+          }
+        },
+        {
+          "trad": "飛",
+          "simp": "飞",
+          "readings": {
+            "zhuyin": "ㄈㄟ",
+            "pinyin": "fēi",
+            "jyutping": "fei1",
+            "tailo": {
+              "lit": "hui",
+              "col": "pue"
+            }
+          }
+        },
+        {
+          "trad": "將",
+          "simp": "将",
+          "readings": {
+            "zhuyin": "ㄐㄧㄤˋ",
+            "pinyin": "jiàng",
+            "jyutping": "zoeng3",
+            "tailo": {
+              "lit": "tsiòng",
+              "col": "tsiòng"
+            }
+          }
+        },
+        {
+          "trad": "在",
+          "simp": "在",
+          "readings": {
+            "zhuyin": "ㄗㄞˋ",
+            "pinyin": "zài",
+            "jyutping": "zoi6",
+            "tailo": {
+              "lit": "tsāi",
+              "col": "tī"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "If only the Flying General of Longcheng were here",
+      "literal": "If only the Flying General of Dragon City were still here,",
+      "poetic": "If only the Flying General of Dragon City lived,",
+      "meaning": {
+        "feeling": "Fervent longing for a great commander",
+        "wrongFeelings": ["Fear of generals", "Indifference to the war"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "教",
+          "simp": "教",
+          "readings": {
+            "zhuyin": "ㄐㄧㄠ",
+            "pinyin": "jiāo",
+            "jyutping": "gaau1",
+            "tailo": {
+              "lit": "kàu",
+              "col": "kà"
+            }
+          }
+        },
+        {
+          "trad": "胡",
+          "simp": "胡",
+          "readings": {
+            "zhuyin": "ㄏㄨˊ",
+            "pinyin": "hú",
+            "jyutping": "wu4",
+            "tailo": {
+              "lit": "hôo",
+              "col": "hôo"
+            }
+          }
+        },
+        {
+          "trad": "馬",
+          "simp": "马",
+          "readings": {
+            "zhuyin": "ㄇㄚˇ",
+            "pinyin": "mǎ",
+            "jyutping": "maa5",
+            "tailo": {
+              "lit": "má",
+              "col": "bé"
+            }
+          }
+        },
+        {
+          "trad": "度",
+          "simp": "度",
+          "readings": {
+            "zhuyin": "ㄉㄨˋ",
+            "pinyin": "dù",
+            "jyutping": "dou6",
+            "tailo": {
+              "lit": "tōo",
+              "col": "tōo"
+            }
+          }
+        },
+        {
+          "trad": "陰",
+          "simp": "阴",
+          "readings": {
+            "zhuyin": "ㄧㄣ",
+            "pinyin": "yīn",
+            "jyutping": "jam1",
+            "tailo": {
+              "lit": "im",
+              "col": "im"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "He would not let Hu horses cross the Yin Mountains",
+      "literal": "he would not let the barbarian horses cross the Yin Mountains.",
+      "poetic": "no foreign horseman would cross the Yin Mountains.",
+      "meaning": {
+        "feeling": "Confident longing for a strong defence",
+        "wrongFeelings": ["Relief at an enemy invasion", "Admiration for enemy cavalry"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "秦",
+      "simp": "秦",
+      "kind": "char",
+      "gloss": "Qin (dynasty)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "時",
+      "simp": "时",
+      "kind": "char",
+      "gloss": "time, era",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        },
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "明",
+      "simp": "明",
+      "kind": "char",
+      "gloss": "bright",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "月",
+      "simp": "月",
+      "kind": "char",
+      "gloss": "moon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "漢",
+      "simp": "汉",
+      "kind": "char",
+      "gloss": "Han (dynasty)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "關",
+      "simp": "关",
+      "kind": "char",
+      "gloss": "mountain pass, frontier gate",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "萬",
+      "simp": "万",
+      "kind": "char",
+      "gloss": "ten thousand",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "里",
+      "simp": "里",
+      "kind": "char",
+      "gloss": "li (about half a kilometre); village",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "長",
+      "simp": "长",
+      "kind": "char",
+      "gloss": "long",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "征",
+      "simp": "征",
+      "kind": "char",
+      "gloss": "to march on a campaign",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "人",
+      "simp": "人",
+      "kind": "char",
+      "gloss": "person, men",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "未",
+      "simp": "未",
+      "kind": "char",
+      "gloss": "not yet",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "還",
+      "simp": "还",
+      "kind": "char",
+      "gloss": "to return",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "但",
+      "simp": "但",
+      "kind": "char",
+      "gloss": "only",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "使",
+      "simp": "使",
+      "kind": "char",
+      "gloss": "if only, to cause",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "龍",
+      "simp": "龙",
+      "kind": "char",
+      "gloss": "dragon",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "城",
+      "simp": "城",
+      "kind": "char",
+      "gloss": "city",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "飛",
+      "simp": "飞",
+      "kind": "char",
+      "gloss": "flying",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "將",
+      "simp": "将",
+      "kind": "char",
+      "gloss": "general",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "在",
+      "simp": "在",
+      "kind": "char",
+      "gloss": "to be present, to be alive",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "教",
+      "simp": "教",
+      "kind": "char",
+      "gloss": "to let, to cause",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "胡",
+      "simp": "胡",
+      "kind": "char",
+      "gloss": "northern barbarians, foreign",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "馬",
+      "simp": "马",
+      "kind": "char",
+      "gloss": "horse",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "度",
+      "simp": "度",
+      "kind": "char",
+      "gloss": "to cross",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "陰",
+      "simp": "阴",
+      "kind": "char",
+      "gloss": "shaded north side of a mountain",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "明月",
+      "simp": "明月",
+      "kind": "compound",
+      "gloss": "bright moon",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "萬里",
+      "simp": "万里",
+      "kind": "compound",
+      "gloss": "ten thousand li",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "長征",
+      "simp": "长征",
+      "kind": "compound",
+      "gloss": "long campaign",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "龍城",
+      "simp": "龙城",
+      "kind": "compound",
+      "gloss": "Longcheng (Dragon City)",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "飛將",
+      "simp": "飞将",
+      "kind": "compound",
+      "gloss": "the Flying General",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "胡馬",
+      "simp": "胡马",
+      "kind": "compound",
+      "gloss": "barbarian horses",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "陰山",
+      "simp": "阴山",
+      "kind": "compound",
+      "gloss": "the Yin Mountains",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "The moon is of the Qin era, the pass is of the Han era; ten thousand li they march, and the men have not returned. If only the Flying General of Dragon City were still here, he would not let the barbarian horses cross the Yin Mountains.",
+    "poetic": "The same moon shone in Qin times, the same pass in Han, yet the men who marched ten thousand miles have not come home. If only the Flying General of Dragon City lived, no foreign horseman would cross the Yin Mountains."
+  },
+  "notes": [
+    {
+      "id": "hu-wen",
+      "kind": "interpretation",
+      "title": "One moon, one pass, two dynasties",
+      "body": "The first line is famous for a figure of speech: the moon and the pass belong to both the Qin and the Han. So the line means that the same moon and the same pass have stood for a thousand years, and the border war has lasted just as long. The Tang poet is writing about his own time through the old dynasties."
+    },
+    {
+      "id": "general",
+      "kind": "history",
+      "title": "The Flying General",
+      "body": "飛將 is Li Guang (died 119 BC), a Han general whom the Xiongnu are said to have feared. 龍城 was a Xiongnu ritual centre; some editions read 盧城 or 盧龍城 instead. The poem wishes for such a commander now, and, by implication, criticises the generals of the poet's own day."
+    },
+    {
+      "id": "rank",
+      "kind": "history",
+      "title": "A famous judgement",
+      "body": "Wang Changling (698–757) was called the \"master of the seven-character jueju\". A Ming critic is said to have named this the greatest of all Tang jueju. Whether or not that is true, it shows the poem's reputation."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 關 · 還 · 山",
+      "body": "Lines one, two and four end in 關 (guān), 還 (huán) and 山 (shān), all in the 刪 rhyme. Line three ends in 在 and does not rhyme."
+    }
+  ],
+  "distractorSeeds": {
+    "秦": {
+      "look": ["奏"],
+      "sound": ["親"],
+      "meaning": ["漢"]
+    },
+    "時": {
+      "look": ["待"],
+      "sound": ["是", "似"],
+      "meaning": ["候"]
+    },
+    "明": {
+      "look": ["朋"],
+      "sound": ["鳴"],
+      "meaning": ["亮"]
+    },
+    "月": {
+      "look": ["目"],
+      "meaning": ["日"]
+    },
+    "漢": {
+      "look": ["難"],
+      "sound": ["含", "寒"],
+      "meaning": ["秦"]
+    },
+    "關": {
+      "look": ["閉"],
+      "meaning": ["門"]
+    },
+    "萬": {
+      "look": ["方"],
+      "meaning": ["千"]
+    },
+    "里": {
+      "look": ["理"],
+      "sound": ["李", "笠"],
+      "meaning": ["哩"]
+    },
+    "長": {
+      "look": ["張"],
+      "sound": ["場"],
+      "meaning": ["遠"]
+    },
+    "征": {
+      "look": ["正"],
+      "meaning": ["戰"]
+    },
+    "人": {
+      "look": ["入"],
+      "meaning": ["者"]
+    },
+    "未": {
+      "look": ["末"],
+      "sound": ["唯", "為"],
+      "meaning": ["不"]
+    },
+    "還": {
+      "look": ["環"],
+      "meaning": ["歸"]
+    },
+    "但": {
+      "look": ["伯"],
+      "meaning": ["只"]
+    },
+    "使": {
+      "look": ["吏"],
+      "sound": ["是", "似"],
+      "meaning": ["令"]
+    },
+    "龍": {
+      "look": ["籠"],
+      "meaning": ["蛇"]
+    },
+    "城": {
+      "look": ["成"],
+      "sound": ["乘"],
+      "meaning": ["市"]
+    },
+    "飛": {
+      "look": ["升"],
+      "meaning": ["翔"]
+    },
+    "將": {
+      "look": ["醬"],
+      "sound": ["江"],
+      "meaning": ["帥"]
+    },
+    "在": {
+      "look": ["存"],
+      "meaning": ["於"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "教": {
+      "look": ["孝"],
+      "meaning": ["令"]
+    },
+    "胡": {
+      "look": ["湖"],
+      "sound": ["忽"],
+      "meaning": ["夷"]
+    },
+    "馬": {
+      "look": ["鳥"],
+      "meaning": ["駒"]
+    },
+    "度": {
+      "look": ["渡"],
+      "sound": ["獨"],
+      "meaning": ["過"]
+    },
+    "陰": {
+      "look": ["隱"],
+      "sound": ["銀", "音"],
+      "meaning": ["暗"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    }
+  },
+  "meta": {
+    "curriculum": [],
+    "scene": "frontier-pass-moon"
+  }
+}

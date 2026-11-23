@@ -1,0 +1,1045 @@
+{
+  "schemaVersion": 1,
+  "id": "zaofabaidicheng",
+  "title": {
+    "trad": "早發白帝城",
+    "simp": "早发白帝城"
+  },
+  "poet": {
+    "trad": "李白",
+    "simp": "李白",
+    "pinyin": "Lǐ Bái"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "朝",
+          "simp": "朝",
+          "readings": {
+            "zhuyin": "ㄓㄠ",
+            "pinyin": "zhāo",
+            "jyutping": "ziu1",
+            "tailo": {
+              "lit": "tiau",
+              "col": "tiau"
+            }
+          }
+        },
+        {
+          "trad": "辭",
+          "simp": "辞",
+          "readings": {
+            "zhuyin": "ㄘˊ",
+            "pinyin": "cí",
+            "jyutping": "ci4",
+            "tailo": {
+              "lit": "sû",
+              "col": "sû"
+            }
+          }
+        },
+        {
+          "trad": "白",
+          "simp": "白",
+          "readings": {
+            "zhuyin": "ㄅㄞˊ",
+            "pinyin": "bái",
+            "jyutping": "baak6",
+            "tailo": {
+              "lit": "pi̍k",
+              "col": "pe̍h"
+            }
+          }
+        },
+        {
+          "trad": "帝",
+          "simp": "帝",
+          "readings": {
+            "zhuyin": "ㄉㄧˋ",
+            "pinyin": "dì",
+            "jyutping": "dai3",
+            "tailo": {
+              "lit": "tè",
+              "col": "tè"
+            }
+          }
+        },
+        {
+          "trad": "彩",
+          "simp": "彩",
+          "readings": {
+            "zhuyin": "ㄘㄞˇ",
+            "pinyin": "cǎi",
+            "jyutping": "coi2",
+            "tailo": {
+              "lit": "tshái",
+              "col": "tshái"
+            }
+          }
+        },
+        {
+          "trad": "雲",
+          "simp": "云",
+          "readings": {
+            "zhuyin": "ㄩㄣˊ",
+            "pinyin": "yún",
+            "jyutping": "wan4",
+            "tailo": {
+              "lit": "hûn",
+              "col": "hûn"
+            }
+          }
+        },
+        {
+          "trad": "間",
+          "simp": "间",
+          "readings": {
+            "zhuyin": "ㄐㄧㄢ",
+            "pinyin": "jiān",
+            "jyutping": "gaan1",
+            "tailo": {
+              "lit": "kan",
+              "col": "king"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "At dawn I leave Baidi, among coloured clouds",
+      "literal": "At daybreak I took my leave of Baidi, among the coloured clouds.",
+      "poetic": "I leave Baidi at dawn, wrapped in rosy cloud.",
+      "meaning": {
+        "feeling": "Exhilarated, buoyant freedom",
+        "wrongFeelings": ["Sorrow at a hard farewell", "Dread of the journey ahead"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "里",
+          "simp": "里",
+          "readings": {
+            "zhuyin": "ㄌㄧˇ",
+            "pinyin": "lǐ",
+            "jyutping": "lei5",
+            "tailo": {
+              "lit": "lí",
+              "col": "lí"
+            }
+          }
+        },
+        {
+          "trad": "江",
+          "simp": "江",
+          "readings": {
+            "zhuyin": "ㄐㄧㄤ",
+            "pinyin": "jiāng",
+            "jyutping": "gong1",
+            "tailo": {
+              "lit": "kang",
+              "col": "kang"
+            }
+          }
+        },
+        {
+          "trad": "陵",
+          "simp": "陵",
+          "readings": {
+            "zhuyin": "ㄌㄧㄥˊ",
+            "pinyin": "líng",
+            "jyutping": "ling4",
+            "tailo": {
+              "lit": "lîng",
+              "col": "lîng"
+            }
+          }
+        },
+        {
+          "trad": "一",
+          "simp": "一",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "jat1",
+            "tailo": {
+              "lit": "it",
+              "col": "tsi̍t"
+            }
+          }
+        },
+        {
+          "trad": "日",
+          "simp": "日",
+          "readings": {
+            "zhuyin": "ㄖˋ",
+            "pinyin": "rì",
+            "jyutping": "jat6",
+            "tailo": {
+              "lit": "ji̍t",
+              "col": "li̍t"
+            }
+          }
+        },
+        {
+          "trad": "還",
+          "simp": "还",
+          "readings": {
+            "zhuyin": "ㄏㄨㄢˊ",
+            "pinyin": "huán",
+            "jyutping": "waan4",
+            "tailo": {
+              "lit": "huân",
+              "col": "huân"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "A thousand li to Jiangling, back in a single day",
+      "literal": "A thousand li to Jiangling, and I return in a single day.",
+      "poetic": "A thousand miles to Jiangling, covered in a day.",
+      "meaning": {
+        "feeling": "Joy at the speed and relief of the voyage",
+        "wrongFeelings": ["Exhaustion from a long trip", "Impatience at delays"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "兩",
+          "simp": "两",
+          "readings": {
+            "zhuyin": "ㄌㄧㄤˇ",
+            "pinyin": "liǎng",
+            "jyutping": "loeng5",
+            "tailo": {
+              "lit": "lióng",
+              "col": "n̄ng"
+            }
+          }
+        },
+        {
+          "trad": "岸",
+          "simp": "岸",
+          "readings": {
+            "zhuyin": "ㄢˋ",
+            "pinyin": "àn",
+            "jyutping": "ngon6",
+            "tailo": {
+              "lit": "gān",
+              "col": "huānn"
+            }
+          }
+        },
+        {
+          "trad": "猿",
+          "simp": "猿",
+          "readings": {
+            "zhuyin": "ㄩㄢˊ",
+            "pinyin": "yuán",
+            "jyutping": "jyun4",
+            "tailo": {
+              "lit": "uân",
+              "col": "uân"
+            }
+          }
+        },
+        {
+          "trad": "聲",
+          "simp": "声",
+          "readings": {
+            "zhuyin": "ㄕㄥ",
+            "pinyin": "shēng",
+            "jyutping": "sing1",
+            "tailo": {
+              "lit": "sing",
+              "col": "siann"
+            }
+          }
+        },
+        {
+          "trad": "啼",
+          "simp": "啼",
+          "readings": {
+            "zhuyin": "ㄊㄧˊ",
+            "pinyin": "tí",
+            "jyutping": "tai4",
+            "tailo": {
+              "lit": "thê",
+              "col": "thî"
+            }
+          }
+        },
+        {
+          "trad": "不",
+          "simp": "不",
+          "readings": {
+            "zhuyin": "ㄅㄨˋ",
+            "pinyin": "bù",
+            "jyutping": "bat1",
+            "tailo": {
+              "lit": "put",
+              "col": "m̄"
+            }
+          }
+        },
+        {
+          "trad": "住",
+          "simp": "住",
+          "readings": {
+            "zhuyin": "ㄓㄨˋ",
+            "pinyin": "zhù",
+            "jyutping": "zyu6",
+            "tailo": {
+              "lit": "tsū",
+              "col": "tiāu"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Gibbons on both banks cry without stopping",
+      "literal": "The gibbons on both banks cry without cease.",
+      "poetic": "From either shore the gibbons cry on and on,",
+      "meaning": {
+        "feeling": "Lively wonder, the sad cries lost in joy",
+        "wrongFeelings": ["Terror of wild animals", "Loneliness on an empty river"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "輕",
+          "simp": "轻",
+          "readings": {
+            "zhuyin": "ㄑㄧㄥ",
+            "pinyin": "qīng",
+            "jyutping": "hing1",
+            "tailo": {
+              "lit": "khing",
+              "col": "khin"
+            }
+          }
+        },
+        {
+          "trad": "舟",
+          "simp": "舟",
+          "readings": {
+            "zhuyin": "ㄓㄡ",
+            "pinyin": "zhōu",
+            "jyutping": "zau1",
+            "tailo": {
+              "lit": "tsiu",
+              "col": "tsiu"
+            }
+          }
+        },
+        {
+          "trad": "已",
+          "simp": "已",
+          "readings": {
+            "zhuyin": "ㄧˇ",
+            "pinyin": "yǐ",
+            "jyutping": "ji5",
+            "tailo": {
+              "lit": "í",
+              "col": "í"
+            }
+          }
+        },
+        {
+          "trad": "過",
+          "simp": "过",
+          "readings": {
+            "zhuyin": "ㄍㄨㄛˋ",
+            "pinyin": "guò",
+            "jyutping": "gwo3",
+            "tailo": {
+              "lit": "kò",
+              "col": "kuè"
+            }
+          }
+        },
+        {
+          "trad": "萬",
+          "simp": "万",
+          "readings": {
+            "zhuyin": "ㄨㄢˋ",
+            "pinyin": "wàn",
+            "jyutping": "maan6",
+            "tailo": {
+              "lit": "bān",
+              "col": "bān"
+            }
+          }
+        },
+        {
+          "trad": "重",
+          "simp": "重",
+          "readings": {
+            "zhuyin": "ㄔㄨㄥˊ",
+            "pinyin": "chóng",
+            "jyutping": "cung4",
+            "tailo": {
+              "lit": "tiông",
+              "col": "tîng"
+            }
+          }
+        },
+        {
+          "trad": "山",
+          "simp": "山",
+          "readings": {
+            "zhuyin": "ㄕㄢ",
+            "pinyin": "shān",
+            "jyutping": "saan1",
+            "tailo": {
+              "lit": "san",
+              "col": "suann"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "My light boat has passed ten thousand ranges",
+      "literal": "The light boat has already passed ten thousand folds of mountains.",
+      "poetic": "while my light boat slips past a thousand ranges.",
+      "meaning": {
+        "feeling": "Carefree lightness and release",
+        "wrongFeelings": ["Weariness at the endless mountains", "Fear of the rapids"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "朝",
+      "simp": "朝",
+      "kind": "char",
+      "gloss": "morning, dawn",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "辭",
+      "simp": "辞",
+      "kind": "char",
+      "gloss": "to take leave of",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "白",
+      "simp": "白",
+      "kind": "char",
+      "gloss": "white",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "帝",
+      "simp": "帝",
+      "kind": "char",
+      "gloss": "emperor, god",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "彩",
+      "simp": "彩",
+      "kind": "char",
+      "gloss": "colourful",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "雲",
+      "simp": "云",
+      "kind": "char",
+      "gloss": "cloud",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "間",
+      "simp": "间",
+      "kind": "char",
+      "gloss": "among, between",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "里",
+      "simp": "里",
+      "kind": "char",
+      "gloss": "li (about half a kilometre); village",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "江",
+      "simp": "江",
+      "kind": "char",
+      "gloss": "river (the Yangtze)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "陵",
+      "simp": "陵",
+      "kind": "char",
+      "gloss": "mound, tomb, (Jiangling)",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "一",
+      "simp": "一",
+      "kind": "char",
+      "gloss": "one",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "日",
+      "simp": "日",
+      "kind": "char",
+      "gloss": "sun, day",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "還",
+      "simp": "还",
+      "kind": "char",
+      "gloss": "to return",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "兩",
+      "simp": "两",
+      "kind": "char",
+      "gloss": "two, a pair",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "岸",
+      "simp": "岸",
+      "kind": "char",
+      "gloss": "bank, shore",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "猿",
+      "simp": "猿",
+      "kind": "char",
+      "gloss": "gibbon, ape",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "聲",
+      "simp": "声",
+      "kind": "char",
+      "gloss": "sound",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "啼",
+      "simp": "啼",
+      "kind": "char",
+      "gloss": "to cry, to call out",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "不",
+      "simp": "不",
+      "kind": "char",
+      "gloss": "not",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "住",
+      "simp": "住",
+      "kind": "char",
+      "gloss": "to stop, to cease",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "輕",
+      "simp": "轻",
+      "kind": "char",
+      "gloss": "light",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "舟",
+      "simp": "舟",
+      "kind": "char",
+      "gloss": "boat",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "已",
+      "simp": "已",
+      "kind": "char",
+      "gloss": "already",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "過",
+      "simp": "过",
+      "kind": "char",
+      "gloss": "to pass",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "萬",
+      "simp": "万",
+      "kind": "char",
+      "gloss": "ten thousand",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "重",
+      "simp": "重",
+      "kind": "char",
+      "gloss": "layer, fold",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "山",
+      "simp": "山",
+      "kind": "char",
+      "gloss": "mountain",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "白帝",
+      "simp": "白帝",
+      "kind": "compound",
+      "gloss": "Baidi (White Emperor City)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "彩雲",
+      "simp": "彩云",
+      "kind": "compound",
+      "gloss": "coloured clouds",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "千里",
+      "simp": "千里",
+      "kind": "compound",
+      "gloss": "a thousand li",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "江陵",
+      "simp": "江陵",
+      "kind": "compound",
+      "gloss": "Jiangling",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "一日",
+      "simp": "一日",
+      "kind": "compound",
+      "gloss": "a single day",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "兩岸",
+      "simp": "两岸",
+      "kind": "compound",
+      "gloss": "both banks",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "猿聲",
+      "simp": "猿声",
+      "kind": "compound",
+      "gloss": "cries of gibbons",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "輕舟",
+      "simp": "轻舟",
+      "kind": "compound",
+      "gloss": "a light boat",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "萬重",
+      "simp": "万重",
+      "kind": "compound",
+      "gloss": "ten thousand layers",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "At daybreak I took my leave of Baidi, among the coloured clouds; a thousand li to Jiangling, and I return in a single day. The gibbons on both banks cry without cease; the light boat has already passed ten thousand folds of mountains.",
+    "poetic": "I leave Baidi at dawn in rosy cloud and reach Jiangling, a thousand miles away, in a single day. From both shores the gibbons keep crying while my light boat slips past a thousand ranges."
+  },
+  "notes": [
+    {
+      "id": "history",
+      "kind": "history",
+      "title": "A pardon on the river",
+      "body": "In 759 Li Bai was on his way into exile in Yelang when an amnesty reached him at Baidi (modern Fengjie, Chongqing). He turned back and sailed down the Yangtze to Jiangling. An older text, 水經注, counts about 1,200 li between the two places and describes the passage through the Three Gorges as fast as the wind. This poem catches the poet's relief."
+    },
+    {
+      "id": "variants",
+      "kind": "text-variant",
+      "title": "Variants",
+      "body": "The poem is also titled 下江陵. Some editions write 綵雲 instead of 彩雲, and some give 啼不盡 (cry without end) instead of 啼不住 (cry without stopping). The version in school texts is 啼不住."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 間 · 還 · 山",
+      "body": "Lines one, two and four end in 間 (jiān), 還 (huán) and 山 (shān), all in the 刪 rhyme. Line three ends in 住 and does not rhyme. This is the usual pattern in a seven-character jueju."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "朝 is read zhāo (morning) here, not cháo (dynasty, court). 重 is read chóng (layer), not zhòng (heavy). 還 is read huán (to return), not hái (still)."
+    }
+  ],
+  "distractorSeeds": {
+    "朝": {
+      "look": ["潮"],
+      "sound": ["照"],
+      "meaning": ["晨"]
+    },
+    "辭": {
+      "look": ["辯"],
+      "sound": ["此"],
+      "meaning": ["別"]
+    },
+    "白": {
+      "look": ["百"],
+      "meaning": ["素"]
+    },
+    "帝": {
+      "look": ["常"],
+      "sound": ["地", "低"],
+      "meaning": ["皇"]
+    },
+    "彩": {
+      "look": ["採"],
+      "sound": ["裁"],
+      "meaning": ["色"]
+    },
+    "雲": {
+      "look": ["雪"],
+      "meaning": ["霧"]
+    },
+    "間": {
+      "look": ["問"],
+      "sound": ["剪", "見"],
+      "meaning": ["中"]
+    },
+    "千": {
+      "look": ["干"],
+      "sound": ["前"],
+      "meaning": ["萬"]
+    },
+    "里": {
+      "look": ["理"],
+      "sound": ["李", "笠"],
+      "meaning": ["哩"]
+    },
+    "江": {
+      "look": ["紅"],
+      "sound": ["將"],
+      "meaning": ["河"]
+    },
+    "陵": {
+      "look": ["凌"],
+      "sound": ["嶺"],
+      "meaning": ["丘"]
+    },
+    "一": {
+      "look": ["二"],
+      "sound": ["依", "疑"],
+      "meaning": ["單"]
+    },
+    "日": {
+      "look": ["目"],
+      "meaning": ["天"]
+    },
+    "還": {
+      "look": ["環"],
+      "meaning": ["歸"]
+    },
+    "兩": {
+      "look": ["雨"],
+      "meaning": ["雙"]
+    },
+    "岸": {
+      "look": ["崖"],
+      "meaning": ["堤"]
+    },
+    "猿": {
+      "look": ["遠"],
+      "sound": ["願"],
+      "meaning": ["猴"]
+    },
+    "聲": {
+      "look": ["殸"],
+      "sound": ["生"],
+      "meaning": ["音"]
+    },
+    "啼": {
+      "look": ["蹄"],
+      "meaning": ["鳴"]
+    },
+    "不": {
+      "look": ["下"],
+      "sound": ["布"],
+      "meaning": ["未"]
+    },
+    "住": {
+      "look": ["主"],
+      "sound": ["茱"],
+      "meaning": ["停"]
+    },
+    "輕": {
+      "look": ["經"],
+      "sound": ["情", "清"],
+      "meaning": ["重"]
+    },
+    "舟": {
+      "look": ["丹"],
+      "sound": ["州"],
+      "meaning": ["船"]
+    },
+    "已": {
+      "look": ["己"],
+      "sound": ["依", "疑"],
+      "meaning": ["既"]
+    },
+    "過": {
+      "look": ["遇"],
+      "sound": ["國"],
+      "meaning": ["越"]
+    },
+    "萬": {
+      "look": ["方"],
+      "meaning": ["千"]
+    },
+    "重": {
+      "look": ["動"],
+      "meaning": ["層"]
+    },
+    "山": {
+      "look": ["出"],
+      "meaning": ["嶺"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "gorges-at-dawn"
+  }
+}

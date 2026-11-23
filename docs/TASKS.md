@@ -426,10 +426,21 @@ Status: done
 Branch: task/T65-sticky-nav
 PR: #33
 
-### T66 · App icon design
+### T66 · Content: 19 more poems
+Lane: A · Approval: none · Size: L
+Depends on: T10, T11
+Unblocks: —
+Goal: turn the four "coming soon" catalog poems (春曉, 登鸛雀樓, 相思, 早發白帝城) into full playable poems, then add the next 15 most familiar short poems to the catalog as "coming soon" and fill each one in turn: 鹿柴, 江雪, 憫農, 尋隱者不遇, 贈汪倫, 望廬山瀑布, 楓橋夜泊, 黃鶴樓送孟浩然之廣陵, 九月九日憶山東兄弟, 回鄉偶書, 詠柳, 清明, 涼州詞, 出塞, 絕句. Each file follows the 靜夜思 shape: per-character readings (zhuyin, pinyin, jyutping, Tâi-lô literary and everyday), units and compounds, translations, feelings, notes, and distractor seeds.
+Done when: `validate:content` passes for every poem, the catalog marks all 20 poems available, and the owner has accepted the readings without a native-speaker review (Mandarin and Cantonese readings were generated with pypinyin and pycantonese then spot-checked; Tâi-lô was written by hand).
+
+Status: done
+Branch: ccr-2743f8dd-8ifpfq
+PR: #35
+
+### T67 · App icon design
 Lane: E · Approval: required · Size: S
 Depends on: T65
-Unblocks: T67
+Unblocks: T68
 Goal: the app has no icon. Mock up several options (`design/app-icons.html`) for the user to pick from, then produce the chosen icon as SVG source plus 192/512 PNG, a maskable 512 PNG, and an apple-touch-icon.
 Done when: the user has picked an option and the final icon files are committed under `public/`.
 
@@ -437,9 +448,9 @@ Status: in-review
 Branch: ccr-e1474bc7-8geezf
 PR: #34
 
-### T67 · Fix Android install
+### T68 · Fix Android install
 Lane: E · Approval: none · Size: S
-Depends on: T66
+Depends on: T67
 Unblocks: —
 Goal: Chrome on Android says "this app cannot be installed" because the manifest has `icons: []` (installability needs 192px and 512px PNG icons, one maskable). Wire the T66 icons into the manifest and `index.html`, and add a test asserting the built manifest meets the installability criteria.
 Done when: a test covers the manifest icons (192, 512, maskable) and the app installs on Android.

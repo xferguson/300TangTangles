@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "id": "jueju",
+  "title": {
+    "trad": "絕句",
+    "simp": "绝句"
+  },
+  "poet": {
+    "trad": "杜甫",
+    "simp": "杜甫",
+    "pinyin": "Dù Fǔ"
+  },
+  "dynasty": "tang",
+  "form": "qijue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "兩",
+          "simp": "两",
+          "readings": {
+            "zhuyin": "ㄌㄧㄤˇ",
+            "pinyin": "liǎng",
+            "jyutping": "loeng5",
+            "tailo": {
+              "lit": "lióng",
+              "col": "n̄ng"
+            }
+          }
+        },
+        {
+          "trad": "個",
+          "simp": "个",
+          "readings": {
+            "zhuyin": "ㄍㄜˋ",
+            "pinyin": "gè",
+            "jyutping": "go3",
+            "tailo": {
+              "lit": "kò",
+              "col": "ê"
+            }
+          }
+        },
+        {
+          "trad": "黃",
+          "simp": "黄",
+          "readings": {
+            "zhuyin": "ㄏㄨㄤˊ",
+            "pinyin": "huáng",
+            "jyutping": "wong4",
+            "tailo": {
+              "lit": "hông",
+              "col": "n̂g"
+            }
+          }
+        },
+        {
+          "trad": "鸝",
+          "simp": "鹂",
+          "readings": {
+            "zhuyin": "ㄌㄧˊ",
+            "pinyin": "lí",
+            "jyutping": "lei4",
+            "tailo": {
+              "lit": "lî",
+              "col": "lî"
+            }
+          }
+        },
+        {
+          "trad": "鳴",
+          "simp": "鸣",
+          "readings": {
+            "zhuyin": "ㄇㄧㄥˊ",
+            "pinyin": "míng",
+            "jyutping": "ming4",
+            "tailo": {
+              "lit": "bîng",
+              "col": "bîng"
+            }
+          }
+        },
+        {
+          "trad": "翠",
+          "simp": "翠",
+          "readings": {
+            "zhuyin": "ㄘㄨㄟˋ",
+            "pinyin": "cuì",
+            "jyutping": "ceoi3",
+            "tailo": {
+              "lit": "tshuì",
+              "col": "tshuì"
+            }
+          }
+        },
+        {
+          "trad": "柳",
+          "simp": "柳",
+          "readings": {
+            "zhuyin": "ㄌㄧㄡˇ",
+            "pinyin": "liǔ",
+            "jyutping": "lau5",
+            "tailo": {
+              "lit": "liú",
+              "col": "liú"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Two yellow orioles sing in the green willows",
+      "literal": "Two yellow orioles sing in the emerald willows;",
+      "poetic": "Two yellow orioles sing among green willows,",
+      "meaning": {
+        "feeling": "Fresh joy at the liveliness of spring",
+        "wrongFeelings": ["Annoyance at noisy birds", "Dread of an approaching storm"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "一",
+          "simp": "一",
+          "readings": {
+            "zhuyin": "ㄧ",
+            "pinyin": "yī",
+            "jyutping": "jat1",
+            "tailo": {
+              "lit": "it",
+              "col": "tsi̍t"
+            }
+          }
+        },
+        {
+          "trad": "行",
+          "simp": "行",
+          "readings": {
+            "zhuyin": "ㄏㄤˊ",
+            "pinyin": "háng",
+            "jyutping": "hong4",
+            "tailo": {
+              "lit": "hâng",
+              "col": "hâng"
+            }
+          }
+        },
+        {
+          "trad": "白",
+          "simp": "白",
+          "readings": {
+            "zhuyin": "ㄅㄞˊ",
+            "pinyin": "bái",
+            "jyutping": "baak6",
+            "tailo": {
+              "lit": "pi̍k",
+              "col": "pe̍h"
+            }
+          }
+        },
+        {
+          "trad": "鷺",
+          "simp": "鹭",
+          "readings": {
+            "zhuyin": "ㄌㄨˋ",
+            "pinyin": "lù",
+            "jyutping": "lou6",
+            "tailo": {
+              "lit": "lōo",
+              "col": "lōo"
+            }
+          }
+        },
+        {
+          "trad": "上",
+          "simp": "上",
+          "readings": {
+            "zhuyin": "ㄕㄤˋ",
+            "pinyin": "shàng",
+            "jyutping": "soeng6",
+            "tailo": {
+              "lit": "siōng",
+              "col": "tsiūnn"
+            }
+          }
+        },
+        {
+          "trad": "青",
+          "simp": "青",
+          "readings": {
+            "zhuyin": "ㄑㄧㄥ",
+            "pinyin": "qīng",
+            "jyutping": "cing1",
+            "tailo": {
+              "lit": "tshing",
+              "col": "tshinn"
+            }
+          }
+        },
+        {
+          "trad": "天",
+          "simp": "天",
+          "readings": {
+            "zhuyin": "ㄊㄧㄢ",
+            "pinyin": "tiān",
+            "jyutping": "tin1",
+            "tailo": {
+              "lit": "thian",
+              "col": "thinn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "A line of white egrets rises into the blue sky",
+      "literal": "a row of white egrets climbs into the blue sky.",
+      "poetic": "a line of white egrets climbs the blue sky.",
+      "meaning": {
+        "feeling": "Uplifted, open-hearted wonder",
+        "wrongFeelings": ["Alarm at a flock of intruders", "Boredom while waiting"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "窗",
+          "simp": "窗",
+          "readings": {
+            "zhuyin": "ㄔㄨㄤ",
+            "pinyin": "chuāng",
+            "jyutping": "coeng1",
+            "tailo": {
+              "lit": "tshong",
+              "col": "thang"
+            }
+          }
+        },
+        {
+          "trad": "含",
+          "simp": "含",
+          "readings": {
+            "zhuyin": "ㄏㄢˊ",
+            "pinyin": "hán",
+            "jyutping": "ham4",
+            "tailo": {
+              "lit": "hâm",
+              "col": "kâm"
+            }
+          }
+        },
+        {
+          "trad": "西",
+          "simp": "西",
+          "readings": {
+            "zhuyin": "ㄒㄧ",
+            "pinyin": "xī",
+            "jyutping": "sai1",
+            "tailo": {
+              "lit": "se",
+              "col": "sai"
+            }
+          }
+        },
+        {
+          "trad": "嶺",
+          "simp": "岭",
+          "readings": {
+            "zhuyin": "ㄌㄧㄥˇ",
+            "pinyin": "lǐng",
+            "jyutping": "ling5",
+            "tailo": {
+              "lit": "līng",
+              "col": "niá"
+            }
+          }
+        },
+        {
+          "trad": "千",
+          "simp": "千",
+          "readings": {
+            "zhuyin": "ㄑㄧㄢ",
+            "pinyin": "qiān",
+            "jyutping": "cin1",
+            "tailo": {
+              "lit": "tshian",
+              "col": "tshing"
+            }
+          }
+        },
+        {
+          "trad": "秋",
+          "simp": "秋",
+          "readings": {
+            "zhuyin": "ㄑㄧㄡ",
+            "pinyin": "qiū",
+            "jyutping": "cau1",
+            "tailo": {
+              "lit": "tshiu",
+              "col": "tshiu"
+            }
+          }
+        },
+        {
+          "trad": "雪",
+          "simp": "雪",
+          "readings": {
+            "zhuyin": "ㄒㄩㄝˇ",
+            "pinyin": "xuě",
+            "jyutping": "syut3",
+            "tailo": {
+              "lit": "suat",
+              "col": "seh"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "The window frames the snow of the western ridge, of a thousand autumns",
+      "literal": "The window holds the snow of the western ridge, of a thousand years;",
+      "poetic": "my window frames the western peaks, snow of a thousand years,",
+      "meaning": {
+        "feeling": "Peaceful appreciation of a vast view",
+        "wrongFeelings": ["Resentment at a cold room", "Fear of an avalanche"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "門",
+          "simp": "门",
+          "readings": {
+            "zhuyin": "ㄇㄣˊ",
+            "pinyin": "mén",
+            "jyutping": "mun4",
+            "tailo": {
+              "lit": "bûn",
+              "col": "mn̂g"
+            }
+          }
+        },
+        {
+          "trad": "泊",
+          "simp": "泊",
+          "readings": {
+            "zhuyin": "ㄅㄛˊ",
+            "pinyin": "bó",
+            "jyutping": "paak3",
+            "tailo": {
+              "lit": "po̍k",
+              "col": "po̍k"
+            }
+          }
+        },
+        {
+          "trad": "東",
+          "simp": "东",
+          "readings": {
+            "zhuyin": "ㄉㄨㄥ",
+            "pinyin": "dōng",
+            "jyutping": "dung1",
+            "tailo": {
+              "lit": "tong",
+              "col": "tang"
+            }
+          }
+        },
+        {
+          "trad": "吳",
+          "simp": "吴",
+          "readings": {
+            "zhuyin": "ㄨˊ",
+            "pinyin": "wú",
+            "jyutping": "ng4",
+            "tailo": {
+              "lit": "gôo",
+              "col": "gôo"
+            }
+          }
+        },
+        {
+          "trad": "萬",
+          "simp": "万",
+          "readings": {
+            "zhuyin": "ㄨㄢˋ",
+            "pinyin": "wàn",
+            "jyutping": "maan6",
+            "tailo": {
+              "lit": "bān",
+              "col": "bān"
+            }
+          }
+        },
+        {
+          "trad": "里",
+          "simp": "里",
+          "readings": {
+            "zhuyin": "ㄌㄧˇ",
+            "pinyin": "lǐ",
+            "jyutping": "lei5",
+            "tailo": {
+              "lit": "lí",
+              "col": "lí"
+            }
+          }
+        },
+        {
+          "trad": "船",
+          "simp": "船",
+          "readings": {
+            "zhuyin": "ㄔㄨㄢˊ",
+            "pinyin": "chuán",
+            "jyutping": "syun4",
+            "tailo": {
+              "lit": "sûn",
+              "col": "tsûn"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "At the door are moored boats from Wu, ten thousand li away",
+      "literal": "at my gate are moored boats from eastern Wu, ten thousand li away.",
+      "poetic": "and at my door lie boats that have come ten thousand miles from Wu.",
+      "meaning": {
+        "feeling": "Hope of a world reconnected, perhaps of going home",
+        "wrongFeelings": ["Annoyance at crowded docks", "Confusion at a delivery"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "兩",
+      "simp": "两",
+      "kind": "char",
+      "gloss": "two",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "個",
+      "simp": "个",
+      "kind": "char",
+      "gloss": "(measure word)",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "黃",
+      "simp": "黄",
+      "kind": "char",
+      "gloss": "yellow",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "鸝",
+      "simp": "鹂",
+      "kind": "char",
+      "gloss": "oriole",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "鳴",
+      "simp": "鸣",
+      "kind": "char",
+      "gloss": "to sing, to chirp",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "翠",
+      "simp": "翠",
+      "kind": "char",
+      "gloss": "emerald green",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "柳",
+      "simp": "柳",
+      "kind": "char",
+      "gloss": "willow",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "一",
+      "simp": "一",
+      "kind": "char",
+      "gloss": "one",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "行",
+      "simp": "行",
+      "kind": "char",
+      "gloss": "a row, a line",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "白",
+      "simp": "白",
+      "kind": "char",
+      "gloss": "white",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "鷺",
+      "simp": "鹭",
+      "kind": "char",
+      "gloss": "egret",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "上",
+      "simp": "上",
+      "kind": "char",
+      "gloss": "to rise, to go up",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "青",
+      "simp": "青",
+      "kind": "char",
+      "gloss": "blue-green, azure",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "天",
+      "simp": "天",
+      "kind": "char",
+      "gloss": "sky",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "窗",
+      "simp": "窗",
+      "kind": "char",
+      "gloss": "window",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "含",
+      "simp": "含",
+      "kind": "char",
+      "gloss": "to hold, to contain",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "西",
+      "simp": "西",
+      "kind": "char",
+      "gloss": "west",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "嶺",
+      "simp": "岭",
+      "kind": "char",
+      "gloss": "mountain ridge, range",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "千",
+      "simp": "千",
+      "kind": "char",
+      "gloss": "thousand",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "秋",
+      "simp": "秋",
+      "kind": "char",
+      "gloss": "autumn, year",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "雪",
+      "simp": "雪",
+      "kind": "char",
+      "gloss": "snow",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "門",
+      "simp": "门",
+      "kind": "char",
+      "gloss": "door, gate",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "泊",
+      "simp": "泊",
+      "kind": "char",
+      "gloss": "to moor a boat",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "東",
+      "simp": "东",
+      "kind": "char",
+      "gloss": "east",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "吳",
+      "simp": "吴",
+      "kind": "char",
+      "gloss": "Wu (the old state of Wu)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "萬",
+      "simp": "万",
+      "kind": "char",
+      "gloss": "ten thousand",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "里",
+      "simp": "里",
+      "kind": "char",
+      "gloss": "li (about half a kilometre)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "船",
+      "simp": "船",
+      "kind": "char",
+      "gloss": "boat, ship",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 6
+        }
+      ]
+    },
+    {
+      "id": "黃鸝",
+      "simp": "黄鹂",
+      "kind": "compound",
+      "gloss": "oriole",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "翠柳",
+      "simp": "翠柳",
+      "kind": "compound",
+      "gloss": "green willows",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "白鷺",
+      "simp": "白鹭",
+      "kind": "compound",
+      "gloss": "white egret",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "青天",
+      "simp": "青天",
+      "kind": "compound",
+      "gloss": "blue sky",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 5
+        }
+      ]
+    },
+    {
+      "id": "西嶺",
+      "simp": "西岭",
+      "kind": "compound",
+      "gloss": "the western ridge",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "千秋",
+      "simp": "千秋",
+      "kind": "compound",
+      "gloss": "a thousand autumns, a thousand years",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "東吳",
+      "simp": "东吴",
+      "kind": "compound",
+      "gloss": "eastern Wu (the lower Yangtze)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "萬里",
+      "simp": "万里",
+      "kind": "compound",
+      "gloss": "ten thousand li",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Two yellow orioles sing in the emerald willows; a row of white egrets climbs into the blue sky. The window holds the snow of the western ridge, of a thousand years; at my gate are moored boats from eastern Wu, ten thousand li away.",
+    "poetic": "Two yellow orioles sing among green willows, a line of white egrets climbs the blue sky. My window frames the western peaks, snow of a thousand years, and at my door lie boats that have come ten thousand miles from Wu."
+  },
+  "notes": [
+    {
+      "id": "date",
+      "kind": "history",
+      "title": "Written in Chengdu, 764",
+      "body": "Du Fu wrote four jueju in the spring of 764 at his thatched cottage in Chengdu, after the end of the An Lushan Rebellion. This is the third. The \"western ridge\" is the snow-capped Xiling mountains seen from his window, and the \"boats from Wu\" suggest the Yangtze route to the east had reopened, which gave an exile a hope of going home."
+    },
+    {
+      "id": "structure",
+      "kind": "interpretation",
+      "title": "Four pictures, each a pair",
+      "body": "Every line has its own picture, and the four lines are parallel to each other: colours (黃 / 白 / 青 / 翠), numbers (兩 / 一 / 千 / 萬) and directions (西 / 東). Near things come first, then far: birds in the willow, then birds in the sky, then snow on the distant ridge, then boats from ten thousand li away. The view widens until it reaches home."
+    },
+    {
+      "id": "title",
+      "kind": "other",
+      "title": "A title that is just a form",
+      "body": "絕句 is the name of the form, not a real title. Du Fu wrote many poems with this title, which is why this one is usually quoted by its first line, 兩個黃鸝鳴翠柳."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 天 · 船",
+      "body": "Lines two and four end in 天 (tiān) and 船 (chuán), in the 先 rhyme. Lines one and three do not rhyme."
+    },
+    {
+      "id": "readings",
+      "kind": "other",
+      "title": "Words with more than one reading",
+      "body": "行 is read háng here (a row, a line), not xíng (to walk). 泊 is read bó (to moor). 個 is read gè and 里 is lǐ."
+    }
+  ],
+  "distractorSeeds": {
+    "兩": {
+      "look": ["雨"],
+      "meaning": ["雙"]
+    },
+    "個": {
+      "look": ["固"],
+      "sound": ["歌"],
+      "meaning": ["隻"]
+    },
+    "黃": {
+      "look": ["廣"],
+      "meaning": ["金"]
+    },
+    "鸝": {
+      "look": ["麗"],
+      "sound": ["李", "笠"],
+      "meaning": ["鶯"]
+    },
+    "鳴": {
+      "look": ["嗚"],
+      "sound": ["明"],
+      "meaning": ["唱"]
+    },
+    "翠": {
+      "look": ["粹"],
+      "sound": ["催"],
+      "meaning": ["綠"]
+    },
+    "柳": {
+      "look": ["卯"],
+      "sound": ["流"],
+      "meaning": ["楊"]
+    },
+    "一": {
+      "look": ["二"],
+      "sound": ["已", "依"],
+      "meaning": ["單"]
+    },
+    "行": {
+      "look": ["術"],
+      "meaning": ["列"]
+    },
+    "白": {
+      "look": ["百"],
+      "meaning": ["素"]
+    },
+    "鷺": {
+      "look": ["路"],
+      "sound": ["爐"],
+      "meaning": ["鶴"]
+    },
+    "上": {
+      "look": ["止"],
+      "meaning": ["登"]
+    },
+    "青": {
+      "look": ["清"],
+      "sound": ["輕", "情"],
+      "meaning": ["藍"]
+    },
+    "天": {
+      "look": ["夫"],
+      "meaning": ["空"]
+    },
+    "窗": {
+      "look": ["穹"],
+      "sound": ["床"],
+      "meaning": ["牖"]
+    },
+    "含": {
+      "look": ["今"],
+      "sound": ["寒", "汗"],
+      "meaning": ["銜"]
+    },
+    "西": {
+      "look": ["酉"],
+      "sound": ["細"],
+      "meaning": ["東"]
+    },
+    "嶺": {
+      "look": ["領"],
+      "sound": ["陵"],
+      "meaning": ["峰"]
+    },
+    "千": {
+      "look": ["干"],
+      "sound": ["前"],
+      "meaning": ["萬"]
+    },
+    "秋": {
+      "look": ["秒"],
+      "meaning": ["載"]
+    },
+    "雪": {
+      "look": ["雲"],
+      "meaning": ["霜"]
+    },
+    "門": {
+      "look": ["問"],
+      "meaning": ["戶"]
+    },
+    "泊": {
+      "look": ["伯"],
+      "meaning": ["停"]
+    },
+    "東": {
+      "look": ["束"],
+      "meaning": ["西"]
+    },
+    "吳": {
+      "look": ["呆"],
+      "sound": ["物", "午"],
+      "meaning": ["越"]
+    },
+    "萬": {
+      "look": ["方"],
+      "meaning": ["千"]
+    },
+    "里": {
+      "look": ["理"],
+      "sound": ["李", "笠"],
+      "meaning": ["哩"]
+    },
+    "船": {
+      "look": ["般"],
+      "sound": ["川"],
+      "meaning": ["舟"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "thatched-cottage-window"
+  }
+}
