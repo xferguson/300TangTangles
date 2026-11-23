@@ -81,10 +81,17 @@
   flex-wrap: wrap;
   gap: 8px;
 }
-.set-file input {
-  max-width: 100%;
-  font-family: var(--f-ui);
-  color: var(--ink);
+.set-option input {
+  accent-color: var(--cinnabar);
+}
+/* The themed "Choose file…" button opens the picker; the native control stays for tests and AT. */
+.set-file {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
 }
 .set-visually-hidden {
   position: absolute;
