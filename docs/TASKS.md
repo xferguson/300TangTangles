@@ -411,6 +411,6 @@ Unblocks: —
 Goal: Play, Reading, Library and Settings screens have no link to Settings or back home, so the only route to Settings is the home page. Add a shared app nav (Home, Settings) to every screen.
 Done when: component and per-screen tests cover the nav links.
 
-Status: in-progress
+Status: done
 Branch: task/T64-settings-access
-PR: 
+PR: #32
