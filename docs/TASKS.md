@@ -268,9 +268,9 @@ Unblocks: —
 Goal: poems grouped by length tier and sorted by familiarity, with ink-drop difficulty, a personal "known x/y" count, and "coming soon" cards.
 Done when: component tests and Playwright navigation to the poem pass.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T50-library
+PR: #18
 
 ### T51 · Reading / triage mode
 Lane: E · Approval: none · Size: M
@@ -279,9 +279,9 @@ Unblocks: T55
 Goal: poem colored by the lexicon; char popover (readings for the current language, meaning, audio, set status); translation toggles (whole / line / word); scholar's notes drawer; "mark rest known"; Traditional/Simplified toggle.
 Done when: component tests cover status changes reaching the lexicon and the toggles.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T51-reading-mode
+PR: #20
 
 ### T52 · Exercises: Flashcard, Cloze, MeaningCheck
 Lane: E · Approval: none · Size: M
@@ -290,9 +290,9 @@ Unblocks: T55, T56
 Goal: exercise components that take an `Exercise` and emit an `ExerciseResult`, covering char→meaning, audio→char, meaning→char, cloze, and line↔translation / feeling prompts.
 Done when: component tests show the correct `ExerciseResult` for right and wrong answers.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T52-basic-exercises
+PR: #22
 
 ### T53 · Exercise: LineBuilder
 Lane: E · Approval: none · Size: M
@@ -301,9 +301,9 @@ Unblocks: T55
 Goal: tap-to-build line covering scaffold steps 2–5 (ordered bank, + distractors, translation-only, first-char prompt), with undo and tap-to-remove.
 Done when: component tests run each scaffold step and its results.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T53-line-builder
+PR: #23
 
 ### T54 · Exercise: TangleRow
 Lane: E · Approval: none · Size: M
@@ -312,9 +312,9 @@ Unblocks: T55
 Goal: Wordle board for the whole poem with a shared bank, 4-state tiles with glyphs, reveal animation (respecting reduced motion), bank coloring, and the share grid.
 Done when: component tests show feedback rendering and attempt exhaustion.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T54-tangle-row
+PR: #19
 
 ### T55 · Session flow
 Lane: E · Approval: none · Size: L
@@ -356,9 +356,9 @@ Unblocks: T60
 Goal: `AudioButton` and a player service on top of `AudioProvider` (full / line / char, normal / slow, language setting). Starts with browser voices; when a clip manifest exists (T43, or T45 if it adds clips) it plays clips first and falls back to browser voices. PWA precache of audio clips applies only when clips exist.
 Done when: unit tests cover provider selection and fallback with the mock provider, and a Playwright check passes with a stubbed `speechSynthesis`.
 
-Status: todo
-Branch: —
-PR: —
+Status: done
+Branch: task/T58-audio-player
+PR: #21
 
 ### T60 · E2E playthrough & polish
 Lane: E · Approval: none · Size: M
