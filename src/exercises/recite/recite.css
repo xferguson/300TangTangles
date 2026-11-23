@@ -45,7 +45,7 @@
 .rc-heard {
   font-family: var(--f-ui);
   font-size: 0.8rem;
-  color: var(--cinnabar);
+  color: var(--ink);
 }
 .ex-recite-note {
   margin: 0;
