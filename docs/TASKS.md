@@ -367,9 +367,9 @@ Unblocks: —
 Goal: a Playwright run of 靜夜思 from 童生 to 狀元 using only Continue (speech mocked), on a phone viewport in both themes and both scripts, followed by a visual polish pass.
 Done when: the e2e suite is green and screenshots are attached to the PR.
 
-Status: in-progress
+Status: done
 Branch: task/T60-e2e-polish
-PR: —
+PR: #30
 
 ### T61 · Screen routes & exercise props
 Lane: E · Approval: none · Size: S
