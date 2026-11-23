@@ -2,8 +2,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useHashRoute } from '../../app/useHashRoute';
 import { BrowserSpeechProvider } from '../../audio';
-import { DEFAULT_SETTINGS, parsePoem, type Lexicon, type Poem } from '../../core';
+import { parsePoem, type Lexicon, type Poem } from '../../core';
 import { loadLexicon, saveLexicon } from '../../lexicon';
+import { useSettings } from '../../settings/useSettings';
 import { ReadingScreen } from './ReadingScreen';
 
 const DEFAULT_POEM_ID = 'jingyesi';
@@ -30,7 +31,7 @@ export function ReadingRoute() {
   const hash = useHashRoute();
   const poem = poems.get(poemIdFromHash(hash));
   const [lexicon, setLexicon] = useState<Lexicon | null>(null);
-  const settings = DEFAULT_SETTINGS;
+  const [settings] = useSettings();
 
   useEffect(() => {
     let live = true;

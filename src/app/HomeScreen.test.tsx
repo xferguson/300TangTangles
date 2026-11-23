@@ -14,9 +14,9 @@ describe('HomeScreen', () => {
     render(<HomeScreen />);
     expect(screen.getByRole('navigation', { name: 'Home' })).toBeInTheDocument();
     const href = (name: RegExp) => screen.getByRole('link', { name }).getAttribute('href');
-    expect(href(/play/i)).toBe('#/play/jingyesi');
-    expect(href(/library/i)).toBe('#/library');
-    expect(href(/read/i)).toBe('#/read/jingyesi');
-    expect(href(/settings/i)).toBe('#/settings');
+    expect(href(/^play/i)).toBe('#/play/jingyesi');
+    expect(href(/^library/i)).toBe('#/library');
+    expect(href(/^reading/i)).toBe('#/read/jingyesi');
+    expect(href(/^settings/i)).toBe('#/settings');
   });
 });

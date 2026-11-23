@@ -2,14 +2,9 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { useHashRoute } from '../../app/useHashRoute';
 import { BrowserSpeechProvider } from '../../audio';
-import {
-  DEFAULT_SETTINGS, // TODO(T62): swap for the persisted settings (T57)
-  parsePoem,
-  type Lexicon,
-  type Poem,
-  type PoemProgress,
-} from '../../core';
+import { parsePoem, type Lexicon, type Poem, type PoemProgress } from '../../core';
 import { loadLexicon, saveLexicon } from '../../lexicon';
+import { useSettings } from '../../settings/useSettings';
 import { loadProgress, saveProgress } from './progressStore';
 import { SessionScreen } from './SessionScreen';
 
@@ -39,7 +34,7 @@ interface Loaded {
 
 /** Loads the lexicon and this poem's progress, then starts the session. Remounts per poem. */
 function PoemSession({ poem }: { poem: Poem }) {
-  const settings = DEFAULT_SETTINGS;
+  const [settings] = useSettings();
   const [loaded, setLoaded] = useState<Loaded | null>(null);
   // One session seed per visit, so a reload gives a fresh shuffle.
   const [seed] = useState(() => Math.floor(Math.random() * 2 ** 31));

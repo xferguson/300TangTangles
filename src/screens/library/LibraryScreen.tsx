@@ -88,9 +88,14 @@ export function LibraryScreen({ catalog, poems, lexicon, settings }: LibraryScre
                 className={card.status === 'available' ? 'lib-card' : 'lib-card soon'}
               >
                 {card.status === 'available' ? (
-                  <a className="lib-link" href={`#/read/${card.id}`}>
-                    <CardBody card={card} script={settings.script} />
-                  </a>
+                  <>
+                    <a className="lib-link" href={`#/read/${card.id}`}>
+                      <CardBody card={card} script={settings.script} />
+                    </a>
+                    <a className="lib-play" href={`#/play/${card.id}`}>
+                      Play
+                    </a>
+                  </>
                 ) : (
                   <div className="lib-link">
                     <CardBody card={card} script={settings.script} />

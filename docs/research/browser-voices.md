@@ -62,5 +62,5 @@ Not assessed: this needs a person listening on real devices. The expected failur
 
 ## Follow-ups
 
-- `src/audio/player/AudioCheckPage.tsx` (T58) hard-codes "No Mandarin voice installed"; it should use `capabilityMessage(cap, lang)` for Cantonese. Left alone because it is T58's file.
+- (Resolved in T62: `AudioCheckPage` and its dev route were deleted.)
 - A human with a Cantonese-capable device should fill in a "voices found / how it sounded" table here.
