@@ -15,7 +15,7 @@ import {
 import type { Poem } from '../core/poem';
 import { reviewUnit, type ReviewRating } from '../lexicon/lexicon';
 import { parseExerciseId } from './ids';
-import { PASS, computeRank, lineUnits, refreshRecognition, sealsFor } from './mastery';
+import { computeRank, lineUnits, refreshRecognition, sealsFor } from './mastery';
 import { ratingFor, recordReview } from './review';
 
 /** Accuracy needed on the blank scroll to earn 狀元. */
