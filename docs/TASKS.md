@@ -422,6 +422,6 @@ Unblocks: —
 Goal: the Home / Settings bar scrolls away on long screens; anchor it to the top of the viewport.
 Done when: a test covers the sticky styles.
 
-Status: in-progress
+Status: done
 Branch: task/T65-sticky-nav
-PR: 
+PR: #33
