@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "id": "xiangsi",
+  "title": {
+    "trad": "相思",
+    "simp": "相思"
+  },
+  "poet": {
+    "trad": "王維",
+    "simp": "王维",
+    "pinyin": "Wáng Wéi"
+  },
+  "dynasty": "tang",
+  "form": "wujue",
+  "lines": [
+    {
+      "chars": [
+        {
+          "trad": "紅",
+          "simp": "红",
+          "readings": {
+            "zhuyin": "ㄏㄨㄥˊ",
+            "pinyin": "hóng",
+            "jyutping": "hung4",
+            "tailo": {
+              "lit": "hông",
+              "col": "âng"
+            }
+          }
+        },
+        {
+          "trad": "豆",
+          "simp": "豆",
+          "readings": {
+            "zhuyin": "ㄉㄡˋ",
+            "pinyin": "dòu",
+            "jyutping": "dau6",
+            "tailo": {
+              "lit": "tāu",
+              "col": "tāu"
+            }
+          }
+        },
+        {
+          "trad": "生",
+          "simp": "生",
+          "readings": {
+            "zhuyin": "ㄕㄥ",
+            "pinyin": "shēng",
+            "jyutping": "sang1",
+            "tailo": {
+              "lit": "sing",
+              "col": "senn"
+            }
+          }
+        },
+        {
+          "trad": "南",
+          "simp": "南",
+          "readings": {
+            "zhuyin": "ㄋㄢˊ",
+            "pinyin": "nán",
+            "jyutping": "naam4",
+            "tailo": {
+              "lit": "lâm",
+              "col": "lâm"
+            }
+          }
+        },
+        {
+          "trad": "國",
+          "simp": "国",
+          "readings": {
+            "zhuyin": "ㄍㄨㄛˊ",
+            "pinyin": "guó",
+            "jyutping": "gwok3",
+            "tailo": {
+              "lit": "kok",
+              "col": "kok"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "Red beans grow in the southern land",
+      "literal": "Red beans grow in the southern country.",
+      "poetic": "In the south, the red beans grow.",
+      "meaning": {
+        "feeling": "Quiet tenderness and a rising longing",
+        "wrongFeelings": ["Pride in a rich harvest", "Cold indifference"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "春",
+          "simp": "春",
+          "readings": {
+            "zhuyin": "ㄔㄨㄣ",
+            "pinyin": "chūn",
+            "jyutping": "ceon1",
+            "tailo": {
+              "lit": "tshun",
+              "col": "tshun"
+            }
+          }
+        },
+        {
+          "trad": "來",
+          "simp": "来",
+          "readings": {
+            "zhuyin": "ㄌㄞˊ",
+            "pinyin": "lái",
+            "jyutping": "loi4",
+            "tailo": {
+              "lit": "lâi",
+              "col": "lâi"
+            }
+          }
+        },
+        {
+          "trad": "發",
+          "simp": "发",
+          "readings": {
+            "zhuyin": "ㄈㄚ",
+            "pinyin": "fā",
+            "jyutping": "faat3",
+            "tailo": {
+              "lit": "huat",
+              "col": "puah"
+            }
+          }
+        },
+        {
+          "trad": "幾",
+          "simp": "几",
+          "readings": {
+            "zhuyin": "ㄐㄧˇ",
+            "pinyin": "jǐ",
+            "jyutping": "gei2",
+            "tailo": {
+              "lit": "kí",
+              "col": "kuí"
+            }
+          }
+        },
+        {
+          "trad": "枝",
+          "simp": "枝",
+          "readings": {
+            "zhuyin": "ㄓ",
+            "pinyin": "zhī",
+            "jyutping": "zi1",
+            "tailo": {
+              "lit": "tsi",
+              "col": "ki"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "How many branches sprout when spring comes?",
+      "literal": "When spring comes, how many branches do they put forth?",
+      "poetic": "With the spring, how many new shoots have they put out?",
+      "meaning": {
+        "feeling": "Gentle, wondering care for the one far away",
+        "wrongFeelings": ["Annoyance at the slow season", "Mere curiosity about gardening"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "願",
+          "simp": "愿",
+          "readings": {
+            "zhuyin": "ㄩㄢˋ",
+            "pinyin": "yuàn",
+            "jyutping": "jyun6",
+            "tailo": {
+              "lit": "guān",
+              "col": "guān"
+            }
+          }
+        },
+        {
+          "trad": "君",
+          "simp": "君",
+          "readings": {
+            "zhuyin": "ㄐㄩㄣ",
+            "pinyin": "jūn",
+            "jyutping": "gwan1",
+            "tailo": {
+              "lit": "kun",
+              "col": "kun"
+            }
+          }
+        },
+        {
+          "trad": "多",
+          "simp": "多",
+          "readings": {
+            "zhuyin": "ㄉㄨㄛ",
+            "pinyin": "duō",
+            "jyutping": "do1",
+            "tailo": {
+              "lit": "to",
+              "col": "tsē"
+            }
+          }
+        },
+        {
+          "trad": "採",
+          "simp": "采",
+          "readings": {
+            "zhuyin": "ㄘㄞˇ",
+            "pinyin": "cǎi",
+            "jyutping": "coi2",
+            "tailo": {
+              "lit": "tshái",
+              "col": "tshái"
+            }
+          }
+        },
+        {
+          "trad": "擷",
+          "simp": "撷",
+          "readings": {
+            "zhuyin": "ㄒㄧㄝˊ",
+            "pinyin": "xié",
+            "jyutping": "git3",
+            "tailo": {
+              "lit": "kiat",
+              "col": "kiat"
+            }
+          }
+        }
+      ],
+      "punct": "，",
+      "gloss": "I wish you would gather many",
+      "literal": "I wish that you would pluck many of them.",
+      "poetic": "Gather them by the handful, I beg you,",
+      "meaning": {
+        "feeling": "A heartfelt wish to be remembered",
+        "wrongFeelings": ["The bossiness of an employer", "Grudging generosity"]
+      }
+    },
+    {
+      "chars": [
+        {
+          "trad": "此",
+          "simp": "此",
+          "readings": {
+            "zhuyin": "ㄘˇ",
+            "pinyin": "cǐ",
+            "jyutping": "ci2",
+            "tailo": {
+              "lit": "tshú",
+              "col": "tshú"
+            }
+          }
+        },
+        {
+          "trad": "物",
+          "simp": "物",
+          "readings": {
+            "zhuyin": "ㄨˋ",
+            "pinyin": "wù",
+            "jyutping": "mat6",
+            "tailo": {
+              "lit": "bu̍t",
+              "col": "mi̍h"
+            }
+          }
+        },
+        {
+          "trad": "最",
+          "simp": "最",
+          "readings": {
+            "zhuyin": "ㄗㄨㄟˋ",
+            "pinyin": "zuì",
+            "jyutping": "zeoi3",
+            "tailo": {
+              "lit": "tsuì",
+              "col": "tsuè"
+            }
+          }
+        },
+        {
+          "trad": "相",
+          "simp": "相",
+          "readings": {
+            "zhuyin": "ㄒㄧㄤ",
+            "pinyin": "xiāng",
+            "jyutping": "soeng1",
+            "tailo": {
+              "lit": "siong",
+              "col": "sio"
+            }
+          }
+        },
+        {
+          "trad": "思",
+          "simp": "思",
+          "readings": {
+            "zhuyin": "ㄙ",
+            "pinyin": "sī",
+            "jyutping": "si1",
+            "tailo": {
+              "lit": "su",
+              "col": "si"
+            }
+          }
+        }
+      ],
+      "punct": "。",
+      "gloss": "These things stir longing most of all",
+      "literal": "This is the thing that most calls up longing.",
+      "poetic": "for nothing speaks of longing like these.",
+      "meaning": {
+        "feeling": "Deep love and longing across distance",
+        "wrongFeelings": ["Cheerful satisfaction with a gift", "Anger at being forgotten"]
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "紅",
+      "simp": "红",
+      "kind": "char",
+      "gloss": "red",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "豆",
+      "simp": "豆",
+      "kind": "char",
+      "gloss": "bean",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "生",
+      "simp": "生",
+      "kind": "char",
+      "gloss": "to grow, to be born",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "南",
+      "simp": "南",
+      "kind": "char",
+      "gloss": "south",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "國",
+      "simp": "国",
+      "kind": "char",
+      "gloss": "country, kingdom",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "春",
+      "simp": "春",
+      "kind": "char",
+      "gloss": "spring",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "來",
+      "simp": "来",
+      "kind": "char",
+      "gloss": "to come",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "發",
+      "simp": "发",
+      "kind": "char",
+      "gloss": "to sprout, to put forth",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "幾",
+      "simp": "几",
+      "kind": "char",
+      "gloss": "how many, a few",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "枝",
+      "simp": "枝",
+      "kind": "char",
+      "gloss": "branch",
+      "occurrences": [
+        {
+          "line": 1,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "願",
+      "simp": "愿",
+      "kind": "char",
+      "gloss": "to wish",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "君",
+      "simp": "君",
+      "kind": "char",
+      "gloss": "you (respectful), my friend",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "多",
+      "simp": "多",
+      "kind": "char",
+      "gloss": "many, much",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "採",
+      "simp": "采",
+      "kind": "char",
+      "gloss": "to pick, to gather",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "擷",
+      "simp": "撷",
+      "kind": "char",
+      "gloss": "to pluck, to pick",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "此",
+      "simp": "此",
+      "kind": "char",
+      "gloss": "this",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "物",
+      "simp": "物",
+      "kind": "char",
+      "gloss": "thing, object",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 1
+        }
+      ]
+    },
+    {
+      "id": "最",
+      "simp": "最",
+      "kind": "char",
+      "gloss": "most, most of all",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 2
+        }
+      ]
+    },
+    {
+      "id": "相",
+      "simp": "相",
+      "kind": "char",
+      "gloss": "each other (相思: longing for one another)",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "思",
+      "simp": "思",
+      "kind": "char",
+      "gloss": "to think of, to long for",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 4
+        }
+      ]
+    },
+    {
+      "id": "紅豆",
+      "simp": "红豆",
+      "kind": "compound",
+      "gloss": "red bean",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 0
+        }
+      ]
+    },
+    {
+      "id": "南國",
+      "simp": "南国",
+      "kind": "compound",
+      "gloss": "the southern land",
+      "occurrences": [
+        {
+          "line": 0,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "採擷",
+      "simp": "采撷",
+      "kind": "compound",
+      "gloss": "to pluck, to gather",
+      "occurrences": [
+        {
+          "line": 2,
+          "start": 3
+        }
+      ]
+    },
+    {
+      "id": "相思",
+      "simp": "相思",
+      "kind": "compound",
+      "gloss": "longing for one another",
+      "occurrences": [
+        {
+          "line": 3,
+          "start": 3
+        }
+      ]
+    }
+  ],
+  "translation": {
+    "literal": "Red beans grow in the southern land; when spring comes, how many branches do they put forth? I wish you would pluck many of them, for this is the thing that most calls up longing.",
+    "poetic": "In the south the red beans grow, and with every spring they send out new shoots. Gather them by the handful, my friend, for nothing speaks of longing like these."
+  },
+  "notes": [
+    {
+      "id": "red-bean",
+      "kind": "interpretation",
+      "title": "The red bean as a love token",
+      "body": "紅豆 here means a bright red seed (often called 相思子, \"longing seed\") that Chinese tradition treats as a token of love and absence. Botanists disagree about which southern plant is meant. In the poem the seed stands for the memory of someone far away, so the final line can name the feeling directly: 相思."
+    },
+    {
+      "id": "variants",
+      "kind": "text-variant",
+      "title": "Variants: 春來 / 秋來 and 願君 / 勸君",
+      "body": "Texts differ. Some give 秋來發幾枝 (autumn) instead of 春來, and 勸君休採擷 (I urge you not to pick them) instead of 願君多採擷. The first is the form taught in schools today. Some old collections also print the poem under the title 江上贈李龜年."
+    },
+    {
+      "id": "rhyme",
+      "kind": "rhyme",
+      "title": "Rhyme: 枝 · 思",
+      "body": "Lines two and four end in 枝 (zhī) and 思 (sī), in the same 支 rhyme. The first and third lines end in 國 and 擷, which do not rhyme."
+    },
+    {
+      "id": "poet",
+      "kind": "history",
+      "title": "Wang Wei (699?–759)",
+      "body": "Wang Wei was a poet, painter and musician at the Tang court, later called the 詩佛 (the Buddha of poetry) for his Buddhist themes. Su Shi wrote of his work: \"there are paintings in his poems, and poems in his paintings.\""
+    }
+  ],
+  "distractorSeeds": {
+    "紅": {
+      "look": ["江"],
+      "meaning": ["赤"]
+    },
+    "豆": {
+      "look": ["短"],
+      "meaning": []
+    },
+    "生": {
+      "look": ["主"],
+      "sound": ["聲"],
+      "meaning": ["長"]
+    },
+    "南": {
+      "look": ["用"],
+      "meaning": ["北"]
+    },
+    "國": {
+      "look": ["圖"],
+      "sound": ["過"],
+      "meaning": ["邦"]
+    },
+    "春": {
+      "look": ["奉"],
+      "meaning": ["夏"]
+    },
+    "來": {
+      "look": ["未"],
+      "meaning": ["至"]
+    },
+    "發": {
+      "look": ["廢"],
+      "meaning": ["開"]
+    },
+    "幾": {
+      "look": ["機"],
+      "sound": ["及", "際"],
+      "meaning": ["多", "少"]
+    },
+    "枝": {
+      "look": ["技"],
+      "sound": ["知", "只"],
+      "meaning": ["條"]
+    },
+    "願": {
+      "look": ["原"],
+      "sound": ["猿", "遠"],
+      "meaning": ["望"]
+    },
+    "君": {
+      "look": ["居"],
+      "meaning": ["你"]
+    },
+    "多": {
+      "look": ["夕"],
+      "meaning": ["眾"]
+    },
+    "採": {
+      "look": ["彩"],
+      "sound": ["裁"],
+      "meaning": ["摘"]
+    },
+    "擷": {
+      "look": ["頡"],
+      "meaning": ["摘"]
+    },
+    "此": {
+      "look": ["些"],
+      "sound": ["辭"],
+      "meaning": ["這"]
+    },
+    "物": {
+      "look": ["勿"],
+      "sound": ["午", "吳"],
+      "meaning": ["事"]
+    },
+    "最": {
+      "look": ["取"],
+      "sound": ["醉"],
+      "meaning": ["極"]
+    },
+    "相": {
+      "look": ["想"],
+      "sound": ["鄉", "響"],
+      "meaning": ["互"]
+    },
+    "思": {
+      "look": ["恩"],
+      "sound": ["寺", "絲"],
+      "meaning": ["想", "念"]
+    }
+  },
+  "meta": {
+    "curriculum": [
+      {
+        "region": "prc"
+      }
+    ],
+    "scene": "red-beans"
+  }
+}
