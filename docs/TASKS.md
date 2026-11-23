@@ -378,6 +378,6 @@ Unblocks: T50, T51, T52, T53, T54, T56, T57
 Goal: remove shared-file conflicts between parallel screen tasks. Route registry: `src/app/App.tsx` auto-discovers `src/app/routes/*.route.tsx` (each exports `route = { path, title, Component }`) and renders the longest matching route, else the home shell. Exercise props contract: `src/exercises/types.ts` exports `ExerciseProps<E>`. No barrel `index.ts` files re-exporting screens or exercises.
 Done when: unit tests cover exact match, prefix match, unknown-hash fallback and no ambiguous routes; a compile-time `expectTypeOf` test covers `ExerciseProps`; `#/ui` still works.
 
-Status: in-progress
+Status: done
 Branch: task/T61-routes-and-props
 PR: —
