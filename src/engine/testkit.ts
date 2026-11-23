@@ -5,12 +5,15 @@ import {
   DEFAULT_SETTINGS,
   emptyLineMastery,
   type EngineState,
+  type Exercise,
+  type ExerciseResult,
   type LineMastery,
   type Lexicon,
   type PoemProgress,
   type UnitId,
 } from '../core/types';
 import { markKnown } from '../lexicon/lexicon';
+import { parseExerciseId } from './ids';
 
 export const poem: Poem = parsePoem(fixturePoemData);
 export const NOW = '2026-03-01T08:00:00.000Z';
@@ -45,6 +48,24 @@ export function stateOf(over: Partial<EngineState> = {}): EngineState {
     now: NOW,
     seed: 1,
     history: [],
+    ...over,
+  };
+}
+
+/** A result for an exercise as a learner would report it; override fields to simulate mistakes. */
+export function resultFor(ex: Exercise, over: Partial<ExerciseResult> = {}): ExerciseResult {
+  const { line } = parseExerciseId(ex.id);
+  return {
+    exerciseId: ex.id,
+    poemId: ex.poemId,
+    kind: ex.kind,
+    line: ex.kind === 'flashcard' ? null : line,
+    correct: true,
+    attempts: 1,
+    durationMs: 1000,
+    hintsUsed: 0,
+    accuracy: ex.kind === 'recite' ? 1 : null,
+    unitsMissed: [],
     ...over,
   };
 }
