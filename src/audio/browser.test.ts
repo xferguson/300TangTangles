@@ -39,11 +39,11 @@ describe('BrowserSpeechProvider capability', () => {
     expect(provider.listVoices()).toEqual([]);
   });
   it('lists all device voices', () => {
-    expect(setup().provider.listVoices().map((v) => v.name)).toEqual([
-      'Alex',
-      'Tingting',
-      'Mei-Jia',
-    ]);
+    expect(
+      setup()
+        .provider.listVoices()
+        .map((v) => v.name),
+    ).toEqual(['Alex', 'Tingting', 'Mei-Jia']);
   });
   it('notices voices that load late and notifies subscribers', () => {
     const { synth, provider } = setup([]);
