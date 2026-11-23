@@ -96,3 +96,42 @@ describe('BrowserSpeechProvider speak', () => {
     await expect(second).resolves.toBe('ended');
   });
 });
+
+describe('BrowserSpeechProvider Cantonese', () => {
+  const hk = { name: 'Sin-ji', lang: 'zh-HK', localService: true };
+  const yue = { name: 'Google 粵語', lang: 'yue-HK', localService: false };
+
+  it('selects the zh-HK voice for yue', () => {
+    expect(setup([en, tw, hk]).provider.capability('yue')).toEqual({
+      status: 'ready',
+      voice: { name: 'Sin-ji', lang: 'zh-HK', local: true },
+    });
+  });
+  it('selects a yue-* voice when there is no zh-HK voice', () => {
+    const cap = setup([tw, yue]).provider.capability('yue');
+    expect(cap.status === 'ready' && cap.voice.name).toBe('Google 粵語');
+  });
+  it('reports no-voice (never Mandarin) when only Mandarin voices exist', () => {
+    expect(setup([en, tw, cn]).provider.capability('yue')).toEqual({ status: 'no-voice' });
+  });
+  it('does not speak, and does not use a Mandarin voice, when Cantonese is missing', async () => {
+    const { synth, provider } = setup([tw, cn]);
+    await expect(provider.speak('床前明月光', 'yue', 'normal')).resolves.toBe('no-voice');
+    expect(synth.spoken).toHaveLength(0);
+  });
+  it('speaks Cantonese with the zh-HK voice and lang', async () => {
+    const { synth, provider } = setup([tw, hk]);
+    const p = provider.speak('床前明月光', 'yue', 'slow');
+    expect(synth.spoken[0]!.voice).toBe(hk);
+    expect(synth.spoken[0]!.lang).toBe('zh-HK');
+    synth.finishCurrent();
+    await expect(p).resolves.toBe('ended');
+  });
+  it('keeps Mandarin and Cantonese independent when both are installed', () => {
+    const { provider } = setup([hk, tw]);
+    const m = provider.capability('cmn');
+    const c = provider.capability('yue');
+    expect(m.status === 'ready' && m.voice.lang).toBe('zh-TW');
+    expect(c.status === 'ready' && c.voice.lang).toBe('zh-HK');
+  });
+});
