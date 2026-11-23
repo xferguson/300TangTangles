@@ -18,7 +18,7 @@ graph LR
   T20 -- approved --> T21
   T01 --> T21
   T30 --> T34
-  T10 --> T40 --> T41
+  T02 --> T40 --> T41 --> T45
   T42 --> T43
   T40 --> T43
   T21 --> T50 & T51 & T52 & T53 & T54 & T57 & T58
@@ -40,13 +40,13 @@ graph LR
 | Wave | Starts after | Tasks | Max sessions |
 |---|---|---|---|
 | 1 | T00 | T01, T20, T42 | 3 |
-| 2 | T02 | T10, T11, T30, T31, T32, T33, T44 | 7 (4–5 recommended) |
-| 3 | T30 / T20 approved / TTS key | T34, T21, T40, T57 | 4 |
+| 2 | T02 | T10, T11, T30, T31, T32, T33, T40, T44 | 8 (4–5 recommended) |
+| 3 | T30 / T21 | T34, T57 | 2 (plus anything left from wave 2) |
 | 4 | T21 + deps | T50, T51, T52, T53, T54, T41, T58 | 7 |
 | 5 | | T55, T56, T43 | 3 |
 | 6 | | T60 | 1 |
 
-**Human dependencies:** T00 GitHub settings · T20 design approval · TTS API key before T40.
+**Human dependencies:** T00 GitHub settings · T20 design approval. No API key is needed: audio starts on the browser's built-in voices (T40, T41).
 
 ---
 
@@ -78,7 +78,7 @@ PR: #3
 ### T02 · Core contracts
 Lane: 0 · Approval: none · Size: M
 Depends on: T01
-Unblocks: T10, T11, T30, T31, T32, T33, T44, T52
+Unblocks: T10, T11, T30, T31, T32, T33, T40, T44, T52
 Goal: Zod poem schema (lines, chars Trad/Simp, readings zhuyin/pinyin/jyutping/tailo (tailo has two layers: `lit` 文讀 and `col` 白讀), units incl. compounds, translations, notes, meta) with inferred types. `src/core/types.ts`: UnitId, UnitStatus, LexiconEntry, Exercise (discriminated union), ExerciseResult, LineMastery {recognition, production, meaning, recitation}, EngineState, Rank, Settings. Signature `nextExercise(state): Exercise`. A test fixture poem. `validate:content` validates `content/poems/*.json`.
 Done when: schema tests pass (valid fixture accepted, malformed fixtures rejected). Types are exported and documented.
 
@@ -91,7 +91,7 @@ PR: —
 ### T10 · 靜夜思 content
 Lane: A · Approval: none · Size: M
 Depends on: T02
-Unblocks: T40, T50, T51
+Unblocks: T50, T51
 Goal: `content/poems/jingyesi.json`: standard school text (Trad + Simp), per-char zhuyin, pinyin, Jyutping, and Tâi-lô in both layers (文讀 and 白讀, checked against the MOE dictionary's [文]/[白] marks); compounds 明月 地上 舉頭 低頭 故鄉; per-char and per-line glosses; literal and poetic translations; a "what the poet feels" meaning prompt for each line; scholar's notes (床 debate, Song variant, rhyme, 平仄); distractor seeds (看, 山, 雪, 卿…).
 Done when: `validate:content` passes. Readings are cross-checked against a dictionary and the sources are listed in the PR.
 
@@ -193,23 +193,23 @@ PR: —
 
 ## Lane D · Audio & speech I/O
 
-### T40 · Audio: Mandarin
+### T40 · Audio: engine + browser voices (Mandarin)
 Lane: D · Approval: none · Size: M
-Depends on: T10
+Depends on: T02
 Unblocks: T41, T43, T58
-Goal: `scripts/gen-audio.ts` (vendor adapter interface, with Azure first). Uses SSML phoneme hints from content readings and generates full / line-n / char clips × normal / slow into `public/audio/cmn/<poem>/`, plus an audio manifest. Needs a TTS API key from the user (local env only).
-Done when: adapter unit tests use a fake vendor (red/green). Clips are committed. A human listens and confirms the readings.
+Goal: no key, no generation step. `src/audio/` `AudioProvider` interface (`speak(text, lang, rate)`, `stop`, capability + voice listing) with a `BrowserSpeechProvider` on `speechSynthesis`, plus a mock provider for tests. Mandarin voice picked from the device's `zh-TW` / `zh-CN` voices. Playback of whole poem, one line, or one char, at normal and slow rate, with line-by-line sequencing and highlight callbacks. A clear "no voice installed" state.
+Done when: unit tests (red/green) use a fake `speechSynthesis` and cover voice selection and fallback, rate mapping, sequencing/cancel, and the no-voice state. Manual check on desktop Chrome plus one phone, noting which voices were found.
 
-Status: blocked (needs TTS API key)
+Status: todo
 Branch: —
 PR: —
 
-### T41 · Audio: Cantonese
+### T41 · Audio: Cantonese (browser voices)
 Lane: D · Approval: none · Size: S
 Depends on: T40
-Unblocks: T58
-Goal: generate `public/audio/yue/<poem>/` with a zh-HK neural voice, with literary readings checked against Jyutping.
-Done when: clips are committed and manifest updated; readings are spot-checked.
+Unblocks: T45, T58
+Goal: Cantonese through the same provider using the device's `zh-HK` / `yue` voice. Voice-availability detection and an honest message ("this device has no Cantonese voice") instead of silently falling back to Mandarin. Findings written to `docs/research/browser-voices.md`: which voices exist on desktop Chrome / Safari / Firefox / Android / iOS, how they sound on 《靜夜思》, and any wrong readings.
+Done when: provider tests cover Cantonese selection and the missing-voice state, and the findings doc is committed.
 
 Status: todo
 Branch: —
@@ -230,7 +230,7 @@ PR: #2
 Lane: D · Approval: none · Size: M
 Depends on: T42, T40
 Unblocks: —
-Goal: implement the path T42 recommended as a `gen-audio` adapter, generating both reading layers into `public/audio/nan-lit/<poem>/` (文讀) and `public/audio/nan-col/<poem>/` (白讀). If T42 recommends deferral, record that decision and keep the UI "coming soon" state.
+Goal: implement the path T42 recommended as a clip generator (and a `ClipProvider` for T40's `AudioProvider` interface, since browsers have no Hokkien voice), generating both reading layers into `public/audio/nan-lit/<poem>/` (文讀) and `public/audio/nan-col/<poem>/` (白讀). If T42 recommends deferral, record that decision and keep the UI "coming soon" state.
 Done when: clips are committed or the deferral is documented.
 
 Status: todo
@@ -243,6 +243,17 @@ Depends on: T02
 Unblocks: T56
 Goal: `src/speech/` `SpeechInput` interface with a Web Speech API adapter (cmn zh-TW / zh-CN, yue zh-HK), a capability check, a record → playback → self-grade fallback, and a mock adapter for tests.
 Done when: tests cover capability detection, language mapping, and fallback selection using the mock.
+
+Status: todo
+Branch: —
+PR: —
+
+### T45 · Audio quality review & optional pre-generated clips
+Lane: D · Approval: none · Size: M
+Depends on: T41
+Unblocks: —
+Goal: decision task. Using the T41 findings, decide whether browser voices are good enough, or whether to add pre-generated clips behind the same `AudioProvider` (a `ClipProvider` reading `public/audio/<lang>/<poem>/…` with a manifest), generated once by a script with a free key-less engine (e.g. `edge-tts`) or a free-tier cloud voice (e.g. Azure). Record the decision and reasons; implement only if warranted.
+Done when: a short decision note is committed. If clips are warranted, a follow-up task is added; this one stays decision-only.
 
 Status: todo
 Branch: —
@@ -338,12 +349,12 @@ Status: todo
 Branch: —
 PR: —
 
-### T58 · Audio player & offline
+### T58 · Audio player & buttons
 Lane: E · Approval: none · Size: S
 Depends on: T40, T21
 Unblocks: T60
-Goal: an audio service that resolves clips from the manifest (full / line / char, normal / slow, language fallback order cmn → yue → nan); `AudioButton` wired up; PWA precache/runtime cache of audio.
-Done when: unit tests cover clip resolution and fallback, and a Playwright offline check passes.
+Goal: `AudioButton` and a player service on top of `AudioProvider` (full / line / char, normal / slow, language setting). Starts with browser voices; when a clip manifest exists (T43, or T45 if it adds clips) it plays clips first and falls back to browser voices. PWA precache of audio clips applies only when clips exist.
+Done when: unit tests cover provider selection and fallback with the mock provider, and a Playwright check passes with a stubbed `speechSynthesis`.
 
 Status: todo
 Branch: —
