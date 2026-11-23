@@ -334,9 +334,9 @@ Unblocks: T60
 Goal: line recitation (prompt is the translation or the previous line) and full-poem recitation from a blank scroll, with mis-said chars highlighted, the self-grade fallback, and the post-recitation meaning check.
 Done when: component tests with the mock speech adapter cover pass, fail, and fallback.
 
-Status: in-progress
+Status: done
 Branch: task/T56-recite-exercise
-PR: —
+PR: #28
 
 ### T57 · Settings & backup
 Lane: E · Approval: none · Size: S
