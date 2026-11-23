@@ -1,4 +1,10 @@
+import { UiGallery } from './UiGallery';
+import { useHashRoute } from './useHashRoute';
+
 export function App() {
+  const route = useHashRoute();
+  if (route === '#/ui') return <UiGallery />;
+
   return (
     <div className="app-shell">
       <header className="app-header">

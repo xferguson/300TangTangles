@@ -1,0 +1,127 @@
+/*
+ * Tang design tokens, from the approved T20 mock-ups (design/index.html).
+ * Light = 宣紙 rice paper. Dark = 漆 lacquer + gold.
+ * Theme choice: no data-theme → follow the OS; data-theme="light" | "dark" → forced.
+ * `.t-light` / `.t-dark` force a theme on one subtree (gallery, previews).
+ */
+:root,
+.t-light {
+  /* surfaces */
+  --paper: #efe6d3;
+  --paper-2: #e5d9bf;
+  --paper-3: #f7f1e4;
+  --ink: #221d17;
+  --ink-soft: #5f5547;
+  --rule: #c9b791;
+  --frame: #9a7b4f;
+  /* pigments */
+  --cinnabar: #b5372b; /* 朱砂: seals, primary action */
+  --azurite: #2b5da8; /* 石青: New */
+  --malachite: #2f7d5c; /* 石綠: right spot 〇 */
+  --gamboge: #d79e1e; /* 藤黃: learning, in this line △ */
+  --ochre: #995a2c; /* 赭石: progress, notes */
+  --purple: #6a3d8c; /* 紫: another line ◇ */
+  --inkgrey: #6a655e; /* 墨: not in the poem ✕ */
+  --gold: #a9862f; /* 金: memorized seal */
+  --on-pigment: #fbf6ea;
+  --on-gamboge: #2a1f08;
+  /* derived */
+  --hl-new: color-mix(in srgb, var(--azurite) 20%, transparent);
+  --hl-l1: color-mix(in srgb, var(--gamboge) 52%, transparent);
+  --hl-l2: color-mix(in srgb, var(--gamboge) 38%, transparent);
+  --hl-l3: color-mix(in srgb, var(--gamboge) 25%, transparent);
+  --hl-l4: color-mix(in srgb, var(--gamboge) 13%, transparent);
+  --heading: var(--ink);
+  --texture-opacity: 0.22;
+  --shadow:
+    0 1px 0 color-mix(in srgb, var(--frame) 30%, transparent), 0 10px 30px -18px rgb(60 40 10 / 45%);
+
+  /* type */
+  --f-poem: 'LXGW WenKai TC', 'Kaiti TC', 'STKaiti', 'BiauKai', 'DFKai-SB', 'KaiTi', serif;
+  --f-ui: 'Noto Serif TC', 'Songti TC', 'PMingLiU', 'Source Han Serif TC', serif;
+  --f-latin: 'Noto Serif TC', Georgia, serif;
+
+  /* motion */
+  --dur-bleed: 700ms;
+  --dur-unroll: 800ms;
+  --dur-stamp: 550ms;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --paper: #15110e;
+    --paper-2: #0e0b09;
+    --paper-3: #211a15;
+    --ink: #ecdfc4;
+    --ink-soft: #a99a80;
+    --rule: #3b3127;
+    --frame: #b8954f;
+    --cinnabar: #d24b37;
+    --azurite: #7aa2e3;
+    --malachite: #3e9670;
+    --gamboge: #e2b03e;
+    --ochre: #c88a55;
+    --purple: #8e63b8;
+    --inkgrey: #57524c;
+    --gold: #cfa956;
+    --on-pigment: #fff8ea;
+    --on-gamboge: #241905;
+    --hl-new: color-mix(in srgb, var(--azurite) 26%, transparent);
+    --hl-l1: color-mix(in srgb, var(--gamboge) 46%, transparent);
+    --hl-l2: color-mix(in srgb, var(--gamboge) 33%, transparent);
+    --hl-l3: color-mix(in srgb, var(--gamboge) 21%, transparent);
+    --hl-l4: color-mix(in srgb, var(--gamboge) 11%, transparent);
+    --heading: var(--gold);
+    --texture-opacity: 0.07;
+    --shadow:
+      0 0 0 1px color-mix(in srgb, var(--gold) 22%, transparent), 0 14px 34px -16px rgb(0 0 0 / 80%);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'],
+.t-dark {
+  --paper: #15110e;
+  --paper-2: #0e0b09;
+  --paper-3: #211a15;
+  --ink: #ecdfc4;
+  --ink-soft: #a99a80;
+  --rule: #3b3127;
+  --frame: #b8954f;
+  --cinnabar: #d24b37;
+  --azurite: #7aa2e3;
+  --malachite: #3e9670;
+  --gamboge: #e2b03e;
+  --ochre: #c88a55;
+  --purple: #8e63b8;
+  --inkgrey: #57524c;
+  --gold: #cfa956;
+  --on-pigment: #fff8ea;
+  --on-gamboge: #241905;
+  --hl-new: color-mix(in srgb, var(--azurite) 26%, transparent);
+  --hl-l1: color-mix(in srgb, var(--gamboge) 46%, transparent);
+  --hl-l2: color-mix(in srgb, var(--gamboge) 33%, transparent);
+  --hl-l3: color-mix(in srgb, var(--gamboge) 21%, transparent);
+  --hl-l4: color-mix(in srgb, var(--gamboge) 11%, transparent);
+  --heading: var(--gold);
+  --texture-opacity: 0.07;
+  --shadow:
+    0 0 0 1px color-mix(in srgb, var(--gold) 22%, transparent), 0 14px 34px -16px rgb(0 0 0 / 80%);
+  color-scheme: dark;
+}
+
+.t-light,
+.t-dark {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-bleed: 0ms;
+    --dur-unroll: 0ms;
+    --dur-stamp: 0ms;
+  }
+}

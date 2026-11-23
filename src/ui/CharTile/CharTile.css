@@ -1,0 +1,91 @@
+.char-tile {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.08em;
+  padding: 0.1em 0.12em 0.14em;
+  border: 0;
+  border-radius: 0.14em;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-family: var(--f-poem);
+  line-height: 1;
+  vertical-align: bottom;
+}
+button.char-tile {
+  cursor: pointer;
+}
+.char-tile[data-status='new'] {
+  background: var(--hl-new);
+  box-shadow: inset 0 -0.07em 0 var(--azurite);
+}
+.char-tile[data-level='1'] {
+  background: var(--hl-l1);
+}
+.char-tile[data-level='2'] {
+  background: var(--hl-l2);
+}
+.char-tile[data-level='3'] {
+  background: var(--hl-l3);
+}
+.char-tile[data-level='4'] {
+  background: var(--hl-l4);
+}
+.char-tile[data-status='ignored'] {
+  color: var(--ink-soft);
+}
+.char-tile[data-selected] {
+  outline: 2px solid var(--cinnabar);
+  outline-offset: 1px;
+}
+/* The fading scroll removes highlights as text fades into mist. */
+.char-tile[data-fade='mist'],
+.char-tile[data-fade='blank'] {
+  background: transparent;
+  box-shadow: none;
+}
+.char-tile[data-fade='mist'] .ct-face {
+  opacity: 0.3;
+  filter: blur(0.5px);
+}
+.ct-cell {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border: 1px solid color-mix(in srgb, var(--rule) 80%, transparent);
+  box-sizing: border-box;
+}
+.ct-cell::before,
+.ct-cell::after {
+  content: '';
+  position: absolute;
+  background: color-mix(in srgb, var(--rule) 55%, transparent);
+}
+.ct-cell::before {
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+}
+.ct-cell::after {
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+}
+.ct-pips {
+  display: inline-flex;
+  gap: 2px;
+}
+.ct-pip {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--rule);
+}
+.ct-pip[data-on] {
+  background: var(--gamboge);
+}

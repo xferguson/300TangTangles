@@ -1,0 +1,42 @@
+.ruby-char {
+  display: inline-block;
+  font-family: var(--f-poem);
+  line-height: 1;
+}
+.ruby-han {
+  line-height: 1;
+}
+.ruby-zhuyin {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+.zy-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0.12em;
+  font-family: var(--f-ui);
+  font-size: 0.3em;
+  line-height: 1.02;
+  color: var(--ink-soft);
+}
+.zy-tone {
+  font-family: var(--f-ui);
+  font-size: 0.3em;
+  line-height: 1;
+  width: 0.6em;
+  margin-left: 0.02em;
+  color: var(--ink-soft);
+}
+.ruby-over {
+  ruby-position: over;
+}
+.ruby-over rt {
+  font-family: var(--f-latin);
+  font-size: 0.3em;
+  font-style: italic;
+  letter-spacing: 0;
+  padding-bottom: 0.15em;
+  color: var(--ink-soft);
+}

@@ -1,0 +1,93 @@
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-block: 24px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid;
+  gap: 8px;
+}
+.gallery-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+.gallery-header h1 {
+  margin: 0;
+  font-family: var(--f-poem);
+  color: var(--heading);
+  font-size: 1.8rem;
+}
+.gallery-seg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.gallery-section {
+  display: grid;
+  gap: 14px;
+  padding-block: 24px 8px;
+  border-top: 1px solid var(--rule);
+}
+.gallery-section h2,
+.gallery-section h3 {
+  margin: 0;
+  color: var(--heading);
+  font-weight: 600;
+}
+.gallery-section h3 {
+  font-size: 0.95rem;
+}
+.gallery-note {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+.gallery-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: flex-end;
+}
+.gallery-stack {
+  display: grid;
+  gap: 14px;
+  max-width: 360px;
+}
+.gallery-item {
+  display: grid;
+  gap: 6px;
+  justify-items: start;
+}
+.gallery-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.gallery-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.1em;
+  font-size: 2rem;
+}
+.gallery-section .char-tile {
+  font-size: 2rem;
+}
+.gallery-scrolls {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  align-items: start;
+}
+.gallery-scrolls .scroll-frame[data-orientation='vertical'] .scroll-paper {
+  height: 12rem;
+}
+.gallery-poem-line {
+  font-size: 1.5rem;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
