@@ -301,7 +301,7 @@ Unblocks: T55
 Goal: tap-to-build line covering scaffold steps 2–5 (ordered bank, + distractors, translation-only, first-char prompt), with undo and tap-to-remove.
 Done when: component tests run each scaffold step and its results.
 
-Status: in-progress
+Status: done
 Branch: task/T53-line-builder
 PR: —
 

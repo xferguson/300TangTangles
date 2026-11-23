@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import type { LineBuilderExercise } from '../../core';
 import { AudioButton } from '../../ui/AudioButton/AudioButton';
@@ -37,7 +37,7 @@ export function LineBuilder({
   const [hintsUsed, setHintsUsed] = useState(0);
   const [missed, setMissed] = useState<string[]>([]);
   const [feedback, setFeedback] = useState<Feedback>('none');
-  const startedAt = useRef(Date.now());
+  const [startedAt] = useState(() => Date.now());
 
   const done = feedback === 'right';
   const full = placed.length === answer.length;
@@ -105,7 +105,7 @@ export function LineBuilder({
       line: exercise.line,
       correct: attempts === 1 && hintsUsed === 0,
       attempts,
-      durationMs: Math.max(0, Date.now() - startedAt.current),
+      durationMs: Math.max(0, Date.now() - startedAt),
       hintsUsed,
       accuracy: null,
       unitsMissed: missed,
