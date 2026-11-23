@@ -211,8 +211,8 @@ Unblocks: T45, T58
 Goal: Cantonese through the same provider using the device's `zh-HK` / `yue` voice. Voice-availability detection and an honest message ("this device has no Cantonese voice") instead of silently falling back to Mandarin. Findings written to `docs/research/browser-voices.md`: which voices exist on desktop Chrome / Safari / Firefox / Android / iOS, how they sound on 《靜夜思》, and any wrong readings.
 Done when: provider tests cover Cantonese selection and the missing-voice state, and the findings doc is committed.
 
-Status: todo
-Branch: —
+Status: in-progress
+Branch: task/T41-cantonese-voices
 PR: —
 
 ### T42 · Audio: Hokkien research
