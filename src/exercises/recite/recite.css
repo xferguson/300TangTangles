@@ -1,0 +1,72 @@
+.ex-recite .ex-stage {
+  font-size: 2rem;
+}
+.ex-recite-prompt {
+  margin: 0;
+  text-align: center;
+  font-family: var(--f-latin);
+  font-size: 1.15rem;
+  font-style: italic;
+  overflow-wrap: anywhere;
+}
+.ex-recite-prompt[data-kind='previous-line'] {
+  font-family: var(--f-poem);
+  font-style: normal;
+  font-size: 1.8rem;
+}
+.ex-recite-scroll {
+  min-height: 6rem;
+  color: var(--ink-soft);
+  font-family: var(--f-latin);
+  font-size: 1rem;
+  font-style: italic;
+}
+.rc-char {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 2.2rem;
+  padding: 0.1rem 0.2rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 0.25rem;
+}
+.rc-char[data-status='correct'] {
+  border-bottom-color: var(--malachite);
+}
+.rc-char[data-status='wrong'] {
+  border-bottom-color: var(--cinnabar);
+  background: color-mix(in srgb, var(--cinnabar) 14%, var(--paper-3));
+}
+.rc-char[data-status='missing'] {
+  border-bottom-color: var(--ochre);
+  border-bottom-style: dashed;
+  opacity: 0.75;
+}
+.rc-heard {
+  font-family: var(--f-ui);
+  font-size: 0.8rem;
+  color: var(--cinnabar);
+}
+.ex-recite-note {
+  margin: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+.ex-recite-audio {
+  width: 100%;
+}
+.ex-recite-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.ex-recite-meaning {
+  display: grid;
+  gap: 0.5rem;
+}
+.ex-recite-meaning .ex-choice {
+  font-family: var(--f-latin);
+  font-size: 1rem;
+}
