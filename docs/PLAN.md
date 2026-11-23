@@ -85,12 +85,12 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - Cloud sync.
 
 ## 8. Audio: separate tasks, in priority order
-`scripts/gen-audio.ts` reads the poem JSON and writes `public/audio/{lang}/{poem}/{full|line-n|char-x}.{normal|slow}.mp3`. It runs offline with an API key and the output is committed as static files.
-1. **Mandarin** (zh-TW or zh-CN neural voice; SSML phoneme hints force readings).
-2. **Cantonese** (zh-HK neural voice; literary readings checked against Jyutping).
-3. **Hokkien**: a research task first (T42, done: see [`research/hokkien-audio.md`](research/hokkien-audio.md)). Clips are made for **both reading layers**, 文讀 (`nan-lit`, how poems are recited in Taiwan today) and 白讀 (`nan-col`, everyday speech), and a setting picks which one the learner hears and sees. Until clips exist the UI shows "coming soon."
+**Start with the browser's built-in voices; no key, no generation step.** An `AudioProvider` interface (`src/audio/`) hides where sound comes from, so pre-generated clips can be added later without touching screens.
+1. **Mandarin** (T40): `speechSynthesis` with the device's `zh-TW` / `zh-CN` voice; normal and slow via speech rate.
+2. **Cantonese** (T41): the device's `zh-HK` / `yue` voice. Where a device has none, say so rather than reading Cantonese text in Mandarin.
+3. **Hokkien**: a research task first (T42, done: see [`research/hokkien-audio.md`](research/hokkien-audio.md)). Browsers have no Hokkien voice, so this one needs pre-generated or recorded clips. Clips are made for **both reading layers**, 文讀 (`nan-lit`, how poems are recited in Taiwan today) and 白讀 (`nan-col`, everyday speech), and a setting picks which one the learner hears and sees. Until clips exist the UI shows "coming soon."
+- **Known limits of browser voices:** no phoneme or SSML control, so an individual character's reading can't be forced; quality and voice availability vary by device and browser; a single-character utterance can sound clipped. T41 records what we find on real devices, and **T45** decides whether to add pre-generated clips (committed under `public/audio/`, made once with a key-less engine such as `edge-tts` or a free-tier cloud voice) behind the same interface.
 - **Future idea, not yet a task:** a fourth, *historical* reading, reconstructed Middle Chinese (roughly Tang-era pronunciation), so a learner could memorize a poem in the old sound and then in a modern language. There's no off-the-shelf TTS for it, so it would start with a research task like T42.
-- Vendor choice (Azure has zh-CN, zh-TW, and zh-HK) is confirmed when we start the task. The user supplies the key at that point.
 
 ## 9. Speech recognition
 - `src/speech/` wraps the Web Speech API (`zh-TW` / `zh-CN`, `zh-HK`).
@@ -112,7 +112,7 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - **Tests:** Vitest + Testing Library (unit/component), Playwright (e2e, phone viewport, `--trace off`).
 - **Architecture rule:** pure domain logic (`src/core`, `src/lexicon`, `src/engine`, `src/tangle`, `src/speech/grade`) has **no React/DOM imports**, so it can be built and tested in parallel with UI. UI talks to domain only through the contracts in `src/core/types.ts`.
 - **Content is code:** `content/poems/*.json` is validated by the Zod schema in CI (not "docs").
-- **Audio:** generated offline by `scripts/gen-audio.ts`; output committed under `public/audio/`. The API key is read from env locally, never committed or used in CI.
+- **Audio:** browser `speechSynthesis` behind an `AudioProvider` interface first. Pre-generated clips (Hokkien, and anything T45 adds) are made offline by a script and committed under `public/audio/`; any API key is read from local env, never committed or used in CI.
 
 ## E2. Process rules (go into `CLAUDE.md` so every session follows them)
 1. **Red/green TDD for all implementation.** Each behavior lands as a failing test commit (`test(Txx): … [red]`) followed by the implementation commit (`feat(Txx): … [green]`), then optional `refactor`. The PR description links the red commit and shows the failing output. Pure-docs and pure-content tasks are exempt from red/green (content is still schema-validated).
@@ -173,8 +173,9 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - T34 **Session engine:** mastery model, phase progression, interleaving, fade-level per char, meaning gating, rank computation. Simulated-learner tests. *(dep T30)*
 
 **Lane D: Audio & speech I/O**
-- T40 **Audio: Mandarin** pipeline + clips (full / line / char × normal / slow); needs the user's TTS key. *(dep T10)*
-- T41 **Audio: Cantonese** clips via the same pipeline. *(dep T40)*
+- T40 **Audio engine + browser voices (Mandarin)**: `AudioProvider` interface, `BrowserSpeechProvider`, mock. No key. *(dep T02)*
+- T41 **Audio: Cantonese** via browser voices, plus a findings doc on what devices offer. *(dep T40)*
+- T45 **Audio quality review**: decide whether to add pre-generated clips. *(dep T41)*
 - T42 **Audio: Hokkien research** (written report: options, 文讀 accuracy, licence). Research only, so it can start right away. *(dep T00)*
 - T43 Hokkien implementation or documented deferral. *(dep T42, T40)*
 - T44 Speech-input wrapper: Web Speech API adapter + record/self-grade fallback behind an interface, with a mock for tests. *(dep T02)*
@@ -196,11 +197,11 @@ Each step is a short tap exercise. A mistake drops one step, and the SRS grade c
 - **Concurrency waves** (max useful sessions at once):
   - Wave 1, after T00: T01, T20, T42 → **3**
   - Wave 2, after T02: T10, T11, T30, T31, T32, T33, T44 (+T20 if still in review) → **up to 7**; recommended 4–5
-  - Wave 3: T34, T21, T40 (once key provided), T57 → **4**
+  - Wave 3: T34, T21, T40, T57 → **4**
   - Wave 4: T50, T51, T52, T53, T54, T41, T58 → **up to 7**
   - Wave 5: T55, T56, T43 → **3**
   - Wave 6: T60 → **1**
-- **Human dependencies:** T20 approval; the TTS API key before T40; GitHub settings after T00.
+- **Human dependencies:** T20 approval; GitHub settings after T00.
 
 ## Verification
 - T00: the docs-only PR runs only `changes` + `approval-gate` + `ci-ok` (confirmed in the Actions run); adding the `needs-approval` label makes `ci-ok` fail.
