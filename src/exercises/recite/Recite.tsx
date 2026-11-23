@@ -18,6 +18,9 @@ import './recite.css';
 /** Whole-poem recitation earns the gold seal at 90% character accuracy (PLAN); lines use the same bar. */
 export const PASS_ACCURACY = 0.9;
 
+/** How long to wait for the recognizer after Stop before offering self-grade instead. */
+const STOP_GRACE_MS = 4000;
+
 export type ReciteProps = ExerciseProps<ReciteExercise> & {
   /** Speech input; defaults to live recognition when the browser supports it, else record/self-grade. */
   speech?: SpeechInput;
@@ -70,10 +73,14 @@ function ReciteBody({
   const [recordingUrl, setRecordingUrl] = useState<string | null>(null);
   const [note, setNote] = useState('');
   const mounted = useRef(true);
+  /** Bumped whenever a listen() is finished or abandoned, so late results are ignored. */
+  const runRef = useRef(0);
+  const stopTimer = useRef<ReturnType<typeof setTimeout>>(undefined);
   useEffect(() => {
     mounted.current = true;
     return () => {
       mounted.current = false;
+      clearTimeout(stopTimer.current);
       void input?.stop().catch(() => {});
     };
   }, [input]);
@@ -95,10 +102,12 @@ function ReciteBody({
     setNote('');
     setReview(null);
     setPhase('listening');
+    const run = ++runRef.current;
     if (!input) return fallBack("Couldn't use the microphone here.");
     try {
       const result = await input.listen();
-      if (!mounted.current) return;
+      if (!mounted.current || run !== runRef.current) return;
+      runRef.current++;
       setAttempts((n) => n + 1);
       if (result.kind === 'recording') {
         setRecordingUrl(result.audioUrl);
@@ -107,7 +116,10 @@ function ReciteBody({
       }
       grade(result.transcript);
     } catch {
-      if (mounted.current) fallBack("Couldn't use the microphone here, so grade yourself instead.");
+      if (mounted.current && run === runRef.current) {
+        runRef.current++;
+        fallBack("Couldn't use the microphone here, so grade yourself instead.");
+      }
     }
   }
 
@@ -147,6 +159,14 @@ function ReciteBody({
   }
 
   async function stop() {
+    // Recognizers can hang (no microphone, offline): if nothing comes back, drop to self-grade.
+    const run = runRef.current;
+    clearTimeout(stopTimer.current);
+    stopTimer.current = setTimeout(() => {
+      if (!mounted.current || run !== runRef.current) return;
+      runRef.current++;
+      fallBack("Didn't hear back from speech recognition, so grade yourself instead.");
+    }, STOP_GRACE_MS);
     try {
       await input?.stop();
     } catch {
@@ -155,7 +175,9 @@ function ReciteBody({
   }
 
   function manual() {
-    void stop();
+    runRef.current++; // abandon any pending listen()
+    clearTimeout(stopTimer.current);
+    void input?.stop().catch(() => {});
     setAttempts((n) => n + 1);
     setNote('');
     setRecordingUrl(null);
@@ -291,6 +313,9 @@ function ReciteBody({
           <div className="ex-recite-row">
             <Button size="lg" caption="Stop" onClick={() => void stop()}>
               停
+            </Button>
+            <Button caption="Grade myself" onClick={manual}>
+              自評
             </Button>
           </div>
         </>
