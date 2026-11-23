@@ -1,0 +1,62 @@
+.tt-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 40px;
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper-3);
+  color: var(--ink);
+  font-family: var(--f-ui);
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition:
+    border-color 120ms,
+    transform 120ms;
+}
+.tt-button:hover:not(:disabled) {
+  border-color: var(--ink-soft);
+}
+.tt-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+.tt-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.tt-button[data-variant='primary'] {
+  border-color: var(--cinnabar);
+  background: var(--cinnabar);
+  color: var(--on-pigment);
+  font-weight: 600;
+  box-shadow: 0 8px 18px -10px var(--cinnabar);
+}
+.tt-button[data-variant='primary']:hover:not(:disabled) {
+  border-color: var(--cinnabar);
+  filter: brightness(1.06);
+}
+.tt-button[data-variant='ghost'] {
+  border-color: transparent;
+  background: transparent;
+  color: var(--ink-soft);
+}
+.tt-button[data-size='lg'] {
+  min-height: 52px;
+  border-radius: 12px;
+  font-family: var(--f-poem);
+  font-size: 1.25rem;
+}
+.tt-button[data-block] {
+  display: flex;
+  width: 100%;
+}
+.tt-button-caption {
+  font-family: var(--f-ui);
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
