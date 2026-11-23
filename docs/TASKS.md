@@ -455,6 +455,6 @@ Unblocks: —
 Goal: Chrome on Android says "this app cannot be installed" because the manifest has `icons: []` (installability needs 192px and 512px PNG icons, one maskable). Wire the T66 icons into the manifest and `index.html`, and add a test asserting the built manifest meets the installability criteria.
 Done when: a test covers the manifest icons (192, 512, maskable) and the app installs on Android.
 
-Status: in-progress
+Status: in-review
 Branch: task/T67-android-install
-PR: —
+PR: #36
