@@ -12,5 +12,14 @@ export const manifest: Partial<ManifestOptions> = {
   display: 'standalone',
   background_color: '#f3ead8',
   theme_color: '#2b2420',
-  icons: [],
+  icons: [
+    { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+    { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+    {
+      src: 'icons/icon-maskable-512.png',
+      sizes: '512x512',
+      type: 'image/png',
+      purpose: 'maskable',
+    },
+  ],
 };
